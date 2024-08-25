@@ -12,7 +12,7 @@
         font-size: large;
     }
 }
-@media only screen and (min-width: 540px){
+@media only screen and (min-width: 540px) {
     #warning-message { display:none; }
 }
 

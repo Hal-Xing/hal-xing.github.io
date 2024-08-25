@@ -1,0 +1,147 @@
+/* Reset default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles for body */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navigation Bar styles */
+.main-nav {
+    float: left;
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    /* Add background color, borders, or other styles here */
+}
+
+.name {
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+.collections {
+    /* Style your navigation links here */
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    transition: transform .2s;
+}
+
+.visited {
+    font-size: medium;
+    display: inline-block;
+    color: darkgrey;
+    text-decoration: none;
+    transition: all .2s;
+}
+.visited:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.contact {
+    text-align: right;
+    width: 19vw;
+    /* margin: auto; */
+    bottom: 0;
+    position: fixed;
+}
+.large {
+    font-size: large;
+}
+.inst {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    transition: transform .2s;
+}
+.inst:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* Image Gallery styles */
+.image-gallery {
+    width: 100vh;
+    height: 80vw;
+    left: 20vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.photo {
+    height: 100vh;
+    margin-left: 20px;
+}
+
+/* Landscape Mode Warning styles */
+#warning-message {
+    display: none;
+}
+
+@media only screen and (orientation: portrait) and (max-width: 540px) {
+    .image-gallery, .main-nav {
+        display: none;
+    }
+
+    #warning-message {
+        margin-left: auto;
+        display: block;
+        font-size: large;
+    }
+}
+
+@media only screen and (min-width: 540px){
+    #warning-message {
+        display: none;
+    }
+}
+
+/* Add your font-face declaration here */
+
+/* Other styles for links, hover effects, and responsive design can be added here */
+
+
+/* Standard landscape mode for desktop devices (768px width and above) */
+@media only screen and (min-width: 768px) {
+    body {
+        /* Reset any rotation for desktop */
+        transform: none;
+        width: auto;
+        height: auto;
+        overflow-x: auto;
+        position: static;
+    }
+}
+
+/* Mobile rotation for screens below 768px width (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+    body {
+        /* Apply rotation for mobile */
+        transform: rotate(90deg);
+        transform-origin: top left;
+        width: 100vh;
+        height: 100vw;
+        overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
