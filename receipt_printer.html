@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+        .scroll-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end; /* Align to bottom */
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        .scroll-container img {
+            width: 150px; /* Fixed width */
+            opacity: 0;
+            transition: opacity 0.5s;
+            position: absolute;
+            bottom: 0; /* Align to bottom */
+        }
+        .scroll-container img.lazy-loaded {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container" id="scrollContainer"></div>
+    <script>
+        async function fetchImages() {
+            try {
+                const response = await fetch('images.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const images = await response.json();
+                console.log('Fetched images:', images);
+                const container = document.getElementById('scrollContainer');
+                images.forEach((image, index) => {
+                    const img = document.createElement('img');
+                    img.dataset.src = `img/receipts/ueno_geisai/${image}`;
+                    img.alt = `Receipt ${image}`;
+                    img.dataset.index = index;
+                    container.appendChild(img);
+                });
+                preloadAllImages();
+            } catch (error) {
+                console.error('Error fetching images:', error);
+            }
+        }
+
+        function preloadAllImages() {
+            const images = document.querySelectorAll('#scrollContainer img');
+            let loadedCount = 0;
+
+            images.forEach(img => {
+                const src = img.dataset.src;
+                if (!src) {
+                    return;
+                }
+                img.src = src;
+                img.onload = () => {
+                    img.classList.add('lazy-loaded');
+                    loadedCount++;
+                    console.log('Image loaded:', src);
+                    if (loadedCount === images.length) {
+                        cycleImages();
+                    }
+                };
+            });
+        }
+
+        function cycleImages() {
+            const images = document.querySelectorAll('#scrollContainer img');
+            let currentIndex = 0;
+
+            setInterval(() => {
+                images[currentIndex].style.opacity = 0;
+                currentIndex = (currentIndex + 1) % images.length;
+                images[currentIndex].style.opacity = 1;
+            }, 500); // Change image every 0.5 seconds
+
+            // Initialize the first image
+            if (images.length > 0) {
+                images[0].style.opacity = 1;
+            }
+        }
+
+        fetchImages();
+    </script>
+</body>
+</html>
