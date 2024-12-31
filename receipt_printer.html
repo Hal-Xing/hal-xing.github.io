@@ -30,11 +30,11 @@
             position: absolute;
             top: 0;
             width: 100%;
+            height: fit-content;
             background-color: white; /* Color the image wrapper red */
         }
         .scroll-container img {
             width: 150px; /* Fixed width */
-            margin-bottom: 10px; /* Small interval of 10px */
         }
     </style>
 </head>
@@ -110,7 +110,7 @@
 
                                 // Use requestAnimationFrame to ensure all images start moving at the same time
                                 requestAnimationFrame(() => {
-                                    moveImages(duration, img.height + 10);
+                                    moveImages(duration, img.height);
                                 });
 
                                 // Wait for the duration of the movement, then stop for 1 second, and show the next image
