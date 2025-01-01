@@ -8,8 +8,11 @@ output_dir = 'img/receipts/ueno_geisai_rotated'
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 
-# Iterate over all files in the image directory
-for index, filename in enumerate(os.listdir(image_dir)):
+# Get and sort the list of files in the image directory
+filenames = sorted(os.listdir(image_dir))
+
+# Iterate over all sorted files in the image directory
+for index, filename in enumerate(filenames):
     if filename.endswith('.png') or filename.endswith('.jpg') or filename.endswith('.jpeg'):
         image_path = os.path.join(image_dir, filename)
         with Image.open(image_path) as img:
