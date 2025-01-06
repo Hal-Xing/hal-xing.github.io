@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Connector</title>
+    <style>
+        body {
+            overflow-x: hidden; /* Disable horizontal scrolling */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .image-wrapper {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+        }
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure images fit within the square */
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container" class="image-container"></div>
+    <script>
+        async function loadJSON(url) {
+            const response = await fetch(url);
+            return response.json();
+        }
+
+        function distanceFromEdge(point, width, height) {
+            const xDistance = Math.min(point[0], width - point[0]);
+            const yDistance = Math.min(point[1], height - point[1]);
+            return { xDistance, yDistance };
+        }
+
+        function identifyEdge(point, width, height) {
+            const { xDistance, yDistance } = distanceFromEdge(point, width, height);
+            if (xDistance < yDistance) {
+                if (point[0] < width / 2) {
+                    return 'left';
+                } else {
+                    return 'right';
+                }
+            } else {
+                return 'lower';
+            }
+        }
+
+        function rotatePoint(point, angle, width, height) {
+            const radians = (Math.PI / 180) * angle;
+            const centerX = width / 2;
+            const centerY = height / 2;
+
+            const x = point[0] - centerX;
+            const y = point[1] - centerY;
+
+            const rotatedX = x * Math.cos(radians) - y * Math.sin(radians) + centerX;
+            const rotatedY = x * Math.sin(radians) + y * Math.cos(radians) + centerY;
+
+            return [rotatedX, rotatedY];
+        }
+
+        function rotateImage(imageWrapper, angle) {
+            imageWrapper.style.transform = `rotate(${angle}deg)`;
+            console.log(`Rotating image by ${angle} degrees`);
+        }
+
+        function processImage(imagePaths, data, container, index, prevPoint, prevWrapper) {
+            if (index >= imagePaths.length) {
+                console.log("All images processed.");
+                return;
+            }
+
+            const imageWrapper = document.createElement('div');
+            imageWrapper.className = 'image-wrapper';
+
+            const img = document.createElement('img');
+            img.src = `${imagePaths[index]}`;
+            img.onload = () => {
+                const currPoints = data[imagePaths[index]];
+                if (currPoints && currPoints.length > 0) {
+                    const firstPoint = currPoints[0];
+                    const lastPoint = currPoints[currPoints.length - 1];
+
+                    console.log(`Processing image: ${imagePaths[index]}`);
+                    console.log(`First point: ${JSON.stringify(firstPoint)}, Last point: ${JSON.stringify(lastPoint)}`);
+
+                    if (index > 0 && prevPoint && prevWrapper) {
+                        // Determine the direction based on the edge
+                        let currPoint = firstPoint;
+                        let prevPointToUse = prevPoint;
+                        let angle = 0;
+
+                        const edge = identifyEdge(prevPoint, img.naturalWidth, img.naturalHeight);
+                        console.log(`Connecting from ${edge} point of image: ${imagePaths[index - 1]}`);
+
+                        if (edge === 'left') {
+                            currPoint = currPoints.find(p => p[0] === img.naturalWidth) || currPoints[0];
+                            if (currPoint[0] !== img.naturalWidth) {
+                                angle = 90; // Rotate to find a right point
+                            }
+                        } else if (edge === 'right') {
+                            currPoint = currPoints.find(p => p[0] === 0) || currPoints[0];
+                            if (currPoint[0] !== 0) {
+                                angle = -90; // Rotate to find a left point
+                            }
+                        } else if (edge === 'lower') {
+                            currPoint = currPoints.find(p => p[1] === 0) || currPoints[0];
+                            if (currPoint[1] !== 0) {
+                                angle = 180; // Rotate to find a top point
+                            }
+                        }
+
+                        // Rotate the image if needed
+                        if (angle !== 0) {
+                            rotateImage(imageWrapper, angle);
+                            currPoint = rotatePoint(currPoint, angle, img.naturalWidth, img.naturalHeight);
+                        }
+
+                        // Re-evaluate the edge of the current point after rotation
+                        const currEdge = identifyEdge(currPoint, img.naturalWidth, img.naturalHeight);
+                        console.log(`Re-evaluated edge after rotation: ${currEdge}`);
+
+                        // Adjust points to fit within the 600px square
+                        const currX = (currPoint[0] / img.naturalWidth) * 600;
+                        const currY = (currPoint[1] / img.naturalHeight) * 600;
+
+                        // Calculate the new position of the current image
+                        const newX = prevWrapper.offsetLeft + prevPointToUse.x - currX;
+                        const newY = prevWrapper.offsetTop + prevPointToUse.y - currY;
+
+                        // Ensure the image is positioned in the direction of extension
+                        imageWrapper.style.left = `${newX}px`;
+                        imageWrapper.style.top = `${newY}px`;
+
+                        console.log(`Placing image: ${imagePaths[index]} at (${newX}, ${newY})`);
+
+                        // Determine z-index based on distance from the edge
+                        const prevPointDistance = distanceFromEdge(prevPointToUse, img.naturalWidth, img.naturalHeight);
+                        const currPointDistance = distanceFromEdge(currPoint, img.naturalWidth, img.naturalHeight);
+                        if (prevPointDistance.yDistance < currPointDistance.yDistance) {
+                            imageWrapper.style.zIndex = 1; // Display on top
+                        } else {
+                            prevWrapper.style.zIndex = 1; // Display previous image on top
+                        }
+
+                        // Log the identified point for the current image
+                        console.log(`Connecting to ${currEdge} point of image: ${imagePaths[index]}`);
+                    }
+
+                    // Update prevPoint and prevWrapper for the next iteration
+                    prevPoint = {
+                        x: (lastPoint[0] / img.naturalWidth) * 600,
+                        y: (lastPoint[1] / img.naturalHeight) * 600
+                    };
+                    prevWrapper = imageWrapper;
+                }
+
+                imageWrapper.appendChild(img);
+                container.appendChild(imageWrapper);
+
+                // Process the next image after a 2-second delay
+                setTimeout(() => {
+                    processImage(imagePaths, data, container, index + 1, prevPoint, prevWrapper);
+                }, 2000); // 2000 milliseconds = 2 seconds
+            };
+        }
+
+        async function init() {
+            const imageFolder = 'img/ground_breaking/test';
+            const jsonFile = `${imageFolder}/marked_points.json`;
+            const data = await loadJSON(jsonFile);
+            const container = document.getElementById('image-container');
+
+            const imagePaths = Object.keys(data);
+            processImage(imagePaths, data, container, 0, null, null);
+        }
+
+        init();
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Connector</title>
+    <style>
+        body {
+            overflow-x: hidden; /* Disable horizontal scrolling */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .image-wrapper {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+        }
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure images fit within the square */
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container" class="image-container"></div>
+    <script>
+        async function loadJSON(url) {
+            const response = await fetch(url);
+            return response.json();
+        }
+
+        function distanceFromEdge(point, width, height) {
+            const xDistance = Math.min(point[0], width - point[0]);
+            const yDistance = Math.min(point[1], height - point[1]);
+            return { xDistance, yDistance };
+        }
+
+        async function processImage(imagePaths, data, container, index = 0, prevPoint = null, prevWrapper = null) {
+            if (index >= imagePaths.length) return;
+
+            const imagePath = imagePaths[index];
+            const points = data[imagePath];
+
+            const imageWrapper = document.createElement('div');
+            imageWrapper.className = 'image-wrapper';
+
+            const img = document.createElement('img');
+            img.src = imagePath;
+            img.onload = () => {
+                if (points && points.length > 0) {
+                    const lastPoint = points[points.length - 1];
+
+                    if (prevPoint) {
+                        // Adjust points to fit within the 600px square
+                        const currX = (lastPoint[0] / img.naturalWidth) * 600;
+                        const currY = (lastPoint[1] / img.naturalHeight) * 600;
+
+                        // Calculate the new position of the current image
+                        const newX = prevWrapper.offsetLeft + prevPoint.x - currX;
+                        const newY = prevWrapper.offsetTop + prevPoint.y - currY;
+
+                        // Ensure the image is positioned in the direction of extension
+                        imageWrapper.style.left = `${newX}px`;
+                        imageWrapper.style.top = `${newY}px`;
+
+                        // Determine z-index based on distance from the edge
+                        const prevPointDistance = distanceFromEdge(prevPoint, img.naturalWidth, img.naturalHeight);
+                        const currPointDistance = distanceFromEdge(lastPoint, img.naturalWidth, img.naturalHeight);
+                        if (prevPointDistance.yDistance < currPointDistance.yDistance) {
+                            imageWrapper.style.zIndex = 1; // Display on top
+                        } else {
+                            prevWrapper.style.zIndex = 1; // Display previous image on top
+                        }
+                    }
+
+                    // Update prevPoint and prevWrapper for the next iteration
+                    prevPoint = {
+                        x: (lastPoint[0] / img.naturalWidth) * 600,
+                        y: (lastPoint[1] / img.naturalHeight) * 600
+                    };
+                    prevWrapper = imageWrapper;
+                }
+
+                imageWrapper.appendChild(img);
+                container.appendChild(imageWrapper);
+
+                // Process the next image after a 2-second delay
+                setTimeout(() => {
+                    processImage(imagePaths, data, container, index + 1, prevPoint, prevWrapper);
+                }, 2000); // 2000 milliseconds = 2 seconds
+            };
+
+            img.onerror = () => {
+                console.error(`Failed to load image: ${imagePath}`);
+                // Skip to the next image if the current one fails to load
+                processImage(imagePaths, data, container, index + 1, prevPoint, prevWrapper);
+            };
+        }
+
+        async function init() {
+            const imageFolder = 'img/ground_breaking/v1/finished';
+            const jsonFile = `${imageFolder}/../marked_points.json`;
+            const data = await loadJSON(jsonFile);
+            const container = document.getElementById('image-container');
+
+            const imagePaths = Object.keys(data).map(fileName => `${imageFolder}/${fileName}`);
+            processImage(imagePaths, data, container, 0, null, null);
+        }
+
+        init();
+    </script>
+</body>
+</html>
