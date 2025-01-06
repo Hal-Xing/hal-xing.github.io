@@ -1,0 +1,709 @@
+@charset "UTF-8";
+@font-face {
+  font-family:'SourceHanSansJPR';
+  font-style:normal;
+  src: url('SourceHanSansJP-Regular.otf') format('opentype') ;
+}
+
+/* CSS Document */
+body, h1, h2, h3, h4,h5,p, ul, li,span,div{
+  margin: 0;
+  padding:0;
+  text-align: center;
+  font-family: 'SourceHanSansJPR';
+}
+
+html {
+  /* overflow-x: hidden; */
+  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+
+
+/* basic settings */
+
+div {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+main{
+  width: 100%;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.beige {
+  background-color: #FFFCF3;
+}
+
+.logo{
+  position: absolute;
+  width: 100vw;
+}
+
+#logo {
+  height: 10vh;
+  margin: 1.6vh;
+  margin-top: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+#underlined {
+  text-decoration-line: underline;
+}
+
+.full-page {
+  margin: 0;
+  height: 100vh;
+}
+
+
+body {
+  background-color: #FFFCF3;
+}
+
+
+/* top page moodanime area */
+.moodbuttondsk {
+  position: relative;
+  padding-top: 2vh;
+  max-height: 8vh;
+  float: right;
+  margin-right: 2vw;
+  z-index: 1000;
+}
+
+.moodbuttonmbl {
+  height: 8vh;
+  padding-top: 10vh;
+  margin: auto;
+}
+/* animate moodbutton */
+.moodbuttondsk:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.moodbuttonmbl:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.header8 {
+  height: 12vh;
+}
+
+.moodanime {
+  margin: auto;
+  margin-top: 8vh;
+  width: 67.2vw;
+}
+
+
+/* top page tree area */
+.tree-page {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 227.946582581vw;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.littlebug {
+  position: relative;
+  width: 5vw;
+  z-index: 0;
+  margin-left: 45vw;
+  margin-top: 12vw;
+  animation-name: bug;
+  animation-duration: 3s;
+  animation-delay: -1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bug {
+  0%   {top:-12vw;}
+  30%   {top:-12vw;}
+  50%   {top:0vw;}
+  80%  {top:0vw;}
+}
+
+.treebkgd {
+  position: relative;
+  display: block;
+  flex-shrink: auto;
+  width: 100vw;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.infotext1 {
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: -200vw;
+  width: 47.9297237811vw;
+  z-index: 2;
+  /* background-color: black; */
+}
+
+.infotext2 {
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 50vw;
+  width: 44vw;
+  z-index: 3;
+  /* background-color: black; */
+}
+
+/* welcome area */
+.welcome-page {
+  max-width: 100vw;
+  /* display: flex; */
+  overflow: hidden;
+}
+
+.welcomemessage {
+  min-width: 50vw;
+  max-width: 95vw;
+  margin: 25%;
+}
+
+.welcomechara {
+  position: relative;
+  width: 95vw;
+  height: auto;
+  margin: auto;
+}
+
+.welcomingbirds {
+  position: relative;
+  top: -33vw;
+  left: -36vw;
+  width: 12vw;
+  animation-name: birds;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes birds {
+  0%   {left:-60vw;}
+  50%  {left:8vw; top: -30vw; transform: rotate(-30deg);}
+  100%  {left:60vw; top: -40vw;}
+}
+
+/* exbition part */
+.tennji-top-div {
+  display: relative;
+  max-width: 100vw;
+  height: 87.65546875vw;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* .market-top-div {
+  display: relative;
+  max-width: 100vw;
+  height: auto;
+  overflow: hidden;
+  z-index: 2;
+} */
+
+.fullscreengif {
+  width: 100%;
+  margin-top: 0;
+}
+
+.tenjitop {
+  width: 100%;
+  margin-bottom: -20vw;
+}
+
+
+.btn {
+  transition: 0.2s;
+}
+
+.btn :hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+#tenjibutton {
+  display: relative;
+  width: 10vw;
+  z-index: 3;
+}
+
+
+.tenji-bottom-div {
+  display: relative;
+  width: 100vw;
+  height: 81.1550599784vw;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.tenjibottom {
+  width: 100%;
+  margin-top: -10vw;
+}
+
+.gallery {
+  display: none;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin: auto;
+  height: 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10vw;
+  margin-bottom: 22vw;
+  transition: 1s;  
+}
+
+/* exhibition gallery part */
+#tenji-gallery {
+  display: none;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  margin: auto;
+  height: 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10vw;
+  margin-bottom: 22vw;
+  transition: 1s;
+}
+
+.row {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 40vw;
+  margin-bottom: 10px;
+}
+
+.rowimg {
+  margin: auto;
+  margin-top: 0;
+  width: 30vw;
+}
+
+.column {
+  max-width: 22.5vw;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.column img {
+  max-width: 20vw;
+}
+
+@media screen and (orientation: portrait) {
+  .column {max-width: 45vw;}
+  .column img {max-width: 40vw;}
+}
+
+/* stage part */
+#stage {
+  max-width: 100vw;
+  /* overflow: hidden; */
+}
+
+.header30 {
+  height: auto;
+  width: 100%;
+}
+
+.stagelogo2 {
+  margin: auto;
+  width: 72%;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+.tv {
+  display: relative;
+  margin-left: auto;
+  margin-top: -4.5vw;
+  width: 99%;
+  margin-bottom: -50vw;
+  z-index: 2;
+}
+
+.twobirds2 {
+  display: relative;
+  height: 6vw;
+  /* top: 20vw; */
+  margin-top: -30vw;
+  margin-left: -30vw;
+  margin-bottom: 0;
+  z-index: 1;
+  background-color: red;
+}
+
+.stgbutton {
+  display: inline-block;
+  margin: auto;
+  max-width: 45%;
+  transition: transform .2s;
+}
+
+.full {
+  max-height: 40vw;
+  max-width: 45%;
+}
+
+.stgbutton :hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.stgchara {
+  display: inline-block;
+  margin: auto;
+  margin-top: 40vw;
+  padding-bottom: 2vh;
+  width: 90%;
+  animation-name: stageChara;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes stageChara {
+  0%   {transform: rotate(-3deg);}
+  50%   {transform: rotate(3deg)}
+}
+
+.timetableTop {
+  margin-top: 5vw;
+  width: 100vw;
+  background-image: url("images/honsai/stage/timetabletop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-color: #FFFCF3;
+}
+
+.red {
+  background-color: #EF4441;
+}
+
+#timetableGallery {
+  display: none;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5vw;
+  padding: auto;
+  transition: 1s;  
+  background-color: #EF4441;
+}
+
+#timetableGallery img {
+  width: 20vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 4vw;
+}
+
+.text1 {
+  margin-top: 10vw;
+  width: 40%;
+}
+
+#timetablebtn {
+  margin-top: 5vw;
+  width: 20%;
+}
+
+.timetableBottom {
+  margin-top: -1vw;
+  width: 100vw;
+  height: 18.2984375vw;
+  background-image: url("images/honsai/stage/timetablebottom.svg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+/* event part */
+#event {
+  max-width: 100vw;
+  height: auto;
+  margin-top: 20vw;
+  margin-bottom: 5vw;
+}
+
+.eventtop {
+  width: 100vw;
+}
+
+.eventlogo2 {
+  margin: auto;
+  max-width: 60%;
+  margin-bottom: 10vw;
+}
+
+.eventbutton {
+  min-width: 10vw;
+  max-height: 10vh;
+  margin-bottom: 10vw;
+}
+
+#event-gallery {
+  display: none;
+  width: 100vw;
+  height: auto;
+  margin-top: -2vw;
+  padding-bottom: 3vw;
+  background-image: url("images/honsai/event/tigermiddle.svg");
+  background-size: 100%, auto;
+  margin-bottom: -3vw;
+  margin-left: -0.15745vw;
+}
+
+.column2 {
+  max-width: 45%;
+}
+
+.eventtext {
+  margin: auto;
+  height: 6vw;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+}
+
+.event-bottom-div {
+  margin-top: -2vw;
+  width: 100vw;
+  margin-left: -0.1573vw;
+}
+
+.event-bottom {
+  width: 100vw;
+}
+
+/* market part */
+#market {
+  width: 100vw;
+  margin-top: auto;
+}
+
+.blockl {
+  display: block;
+}
+
+.markettop {
+  display: block;
+  margin-top: -5vw;
+  margin-bottom: -12vw;
+}
+
+.marketbutton {
+  display: inline-block;
+  width: 30vw;
+  margin-top: -10vw;
+}
+
+.marketbutton :hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);  
+}
+
+#market-gallery {
+  margin-top: 15vw;
+  margin-bottom: 12vw;
+  height: auto;
+  transition: 1s;
+}
+
+.marketbottom {
+  display: inline-block;
+  width: 100vw;
+  margin: auto;
+  margin-bottom: -50vw;
+}
+
+.marketfish {
+  overflow: hidden;
+  width: 300vw;
+  /* margin-top: -80vw; */
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {transform: translate3d(-300vw, 0, 0);}
+  100% {transform: translate3d(150vw, 0, 0);}
+}
+
+/* SNS and Q&A */
+#message {
+  margin-top: 20vw;
+}
+
+.messengers {
+  width: 18%;
+  margin-bottom: -0.5vw;
+  animation: walk 3s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes walk {
+  0% {transform: translate3d(30vw, 0, 0);}
+  100% {transform: translate3d(0vw, 0, 0);}
+}
+
+.mailbox {
+  width: 100vw;
+  height: 68.8671875vw;
+  background-image: url("images/honsai/QnA/QnAbkgd.svg");
+  background-repeat: no-repeat;
+  padding: 1%;
+  background-size: 100%, 100%;
+  background-color: #FFFCF3;
+}
+
+.mailslots {
+  height: 6vw;
+  margin: auto;
+}
+
+/* survey part */
+#survey {
+  width: 100vw;
+  height: 141.713861657vw;
+  background-image: url("images/honsai/survey/Group3663.svg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-color: #FFFCF3;
+}
+
+.surveybutton {
+  max-width: 40%;
+  margin-top: 115vw;
+}
+
+/* thank you and firework, chara part */
+#thanku {
+  width: 100vw;
+  height: 221.328125vw;
+  background-image: url("images/honsai/thanku/Group\ 3664.svg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-color: #FFFCF3;
+}
+
+.hanabibutton {
+  max-width: 20vw;
+  margin-top: 92vw;
+}
+
+.charabutton {
+  max-width: 20vw;
+  margin-top: 36vw;
+}
+
+/* all kumo menu settings */
+.overlay {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+  top: -85vh;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.kumoleft {
+  height: 100vh;
+  width: 15vh;
+  position: fixed;
+}
+
+.kumoitself {
+  height: 90vh;
+  padding-top: 5vh;
+  margin-left: 0.5vw;
+  transition: 0.2s;
+}
+
+.kumoitself:hover, .kumoitself:focus {
+  -webkit-transform: translate(0, -1.5vh);
+  transform: translate(0, -1.5vh);  
+}
+
+.nav {
+  position: relative;
+  height: 70vh;
+  width: 80vw;
+  text-align: left;
+  margin-left: 15vw;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+
+.nav a {
+  max-height: 10vh;
+  max-width: 70vw;
+  padding: 1vh;
+  display: block;
+  transition: 0.3s;
+}
+
+.navlogo {
+  max-height: 10vh;
+  max-width: 70vw;
+}
+
+.nav a:hover, .nav a:focus {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.desktop {display: block;}
+.mobile {display: none;}
+
+@media screen and (orientation: portrait) {
+  html{overflow-x: hidden;}
+  .market-page {margin-top: 40vw;}
+  .welcomemessage {margin: 0; margin-top: 20vw; margin-bottom: 20vw;}
+  .moodanime {width: 92vw; margin-top: 20vh;}
+  .desktop {display: none;}
+  .mobile {display: block;}
+}

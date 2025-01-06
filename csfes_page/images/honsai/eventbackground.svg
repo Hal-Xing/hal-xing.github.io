@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1281" height="3163" viewBox="0 0 1281 3163">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_5570" data-name="Path 5570" d="M-139.085,2366h-46.087l31.207-131.964h46.088Z" transform="translate(185.172 -2234.037)" fill="#feb33e"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3440" data-name="Group 3440" transform="translate(7371 -4395.475)">
+    <rect id="Rectangle_2806" data-name="Rectangle 2806" width="1280" height="3163" transform="translate(-7371 4395.475)" fill="#fffcf3"/>
+    <path id="パス_5663" data-name="パス 5663" d="M-5199.46,483.18c128.124,0,128.124,52.79,256.245,52.79s128.12-52.79,256.239-52.79c127.694,0,128.156,52.421,255,52.773V-1712.61c0-124.113-72.982-233.106-182.923-295.028v-207.229s-239.141,150.258-239.141,153.086h-435.873l-239.141-153.086v207.227c-109.937,61.92-182.922,170.911-182.922,295.043V483.18c128.127,0,128.127,52.79,256.254,52.79S-5327.59,483.18-5199.46,483.18Z" transform="translate(-1658.021 7021.256)" fill="#feb33e"/>
+    <path id="長方形_2356" data-name="長方形 2356" d="M-5664.747-1485.528h1182.192V-163.876c0,276.786-264.644,501.168-591.1,501.168h0c-326.455,0-591.1-224.377-591.1-501.166V-1485.528Z" transform="translate(-1658.021 7021.256)" fill="#ef4441"/>
+    <path id="パス_5511" data-name="パス 5511" d="M-4780.566-1660.728a544.013,544.013,0,0,0-82.407,3.55,1769.039,1769.039,0,0,1-421.426,0,543.915,543.915,0,0,0-82.312-3.543c-161.529,5.128-291.741,82.078-297.892,175.912-6.042,92.3,162.465,196.848,315.69,190.491,157.1-6.5,255.12-127.565,272.787-150.171,18.105,22.813,118.377,144.72,277.733,150.171,152.94,5.232,321.714-98.345,315.69-190.491C-4488.848-1578.61-4619.043-1655.572-4780.566-1660.728Z" transform="translate(-1658.021 7021.256)" fill="#fff"/>
+    <path id="パス_5512" data-name="パス 5512" d="M-4941.848-1648.629c22.646,49.306-25.444,143.46-132.177,204.138-104.461-60.532-150.314-154.6-127.221-204.138C-5167.365-1721.347-4974.683-1720.138-4941.848-1648.629Z" transform="translate(-1660.122 7021.256)" fill="#0a0a0a"/>
+    <circle id="楕円形_315" data-name="楕円形 315" cx="32.743" cy="32.743" r="32.743" transform="translate(-6532.297 5489.693)" fill="#0a0a0a"/>
+    <circle id="楕円形_316" data-name="楕円形 316" cx="32.743" cy="32.743" r="32.743" transform="translate(-6430.02 5555.177)" fill="#0a0a0a"/>
+    <circle id="楕円形_316-2" data-name="楕円形 316-2" cx="32.743" cy="32.743" r="32.743" transform="translate(-6357.084 5470.177)" fill="#0a0a0a"/>
+    <circle id="楕円形_318" data-name="楕円形 318" cx="32.743" cy="32.743" r="32.743" transform="translate(-6991.022 5489.693)" fill="#0a0a0a"/>
+    <circle id="楕円形_319" data-name="楕円形 319" cx="32.743" cy="32.743" r="32.743" transform="translate(-7093.301 5555.177)" fill="#0a0a0a"/>
+    <circle id="楕円形_320" data-name="楕円形 320" cx="32.743" cy="32.743" r="32.743" transform="translate(-7169.563 5468.88)" fill="#0a0a0a"/>
+    <path id="パス_5513" data-name="パス 5513" d="M-5265.647,224.947l33.064,56.162,33.065,56.166h-132.254l33.064-56.166Z" transform="translate(-1659.413 7021.256)" fill="#fff"/>
+    <path id="パス_5514" data-name="パス 5514" d="M-5133.4,224.947l33.063,56.162,33.062,56.166h-132.253l33.061-56.166Z" transform="translate(-1659.897 7021.256)" fill="#fff"/>
+    <path id="パス_5515" data-name="パス 5515" d="M-5001.141,224.947l33.064,56.162,33.064,56.166H-5067.27l33.065-56.166Z" transform="translate(-1660.381 7021.256)" fill="#fff"/>
+    <path id="パス_5516" data-name="パス 5516" d="M-4868.889,224.947l33.064,56.162,33.062,56.166h-132.246l33.062-56.166Z" transform="translate(-1660.866 7021.256)" fill="#fff"/>
+    <path id="パス_5664" data-name="パス 5664" d="M-5049.762-1973.6l.579,73.184h-210.778Z" transform="translate(-1659.797 7021.256)" fill="#0a0a0a"/>
+    <path id="パス_5665" data-name="パス 5665" d="M-5049.762-2046.79l.579,73.183h-210.778Z" transform="translate(-1659.797 7021.256)" fill="#0a0a0a"/>
+    <path id="パス_5666" data-name="パス 5666" d="M-5103.132-1973.6q-.289,36.589-.575,73.184h210.775Z" transform="translate(-1660.411 7021.256)" fill="#0a0a0a"/>
+    <path id="パス_5667" data-name="パス 5667" d="M-5103.132-2046.79q-.289,36.591-.575,73.183h210.775Z" transform="translate(-1660.411 7021.256)" fill="#0a0a0a"/>
+    <path id="パス_5668" data-name="パス 5668" d="M-5078.295-1827.186l27.411-117.428,27.411-117.425h-109.643l27.411,117.425Z" transform="translate(-1660.1 7021.256)" fill="#0a0a0a"/>
+    <text id="event" transform="translate(-6801.993 4823.996)" fill="#feb33e" font-size="38" font-family="SourceHanSansJP-Heavy, Source Han Sans JP" font-weight="800" letter-spacing="0.18em"><tspan x="0" y="0">event</tspan></text>
+    <g id="Group_2501" data-name="Group 2501" transform="translate(-7058 4528.998)">
+      <path id="パス_53" data-name="パス 53" d="M-80.682,2233.1h0c-25.285.028-45.762,21.007-45.734,46.857a47.709,47.709,0,0,0,2.9,16.327l1.061,2.94,65.905-.069Z" transform="translate(464.351 -2233.097)" fill="#feb33e"/>
+      <path id="パス_53-2" data-name="パス 53" d="M-188.98,2234.022h0c-25.285.028-45.759,21-45.731,46.855a47.69,47.69,0,0,0,2.893,16.326l1.061,2.939,65.908-.068Z" transform="translate(234.711 -2231.135)" fill="#feb33e"/>
+      <path id="パス_53-3" data-name="パス 53" d="M-186.6,2300.143h0c25.285-.028,45.762-21.006,45.734-46.857a47.793,47.793,0,0,0-2.893-16.327l-1.061-2.937-65.908.068Z" transform="translate(285.578 -2231.135)" fill="#feb33e"/>
+      <ellipse id="楕円形_26" data-name="楕円形 26" cx="15.482" cy="15.827" rx="15.482" ry="15.827" transform="translate(255.658 2.871)" fill="#feb33e"/>
+      <ellipse id="楕円形_27" data-name="楕円形 27" cx="15.482" cy="15.827" rx="15.482" ry="15.827" transform="translate(290.243 2.836)" fill="#feb33e"/>
+      <rect id="長方形_100" data-name="長方形 100" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.741, 33.332)" fill="#feb33e"/>
+      <rect id="長方形_101" data-name="長方形 101" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.71, 2.94)" fill="#feb33e"/>
+      <rect id="長方形_102" data-name="長方形 102" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.717, 8.984)" fill="#feb33e"/>
+      <rect id="長方形_103" data-name="長方形 103" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.723, 15.034)" fill="#feb33e"/>
+      <rect id="長方形_104" data-name="長方形 104" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.729, 21.083)" fill="#feb33e"/>
+      <rect id="長方形_105" data-name="長方形 105" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.735, 27.282)" fill="#feb33e"/>
+      <rect id="長方形_106" data-name="長方形 106" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.766, 57.674)" fill="#feb33e"/>
+      <rect id="長方形_107" data-name="長方形 107" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.772, 63.718)" fill="#feb33e"/>
+      <rect id="長方形_108" data-name="長方形 108" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.779, 69.917)" fill="#feb33e"/>
+      <rect id="長方形_109" data-name="長方形 109" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.748, 39.376)" fill="#feb33e"/>
+      <rect id="長方形_110" data-name="長方形 110" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.754, 45.425)" fill="#feb33e"/>
+      <rect id="長方形_111" data-name="長方形 111" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.76, 51.624)" fill="#feb33e"/>
+      <rect id="長方形_112" data-name="長方形 112" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.81, 100.642)" fill="#feb33e"/>
+      <rect id="長方形_113" data-name="長方形 113" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.816, 106.691)" fill="#feb33e"/>
+      <rect id="長方形_114" data-name="長方形 114" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.822, 112.885)" fill="#feb33e"/>
+      <rect id="長方形_115" data-name="長方形 115" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.829, 119.055)" fill="#feb33e"/>
+      <rect id="長方形_116" data-name="長方形 116" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.835, 125.104)" fill="#feb33e"/>
+      <rect id="長方形_117" data-name="長方形 117" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.841, 131.303)" fill="#feb33e"/>
+      <rect id="長方形_118" data-name="長方形 118" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.791, 82.343)" fill="#feb33e"/>
+      <rect id="長方形_119" data-name="長方形 119" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.797, 88.393)" fill="#feb33e"/>
+      <rect id="長方形_120" data-name="長方形 120" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.785, 76.035)" fill="#feb33e"/>
+      <rect id="長方形_121" data-name="長方形 121" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 45.804, 94.592)" fill="#feb33e"/>
+      <path id="パス_53-4" data-name="パス 53" d="M-27.878,2320.221h0a45.739,45.739,0,0,0,45.687-45.788,45.808,45.808,0,0,0-2.89-15.954l-1.061-2.872-65.84.066Z" transform="translate(622.191 -2185.365)" fill="#feb33e"/>
+      <rect id="長方形_100-2" data-name="長方形 100" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.779, 33.332)" fill="#feb33e"/>
+      <rect id="長方形_101-2" data-name="長方形 101" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.749, 2.94)" fill="#feb33e"/>
+      <rect id="長方形_102-2" data-name="長方形 102" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.755, 8.984)" fill="#feb33e"/>
+      <rect id="長方形_103-2" data-name="長方形 103" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.761, 15.034)" fill="#feb33e"/>
+      <rect id="長方形_104-2" data-name="長方形 104" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.767, 21.083)" fill="#feb33e"/>
+      <rect id="長方形_105-2" data-name="長方形 105" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.773, 27.282)" fill="#feb33e"/>
+      <rect id="長方形_106-2" data-name="長方形 106" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.804, 57.674)" fill="#feb33e"/>
+      <rect id="長方形_107-2" data-name="長方形 107" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.81, 63.718)" fill="#feb33e"/>
+      <rect id="長方形_108-2" data-name="長方形 108" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.817, 69.917)" fill="#feb33e"/>
+      <rect id="長方形_109-2" data-name="長方形 109" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.786, 39.376)" fill="#feb33e"/>
+      <rect id="長方形_110-2" data-name="長方形 110" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.792, 45.425)" fill="#feb33e"/>
+      <rect id="長方形_111-2" data-name="長方形 111" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.798, 51.624)" fill="#feb33e"/>
+      <rect id="長方形_112-2" data-name="長方形 112" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.848, 100.642)" fill="#feb33e"/>
+      <rect id="長方形_113-2" data-name="長方形 113" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.854, 106.691)" fill="#feb33e"/>
+      <rect id="長方形_114-2" data-name="長方形 114" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.86, 112.885)" fill="#feb33e"/>
+      <rect id="長方形_115-2" data-name="長方形 115" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.867, 119.055)" fill="#feb33e"/>
+      <rect id="長方形_116-2" data-name="長方形 116" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.873, 125.104)" fill="#feb33e"/>
+      <rect id="長方形_117-2" data-name="長方形 117" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.879, 131.303)" fill="#feb33e"/>
+      <rect id="長方形_118-2" data-name="長方形 118" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.829, 82.343)" fill="#feb33e"/>
+      <rect id="長方形_119-2" data-name="長方形 119" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.836, 88.393)" fill="#feb33e"/>
+      <rect id="長方形_120-2" data-name="長方形 120" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.823, 76.035)" fill="#feb33e"/>
+      <rect id="長方形_121-2" data-name="長方形 121" width="53.521" height="3.648" transform="matrix(1, -0.001, 0.001, 1, 510.842, 94.592)" fill="#feb33e"/>
+      <rect id="長方形_154" data-name="長方形 154" width="3.652" height="40.597" transform="matrix(1, -0.001, 0.001, 1, 362.791, 94.611)" fill="#feb33e"/>
+      <rect id="長方形_155" data-name="長方形 155" width="3.652" height="40.597" transform="translate(368.847 94.605) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_156" data-name="長方形 156" width="3.652" height="40.597" transform="translate(375.052 94.598) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_157" data-name="長方形 157" width="3.652" height="40.597" transform="translate(344.48 94.63) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_158" data-name="長方形 158" width="3.652" height="40.597" transform="matrix(1, -0.001, 0.001, 1, 350.536, 94.624)" fill="#feb33e"/>
+      <rect id="長方形_159" data-name="長方形 159" width="3.652" height="40.597" transform="translate(338.16 94.637) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_160" data-name="長方形 160" width="3.652" height="40.597" transform="matrix(1, -0.001, 0.001, 1, 356.735, 94.617)" fill="#feb33e"/>
+      <rect id="長方形_161" data-name="長方形 161" width="3.652" height="40.597" transform="translate(405.803 94.566) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_162" data-name="長方形 162" width="3.652" height="40.597" transform="translate(411.859 94.56) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_163" data-name="長方形 163" width="3.652" height="40.597" transform="matrix(1, -0.001, 0.001, 1, 418.064, 94.554)" fill="#feb33e"/>
+      <rect id="長方形_164" data-name="長方形 164" width="3.652" height="40.597" transform="translate(424.241 94.547) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_165" data-name="長方形 165" width="3.652" height="40.597" transform="translate(430.291 94.541) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_166" data-name="長方形 166" width="3.652" height="40.597" transform="translate(436.496 94.534) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_167" data-name="長方形 167" width="3.652" height="40.597" transform="matrix(1, -0.001, 0.001, 1, 387.492, 94.585)" fill="#feb33e"/>
+      <rect id="長方形_168" data-name="長方形 168" width="3.652" height="40.597" transform="translate(393.547 94.579) rotate(-0.06)" fill="#feb33e"/>
+      <rect id="長方形_169" data-name="長方形 169" width="3.652" height="40.597" transform="matrix(1, -0.001, 0.001, 1, 381.171, 94.592)" fill="#feb33e"/>
+      <rect id="長方形_170" data-name="長方形 170" width="3.652" height="40.597" transform="translate(399.747 94.573) rotate(-0.06)" fill="#feb33e"/>
+      <path id="パス_48" data-name="パス 48" d="M-52.725,2342.242l-53.869.056,34.229-96.9,53.872-.056Z" transform="translate(506.384 -2207.129)" fill="#feb33e"/>
+      <path id="パス_48-2" data-name="パス 48" d="M-135.017,2364.563l59.4.063-39.624-130.566-59.4-.066Z" transform="translate(362.083 -2231.195)" fill="#feb33e"/>
+      <g id="Group_2500" data-name="Group 2500" transform="translate(154.585 2.933)">
+        <g id="Group_2499" data-name="Group 2499" clip-path="url(#clip-path)">
+          <rect id="長方形_100-3" data-name="長方形 100" width="72.117" height="3.648" transform="translate(5.881 30.405) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_101-3" data-name="長方形 101" width="72.117" height="3.648" transform="translate(5.85 0.013) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_102-3" data-name="長方形 102" width="72.117" height="3.648" transform="translate(5.856 6.057) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_103-3" data-name="長方形 103" width="72.117" height="3.648" transform="translate(5.862 12.106) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_104-3" data-name="長方形 104" width="72.117" height="3.648" transform="translate(5.868 18.156) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_105-3" data-name="長方形 105" width="72.117" height="3.648" transform="translate(5.875 24.355) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_106-3" data-name="長方形 106" width="72.117" height="3.648" transform="translate(5.906 54.747) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_107-3" data-name="長方形 107" width="72.117" height="3.648" transform="translate(5.912 60.791) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_108-3" data-name="長方形 108" width="72.117" height="3.648" transform="translate(5.918 66.99) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_109-3" data-name="長方形 109" width="72.117" height="3.648" transform="translate(5.887 36.449) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_110-3" data-name="長方形 110" width="72.117" height="3.648" transform="translate(5.893 42.499) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_111-3" data-name="長方形 111" width="72.117" height="3.648" transform="translate(5.899 48.697) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_112-3" data-name="長方形 112" width="72.117" height="3.648" transform="translate(5.949 97.715) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_113-3" data-name="長方形 113" width="103.324" height="3.648" transform="translate(-25.252 103.781) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_114-3" data-name="長方形 114" width="103.324" height="3.648" transform="translate(-25.245 109.974) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_115-3" data-name="長方形 115" width="103.324" height="3.648" transform="translate(-25.239 116.144) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_116-3" data-name="長方形 116" width="103.324" height="3.648" transform="translate(-25.233 122.194) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_117-3" data-name="長方形 117" width="103.324" height="3.648" transform="translate(-25.226 128.392) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_118-3" data-name="長方形 118" width="72.117" height="3.648" transform="translate(5.931 79.416) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_119-3" data-name="長方形 119" width="72.117" height="3.648" transform="translate(5.937 85.466) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_120-3" data-name="長方形 120" width="72.117" height="3.648" transform="translate(5.924 73.108) rotate(-0.058)" fill="#feb33e"/>
+          <rect id="長方形_121-3" data-name="長方形 121" width="72.117" height="3.648" transform="translate(5.943 91.665) rotate(-0.058)" fill="#feb33e"/>
+        </g>
+      </g>
+      <rect id="Rectangle_2386" data-name="Rectangle 2386" width="53.59" height="66.117" transform="translate(45.71 2.799)" fill="#feb33e"/>
+    </g>
+  </g>
+</svg>

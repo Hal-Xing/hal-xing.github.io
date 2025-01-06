@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS Festival 2020</title>
+    <link rel="stylesheet" href="honsaitest.css">
+</head>
+
+<body>
+  <!-- mostly hidden full-page navigation -->
+  <div id="kumonav" class="overlay full-page">
+    <div class="kumoleft">
+        <a class="kumonav">
+            <img src="images/honsai/kumoleft.svg" alt="kumonav" class="kumoitself desktop" href="javascript:void(0)" onclick="NavAction()" style="cursor:pointer">
+            <img src="images/honsai/kumoleftmobile.svg" alt="kumonav" class="kumoitself mobile" href="javascript:void(0)" onclick="NavAction()" style="cursor:pointer">
+        </a>  
+    </div>
+    <div class="nav">
+      <a onclick="NavAction()" href="#tenji"><img src="images/honsai/tenjilogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#stage"><img src="images/honsai/stagelogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#event"><img src="images/honsai/eventlogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#market"><img src="images/honsai/marketlogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#"><img src="images/honsai/SNS.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#"><img src="images/honsai/Q&A.png" class="navlogo"></a>
+    </div>
+  </div>
+
+  <!-- welcome parts -->
+  <div class="full-page beige">
+    <div class="header8">
+      <img src="images/honsai/moodbutton.png" alt="mood button" class="moodbuttondsk desktop" onclick="playSound()" style="cursor:pointer"> 
+    </div>
+    <img src="images/honsai/mood.gif" alt="mood animation" class="moodanime">
+    <img src="images/honsai/moodbutton.png" alt="mood button" class="moodbuttonmbl mobile" onclick="playSound()" style="cursor:pointer">     
+  </div>
+  <div class="tree-page beige">
+    <img src="images/honsai/treebkgdfull.svg" alt="trees" class="treebkgd">
+    <img src="images/honsai/csf2020web.svg" alt="Creative Spiral Festival 2020 Web" class="infotext1">
+    <img src="images/honsai/generalinfo.svg" alt="東京造形大学芸術祭MOOD" class="infotext2">
+    <img src="images/honsai/littlebug.svg" alt="littlebug" class="littlebug">
+  </div>
+  <div class="welcome-page beige">
+    <img src="images/honsai/welcomemessage.svg" alt="MOODメッセージ" class="welcomemessage">
+    <img src="images/honsai/welcome.svg" alt="welcome" class="welcomechara">
+    <img src="images/honsai/twobirds.svg" alt="birds" class="welcomingbirds">
+  </div>
+
+
+  <!-- market part -->
+  <div class="market-page beige" id="market">
+    <div class="block1">
+      <img src="images/honsai/boatandfish2.gif" alt="boat and fish" class="fullscreengif">
+      <img src="images/honsai/market/markettop.svg" alt="マーケットトップカーテン" class="markettop">
+      <a href="" onclick="" class="marketbutton btn">
+        <img src="images/honsai/market/marketbutton.svg" alt="マーケットを見る" class="marketbutton">
+      </a>
+    </div>
+    <div class="marketgallery gallery">
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+    </div>
+    <div class="block1">
+      <img src="images/honsai/market/marketbottom.svg" alt="展示ボタムカーテン" class="marketbottom">
+      <img src="images/honsai/market/marketbottomfish.svg" alt="魚たち" class="marketfish">
+    </div>
+  </div>
+</body>
+
+<script>
+  var menuopen = 0;
+  var soundplay = 0;
+  var sound = new Audio();
+  function NavAction() {
+    // closeExhibition();
+    // closeEvent();
+      if (!menuopen) {
+          document.getElementById("kumonav").style.top = "0vh";
+          document.getElementById("kumonav").style.backgroundColor = "#FFFCF3";
+          menuopen = 1;
+      }
+      else {
+          document.getElementById("kumonav").style.top = "-85vh";
+          document.getElementById("kumonav").style.backgroundColor = "rgba(255, 255, 255, 0)";
+          menuopen = 0;
+      }
+  }
+  function playSound() {
+    if (soundplay) {
+      sound.pause();
+      soundplay = 0;
+    } else {
+      sound = new Audio('mood_sound.mp3');
+      sound.loop = 1;
+      sound.play();
+      soundplay = 1;
+    }
+  }
+  // function expandExhibition() {
+  //   document.getElementById("tenji-gallery").style.height = "100%";
+  //   document.getElementById("tenji-gallery").style.display = "flex";
+  //   document.getElementById("tenjibutton").style.display = "none"
+  // }
+  // function closeExhibition() {
+  //   document.getElementById("tenji-gallery").style.display = "none";
+  //   document.getElementById("tenjibutton").style.display = "inline-block"
+  // }
+  // function expandEvent() {
+  //   document.getElementById("event-gallery").style.display = "block";
+  //   document.getElementById("eventbutton").style.display = "none";
+  // }
+  // function closeEvent() {
+  //   document.getElementById("event-gallery").style.display = "none";
+  //   document.getElementById("eventbutton").style.display = "inline-block"
+  // }
+</script>

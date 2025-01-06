@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no,　width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS Festival 2020</title>
+    <link rel="stylesheet" href="honsai.css">
+</head>
+
+<body>
+  <!-- mostly hidden full-page navigation -->
+  <div id="kumonav" class="overlay full-page">
+    <div class="kumoleft">
+        <a class="kumonav">
+            <img src="images/honsai/kumoleft.svg" alt="kumonav" class="kumoitself desktop" href="javascript:void(0)" onclick="NavAction()" style="cursor:pointer">
+            <img src="images/honsai/kumoleftmobile.svg" alt="kumonav" class="kumoitself mobile" href="javascript:void(0)" onclick="NavAction()" style="cursor:pointer">
+        </a>  
+    </div>
+    <div class="nav">
+      <a onclick="NavAction()" href="#tenji"><img src="images/honsai/tenjilogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#stage"><img src="images/honsai/stagelogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#event"><img src="images/honsai/eventlogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#market"><img src="images/honsai/marketlogo.png" class="navlogo"></a>
+      <a onclick="NavAction()" href="#message"><img src="images/honsai/SNSQnA.png" class="navlogo"></a>
+    </div>
+  </div>
+  <!-- welcome parts -->
+  <div class="full-page beige">
+    <div class="header8">
+      <img src="images/honsai/moodbutton.png" alt="mood button" class="moodbuttondsk desktop" onclick="playSound()" style="cursor:pointer"> 
+    </div>
+    <img src="images/honsai/moodnew.gif" alt="mood animation" class="moodanime">
+    <img src="images/honsai/moodbutton.png" alt="mood button" class="moodbuttonmbl mobile" onclick="playSound()" style="cursor:pointer">     
+  </div>
+  <div class="tree-page beige">
+    <img src="images/honsai/treebkgdfull.svg" alt="trees" class="treebkgd">
+    <img src="images/honsai/csf2020web.svg" alt="Creative Spiral Festival 2020 Web" class="infotext1">
+    <img src="images/honsai/generalinfo.svg" alt="東京造形大学芸術祭MOOD" class="infotext2">
+    <img src="images/honsai/littlebug.svg" alt="littlebug" class="littlebug">
+  </div>
+  <div class="welcome-page beige">
+    <img src="images/honsai/welcomemessage.svg" alt="MOODメッセージ" class="welcomemessage">
+    <img src="images/honsai/welcome.svg" alt="welcome" class="welcomechara">
+    <img src="images/honsai/twobirds.svg" alt="birds" class="welcomingbirds">
+  </div>
+
+<!-- exhibition parts -->
+<div class="tenji-page beige" id="tenji">
+  <div class="tennji-top-div">
+    <img src="images/honsai/tenjitop.png" alt="展示トップカーテン" class="tenjitop">
+    <a id="tenjibutton" onclick="expandExhibition()" style="cursor:pointer">
+      <img src="images/honsai/tenjibutton.png" alt="展示ボタン" class="full">
+    </a>
+  </div>
+  <div id="tenji-gallery">
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/kikuchi_kosuke/" target="_blank"><img src="images/honsai/exhibitions/Group 3012@2x.png"></a></div>
+      <div class="column left2"><a href=" http://zokei-csf.com/exhibision/hamai_yuuka/" target="_blank"><img src="images/honsai/exhibitions/Group 3013@2x.png"></a></div>
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/hara_miyu/" target="_blank"><img src="images/honsai/exhibitions/Group 3014@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/kaigamedhia/" target="_blank"><img src="images/honsai/exhibitions/Group 3015@2x.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/iwasaki_ann/" target="_blank"><img src="images/honsai/exhibitions/Group 3017@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/yoshida_mami/" target="_blank"><img src="images/honsai/exhibitions/Group 3018@2x.png"></a></div>
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/oobayashi_sawako/" target="_blank"><img src="images/honsai/exhibitions/Group 3019@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/kondo_ami/" target="_blank"><img src="images/honsai/exhibitions/Group 3020@2x.png"></a></div>
+      <div class="column left1"><a href=" http://zokei-csf.com/exhibision/kaishi-zemi8th/" target="_blank"><img src="images/honsai/exhibitions/Group 3021@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/zokei-lego/" target="_blank"><img src="images/honsai/exhibitions/Group 3022@2x.png"></a></div>
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/nagasaki_eimi/" target="_blank"><img src="images/honsai/exhibitions/Group 3023@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/huruya_kotomi/" target="_blank"><img src="images/honsai/exhibitions/Group 3024@2x.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/koreeda_yuunosuke/" target="_blank"><img src="images/honsai/exhibitions/Group 3025@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/tsunakawa_chisato/" target="_blank"><img src="images/honsai/exhibitions/Group 3026@2x.png"></a></div>
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/kobayashi-aya/" target="_blank"><img src="images/honsai/exhibitions/Group 3027@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/taguchi_kana/" target="_blank"><img src="images/honsai/exhibitions/Group 3028@2x.png"></a></div>
+  
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/kuroda_mayu/" target="_blank"><img src="images/honsai/exhibitions/Group 3029@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/nakajima_mizuki/" target="_blank"><img src="images/honsai/exhibitions/Group 3030@2x.png"></a></div>
+  
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/takatsugu_ishikawa/" target="_blank"><img src="images/honsai/exhibitions/Group 3031@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/kyoukaisen/" target="_blank"><img src="images/honsai/exhibitions/Group 3032@2x.png"></a></div>
+  <!-- TomitaYuuto -->
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/tomita_yuudo/" target="_blank"><img src="images/honsai/exhibitions/Group 3033@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/yoneda_yuna/" target="_blank"><img src="images/honsai/exhibitions/Group 3034@2x.png"></a></div>
+      <div class="column right1"><a href=" http://zokei-csf.com/exhibision/kokkaku_kenkyuubu/" target="_blank"><img src="images/honsai/exhibitions/Group 3035@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/uziie_aya/" target="_blank"><img src="images/honsai/exhibitions/Group 3036@2x.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/maruyama_miku/" target="_blank"><img src="images/honsai/exhibitions/Group 3037@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/?page_id=1166" target="_blank"><img src="images/honsai/exhibitions/Group 3038@2x.png"></a></div>
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/kubo_so/" target="_blank"><img src="images/honsai/exhibitions/Group 3039@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/nakamura_rian/" target="_blank"><img src="images/honsai/exhibitions/Group 3040@2x.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/mdw/" target="_blank"><img src="images/honsai/exhibitions/Group 3041@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/?page_id=1160" target="_blank"><img src="images/honsai/exhibitions/Group 3042@2x.png"></a></div>
+      <div class="column right1"><a href=" http://zokei-csf.com/exhibision/yokoyama_megumi/" target="_blank"><img src="images/honsai/exhibitions/Group 3043@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/yokota_umi/" target="_blank"><img src="images/honsai/exhibitions/Group 3044@2x.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/sakamoto_mika/" target="_blank"><img src="images/honsai/exhibitions/Group 3045@2x.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/okamura_kaio/" target="_blank"><img src="images/honsai/exhibitions/Group 3046@2x.png"></a></div>
+      <div class="column right1"><a href=" http://zokei-csf.com/exhibision/shiozawa_kaito/" target="_blank"><img src="images/honsai/exhibitions/Group 3047@2x.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/tactishi_yoshiki/" target="_blank"><img src="images/honsai/exhibitions/Group 3048@2x.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/1300-2/" target="_blank"><img src="images/honsai/exhibitions/yoshidamayu.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/taniguchi_momoko/" target="_blank"><img src="images/honsai/exhibitions/taniguchi.png"></a></div>
+      <div class="column right1"><a href="http://zokei-csf.com/exhibision/shimada_sumire/" target="_blank"><img src="images/honsai/exhibitions/shimadasumire.png"></a></div>
+      <div class="column right2"><a href="http://zokei-csf.com/exhibision/tamago/" target="_blank"><img src="images/honsai/exhibitions/osyaberitamago.png"></a></div>
+      <div class="column left1"><a href="http://zokei-csf.com/exhibision/kikuno_shoki/" target="_blank"><img src="images/honsai/exhibitions/kikuno.png"></a></div>
+      <div class="column left2"><a href="http://zokei-csf.com/exhibision/inoue_syuu/" target="_blank"><img src="images/honsai/exhibitions/inouesyuu.png"></a></div>
+  </div>
+  <div class="tennji-bottom-div">
+    <img src="images/honsai/tenjibottom.png" alt="展示ボタムカーテン" class="tenjibottom">
+  </div>
+</div>
+
+  <!-- stage part -->
+  <div class="beige" id="stage">
+    <div class="header30">
+      <img src="images/honsai/stagelogo2.png" alt="ステージ" class="stagelogo2">
+    </div>
+      <img src="images/honsai/tvfull.svg" alt="TV" class="tv">
+      <a href="#" class="stgbutton"><img src="images/honsai/stagebutton.png" alt="ステージリンク" class="full"> </a>
+      <img src="images/honsai/stage/Group 3656.svg" alt="キャラたち" class="stgchara">
+  </div>
+  <div class="beige" id="timetable">
+    <div class="timetableTop">
+      <div><img src="images/honsai/stage/STAGE TIME TABLE@2x.png" alt="Stage Time Table" class="text1"></div>
+    </div>
+    <div class="red">
+      <a onclick="expandTimetable()" class="btn">
+        <img src="images/honsai/stage/timetablebutton.png" alt="タイムテーブルを見る" id="timetablebtn">
+      </a>
+    </div>
+    <div id="timetableGallery">
+      <img src="images/honsai/stage/Group 3000@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3001@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3002@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3003@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3004@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3005@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3006@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3007@2x.png" class="column3">
+      <img src="images/honsai/stage/Group 3008@2x.png" class="column3">
+    </div>
+    <div class="timetableBottom">
+    </div>
+  </div>
+
+  <!-- event part -->
+  <div id="event">
+      <div class="event-top-div">
+        <div>
+          <img src="images/honsai/event/eventlogo2.svg" alt="いべんと" class="eventlogo2">
+        </div>
+        <a id="eventbutton" onclick="expandEvent()" class="btn">
+          <img src="images/honsai/event/tigerbutton.svg" alt="イベントを見る" class="eventbutton">
+        </a>
+        <img src="images/honsai/event/tigerhead.svg" alt="イベントトップカーテン" class="eventtop">
+      </div>
+      <div id="event-gallery">
+        <img src="images/honsai/LIVE.svg" alt="LIVE" class="eventtext">
+        <div class="row">
+          <a href="https://eplus.jp/sf/detail/3328710002-P0030001" class="column2"><img src="images/honsai/event/Group 3466.svg" class="rowimg"></a>
+          <a href="https://www.youtube.com/watch?v=C6nUgEGrpRk&feature=youtu.be" class="column2"><img src="images/honsai/event/Group 2871.svg" class="rowimg"></a>
+        </div>
+        <img src="images/honsai/CONTENTS.svg" alt="CONTENTS" class="eventtext">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=FV3wth7aS8o&feature=youtu.be" class="column2"><img src="images/honsai/event/Group 3498.svg" class="rowimg"></a>
+          <a href="http://zokei-csf.com/q%ef%bc%86a/"  class="column2"><img src="images/honsai/event/Group 2870.svg" class="rowimg"></a>
+        </div>
+      </div>
+      <div class="event-bottom-div">
+        <img src="images/honsai/event/tigerbottom.svg" alt="イベントボタムカーテン" class="event-bottom">
+      </div>
+  </div>
+
+  <!-- market part -->
+  <div class="market-page beige" id="market">
+    <div class="block1">
+      <img src="images/honsai/boatandfish2.gif" alt="boat and fish" class="fullscreengif">
+      <img src="images/honsai/market/markettop.svg" alt="マーケットトップカーテン" class="markettop">
+      <a onclick="expandMarket()" id="marketbutton" class="btn">
+        <img src="images/honsai/market/marketbutton.svg" alt="マーケットを見る" class="marketbutton">
+      </a>
+    </div>
+    <div id="market-gallery" class="gallery">
+      <div class="column"><img src="images/honsai/market/Group 3469.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3470.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3471.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3472.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3473.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3474.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3475.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3476.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3477.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3478.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3479.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3480.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3545.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3546.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3547.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3548.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3549.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3550.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3551.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3552.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3553.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3554.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3555.svg"></div>
+      <div class="column"><img src="images/honsai/market/Group 3556.svg"></div>
+    </div>
+    <div class="block1">
+      <img src="images/honsai/market/marketbottom.svg" alt="展示ボタムカーテン" class="marketbottom">
+      <img src="images/honsai/market/marketbottomfish.svg" alt="魚たち" class="marketfish">
+    </div>
+  </div>
+    
+    <!-- Q&A part -->
+    <div id="message">
+      <div class="messenger">
+        <img src="images/honsai/QnA/Group 3655.svg" class="messengers">
+      </div>
+      <div class="mailbox">
+        <br>
+        <div><img src="images/honsai/QnA/qna.png" class="mailslots"></div>
+        <div>
+          <a href="mailto:csmood@zokei.ac.jp"><img src="images/honsai/QnA/mail.png" class="mailslots"></a>
+        </div><br>
+        <div><img src="images/honsai/QnA/SNS.png" class="mailslots"></div>
+        <div>
+          <a href="https://twitter.com/cs_fes_" target="_blank"><img src="images/honsai/QnA/twitter.png" class="mailslots"></a>
+        </div><br>
+        <div>
+          <a href="https://twitter.com/cs_fes_" target="_blank"><img src="images/honsai/QnA/inst.png" class="mailslots"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- survey part -->
+    <div id="survey">
+      <div>
+        <a href="https://forms.gle/xUZSefyTwGnmN5DC8" class="btn">
+          <img src="images/honsai/survey/Group 3662@2x.png" class="surveybutton">
+        </a>
+      </div>
+    </div>
+    
+    <!-- Thank You Message -->
+    <div id="thanku">
+      <div><a href="http://www.zokei-csf.com/recruitment/hanabi.html" target="_blank" class="btn"><img src="images/honsai/thanku/Group 3664@2x.png" class="hanabibutton"></a></div>
+      <div><a href="http://www.zokei-csf.com/recruitment/characters.html" target="_blank" class="btn"><img src="images/honsai/thanku/Group 3665@2x.png" class="charabutton"></a></div>
+    </div>
+    <!-- target="_blank" -->
+</body>
+
+<script>
+  var menuopen = 0;
+  var soundplay = 0;
+  var sound = new Audio();
+  function NavAction() {
+    closeExhibition();
+    closeEvent();
+    closeMarket();
+    closeTimetable();
+      if (!menuopen) {
+          document.getElementById("kumonav").style.top = "0vh";
+          document.getElementById("kumonav").style.backgroundColor = "#FFFCF3";
+          menuopen = 1;
+      }
+      else {
+          document.getElementById("kumonav").style.top = "-85vh";
+          document.getElementById("kumonav").style.backgroundColor = "rgba(255, 255, 255, 0)";
+          menuopen = 0;
+      }
+  }
+  function playSound() {
+    if (soundplay) {
+      sound.pause();
+      soundplay = 0;
+    } else {
+      sound = new Audio('mood_sound.mp3');
+      sound.loop = 1;
+      sound.play();
+      soundplay = 1;
+    }
+  }
+  function expandExhibition() {
+    document.getElementById("tenji-gallery").style.height = "100%";
+    document.getElementById("tenji-gallery").style.display = "flex";
+    document.getElementById("tenjibutton").style.opacity = "0";
+  }
+  function closeExhibition() {
+    document.getElementById("tenji-gallery").style.display = "none";
+    document.getElementById("tenjibutton").style.opacity = "1";
+  }
+  function expandEvent() {
+    document.getElementById("event-gallery").style.display = "block";
+    document.getElementById("eventbutton").style.display = "none";
+  }
+  function closeEvent() {
+    document.getElementById("event-gallery").style.display = "none";
+    document.getElementById("eventbutton").style.display = "block";
+  }
+  function expandMarket() {
+    document.getElementById("market-gallery").style.display = "flex";
+    document.getElementById("marketbutton").style.opacity = "0";
+  }
+  function closeMarket() {
+    document.getElementById("market-gallery").style.display = "none";
+    document.getElementById("marketbutton").style.opacity = "1";
+  }
+  function expandTimetable() {
+    document.getElementById("timetableGallery").style.display = "block";
+    document.getElementById("timetablebtn").style.width = "0";
+  }
+  function closeTimetable() {
+    document.getElementById("timetableGallery").style.display = "none";
+    document.getElementById("timetablebtn").style.width = "20%";
+  }
+</script>

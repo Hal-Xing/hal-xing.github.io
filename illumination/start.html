@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Believe -  Miracleのはじまり </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="w100">
+        <img src="img/start/miracle_title.png" class="leftw70">
+        <div id="ornaments">
+            <div class="ornament_line">
+                <!-- Ballファイル名を変えるとon,blink,offできます。0がoff、１がon、3がblinkっという風にファイルを書きだしました。 -->
+                <img src="img/start/ball5_3.png" class="ball" id="b5">
+                <img src="img/start/ball6_3.png" class="ball" id="b6">
+                <img src="img/start/ball1_3.png" class="ball" id="b1">
+            </div>
+            <div class="ornament_line">
+                <img src="img/start/ball4_3.png" class="ball" id="b4">
+                <img src="img/start/ball3_3.png" class="ball" id="b3">
+                <img src="img/start/ball2_3.png" class="ball" id="b2">
+            </div>
+        </div>
+
+        <a href="">
+            <img src="img/start/start_button.png" id="start_button">
+        </a>
+
+        <!-- 下の二行はQRスキャンしてタップすると消えます -->
+        <img src="img/start/title.png" class="p70" id="start_title">
+        <img src="img/start/explanation.png" class="p90" id="start_explanation">
+
+        <!-- ここからはQRスキャンしてタップすると出てくる説明文 -->
+        <!-- ball1対応のQRだと -->
+        <div class="scan" id="scan1">
+
+            <img src="img/start/1_1_title.png" alt="" class="p90 down4">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" class="w100pic">
+                <source src="img/start/01.mp4" type="video/mp4">
+            </video>
+            <img src="img/start/1_1_textbox.png" alt="" class="p88">        
+            
+            <img src="img/start/1_2_title.png" alt="" class="p90 down4">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" class="w100pic">
+                <source src="img/start/02.mp4" type="video/mp4">
+            </video>
+            <img src="img/start/1_2_textbox.png" alt="" class="p88">
+
+            <img src="img/start/1_3_title.png" alt="" class="p90 down4">
+            <img src="img/start/03.png" class="w100pic">
+            <img src="img/start/1_3_textbox.png" alt="" class="p88">
+
+            <img src="img/start/1_4_title.png" alt="" class="p90 down4">
+            <img src="img/start/04.png" class="w100pic">
+            <img src="img/start/1_4_textbox.png" alt="" class="p88">
+        </div>
+        <!-- ball2対応のQRだと -->
+        <div class="scan" id="scan2">
+            <img src="img/start/2_1_title.png" alt="" class="p90 down4">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" class="w100pic">
+                <source src="img/start/05.mp4" type="video/mp4">
+            </video>
+            <img src="img/start/2_2_title.png" alt="" class="p90 down4">
+            <img src="img/start/06.png" class="w100pic">
+            <img src="img/start/2_2_textbox.png" alt="" class="p88">
+        </div>
+        <!-- ball3対応のQRだと -->
+        <div class="scan" id="scan3">
+            <img src="img/start/3_1_title.png" alt="" class="p90 down4">
+            <img src="img/start/07.png" class="w100pic">
+            <img src="img/start/3_1_textbox.png" alt="" class="p88">        
+            
+            <img src="img/start/3_2_title.png" alt="" class="p90 down4">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" class="w100pic">
+                <source src="img/start/08.mp4" type="video/mp4">
+            </video>
+            <img src="img/start/3_2_textbox.png" alt="" class="p88">
+        </div>
+        <!-- ball4対応のQRだと -->
+        <div class="scan" id="scan4">
+            <img src="img/start/4_1_title.png" alt="" class="p90 down4">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" class="w100pic">
+                <source src="img/start/09.mp4" type="video/mp4">
+            </video>
+            <img src="img/start/4_1_textbox.png" alt="" class="p88">        
+            
+            <img src="img/start/4_2_title.png" alt="" class="p90 down4">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" class="w100pic">
+                <source src="img/start/10.mp4" type="video/mp4">
+            </video>
+            <img src="img/start/4_2_textbox.png" alt="" class="p88">
+
+            <img src="img/start/4_3_title.png" alt="" class="p90 down4">
+            <img src="img/start/11.png" class="w100pic">
+            <img src="img/start/4_3_textbox.png" alt="" class="p88">         
+        </div>
+        <!-- ball5対応のQRだと -->
+        <div class="scan" id="scan5">
+            <img src="img/start/5_1_title.png" alt="" class="p90 down4">
+            <img src="img/start/12.png" class="w100pic">
+            <img src="img/start/5_1_textbox.png" alt="" class="p88">
+        </div>
+        <!-- ball6対応のQRだと -->
+        <div class="scan" id="scan6">
+            <img src="img/start/6_1_title.png" alt="" class="p90 down4">
+            <img src="img/start/13.png" class="w100pic">
+            <img src="img/start/6_1_textbox.png" alt="" class="p88">
+        </div>
+
+        <!-- いつでも下にあるlogo -->
+        <!-- green logo -->
+        <img src="img/green_logo.png" class="b32_2">
+    </div>
+</body>
+</html>
+

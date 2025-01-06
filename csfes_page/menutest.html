@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS Festival 2020 Character Entry</title>
+    <link rel="stylesheet" href="honsai.css">
+</head>
+<body>
+    <div id="kumonav" class="overlay full-page">
+        <div class="kumoleft">
+            <a class="kumonav">
+                <img src="images/honsai/kumoleft.svg" alt="kumonav" id="kumoitself" href="javascript:void(0)" onclick="NavAction()" style="cursor:pointer">
+            </a>  
+        </div>
+        <div class="nav">
+            <a onclick="NavAction()" href="#page2"><img src="images/honsai/tenjilogo.png" class="navlogo"></a>
+            <a href="#"><img src="images/honsai/stagelogo.png" class="navlogo"></a>
+            <a href="#"><img src="images/honsai/eventlogo.png" class="navlogo"></a>
+            <a href="#"><img src="images/honsai/marketlogo.png" class="navlogo"></a>
+            <a href="#"><img src="images/honsai/SNS.png" class="navlogo"></a>
+            <a href="#"><img src="images/honsai/Q&A.png" class="navlogo"></a>
+        </div>
+    </div>
+    <div class="full-page">
+        <a>test page</a>
+    </div>
+    <div class="full-page" id="page2">
+        <a>test page2</a>
+    </div>
+</body>
+<script>
+    var menuopen = 0;
+    function NavAction() {
+        if (!menuopen) {
+            document.getElementById("kumonav").style.top = "0vh";
+            document.getElementById("kumonav").style.backgroundColor = "#FFFCF3";
+            menuopen = 1;
+        }
+        else {
+            document.getElementById("kumonav").style.top = "-85vh";
+            document.getElementById("kumonav").style.backgroundColor = "rgba(255, 255, 255, 0)";
+            menuopen = 0;
+        }
+    }
+</script>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Printer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+        .scroll-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align to top */
+            height: 100%;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            background-color: blue; /* Color the scroll container blue */
+        }
+        .image-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: fit-content;
+            background-color: white; /* Color the image wrapper red */
+        }
+        .scroll-container img {
+            width: 150px; /* Fixed width */
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container" id="scrollContainer">
+        <div class="image-wrapper" id="imageWrapper"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('images.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(imagePaths => {
+                    console.log('Image paths:', imagePaths); // Debugging info
+                    const scrollContainer = document.getElementById('scrollContainer');
+                    const imageWrapper = document.getElementById('imageWrapper');
+
+                    let currentIndex = 0;
+                    const speed = 300; // pixels per second
+                    const imagesList = [];
+
+                    function moveImages(duration, distance) {
+                        imagesList.forEach(imageData => {
+                            const img = imageData.img;
+                            const newTop = imageData.top + distance; // Move down by the distance
+                            img.style.transition = `top ${duration}s linear`;
+                            img.style.top = `${newTop}px`;
+                            imageData.top = newTop;
+                        });
+                    }
+
+                    function showNextImage() {
+                        if (currentIndex < imagePaths.length) {
+                            // Add the new image
+                            const img = document.createElement('img');
+                            img.src = `img/receipts/ueno_geisai_rotated/${imagePaths[currentIndex]}`;
+                            img.alt = imagePaths[currentIndex].split('/').pop();
+                            img.onload = () => {
+                                console.log('Image loaded:', img.src); // Debugging info
+
+                                // Position the image outside the viewport
+                                img.style.position = 'absolute';
+                                img.style.top = `-${img.height*(150/img.width)}px`;
+                                console.log(`Initial position set: top=${img.style.top}, height=${img.height}`);
+
+                                // Append the new image to the container
+                                imageWrapper.appendChild(img);
+                                console.log('Image appended:', img.src); // Debugging info
+
+                                // Add the image to the list with initial position
+                                imagesList.push({ img, top: -img.height });
+
+                                // Log current appended image information
+                                const rect = img.getBoundingClientRect();
+                                console.log(`Appended image position: top=${rect.top}, bottom=${rect.bottom}, height=${rect.height}`);
+
+                                // Print positions and dimensions of other elements
+                                const scrollContainerRect = scrollContainer.getBoundingClientRect();
+                                const imageWrapperRect = imageWrapper.getBoundingClientRect();
+                                const bodyRect = document.body.getBoundingClientRect();
+                                const htmlRect = document.documentElement.getBoundingClientRect();
+                                console.log(`Scroll container position: top=${scrollContainerRect.top}, bottom=${scrollContainerRect.bottom}, height=${scrollContainerRect.height}`);
+                                console.log(`Image wrapper position: top=${imageWrapperRect.top}, bottom=${imageWrapperRect.bottom}, height=${imageWrapperRect.height}`);
+                                console.log(`Body position: top=${bodyRect.top}, bottom=${bodyRect.bottom}, height=${bodyRect.height}`);
+                                console.log(`HTML position: top=${htmlRect.top}, bottom=${htmlRect.bottom}, height=${htmlRect.height}`);
+
+                                // Calculate the transition duration based on the image height
+                                const duration = img.height / speed;
+
+                                // Use requestAnimationFrame to ensure all images start moving at the same time
+                                requestAnimationFrame(() => {
+                                    moveImages(duration, img.height);
+                                });
+
+                                // Wait for the duration of the movement, then stop for 1 second, and show the next image
+                                setTimeout(() => {
+                                    // Remove images that have moved out of the viewport
+                                    imagesList.forEach((imageData, index) => {
+                                        if (imageData.top >= scrollContainer.clientHeight) {
+                                            imageWrapper.removeChild(imageData.img);
+                                            imagesList.splice(index, 1);
+                                        }
+                                    });
+                                    setTimeout(showNextImage, 1000); // Delay 1 second before showing the next image
+                                }, duration * 1000);
+
+                                currentIndex++;
+                            };
+                            img.onerror = () => {
+                                console.error('Error loading image:', img.src); // Debugging info
+                                currentIndex++;
+                                setTimeout(showNextImage, 2000); // Skip to the next image
+                            };
+                        }
+                    }
+
+                    showNextImage();
+                })
+                .catch(error => console.error('Error loading images:', error));
+        });
+    </script>
+</body>
+</html>
