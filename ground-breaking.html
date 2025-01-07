@@ -24,9 +24,9 @@
         }
         .image-wrapper {
             position: absolute;
-            width: 90vw; /* Adjust width based on the viewport width */
-            height: auto; /* Maintain aspect ratio */
-            transition: transform 1s ease;
+            width: 500px; /* Adjusted to match the resized dimensions */
+            height: 500px; /* Adjusted to match the resized dimensions */
+            transition: transform 1s ease; /* Smooth transition for translation */
         }
         .image-wrapper img {
             width: 100%;
@@ -34,23 +34,11 @@
             object-fit: cover; /* Ensure images fit within the square */
         }
         .scroll-container {
-            width: 100vw;
-            position: absolute; /* Or relative, depending on your needs */
-            left: 0;
-            top: 0;
-            margin: 0;
-            padding: 0;
-            transform-origin: center;
-            overflow: visible;
-            z-index: 1; /* Ensure it's on top */
+            position: absolute; /* Changed to absolute */
+            min-width: 100vw; /* Adjust dynamically based on total image width */
             height: 100%;
             transition: transform 0.5s ease; /* Smooth transition for translation */
-        }
-        @media (min-width: 768px) {
-            .image-wrapper {
-                width: 500px; /* Keep the 500px width for larger screens */
-                height: auto;
-            }
+            z-index: 10; /* Ensure it is on top */
         }
     </style>
 </head>
@@ -66,7 +54,7 @@
                 this.container = document.getElementById(containerId);
                 this.imageContainer = this.container.querySelector('.image-container');
                 this.scrollPosition = 0;
-                this.scrollSpeed = 100; // pixels per second
+                this.scrollSpeed = 300; // pixels per second
                 this.imagesPerPage = 10;
                 this.processedIndices = new Set();
                 this.lastLoadedIndex = 0;
@@ -95,10 +83,6 @@
                     clearTimeout(resizeTimeout);
                     resizeTimeout = setTimeout(() => this.updateImagePositions(), 200);
                 });
-
-                window.addEventListener('load', () => {
-                    this.updateImagePositions();
-                });
             }
 
             async loadJSON(url) {
@@ -106,12 +90,8 @@
                 return response.json();
             }
 
-            async processImage(index, prevPoint, prevWrapper) {
-                if (index >= this.imagePaths.length) {
-                    index = 0; // Loop back to the first image
-                }
-
-                if (this.processedIndices.has(index)) {
+            processImage(index, prevPoint, prevWrapper) {
+                if (index >= this.imagePaths.length || this.processedIndices.has(index)) {
                     console.log("All images processed or already processed.");
                     return;
                 }
@@ -121,24 +101,10 @@
 
                 const imageWrapper = document.createElement('div');
                 imageWrapper.className = 'image-wrapper';
-                imageWrapper.dataset.index = index;
+                imageWrapper.dataset.index = index; // Store the index in the dataset
+
                 const img = document.createElement('img');
-                img.loading = 'lazy'; // Lazy load image
-
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            // Load the image
-                            img.src = this.imagePaths[index];
-                            observer.unobserve(imageWrapper); // Stop observing once loaded
-                        }
-                    });
-                }, { threshold: 0.5 });
-
-                observer.observe(imageWrapper);
-                imageWrapper.appendChild(img);
-                this.imageContainer.appendChild(imageWrapper);
-
+                img.src = `${this.imagePaths[index]}`;
                 img.onload = () => {
                     const currPoints = this.data[this.imagePaths[index].split('/').pop()];
                     if (currPoints && currPoints.length > 0) {
@@ -193,6 +159,9 @@
                         img.dataset.points = JSON.stringify(currPoints);
                     }
 
+                    imageWrapper.appendChild(img);
+                    this.imageContainer.appendChild(imageWrapper);
+
                     // Process the next image after a short delay
                     setTimeout(() => {
                         this.processImage(index + 1, prevPoint, prevWrapper);
@@ -204,6 +173,9 @@
                     // Skip to the next image if the current one fails to load
                     this.processImage(index + 1, prevPoint, prevWrapper);
                 };
+
+                // Append the image wrapper to the container
+                this.imageContainer.appendChild(imageWrapper);
             }
 
             hasTopAndBottomPoints(points, height) {
@@ -247,40 +219,28 @@
                     const wrapperCenterX = rect.left + rect.width / 2;
                     const windowCenterX = window.innerWidth / 2;
                     const offsetX = windowCenterX - wrapperCenterX;
-
-                    console.log('Closest Wrapper:', closestWrapper);
-                    console.log('Wrapper Rect:', rect);
-                    console.log('Window Center X:', windowCenterX);
+                    console.log(`Current Middle Image: ${closestWrapper.querySelector('img') ? closestWrapper.querySelector('img').src : 'undefined'}`);
                     console.log(`Offset X: ${offsetX}`);
+                    this.container.style.transform = `translateX(${offsetX}px)`;
+                    console.log(`Container transform: translateX(${offsetX}px), viewport width: ${window.innerWidth}`);
 
-                    this.container.style.transform = `translateX(${offsetX}px)`; // Adjust to center
-                    this.container.style.transition = 'transform 0.3s ease'; // Smooth transition for centering
-
-                    // Optionally, remove images that are too far from the current image to keep it performant
+                    // Remove images that are more than 5 indices above the current image index
                     const currentIndex = parseInt(closestWrapper.dataset.index, 10);
                     wrappers.forEach(wrapper => {
                         const index = parseInt(wrapper.dataset.index, 10);
-                        if (index < currentIndex - 5 || index > currentIndex + 5) {
-                            wrapper.remove(); // Remove images that are far from the current one
+                        if (index < currentIndex - 5) {
+                            wrapper.remove();
                         }
                     });
                 } else {
-                    console.warn('No wrapper found to center.');
+                    console.log("No closestWrapper found");
                 }
             }
 
             scrollImages() {
                 this.scrollPosition += (this.scrollSpeed / 60);
                 this.imageContainer.style.transform = `translateY(-${this.scrollPosition}px)`;
-                console.log(`Scroll Position: ${this.scrollPosition}`);
-                console.log(`Image Container Transform: ${this.imageContainer.style.transform}`);
                 this.updateImagePositions();
-
-                // Loop the scroll position
-                if (this.scrollPosition > this.imageContainer.scrollHeight - window.innerHeight) {
-                    this.scrollPosition = 0;
-                }
-
                 requestAnimationFrame(() => this.scrollImages());
             }
         }
