@@ -54,7 +54,7 @@
                 this.container = document.getElementById(containerId);
                 this.imageContainer = this.container.querySelector('.image-container');
                 this.scrollPosition = 0;
-                this.scrollSpeed = 300; // pixels per second
+                this.scrollSpeed = 500; // pixels per second
                 this.imagesPerPage = 10;
                 this.processedIndices = new Set();
                 this.lastLoadedIndex = 0;
@@ -91,7 +91,11 @@
             }
 
             processImage(index, prevPoint, prevWrapper) {
-                if (index >= this.imagePaths.length || this.processedIndices.has(index)) {
+                if (index >= this.imagePaths.length) {
+                    index = 0; // Loop back to the first image
+                }
+
+                if (this.processedIndices.has(index)) {
                     console.log("All images processed or already processed.");
                     return;
                 }
@@ -241,6 +245,12 @@
                 this.scrollPosition += (this.scrollSpeed / 60);
                 this.imageContainer.style.transform = `translateY(-${this.scrollPosition}px)`;
                 this.updateImagePositions();
+
+                // Loop the scroll position
+                if (this.scrollPosition > this.imageContainer.scrollHeight - window.innerHeight) {
+                    this.scrollPosition = 0;
+                }
+
                 requestAnimationFrame(() => this.scrollImages());
             }
         }
