@@ -6,7 +6,6 @@
     <title>Image Connector</title>
     <style>
         body {
-            background-color: blue;
             overflow: hidden; /* Disable all scrolling */
             height: 100vh;
             margin: 0;
@@ -16,7 +15,6 @@
             position: relative; /* Ensure body is positioned correctly */
         }
         .image-container {
-            background-color: red;
             position: relative;
             width: 100%;
             height: 100%;
@@ -36,7 +34,6 @@
             object-fit: cover; /* Ensure images fit within the square */
         }
         .scroll-container {
-            background-color: black;
             position: absolute; /* Changed to absolute */
             min-width: 100vw; /* Adjust dynamically based on total image width */
             height: 100%;
@@ -57,7 +54,7 @@
                 this.container = document.getElementById(containerId);
                 this.imageContainer = this.container.querySelector('.image-container');
                 this.scrollPosition = 0;
-                this.scrollSpeed = 300; // pixels per second
+                this.scrollSpeed = 200; // pixels per second
                 this.imagesPerPage = 10;
                 this.imageList = []; // Local list to store image paths and points
                 this.lastLoadedIndex = 0;
@@ -101,9 +98,9 @@
             }
 
             processImage(index, prevPoint, prevWrapper) {
-                index %= this.imageList.length; // Ensure loop around
+                // index %= this.imageList.length; // Ensure loop around
 
-                console.log(`Processing image at index ${index}: ${this.imageList[index].path}`);
+                // console.log(`Processing image at index ${index}: ${this.imageList[index].path}`);
 
                 const existingWrapper = this.imageContainer.querySelector(`.image-wrapper[data-index="${index}"]`);
                 if (existingWrapper) {
@@ -174,9 +171,9 @@
                     this.imageContainer.appendChild(imageWrapper);
 
                     // Process the next image after a short delay
-                    // setTimeout(() => {
+                    setTimeout(() => {
                         this.processImage(index + 1, prevPoint, prevWrapper);
-                    // }, 20); // 20 milliseconds
+                    }, 20); // 20 milliseconds
                 };
 
                 img.onerror = () => {
