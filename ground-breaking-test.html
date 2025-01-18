@@ -54,7 +54,7 @@
                 this.container = document.getElementById(containerId);
                 this.imageContainer = this.container.querySelector('.image-container');
                 this.scrollPosition = 0;
-                this.scrollSpeed = 200; // pixels per second
+                this.scrollSpeed = 300; // pixels per second
                 this.imagesPerPage = 10;
                 this.imageList = []; // Local list to store image paths and points
                 this.lastLoadedIndex = 0;
@@ -67,8 +67,19 @@
 
                 // Load initial images (2 pages worth)
                 const initialLoadCount = this.imagesPerPage * 2;
+                let prevPoint = null;
+                let prevWrapper = null;
+
                 for (let i = 0; i < initialLoadCount && i < this.imageList.length; i++) {
-                    this.processImage(i, null, null);
+                    if (i === 0) {
+                        // Position the first image at the middle top of the page
+                        this.processFirstImage(i, (point, wrapper) => {
+                            prevPoint = point;
+                            prevWrapper = wrapper;
+                        });
+                    } else {
+                        this.processImage(i, prevPoint, prevWrapper);
+                    }
                 }
                 this.lastLoadedIndex = initialLoadCount;
 
@@ -97,13 +108,52 @@
                 }));
             }
 
-            processImage(index, prevPoint, prevWrapper) {
-                // index %= this.imageList.length; // Ensure loop around
+            processFirstImage(index, callback) {
+                console.log(`Processing first image at index ${index}: ${this.imageList[index].path}`);
 
-                // console.log(`Processing image at index ${index}: ${this.imageList[index].path}`);
+                const imageWrapper = document.createElement('div');
+                imageWrapper.className = 'image-wrapper';
+                imageWrapper.dataset.index = index; // Store the index in the dataset
+
+                const img = document.createElement('img');
+                img.src = `${this.imageList[index].path}`;
+                img.onload = () => {
+                    console.log(`First image loaded: ${img.src}`);
+                    this.imageContainer.appendChild(imageWrapper);
+                    console.log('First image wrapper:', imageWrapper); // Print the whole wrapper
+
+                    // Position the first image at the middle top of the page
+                    imageWrapper.style.top = '0px';
+                    imageWrapper.style.left = '50%';
+                    imageWrapper.style.transform = 'translateX(-50%)';
+
+                    const currPoints = this.imageList[index].points;
+                    if (currPoints && currPoints.length > 0) {
+                        const lastPoint = currPoints[currPoints.length - 1];
+                        const prevPoint = {
+                            x: (lastPoint[0] / img.naturalWidth) * 500,
+                            y: (lastPoint[1] / img.naturalHeight) * 500
+                        };
+                        callback(prevPoint, imageWrapper);
+                    }
+
+                    imageWrapper.appendChild(img);
+                };
+                img.onerror = () => {
+                    console.error(`Failed to load first image: ${img.src}`);
+                };
+
+                imageWrapper.appendChild(img);
+            }
+
+            processImage(index, prevPoint, prevWrapper) {
+                index %= this.imageList.length; // Ensure loop around
+
+                console.log(`Processing image at index ${index}: ${this.imageList[index].path}`);
 
                 const existingWrapper = this.imageContainer.querySelector(`.image-wrapper[data-index="${index}"]`);
                 if (existingWrapper) {
+                    console.log(`Image at index ${index} already exists`);
                     return;
                 }
 
@@ -117,7 +167,6 @@
                     const currPoints = this.imageList[index].points;
                     if (currPoints && currPoints.length > 0) {
                         if (!this.hasTopAndBottomPoints(currPoints, img.naturalHeight)) {
-                            // console.log(`Skipping image: ${this.imageList[index].path} (missing top or bottom point)`);
                             setTimeout(() => {
                                 this.processImage(index + 1, prevPoint, prevWrapper);
                             }, 0);
@@ -126,8 +175,6 @@
 
                         const firstPoint = currPoints[0];
                         const lastPoint = currPoints[currPoints.length - 1];
-
-                        // console.log(`First point: ${JSON.stringify(firstPoint)}, Last point: ${JSON.stringify(lastPoint)}`);
 
                         if (index > 0 && prevPoint && prevWrapper) {
                             // Connect the bottom point of the previous image to the top point of the current image
@@ -242,8 +289,6 @@
                             this.imageList.push(removedImage);
                             console.log(`Appended image to bottom: ${removedImage.path}`);
                             wrapper.remove();
-                            // Reprocess the image to append it to the bottom
-                            this.processImage(this.imageList.length - 1, null, null);
                         }
                     });
                 } else {

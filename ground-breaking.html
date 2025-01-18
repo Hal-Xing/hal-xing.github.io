@@ -54,7 +54,7 @@
                 this.container = document.getElementById(containerId);
                 this.imageContainer = this.container.querySelector('.image-container');
                 this.scrollPosition = 0;
-                this.scrollSpeed = 500; // pixels per second
+                this.scrollSpeed = 60; // pixels per second
                 this.imagesPerPage = 10;
                 this.processedIndices = new Set();
                 this.lastLoadedIndex = 0;
@@ -242,7 +242,7 @@
             }
 
             scrollImages() {
-                this.scrollPosition += (this.scrollSpeed / 60);
+                this.scrollPosition += (this.scrollSpeed / 20);
                 this.imageContainer.style.transform = `translateY(-${this.scrollPosition}px)`;
                 this.updateImagePositions();
 
