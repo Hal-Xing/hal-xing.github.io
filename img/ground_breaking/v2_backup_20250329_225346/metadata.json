@@ -1,0 +1,122 @@
+{
+  "GBW_0329_82_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_82_O_175.jpeg",
+    "points": [
+      [
+        0.51,
+        0.0
+      ],
+      [
+        0.47375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-27 19:18:53",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.88234444444444,
+      140.11523333333332
+    ]
+  },
+  "GBW_0329_21_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_21_O_175.jpeg",
+    "points": [
+      [
+        0.03,
+        0.0
+      ],
+      [
+        0.57,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:50:32",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603333333333,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_141_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_141_O_175.jpeg",
+    "points": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.55625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 14:01:30",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.268191666666667,
+      120.09454444444444
+    ]
+  },
+  "GBW_0329_51_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_51_O_175.jpeg",
+    "points": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.58625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:02:52",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.799366666666664,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_131_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_131_O_175.jpeg",
+    "points": [
+      [
+        0.5075,
+        0.0
+      ],
+      [
+        0.64625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:50",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_6_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_6_O_175.jpeg",
+    "points": [
+      [
+        0.195,
+        0.0
+      ],
+      [
+        0.475,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-08 13:16:53",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71094444444445,
+      139.7744
+    ]
+  }
+}

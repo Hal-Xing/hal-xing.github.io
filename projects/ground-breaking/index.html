@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ground Breaking</title>
+    <link rel="stylesheet" href="css/ground-breaking.css">
+</head>
+<body>
+    <div class="info-panel">
+        <div id="debug-info" class="debug-info"></div>
+        <!-- Removed separate image-info div -->
+    </div>
+    <div id="scroll-container" class="scroll-container">
+        <div id="image-container" class="image-container"></div>
+    </div>
+    <script src="js/ground-breaking.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const scroller = new ImageScroller(
+                '../../img/ground_breaking/processed',
+                '../../img/ground_breaking/metadata.json', 
+                'scroll-container'
+            );
+            scroller.init();
+        });
+    </script>
+</body>
+</html>
