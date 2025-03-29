@@ -1,0 +1,124 @@
+/* Base styles */
+body {
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Define CSS custom properties - responsive sizing for all devices */
+:root {
+    /* Base size for desktop */
+    --image-size: 500px;
+}
+
+/* Image container styling */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image wrapper - responsive sizing using CSS variables */
+.image-wrapper {
+    position: absolute;
+    width: var(--image-size);
+    height: var(--image-size);
+    transition: transform 0.5s ease;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Scrolling container */
+.scroll-container {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    transition: transform 0.5s ease;
+    z-index: 10;
+}
+
+/* Debug info panel */
+#debug-info {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    z-index: 1000;
+    font-family: monospace;
+    pointer-events: auto;  /* Allow interaction */
+    user-select: text;     /* Make text selectable */
+    cursor: text;          /* Show text cursor */
+    max-width: 80%;
+    overflow: auto;
+    border-radius: 4px;
+}
+
+/* Responsive styles for various screen sizes */
+/* Tablet-sized devices */
+@media (max-width: 900px) {
+    :root {
+        --image-size: 400px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 767px) {
+    :root {
+        --image-size: min(50vw, 300px);
+    }
+    
+    #debug-info {
+        font-size: 10px;
+        max-width: 90vw;
+        padding: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .image-wrapper {
+        /* Ensure no transitions that could affect positioning */
+        transition: none !important;
+    }
+    
+    .image-wrapper img {
+        /* Small expansion to hide gaps */
+        width: 101%;
+        height: 101%;
+        margin: -0.5%;
+        object-fit: cover;
+    }
+}
+
+/* Small mobile phones */
+@media (max-width: 400px) {
+    :root {
+        --image-size: min(60vw, 250px);
+    }
+}
+
+/* Portrait warning for mobile */
+#portrait-warning {
+    display: none;
+}
+
+/* Only show portrait warning in portrait mode on mobile */
+@media (max-width: 767px) and (orientation: portrait) {
+    #portrait-warning {
+        display: none; /* Hide this warning */
+    }
+}

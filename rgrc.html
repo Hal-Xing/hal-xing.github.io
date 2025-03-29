@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="米仓艺术中心是一个位于杭州市的当代艺术画廊。" />
+    <meta name="keywords" content="米仓艺术中心,杭州,画廊,艺术,艺术家,展览,Art Center,Beijing,Art,gallery,artist,exhibition" />
+    <title>关于 - 米仓艺术中心</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        h1 {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        p {
+            margin: 5px 0;
+            text-align: center;
+        }
+        .header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: white;
+            transition: top 0.3s;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .header .logo {
+            position: absolute;
+            left: 10px;
+        }
+        .header .name {
+            margin: auto;
+        }
+        .header img {
+            height: 40px;
+        }
+        .content {
+            padding-top: 60px; /* Adjust based on header height */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header" id="header">
+        <div class="logo">
+            <img src="img/rgrc/SVG/Logo.svg" alt="Logo">
+        </div>
+        <div class="name">
+            <img src="img/rgrc/SVG/Name.svg" alt="米仓艺术中心">
+        </div>
+    </div>
+    
+    <div class="content">
+        <h2>开放时间</h2>
+        <p>周二至周日 10:30-17:30</p>
+        <p>每周一、周二闭馆(除国定假日外)</p>
+        <p>最晚入馆时间 16:30</p>
+
+        <h2>停车信息</h2>
+        <p>暂未提供公共停车位，请关注周边停车指引。</p>
+
+        <h2>参观须知</h2>
+        <p>请勿带宠物入馆;</p>
+        <p>请勿吸烟;请勿触摸展品;</p>
+        <p>大型背包需寄存(尺寸大于A3纸(297*420mm));</p>
+        <p>展厅内观展时:请勿使用闪光灯(部分展厅禁止拍摄);</p>
+        <p>请勿饮食;</p>
+        <p>请勿大声喧哗;</p>
+        <p>请将手机调成静音;</p>
+        <p>团体参观需提前预约，入馆请轻声导览，避免影响其他观众正常参观。</p>
+        <p>14周岁以下未成年人须由成年人代为预约，并与预约人同时入馆。持其古证件的观众请致电咨询预约事宜。</p>
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            var header = document.getElementById("header");
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                header.style.top = "-60px"; // Adjust based on header height
+            } else {
+                header.style.top = "0";
+            }
+        };
+    </script>
+
+</body>
+</html>

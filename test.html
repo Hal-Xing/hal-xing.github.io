@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Connector</title>
+    <style>
+        :root {
+            --image-size: 180px; /* Default image size */
+        }
+
+        body {
+            background-color: black;
+            overflow: hidden; /* Disable scrolling */
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-wrapper {
+            position: absolute;
+            width: var(--image-size);
+            height: var(--image-size);
+            transition: transform 1s ease;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .scroll-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="scroll-container" class="scroll-container">
+        <div id="image-container" class="image-container"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const getImageSize = () => parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--image-size'));
+
+            class ImageScroller {
+                constructor(imageFolder, jsonFile, containerId) {
+                    this.imageFolder = imageFolder;
+                    this.jsonFile = jsonFile;
+                    this.container = document.getElementById(containerId);
+                    this.imageContainer = this.container.querySelector('.image-container');
+                    this.scrollSpeed = 60;
+                    this.imageSize = getImageSize();
+                    this.filteredImages = [];
+                }
+
+                async init() {
+                    const data = await this.loadJSON(this.jsonFile);
+                    this.imagePaths = Object.keys(data).map(fileName => `${this.imageFolder}/${fileName}`);
+                    this.data = data;
+                    this.filteredImages = this.filterImages();
+
+                    this.loadInitialImages();
+                    this.scrollImages();
+                }
+
+                async loadJSON(url) {
+                    const response = await fetch(url);
+                    return response.json();
+                }
+
+                filterImages() {
+                    return this.imagePaths.filter(imagePath => {
+                        const points = this.data[imagePath.split('/').pop()];
+                        return this.hasTopAndBottomPoints(points, 500); // Adjust height threshold as needed
+                    });
+                }
+
+                loadInitialImages() {
+                    const initialCount = 10; // Adjust for desired preload count
+                    let prevPoint = null;
+                    let prevWrapper = null;
+
+                    this.filteredImages.slice(0, initialCount).forEach((imagePath, index) => {
+                        if (index === 0) {
+                            const centerX = (window.innerWidth - this.imageSize) / 2;
+                            const centerY = (window.innerHeight - this.imageSize) / 2;
+                            prevPoint = { x: centerX, y: centerY };
+                        }
+
+                        const imageWrapper = this.createImageWrapper(imagePath, prevPoint, prevWrapper);
+                        if (imageWrapper) {
+                            prevWrapper = imageWrapper;
+                            const points = JSON.parse(imageWrapper.dataset.points);
+                            prevPoint = {
+                                x: (points[points.length - 1][0] / this.imageSize) * this.imageSize,
+                                y: (points[points.length - 1][1] / this.imageSize) * this.imageSize
+                            };
+                        }
+                    });
+                }
+
+                createImageWrapper(imagePath, prevPoint, prevWrapper) {
+                    const imageWrapper = document.createElement('div');
+                    imageWrapper.className = 'image-wrapper';
+
+                    const img = document.createElement('img');
+                    img.src = imagePath;
+
+                    img.onload = () => {
+                        const imageName = imagePath.split('/').pop();
+                        const currPoints = this.data[imageName];
+                        if (currPoints && this.hasTopAndBottomPoints(currPoints, img.naturalHeight)) {
+                            imageWrapper.style.left = `${prevPoint.x}px`;
+                            imageWrapper.style.top = `${prevPoint.y}px`;
+                            imageWrapper.dataset.points = JSON.stringify(currPoints);
+                    
+                            if (prevWrapper) {
+                                const newX = prevWrapper.offsetLeft;
+                                const newY = prevWrapper.offsetTop;
+                                imageWrapper.style.transform = `translate(${newX}px, ${newY}px)`;
+                            }
+                    
+                            imageWrapper.appendChild(img);
+                            this.imageContainer.appendChild(imageWrapper);
+                        } else {
+                            console.error(`No data found for image: ${imageName}`);
+                        }
+                    };
+
+                hasTopAndBottomPoints(points, height) {
+                    const topThreshold = height * 0.05;
+                    const bottomThreshold = height * 0.95;
+                    const hasTopPoint = points.some(p => p[1] <= topThreshold);
+                    const hasBottomPoint = points.some(p => p[1] >= bottomThreshold);
+                    return hasTopPoint && hasBottomPoint;
+                }
+
+                scrollImages() {
+                    let scrollPosition = 0;
+                    const scrollStep = () => {
+                        scrollPosition += this.scrollSpeed / 60; // Smooth 60 FPS scrolling
+                        this.imageContainer.style.transform = `translateY(-${scrollPosition}px)`;
+                        requestAnimationFrame(scrollStep);
+                    };
+                    scrollStep();
+                }
+            }
+        }
+
+            const scroller = new ImageScroller(
+                'img/ground_breaking/v1/finished',
+                'img/ground_breaking/v1/marked_points_test.json',
+                'scroll-container'
+            );
+            scroller.init();
+        });
+    </script>
+</body>
+</html>
