@@ -23,6 +23,9 @@ class ImageScroller {
         window.addEventListener('resize', () => {
             this.imageSize = this.getImageSize();
         });
+
+        // Initialize debug info
+        this.updateDebugInfo();
     }
     
     // Get the current image size from CSS variable
@@ -83,10 +86,12 @@ class ImageScroller {
     }
     
     async loadInitialImages() {
-        // Load first image centered
-        const firstImg = await this.loadSingleImage(0);
+        // START WITH A RANDOM IMAGE instead of always using index 0
+        const firstRandomIndex = Math.floor(Math.random() * this.totalImages);
+        const firstImg = await this.loadSingleImage(firstRandomIndex);
+        
         if (!firstImg) {
-            // If first image fails, try a random one
+            // If first image fails, try another random one
             await this.loadRandomImage();
         }
         
@@ -94,15 +99,15 @@ class ImageScroller {
         const isMobile = window.innerWidth < 768;
         const initialLoadCount = isMobile ? 2 : 5;
         
-        console.log(`Initial load: ${initialLoadCount + 1} images on ${isMobile ? 'mobile' : 'desktop'}`);
+        console.log(`Initial load: ${initialLoadCount + 1} random images on ${isMobile ? 'mobile' : 'desktop'}`);
         
-        // Load initial set of images
+        // Load initial set of RANDOM images (not sequential)
         for (let i = 0; i < initialLoadCount; i++) {
-            await this.loadNextImage();
+            await this.loadRandomImage();  // Use loadRandomImage directly instead of loadNextImage
         }
     }
     
-    // Replace your loadSingleImage method with this version that handles scaling properly
+    // Modified loadSingleImage method to use percentage-based coordinates
     async loadSingleImage(index, prevPoint = null, prevWrapper = null) {
         if (this.processedIndices.has(index)) return null;
         
@@ -134,6 +139,7 @@ class ImageScroller {
                     return;
                 }
 
+                // First and last points are already in percentage format (0-1 range)
                 const firstPoint = currPoints[0];
                 const lastPoint = currPoints[currPoints.length - 1];
                 
@@ -142,20 +148,17 @@ class ImageScroller {
                 img.dataset.naturalHeight = img.naturalHeight.toString();
                 img.dataset.points = JSON.stringify(currPoints);
                 
-                // FIXED CALCULATION: Maintain aspect ratio when scaling points
-                // This is critical for accurate connections
+                // Calculate aspect ratio-preserving scale
                 const aspectRatio = img.naturalWidth / img.naturalHeight;
-                
-                // If image is wider than tall, constrain by width; otherwise by height
                 const scaleFactor = aspectRatio > 1 ? 
                     imgSize / img.naturalWidth : 
                     imgSize / img.naturalHeight;
                 
-                // Calculate scaled dimensions that preserve aspect ratio
+                // Calculate scaled dimensions
                 const scaledWidth = img.naturalWidth * scaleFactor;
                 const scaledHeight = img.naturalHeight * scaleFactor;
                 
-                // Store the actual display dimensions for reference
+                // Store scaled dimensions and factor
                 imageWrapper.dataset.scaledWidth = scaledWidth.toString();
                 imageWrapper.dataset.scaledHeight = scaledHeight.toString();
                 imageWrapper.dataset.scaleFactor = scaleFactor.toString();
@@ -163,40 +166,39 @@ class ImageScroller {
                 // Position this image
                 if (prevPoint && prevWrapper) {
                     try {
-                        // Get the scaling information from the previous image
-                        const prevScaleFactor = parseFloat(prevWrapper.dataset.scaleFactor);
-                        
-                        // Calculate first point in current scaled dimensions
+                        // SIMPLIFIED: Using percentage-based coordinates (0-1 range)
+                        // Convert percentage to actual pixels using scaled dimensions
                         const firstPointPx = {
-                            x: firstPoint[0] * scaleFactor,
-                            y: firstPoint[1] * scaleFactor
+                            x: firstPoint[0] * scaledWidth,  // firstPoint[0] is now 0-1 percentage
+                            y: firstPoint[1] * scaledHeight  // firstPoint[1] is now 0-1 percentage
                         };
                         
                         // Get previous wrapper position
                         const prevLeft = parseFloat(prevWrapper.style.left) || 0;
                         const prevTop = parseFloat(prevWrapper.style.top) || 0;
                         
-                        // IMPORTANT: Ensure new position aligns the connection points precisely
+                        // Calculate position with precise alignment
                         const newX = prevLeft + prevPoint.x - firstPointPx.x;
                         const newY = prevTop + prevPoint.y - firstPointPx.y;
                         
-                        // Apply exact positioning
-                        imageWrapper.style.left = `${newX}px`;
-                        imageWrapper.style.top = `${newY}px`;
-                        
-                        // Log connection details
+                        // Mobile-specific adjustments for pixel-perfect connections
                         const isMobile = window.innerWidth < 768;
                         if (isMobile) {
-                            console.log(`Connected image ${index} to ${prevWrapper.dataset.index}; ` +
-                                       `scale=${scaleFactor.toFixed(3)}, prev scale=${prevScaleFactor.toFixed(3)}`);
+                            // Round to nearest integer and add a slight overlap for mobile
+                            imageWrapper.style.left = `${Math.floor(newX)}px`;
+                            imageWrapper.style.top = `${Math.floor(newY) - 1}px`; // -1px for overlap
+                        } else {
+                            // Use exact positioning for desktop
+                            imageWrapper.style.left = `${newX}px`;
+                            imageWrapper.style.top = `${newY}px`;
                         }
+                        
+                        imageWrapper.style.zIndex = (index % 2 === 0) ? '1' : '2';
                     } catch (e) {
                         console.error(`Position calculation error:`, e);
                         imageWrapper.style.left = `${(window.innerWidth - imgSize) / 2}px`;
                         imageWrapper.style.top = `${window.innerHeight + this.scrollPosition}px`;
                     }
-                    
-                    imageWrapper.style.zIndex = (index % 2 === 0) ? '1' : '2';
                 } else {
                     // First image - center it
                     imageWrapper.style.left = `${(window.innerWidth - imgSize) / 2}px`;
@@ -204,19 +206,25 @@ class ImageScroller {
                     imageWrapper.style.zIndex = '1';
                 }
                 
-                // Calculate next connection point using the same scaling approach
+                // Calculate next connection point as pixel coordinates
                 const nextPoint = {
-                    x: lastPoint[0] * scaleFactor,
-                    y: lastPoint[1] * scaleFactor
+                    x: lastPoint[0] * scaledWidth,   // lastPoint[0] is now 0-1 percentage
+                    y: lastPoint[1] * scaledHeight   // lastPoint[1] is now 0-1 percentage
                 };
                 
-                // Store the exact point values for future connections
+                // Store for future connections
                 imageWrapper.dataset.nextConnectionPoint = JSON.stringify(nextPoint);
                 
                 imageWrapper.appendChild(img);
                 this.imageContainer.appendChild(imageWrapper);
                 this.imageWrappers.push(imageWrapper);
                 this.processedIndices.add(index);
+
+                // Add this to your loadSingleImage method, right before appending the image
+                imageWrapper.classList.add('loading');
+                setTimeout(() => {
+                    imageWrapper.classList.add('loaded');
+                }, 50);
 
                 resolve({
                     wrapper: imageWrapper,
@@ -233,47 +241,50 @@ class ImageScroller {
     }
     
     async loadRandomImage() {
-        // Find a random unprocessed image
-        let attempts = 0;
-        const maxAttempts = 10;
+        // Create an array of all unprocessed indices
+        const availableIndices = [];
         
-        while (attempts < maxAttempts) {
-            const randomIndex = Math.floor(Math.random() * this.totalImages);
-            if (!this.processedIndices.has(randomIndex)) {
-                // Find last active image to connect to
-                const lastImage = this.findLastActiveImage();
-                const result = await this.loadSingleImage(
-                    randomIndex, 
-                    lastImage ? lastImage.point : null, 
-                    lastImage ? lastImage.wrapper : null
-                );
-                if (result) return result;
+        for (let i = 0; i < this.totalImages; i++) {
+            if (!this.processedIndices.has(i)) {
+                availableIndices.push(i);
             }
-            attempts++;
         }
-        return null;
+        
+        // If all images have been processed, allow reusing any random image
+        if (availableIndices.length === 0) {
+            const randomIndex = Math.floor(Math.random() * this.totalImages);
+            console.log(`All images used, reusing random index: ${randomIndex}`);
+            
+            // Find last active image to connect to
+            const lastImage = this.findLastActiveImage();
+            
+            // Reset the processed status for this index to allow reuse
+            this.processedIndices.delete(randomIndex);
+            
+            return await this.loadSingleImage(
+                randomIndex, 
+                lastImage ? lastImage.point : null, 
+                lastImage ? lastImage.wrapper : null
+            );
+        }
+        
+        // Otherwise, use a truly random selection from available indices
+        const randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
+        console.log(`Selected random unprocessed index: ${randomIndex}`);
+        
+        // Find last active image to connect to
+        const lastImage = this.findLastActiveImage();
+        
+        return await this.loadSingleImage(
+            randomIndex, 
+            lastImage ? lastImage.point : null, 
+            lastImage ? lastImage.wrapper : null
+        );
     }
     
+    // IMPORTANT: Replace the entire loadNextImage method with this version
     async loadNextImage() {
-        // Find last active image
-        const lastImage = this.findLastActiveImage();
-        if (!lastImage) return await this.loadRandomImage();
-        
-        // Try to load the next logical image
-        const currentIndex = parseInt(lastImage.wrapper.dataset.index, 10);
-        const nextIndex = (currentIndex + 1) % this.totalImages;
-        
-        // Skip if already loaded
-        if (this.processedIndices.has(nextIndex)) {
-            // Find another unprocessed image instead
-            return await this.loadRandomImage();
-        }
-        
-        // Try to load the next sequential image
-        const result = await this.loadSingleImage(nextIndex, lastImage.point, lastImage.wrapper);
-        if (result) return result;
-        
-        // If that fails, load a random image
+        // Always use random selection instead of sequential loading
         return await this.loadRandomImage();
     }
     
@@ -303,7 +314,7 @@ class ImageScroller {
                 };
             }
             
-            // Calculate from scratch if needed
+            // Fallback to calculating from scratch if needed
             const img = wrapper.querySelector('img');
             if (!img || !img.dataset.points) return null;
             
@@ -311,25 +322,17 @@ class ImageScroller {
             if (!points || !points.length) return null;
             
             const lastPoint = points[points.length - 1];
-            const naturalWidth = parseFloat(img.dataset.naturalWidth);
-            const naturalHeight = parseFloat(img.dataset.naturalHeight);
+            const scaledWidth = parseFloat(wrapper.dataset.scaledWidth);
+            const scaledHeight = parseFloat(wrapper.dataset.scaledHeight);
             
-            // Get the scaling factor using the same logic as in loadSingleImage
-            const aspectRatio = naturalWidth / naturalHeight;
-            const imgSize = this.getImageSize();
-            const scaleFactor = aspectRatio > 1 ? 
-                imgSize / naturalWidth : 
-                imgSize / naturalHeight;
-            
-            // Calculate the connection point using the true scale factor
+            // Calculate the connection point using percentages
             const point = {
-                x: lastPoint[0] * scaleFactor,
-                y: lastPoint[1] * scaleFactor
+                x: lastPoint[0] * scaledWidth,   // lastPoint[0] is now 0-1 percentage
+                y: lastPoint[1] * scaledHeight   // lastPoint[1] is now 0-1 percentage
             };
             
             // Store for future reference
             wrapper.dataset.nextConnectionPoint = JSON.stringify(point);
-            wrapper.dataset.scaleFactor = scaleFactor.toString();
             
             return {
                 wrapper: wrapper,
@@ -507,6 +510,8 @@ class ImageScroller {
     setupEventListeners() {
         // Re-center images on resize
         window.addEventListener('resize', () => {
+            this.imageSize = this.getImageSize();
+            this.updateDebugInfo(); // Update debug info when size changes
             this.updateImagePositions();
         });
         
@@ -521,6 +526,7 @@ class ImageScroller {
                 } else {
                     this.scrollSpeed = 600;
                 }
+                this.updateDebugInfo(); // Update debug info when speed changes
                 console.log(`Scroll speed set to ${this.scrollSpeed}`);
             } else if (e.key === 'l' || e.key === 'L') {
                 // Load more images
@@ -530,6 +536,30 @@ class ImageScroller {
                 this.cleanupDistantImages();
             }
         });
+
+        // Add this to your scroll event handler
+        window.addEventListener('scroll', () => {
+            // Add scrolling class during scroll
+            document.querySelectorAll('.image-wrapper').forEach(wrapper => {
+                wrapper.classList.add('scrolling');
+            });
+            
+            // Clear scrolling class after scrolling stops
+            clearTimeout(this.scrollTimeout);
+            this.scrollTimeout = setTimeout(() => {
+                document.querySelectorAll('.image-wrapper').forEach(wrapper => {
+                    wrapper.classList.remove('scrolling');
+                });
+            }, 100);
+        });
+    }
+
+    // Add this method to your ImageScroller class
+    updateDebugInfo() {
+        if (this.debugInfo) {
+            const imgSize = this.getImageSize();
+            this.debugInfo.textContent = `Image Size: ${imgSize}px | Scroll Speed: ${this.scrollSpeed}`;
+        }
     }
 }
 

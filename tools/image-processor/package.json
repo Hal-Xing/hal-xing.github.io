@@ -1,0 +1,14 @@
+{
+  "name": "image-processor",
+  "version": "1.0.0",
+  "description": "Tools for processing ground-breaking project images",
+  "main": "convert_to_percentage.js",
+  "scripts": {
+    "convert": "node convert_to_percentage.js",
+    "apply": "node convert_to_percentage.js --apply",
+    "help": "node convert_to_percentage.js --help"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+}
