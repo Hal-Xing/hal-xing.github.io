@@ -78,7 +78,6 @@ body {
     position: relative;
     overflow: hidden; /* Prevent scrolling */
     background: var(--almost-white);
-    border-left: 1px solid var(--border-color);
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack children vertically */
 }
@@ -273,11 +272,19 @@ footer a:hover {
         margin-left: 0;
         width: 100%;
         height: calc(100vh - 30px);
-        border-left: none;
+        border-left: none !important; /* Remove left border on mobile */
     }
     
     .sidebar {
         display: none;
+    }
+    
+    /* Ensure no border on any gallery containers */
+    .gallery-wrapper,
+    .gallery-content,
+    .horizontal-gallery,
+    .vertical-gallery {
+        border-left: none !important;
     }
 }
 
@@ -336,7 +343,6 @@ footer a:hover {
     top: 0;
     z-index: 1;
     background: var(--almost-white);
-    border-bottom: 1px solid #fff;
 }
 
 .gallery-content {
