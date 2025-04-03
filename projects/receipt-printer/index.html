@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Printer | Hal Xing</title>
+    <!-- Use absolute paths -->
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/projects/receipt-printer/css/receipt-printer.css">
+</head>
+<body>
+    <div class="info-panel">
+        <div id="debug-info" class="debug-info"></div>
+    </div>
+    <div class="scroll-container" id="scrollContainer">
+        <div class="image-wrapper" id="imageWrapper"></div>
+    </div>
+    <!-- Use absolute paths -->
+    <script src="/projects/receipt-printer/js/receipt-printer.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const printer = new ReceiptPrinter(
+                'scrollContainer',
+                '/projects/receipt-printer/images.json'
+            );
+            printer.init();
+        });
+    </script>
+</body>
+</html>

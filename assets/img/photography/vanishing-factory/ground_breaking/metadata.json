@@ -1,0 +1,2702 @@
+{
+  "GBW_0329_82_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_82_O_175.jpeg",
+    "points": [
+      [
+        0.5075,
+        0.0
+      ],
+      [
+        0.47375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-27 19:18:53",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.88234444444444,
+      140.11523333333332
+    ]
+  },
+  "GBW_0329_21_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_21_O_175.jpeg",
+    "points": [
+      [
+        0.005,
+        0.0
+      ],
+      [
+        0.57,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:50:32",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603333333333,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_141_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_141_O_175.jpeg",
+    "points": [
+      [
+        0.49875,
+        0.0
+      ],
+      [
+        0.5575,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 14:01:30",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.268191666666667,
+      120.09454444444444
+    ]
+  },
+  "GBW_0329_51_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_51_O_175.jpeg",
+    "points": [
+      [
+        0.49875,
+        0.0
+      ],
+      [
+        0.58625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:02:52",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.799366666666664,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_131_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_131_O_175.jpeg",
+    "points": [
+      [
+        0.51,
+        0.0
+      ],
+      [
+        0.6475,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:50",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_6_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_6_O_175.jpeg",
+    "points": [
+      [
+        0.1925,
+        0.0
+      ],
+      [
+        0.4725,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-08 13:16:53",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71094444444445,
+      139.7744
+    ]
+  },
+  "GBW_0329_63_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_63_O_175.jpeg",
+    "points": [
+      [
+        0.3125,
+        0.0
+      ],
+      [
+        0.51375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:33",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71253333333333,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_13_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_13_O_175.jpeg",
+    "points": [
+      [
+        0.7525,
+        0.0
+      ],
+      [
+        0.91125,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-14 17:06:46",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71778888888889,
+      139.76777777777778
+    ]
+  },
+  "GBW_0329_116_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_116_O_175.jpeg",
+    "points": [
+      [
+        0.45125,
+        0.0
+      ],
+      [
+        0.35375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:15",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.72166111111111,
+      139.7056888888889
+    ]
+  },
+  "GBW_0329_166_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_166_O_175.jpeg",
+    "points": [
+      [
+        0.62375,
+        0.0
+      ],
+      [
+        0.21125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:35:03",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13206111111111,
+      120.08252777777777
+    ]
+  },
+  "GBW_0329_138_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_138_O_175.jpeg",
+    "points": [
+      [
+        0.51375,
+        0.0
+      ],
+      [
+        0.52375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 14:01:23",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.268305555555553,
+      120.09452777777777
+    ]
+  },
+  "GBW_0329_58_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_58_O_175.jpeg",
+    "points": [
+      [
+        0.295,
+        0.0
+      ],
+      [
+        0.6475,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:04:21",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.79995833333333,
+      139.91426111111113
+    ]
+  },
+  "GBW_0329_28_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_28_O_175.jpeg",
+    "points": [
+      [
+        0.595,
+        0.0
+      ],
+      [
+        0.60625,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 19:50:50",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80598055555555,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_34_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_34_O_175.jpeg",
+    "points": [
+      [
+        0.72375,
+        0.0
+      ],
+      [
+        0.8575,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:58:10",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80149722222222,
+      139.91372777777778
+    ]
+  },
+  "GBW_0329_154_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_154_O_175.jpeg",
+    "points": [
+      [
+        0.89125,
+        0.0
+      ],
+      [
+        0.2775,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:45",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.132033333333332,
+      120.08257222222223
+    ]
+  },
+  "GBW_0329_44_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_44_O_175.jpeg",
+    "points": [
+      [
+        0.68375,
+        0.0
+      ],
+      [
+        0.26625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:02:42",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.79915277777778,
+      139.91436666666667
+    ]
+  },
+  "GBW_0329_124_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_124_O_175.jpeg",
+    "points": [
+      [
+        0.4975,
+        0.0
+      ],
+      [
+        0.2675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 10:09:11",
+    "location": "Binjiang District, China",
+    "coordinates": [
+      30.184077777777777,
+      120.20716111111112
+    ]
+  },
+  "GBW_0329_163_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_163_O_175.jpeg",
+    "points": [
+      [
+        0.285,
+        0.0
+      ],
+      [
+        0.30625,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-23 17:35:00",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13206111111111,
+      120.08252777777777
+    ]
+  },
+  "GBW_0329_73_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_73_O_175.jpeg",
+    "points": [
+      [
+        0.25625,
+        0.0
+      ],
+      [
+        0.76625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:58:53",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71288333333334,
+      139.7760777777778
+    ]
+  },
+  "GBW_0329_113_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_113_O_175.jpeg",
+    "points": [
+      [
+        0.385,
+        0.0
+      ],
+      [
+        0.7775,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 12:09:51",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.39453611111111,
+      132.45382777777778
+    ]
+  },
+  "GBW_0329_41_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_41_O_175.jpeg",
+    "points": [
+      [
+        0.37125,
+        0.0
+      ],
+      [
+        0.45,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:58:25",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.801452777777776,
+      139.91369722222223
+    ]
+  },
+  "GBW_0329_121_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_121_O_175.jpeg",
+    "points": [
+      [
+        0.2475,
+        0.0
+      ],
+      [
+        0.6475,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:21",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.721650000000004,
+      139.7056111111111
+    ]
+  },
+  "GBW_0329_31_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_31_O_175.jpeg",
+    "points": [
+      [
+        0.63375,
+        0.0
+      ],
+      [
+        0.67875,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:58:03",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.801541666666665,
+      139.91372777777778
+    ]
+  },
+  "GBW_0329_151_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_151_O_175.jpeg",
+    "points": [
+      [
+        0.57875,
+        0.0
+      ],
+      [
+        0.64875,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2025-03-23 16:35:57",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.131880555555558,
+      120.08258055555555
+    ]
+  },
+  "GBW_0329_134_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_134_O_175.jpeg",
+    "points": [
+      [
+        0.4175,
+        0.0
+      ],
+      [
+        0.52375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:51",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088644444444444,
+      120.05269722222222
+    ]
+  },
+  "GBW_0329_24_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_24_O_175.jpeg",
+    "points": [
+      [
+        0.5725,
+        0.0
+      ],
+      [
+        0.87875,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 19:50:41",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603055555555,
+      139.91659444444446
+    ]
+  },
+  "GBW_0329_144_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_144_O_175.jpeg",
+    "points": [
+      [
+        0.44625,
+        0.0
+      ],
+      [
+        0.5625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 16:35:52",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.131855555555557,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_16_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_16_O_175.jpeg",
+    "points": [
+      [
+        0.76,
+        0.0
+      ],
+      [
+        0.47625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-14 17:06:55",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71778888888889,
+      139.76776111111113
+    ]
+  },
+  "GBW_0329_66_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_66_O_175.jpeg",
+    "points": [
+      [
+        0.43125,
+        0.0
+      ],
+      [
+        0.6925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:35",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71235555555556,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_158_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_158_O_175.jpeg",
+    "points": [
+      [
+        0.35,
+        0.0
+      ],
+      [
+        0.61875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:51",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13203888888889,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_38_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_38_O_175.jpeg",
+    "points": [
+      [
+        0.3875,
+        0.0
+      ],
+      [
+        0.67125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:58:18",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80146111111111,
+      139.91371111111113
+    ]
+  },
+  "GBW_0329_128_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_128_O_175.jpeg",
+    "points": [
+      [
+        0.4225,
+        0.0
+      ],
+      [
+        0.55,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:48",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_48_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_48_O_175.jpeg",
+    "points": [
+      [
+        0.81625,
+        0.0
+      ],
+      [
+        0.41875,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 20:02:50",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.79926944444444,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_175_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_175_O_175.jpeg",
+    "points": [
+      [
+        0.59875,
+        0.0
+      ],
+      [
+        0.62125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 23:47:06",
+    "location": "Ganjingzi District, China",
+    "coordinates": [
+      38.955711111111114,
+      121.54952222222222
+    ]
+  },
+  "GBW_0329_15_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_15_O_175.jpeg",
+    "points": [
+      [
+        0.425,
+        0.0
+      ],
+      [
+        0.48375,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-14 17:06:52",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71778888888889,
+      139.76776111111113
+    ]
+  },
+  "GBW_0329_105_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_105_O_175.jpeg",
+    "points": [
+      [
+        0.57875,
+        0.0
+      ],
+      [
+        0.59,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 11:05:18",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.394669444444446,
+      132.47610555555556
+    ]
+  },
+  "GBW_0329_65_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_65_O_175.jpeg",
+    "points": [
+      [
+        0.52125,
+        0.0
+      ],
+      [
+        0.6175,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:35",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71255555555556,
+      139.77537500000003
+    ]
+  },
+  "GBW_0329_98_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_98_O_175.jpeg",
+    "points": [
+      [
+        0.88625,
+        0.0
+      ],
+      [
+        0.305,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-28 14:50:12",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.892375,
+      140.0785361111111
+    ]
+  },
+  "GBW_0329_79_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_79_O_175.jpeg",
+    "points": [
+      [
+        0.44875,
+        0.0
+      ],
+      [
+        0.515,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-24 15:21:26",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.87991666666667,
+      140.11680555555557
+    ]
+  },
+  "GBW_0329_119_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_119_O_175.jpeg",
+    "points": [
+      [
+        0.5025,
+        0.0
+      ],
+      [
+        0.5,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2025-02-13 10:40:18",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.72168333333334,
+      139.7056888888889
+    ]
+  },
+  "GBW_0329_169_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_169_O_175.jpeg",
+    "points": [
+      [
+        0.31625,
+        0.0
+      ],
+      [
+        0.335,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 18:02:49",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.15123611111111,
+      120.07536388888889
+    ]
+  },
+  "GBW_0329_137_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_137_O_175.jpeg",
+    "points": [
+      [
+        0.58375,
+        0.0
+      ],
+      [
+        0.34125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:53",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088644444444444,
+      120.05269722222222
+    ]
+  },
+  "GBW_0329_57_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_57_O_175.jpeg",
+    "points": [
+      [
+        0.52125,
+        0.0
+      ],
+      [
+        0.84125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:04:21",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80000277777778,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_27_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_27_O_175.jpeg",
+    "points": [
+      [
+        0.76625,
+        0.0
+      ],
+      [
+        0.315,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:50:47",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80600833333333,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_122_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_122_O_175.jpeg",
+    "points": [
+      [
+        0.415,
+        0.0
+      ],
+      [
+        0.62,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-08 10:09:09",
+    "location": "Binjiang District, China",
+    "coordinates": [
+      30.184077777777777,
+      120.20716111111112
+    ]
+  },
+  "GBW_0329_42_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_42_O_175.jpeg",
+    "points": [
+      [
+        0.3225,
+        0.0
+      ],
+      [
+        0.70625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:58:26",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.801452777777776,
+      139.91369722222223
+    ]
+  },
+  "GBW_0329_9_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_9_O_175.jpeg",
+    "points": [
+      [
+        0.4625,
+        0.0
+      ],
+      [
+        0.4375,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-14 17:06:35",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.717777777777776,
+      139.76777777777778
+    ]
+  },
+  "GBW_0329_32_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_32_O_175.jpeg",
+    "points": [
+      [
+        0.35625,
+        0.0
+      ],
+      [
+        0.42625,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:58:06",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.801525,
+      139.91371111111113
+    ]
+  },
+  "GBW_0329_91_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_91_O_175.jpeg",
+    "points": [
+      [
+        0.60875,
+        0.0
+      ],
+      [
+        0.1275,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-28 14:49:51",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89223055555556,
+      140.07844444444444
+    ]
+  },
+  "GBW_0329_160_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_160_O_175.jpeg",
+    "points": [
+      [
+        0.085,
+        0.0
+      ],
+      [
+        0.44125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:56",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13203888888889,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_110_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_110_O_175.jpeg",
+    "points": [
+      [
+        0.65125,
+        0.0
+      ],
+      [
+        0.22625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 12:09:49",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.394619444444444,
+      132.4539333333333
+    ]
+  },
+  "GBW_0329_19_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_19_O_175.jpeg",
+    "points": [
+      [
+        0.6475,
+        0.0
+      ],
+      [
+        0.45125,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 19:50:27",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603333333333,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_69_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_69_O_175.jpeg",
+    "points": [
+      [
+        0.41875,
+        0.0
+      ],
+      [
+        0.06875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:42",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71233333333333,
+      139.77528333333333
+    ]
+  },
+  "GBW_0329_109_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_109_O_175.jpeg",
+    "points": [
+      [
+        0.57875,
+        0.0
+      ],
+      [
+        0.70625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 12:09:48",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.39548611111111,
+      132.45385833333333
+    ]
+  },
+  "GBW_0329_94_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_94_O_175.jpeg",
+    "points": [
+      [
+        0.925,
+        0.0
+      ],
+      [
+        0.995,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-28 14:50:07",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89235277777778,
+      140.0785222222222
+    ]
+  },
+  "GBW_0329_157_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_157_O_175.jpeg",
+    "points": [
+      [
+        0.4575,
+        0.0
+      ],
+      [
+        0.28625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:50",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.132033333333332,
+      120.08257222222223
+    ]
+  },
+  "GBW_0329_37_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_37_O_175.jpeg",
+    "points": [
+      [
+        0.32625,
+        0.0
+      ],
+      [
+        0.435,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:58:16",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.801452777777776,
+      139.91371111111113
+    ]
+  },
+  "GBW_0329_127_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_127_O_175.jpeg",
+    "points": [
+      [
+        0.395,
+        0.0
+      ],
+      [
+        0.5375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:48",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_115_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_115_O_175.jpeg",
+    "points": [
+      [
+        0.61125,
+        0.0
+      ],
+      [
+        0.3975,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:14",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.72164444444444,
+      139.7056722222222
+    ]
+  },
+  "GBW_0329_165_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_165_O_175.jpeg",
+    "points": [
+      [
+        0.61125,
+        0.0
+      ],
+      [
+        0.26125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:35:02",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13206111111111,
+      120.08252777777777
+    ]
+  },
+  "GBW_0329_60_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_60_O_175.jpeg",
+    "points": [
+      [
+        0.7925,
+        0.0
+      ],
+      [
+        0.2425,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:31",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71253333333333,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_170_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_170_O_175.jpeg",
+    "points": [
+      [
+        0.64125,
+        0.0
+      ],
+      [
+        0.6,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-23 18:05:08",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.150216666666665,
+      120.07375277777777
+    ]
+  },
+  "GBW_0329_10_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_10_O_175.jpeg",
+    "points": [
+      [
+        0.35625,
+        0.0
+      ],
+      [
+        0.45875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-14 17:06:38",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.717777777777776,
+      139.76777777777778
+    ]
+  },
+  "GBW_0329_5_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_5_O_175.jpeg",
+    "points": [
+      [
+        0.1025,
+        0.0
+      ],
+      [
+        0.1675,
+        1.0
+      ]
+    ],
+    "rotation": 270,
+    "timestamp": "2024-11-08 13:16:53",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.710950000000004,
+      139.7744
+    ]
+  },
+  "GBW_0329_142_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_142_O_175.jpeg",
+    "points": [
+      [
+        0.49875,
+        0.0
+      ],
+      [
+        0.43,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 16:35:51",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13185,
+      120.08255
+    ]
+  },
+  "GBW_0329_22_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_22_O_175.jpeg",
+    "points": [
+      [
+        0.6675,
+        0.0
+      ],
+      [
+        0.01125,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:50:35",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603333333333,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_132_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_132_O_175.jpeg",
+    "points": [
+      [
+        0.475,
+        0.0
+      ],
+      [
+        0.53875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:50",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088644444444444,
+      120.05269722222222
+    ]
+  },
+  "GBW_0329_52_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_52_O_175.jpeg",
+    "points": [
+      [
+        0.455,
+        0.0
+      ],
+      [
+        0.47875,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 20:02:53",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.799366666666664,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_81_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_81_O_175.jpeg",
+    "points": [
+      [
+        0.6525,
+        0.0
+      ],
+      [
+        0.56375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-27 19:18:52",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.88233888888889,
+      140.11523333333332
+    ]
+  },
+  "GBW_0329_107_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_107_O_175.jpeg",
+    "points": [
+      [
+        0.77375,
+        0.0
+      ],
+      [
+        0.77875,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2025-02-11 11:26:21",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.39581666666667,
+      132.45376666666667
+    ]
+  },
+  "GBW_0329_67_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_67_O_175.jpeg",
+    "points": [
+      [
+        0.3175,
+        0.0
+      ],
+      [
+        0.89625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:41",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71230833333333,
+      139.77526944444446
+    ]
+  },
+  "GBW_0329_17_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_17_O_175.jpeg",
+    "points": [
+      [
+        0.65,
+        0.0
+      ],
+      [
+        0.10875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-14 17:06:58",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71778611111111,
+      139.76774722222223
+    ]
+  },
+  "GBW_0329_2_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_2_O_175.jpeg",
+    "points": [
+      [
+        0.38875,
+        0.0
+      ],
+      [
+        0.28,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-08 13:16:36",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71106666666667,
+      139.77443055555557
+    ]
+  },
+  "GBW_0329_49_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_49_O_175.jpeg",
+    "points": [
+      [
+        0.36375,
+        0.0
+      ],
+      [
+        0.9925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:02:51",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.79926944444444,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_129_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_129_O_175.jpeg",
+    "points": [
+      [
+        0.57125,
+        0.0
+      ],
+      [
+        0.4025,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:48",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_39_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_39_O_175.jpeg",
+    "points": [
+      [
+        0.46,
+        0.0
+      ],
+      [
+        0.53875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:58:20",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80146111111111,
+      139.91369722222223
+    ]
+  },
+  "GBW_0329_159_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_159_O_175.jpeg",
+    "points": [
+      [
+        0.83,
+        0.0
+      ],
+      [
+        0.235,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-23 17:34:55",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13203888888889,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_25_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_25_O_175.jpeg",
+    "points": [
+      [
+        0.2675,
+        0.0
+      ],
+      [
+        0.26,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:50:43",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806013888888884,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_55_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_55_O_175.jpeg",
+    "points": [
+      [
+        0.44,
+        0.0
+      ],
+      [
+        0.5225,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:02:59",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.799391666666665,
+      139.91410833333333
+    ]
+  },
+  "GBW_0329_86_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_86_O_175.jpeg",
+    "points": [
+      [
+        0.5325,
+        0.0
+      ],
+      [
+        0.4875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-27 19:18:59",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.88231388888889,
+      140.11525
+    ]
+  },
+  "GBW_0329_120_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_120_O_175.jpeg",
+    "points": [
+      [
+        0.48,
+        0.0
+      ],
+      [
+        0.61375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:19",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.721669444444444,
+      139.70564166666665
+    ]
+  },
+  "GBW_0329_112_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_112_O_175.jpeg",
+    "points": [
+      [
+        0.50375,
+        0.0
+      ],
+      [
+        0.0775,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 12:09:50",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.39453611111111,
+      132.45382777777778
+    ]
+  },
+  "GBW_0329_72_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_72_O_175.jpeg",
+    "points": [
+      [
+        0.4725,
+        0.0
+      ],
+      [
+        0.42375,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-22 18:57:43",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71233333333333,
+      139.77528333333333
+    ]
+  },
+  "GBW_0329_162_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_162_O_175.jpeg",
+    "points": [
+      [
+        0.38875,
+        0.0
+      ],
+      [
+        0.54625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:57",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13203888888889,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_155_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_155_O_175.jpeg",
+    "points": [
+      [
+        0.4175,
+        0.0
+      ],
+      [
+        0.25875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:46",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.132033333333332,
+      120.08257222222223
+    ]
+  },
+  "GBW_0329_167_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_167_O_175.jpeg",
+    "points": [
+      [
+        0.5175,
+        0.0
+      ],
+      [
+        0.275,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-23 17:35:05",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.132069444444443,
+      120.08250555555556
+    ]
+  },
+  "GBW_0329_117_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_117_O_175.jpeg",
+    "points": [
+      [
+        0.4475,
+        0.0
+      ],
+      [
+        0.33,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:16",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.721672222222224,
+      139.7056888888889
+    ]
+  },
+  "GBW_0329_77_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_77_O_175.jpeg",
+    "points": [
+      [
+        0.51,
+        0.0
+      ],
+      [
+        0.5375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-24 15:21:25",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.87991666666667,
+      140.11680555555557
+    ]
+  },
+  "GBW_0329_59_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_59_O_175.jpeg",
+    "points": [
+      [
+        0.16375,
+        0.0
+      ],
+      [
+        0.785,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-22 18:57:31",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71253333333333,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_139_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_139_O_175.jpeg",
+    "points": [
+      [
+        0.46375,
+        0.0
+      ],
+      [
+        0.47875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 14:01:26",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.268191666666667,
+      120.09454444444444
+    ]
+  },
+  "GBW_0329_102_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_102_O_175.jpeg",
+    "points": [
+      [
+        0.63125,
+        0.0
+      ],
+      [
+        0.66,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-28 14:50:15",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89235,
+      140.0785527777778
+    ]
+  },
+  "GBW_0329_62_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_62_O_175.jpeg",
+    "points": [
+      [
+        0.51125,
+        0.0
+      ],
+      [
+        0.51375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:33",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71253333333333,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_83_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_83_O_175.jpeg",
+    "points": [
+      [
+        0.56375,
+        0.0
+      ],
+      [
+        0.575,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-27 19:18:54",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.88233888888889,
+      140.11523333333332
+    ]
+  },
+  "GBW_0329_130_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_130_O_175.jpeg",
+    "points": [
+      [
+        0.43375,
+        0.0
+      ],
+      [
+        0.485,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:49",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_50_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_50_O_175.jpeg",
+    "points": [
+      [
+        0.5875,
+        0.0
+      ],
+      [
+        0.67,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 20:02:52",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.799366666666664,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_140_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_140_O_175.jpeg",
+    "points": [
+      [
+        0.625,
+        0.0
+      ],
+      [
+        0.5825,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 14:01:28",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.268191666666667,
+      120.09454444444444
+    ]
+  },
+  "GBW_0329_20_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_20_O_175.jpeg",
+    "points": [
+      [
+        0.64,
+        0.0
+      ],
+      [
+        0.98125,
+        1.0
+      ]
+    ],
+    "rotation": 270,
+    "timestamp": "2024-11-16 19:50:30",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603333333333,
+      139.916625
+    ]
+  },
+  "GBW_0329_133_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_133_O_175.jpeg",
+    "points": [
+      [
+        0.45125,
+        0.0
+      ],
+      [
+        0.49375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:51",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088644444444444,
+      120.05269722222222
+    ]
+  },
+  "GBW_0329_23_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_23_O_175.jpeg",
+    "points": [
+      [
+        0.445,
+        0.0
+      ],
+      [
+        0.0925,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 19:50:38",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80603333333333,
+      139.91659444444446
+    ]
+  },
+  "GBW_0329_143_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_143_O_175.jpeg",
+    "points": [
+      [
+        0.6,
+        0.0
+      ],
+      [
+        0.56625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 16:35:52",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.131855555555557,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_80_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_80_O_175.jpeg",
+    "points": [
+      [
+        0.46375,
+        0.0
+      ],
+      [
+        0.535,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-24 15:21:26",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.87991666666667,
+      140.11680555555557
+    ]
+  },
+  "GBW_0329_11_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_11_O_175.jpeg",
+    "points": [
+      [
+        0.6275,
+        0.0
+      ],
+      [
+        0.435,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-14 17:06:40",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71778055555556,
+      139.76777777777778
+    ]
+  },
+  "GBW_0329_171_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_171_O_175.jpeg",
+    "points": [
+      [
+        0.4525,
+        0.0
+      ],
+      [
+        0.59,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 19:02:14",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.15023611111111,
+      120.07296111111111
+    ]
+  },
+  "GBW_0329_61_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_61_O_175.jpeg",
+    "points": [
+      [
+        0.5625,
+        0.0
+      ],
+      [
+        0.3875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:32",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71253333333333,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_101_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_101_O_175.jpeg",
+    "points": [
+      [
+        0.13125,
+        0.0
+      ],
+      [
+        0.46,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-28 14:50:15",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89235277777778,
+      140.0785361111111
+    ]
+  },
+  "GBW_0329_4_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_4_O_175.jpeg",
+    "points": [
+      [
+        0.66,
+        0.0
+      ],
+      [
+        0.45,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-08 13:16:52",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.710950000000004,
+      139.7744
+    ]
+  },
+  "GBW_0329_164_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_164_O_175.jpeg",
+    "points": [
+      [
+        0.35625,
+        0.0
+      ],
+      [
+        0.42,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:35:01",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13206111111111,
+      120.08252777777777
+    ]
+  },
+  "GBW_0329_114_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_114_O_175.jpeg",
+    "points": [
+      [
+        0.50375,
+        0.0
+      ],
+      [
+        0.4925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:13",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.721722222222226,
+      139.70551944444443
+    ]
+  },
+  "GBW_0329_89_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_89_O_175.jpeg",
+    "points": [
+      [
+        0.71375,
+        0.0
+      ],
+      [
+        0.56375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-28 14:49:49",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89223055555556,
+      140.0784611111111
+    ]
+  },
+  "GBW_0329_95_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_95_O_175.jpeg",
+    "points": [
+      [
+        0.23375,
+        0.0
+      ],
+      [
+        0.2425,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-28 14:50:08",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89236111111111,
+      140.0785361111111
+    ]
+  },
+  "GBW_0329_108_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_108_O_175.jpeg",
+    "points": [
+      [
+        0.31,
+        0.0
+      ],
+      [
+        0.92125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 12:09:47",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.39548611111111,
+      132.45385833333333
+    ]
+  },
+  "GBW_0329_68_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_68_O_175.jpeg",
+    "points": [
+      [
+        0.0325,
+        0.0
+      ],
+      [
+        0.7375,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-22 18:57:41",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71233333333333,
+      139.77528333333333
+    ]
+  },
+  "GBW_0329_18_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_18_O_175.jpeg",
+    "points": [
+      [
+        0.3875,
+        0.0
+      ],
+      [
+        0.26875,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 19:50:25",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806019444444445,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_126_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_126_O_175.jpeg",
+    "points": [
+      [
+        0.46125,
+        0.0
+      ],
+      [
+        0.53875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:47",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088780555555555,
+      120.05280277777777
+    ]
+  },
+  "GBW_0329_36_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_36_O_175.jpeg",
+    "points": [
+      [
+        0.52625,
+        0.0
+      ],
+      [
+        0.9125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-16 19:58:13",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80146666666666,
+      139.91371111111113
+    ]
+  },
+  "GBW_0329_156_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_156_O_175.jpeg",
+    "points": [
+      [
+        0.3125,
+        0.0
+      ],
+      [
+        0.34875,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-23 17:34:48",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.132033333333332,
+      120.08257222222223
+    ]
+  },
+  "GBW_0329_71_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_71_O_175.jpeg",
+    "points": [
+      [
+        0.35375,
+        0.0
+      ],
+      [
+        0.4125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:43",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71233333333333,
+      139.77528333333333
+    ]
+  },
+  "GBW_0329_111_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_111_O_175.jpeg",
+    "points": [
+      [
+        0.38875,
+        0.0
+      ],
+      [
+        0.575,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-11 12:09:49",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.39456111111111,
+      132.45385833333333
+    ]
+  },
+  "GBW_0329_161_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_161_O_175.jpeg",
+    "points": [
+      [
+        0.52125,
+        0.0
+      ],
+      [
+        0.6225,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 17:34:56",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.13203888888889,
+      120.08255833333332
+    ]
+  },
+  "GBW_0329_8_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_8_O_175.jpeg",
+    "points": [
+      [
+        0.58875,
+        0.0
+      ],
+      [
+        0.25,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-14 17:06:34",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.717777777777776,
+      139.76777777777778
+    ]
+  },
+  "GBW_0329_43_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_43_O_175.jpeg",
+    "points": [
+      [
+        0.5275,
+        0.0
+      ],
+      [
+        0.50375,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2024-11-16 19:58:28",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.801452777777776,
+      139.91369722222223
+    ]
+  },
+  "GBW_0329_123_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_123_O_175.jpeg",
+    "points": [
+      [
+        0.295,
+        0.0
+      ],
+      [
+        0.93625,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-08 10:09:10",
+    "location": "Binjiang District, China",
+    "coordinates": [
+      30.184077777777777,
+      120.20716111111112
+    ]
+  },
+  "GBW_0329_90_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_90_O_175.jpeg",
+    "points": [
+      [
+        0.32,
+        0.0
+      ],
+      [
+        0.32375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-28 14:49:50",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89223055555556,
+      140.07844444444444
+    ]
+  },
+  "GBW_0329_168_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_168_O_175.jpeg",
+    "points": [
+      [
+        0.33,
+        0.0
+      ],
+      [
+        0.47875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-23 18:02:49",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.15123611111111,
+      120.07536388888889
+    ]
+  },
+  "GBW_0329_118_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_118_O_175.jpeg",
+    "points": [
+      [
+        0.4275,
+        0.0
+      ],
+      [
+        0.4875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-02-13 10:40:17",
+    "location": "Toshima, Japan",
+    "coordinates": [
+      35.721672222222224,
+      139.7056888888889
+    ]
+  },
+  "GBW_0329_78_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_78_O_175.jpeg",
+    "points": [
+      [
+        0.465,
+        0.0
+      ],
+      [
+        0.52875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-24 15:21:26",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.87991666666667,
+      140.11680555555557
+    ]
+  },
+  "GBW_0329_26_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_26_O_175.jpeg",
+    "points": [
+      [
+        0.64875,
+        0.0
+      ],
+      [
+        0.47375,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-11-16 19:50:46",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806013888888884,
+      139.9166111111111
+    ]
+  },
+  "GBW_0329_56_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_56_O_175.jpeg",
+    "points": [
+      [
+        0.18875,
+        0.0
+      ],
+      [
+        0.92375,
+        1.0
+      ]
+    ],
+    "rotation": 270,
+    "timestamp": "2024-11-16 20:04:20",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80000277777778,
+      139.91430555555556
+    ]
+  },
+  "GBW_0329_136_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_136_O_175.jpeg",
+    "points": [
+      [
+        0.5375,
+        0.0
+      ],
+      [
+        0.51,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-08 19:56:53",
+    "location": "Fuyang, China",
+    "coordinates": [
+      30.088644444444444,
+      120.05269722222222
+    ]
+  },
+  "GBW_0329_1_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_1_O_175.jpeg",
+    "points": [
+      [
+        0.8925,
+        0.0
+      ],
+      [
+        0.67,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-08 13:16:36",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.711063888888894,
+      139.77444444444447
+    ]
+  },
+  "GBW_0329_99_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_99_O_175.jpeg",
+    "points": [
+      [
+        0.24875,
+        0.0
+      ],
+      [
+        0.79125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-28 14:50:12",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89236944444444,
+      140.0785361111111
+    ]
+  },
+  "GBW_0329_64_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_64_O_175.jpeg",
+    "points": [
+      [
+        0.47875,
+        0.0
+      ],
+      [
+        0.41625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-22 18:57:34",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71253333333333,
+      139.77539166666668
+    ]
+  },
+  "GBW_0329_104_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_104_O_175.jpeg",
+    "points": [
+      [
+        0.55875,
+        0.0
+      ],
+      [
+        0.65625,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-02-11 11:05:13",
+    "location": "Hiroshima, Japan",
+    "coordinates": [
+      34.394725,
+      132.47610555555556
+    ]
+  },
+  "GBW_0329_14_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_14_O_175.jpeg",
+    "points": [
+      [
+        0.62,
+        0.0
+      ],
+      [
+        0.51625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-11-14 17:06:49",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71778888888889,
+      139.76777777777778
+    ]
+  },
+  "GBW_0329_174_O_175.jpeg": {
+    "path": "img/ground_breaking/v2/processed/GBW_0329_174_O_175.jpeg",
+    "points": [
+      [
+        0.4425,
+        0.0
+      ],
+      [
+        0.45375,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-23 19:02:18",
+    "location": "Xihu District, China",
+    "coordinates": [
+      30.150263888888887,
+      120.07294444444445
+    ]
+  }
+}

@@ -154,50 +154,53 @@ class ImageScroller {
                 const scaledHeight = img.naturalHeight * scaleFactor;
                 
                 // Create metadata overlay
-                if (imageData.timestamp || imageData.location) {
-                    const metadataOverlay = document.createElement('div');
-                    metadataOverlay.className = 'metadata-overlay';
+                // if (imageData.timestamp || imageData.location) {
+                //     const metadataOverlay = document.createElement('div');
+                //     metadataOverlay.className = 'metadata-overlay';
                     
-                    let metadataHtml = '';
-                    if (imageData.timestamp) {
-                        metadataHtml += `<div class="metadata-timestamp">${imageData.timestamp}</div>`;
-                    }
-                    if (imageData.location) {
-                        metadataHtml += `<div class="metadata-location">${imageData.location}</div>`;
-                    }
+                //     let metadataHtml = '';
+                //     if (imageData.timestamp) {
+                //         metadataHtml += `<div class="metadata-timestamp">${imageData.timestamp}</div>`;
+                //     }
+                //     if (imageData.location) {
+                //         metadataHtml += `<div class="metadata-location">${imageData.location}</div>`;
+                //     }
                     
-                    metadataOverlay.innerHTML = metadataHtml;
-                    imageWrapper.appendChild(metadataOverlay);
-                }
+                //     metadataOverlay.innerHTML = metadataHtml;
+                //     imageWrapper.appendChild(metadataOverlay);
+                // }
                 
                 // Position this image
                 if (prevPoint && prevWrapper) {
                     try {
-                        // Convert percentage to actual pixels
+                        // Use scaledWidth/scaledHeight directly
                         const firstPointPx = {
                             x: firstPoint[0] * scaledWidth,
                             y: firstPoint[1] * scaledHeight
                         };
                         
+                        // Get previous position
                         const prevLeft = parseFloat(prevWrapper.style.left) || 0;
                         const prevTop = parseFloat(prevWrapper.style.top) || 0;
                         
+                        // Calculate new position with proper scaling
                         const newX = prevLeft + prevPoint.x - firstPointPx.x;
                         const newY = prevTop + prevPoint.y - firstPointPx.y;
                         
+                        // Apply position
                         imageWrapper.style.left = `${newX}px`;
                         imageWrapper.style.top = `${newY}px`;
-                        imageWrapper.style.zIndex = Date.now().toString();
+                        
                     } catch (e) {
                         console.error(`Position calculation error:`, e);
+                        // Fallback position
                         imageWrapper.style.left = `${(window.innerWidth - imgSize) / 2}px`;
                         imageWrapper.style.top = `${window.innerHeight + this.scrollPosition}px`;
                     }
                 } else {
-                    // First image - center it
+                    // Position first image
                     imageWrapper.style.left = `${(window.innerWidth - imgSize) / 2}px`;
                     imageWrapper.style.top = `${(window.innerHeight - imgSize) / 2}px`;
-                    imageWrapper.style.zIndex = '1';
                 }
                 
                 // Calculate next connection point
@@ -440,38 +443,239 @@ class ImageScroller {
 
     updateDebugInfo() {
         if (this.debugInfo) {
-            // Initialize empty debug text (no size or speed)
-            let debugText = "";
+            let timestampText = "";
+            let locationText = "";
             
             // Add current image info if available
             if (this.currentImageData) {
-                // Add timestamp if available
+                // First line: timestamp and coordinates
                 if (this.currentImageData.timestamp) {
-                    debugText += `${this.currentImageData.timestamp}`;
+                    timestampText = `${this.currentImageData.timestamp}`;
                 }
                 
-                // Add location if available
-                if (this.currentImageData.location) {
-                    // Add separator if we already have content
-                    if (debugText) debugText += " | ";
-                    debugText += `${this.currentImageData.location}`;
-                }
-                
-                // Add coordinates in simplified format if available
+                // Add coordinates to first line if available
                 if (this.currentImageData.coordinates && this.currentImageData.coordinates.length === 2) {
-                    // Add separator if we already have content
-                    if (debugText) debugText += " | ";
+                    if (timestampText) timestampText += " ";
                     const [lat, lon] = this.currentImageData.coordinates;
-                    debugText += `${lat.toFixed(4)}, ${lon.toFixed(4)}`;
+                    timestampText += `(${lat.toFixed(4)}, ${lon.toFixed(4)})`;
+                }
+                
+                // Second line: location
+                if (this.currentImageData.location) {
+                    locationText = `${this.currentImageData.location}`;
                 }
             }
             
             // If there's no metadata at all, show a minimal message
-            if (!debugText) {
-                debugText = "No image metadata";
+            if (!timestampText && !locationText) {
+                timestampText = "No image metadata";
             }
             
-            this.debugInfo.textContent = debugText;
+            // Create two-line structure
+            this.debugInfo.innerHTML = `
+                <div class="timestamp-line">${timestampText}</div>
+                ${locationText ? `<div class="location-line">${locationText}</div>` : ''}
+            `;
         }
     }
 }
+
+// Add this as a self-executing function at the end of your file (after the ImageScroller class)
+
+(function addDebugLogging() {
+    // Store original methods we're going to log
+    const originalLoadSingleImage = ImageScroller.prototype.loadSingleImage;
+    const originalFindLastActiveImage = ImageScroller.prototype.findLastActiveImage;
+    
+    // Override loadSingleImage with a logging version
+    ImageScroller.prototype.loadSingleImage = async function(index, prevPoint, prevWrapper) {
+        console.group(`🖼️ Loading image #${index}`);
+        console.log('Previous connection point:', prevPoint);
+        console.log('Previous wrapper:', prevWrapper);
+        console.log('Image size:', this.getImageSize());
+        
+        // Call the original method
+        const result = await originalLoadSingleImage.call(this, index, prevPoint, prevWrapper);
+        
+        // After image is loaded, log the result
+        if (result) {
+            const wrapper = result.wrapper;
+            const nextPoint = result.point;
+            
+            console.log('📏 Positioning Results:');
+            console.log('Final position:', {
+                left: wrapper.style.left,
+                top: wrapper.style.top
+            });
+            console.log('Next connection point:', nextPoint);
+            
+            // Analyze object-fit effects by looking at the actual rendered image
+            setTimeout(() => {
+                try {
+                    const img = wrapper.querySelector('img');
+                    if (img) {
+                        const imgRect = img.getBoundingClientRect();
+                        const wrapperRect = wrapper.getBoundingClientRect();
+                        
+                        console.log('Actual rendered measurements:', {
+                            wrapper: {
+                                width: wrapperRect.width,
+                                height: wrapperRect.height
+                            },
+                            image: {
+                                width: imgRect.width,
+                                height: imgRect.height,
+                                naturalWidth: img.naturalWidth,
+                                naturalHeight: img.naturalHeight
+                            },
+                            ratio: {
+                                wrapper: wrapperRect.width / wrapperRect.height,
+                                image: img.naturalWidth / img.naturalHeight
+                            }
+                        });
+                    }
+                } catch (e) {
+                    console.warn('Could not measure rendered image', e);
+                }
+            }, 50);
+        }
+        
+        console.groupEnd();
+        return result;
+    };
+    
+    // Override findLastActiveImage with a logging version
+    ImageScroller.prototype.findLastActiveImage = function() {
+        console.group('🔍 Finding last active image');
+        
+        // Call the original method
+        const result = originalFindLastActiveImage.call(this);
+        
+        if (result) {
+            console.log('Found last wrapper:', result.wrapper);
+            console.log('Connection point:', result.point);
+            
+            try {
+                // Calculate and log the actual rendered position of the connection point
+                const rect = result.wrapper.getBoundingClientRect();
+                console.log('Wrapper rect:', rect);
+                
+                // Analyze the connection point in absolute screen coordinates
+                const absolutePoint = {
+                    x: rect.left + result.point.x,
+                    y: rect.top + result.point.y
+                };
+                console.log('Absolute connection point (screen coords):', absolutePoint);
+            } catch (e) {
+                console.warn('Error calculating absolute point', e);
+            }
+        } else {
+            console.log('No active image found');
+        }
+        
+        console.groupEnd();
+        return result;
+    };
+    
+    // Add a method to analyze a specific image connection
+    window.analyzeImageConnection = function(index) {
+        const scroller = document.querySelector('#scroll-container').__scroller;
+        if (!scroller || !scroller.imageWrappers) {
+            console.error('Scroller not found');
+            return;
+        }
+        
+        let wrapper = null;
+        if (typeof index === 'number') {
+            wrapper = scroller.imageWrappers[index];
+        } else {
+            // Analyze the last image
+            wrapper = scroller.imageWrappers[scroller.imageWrappers.length - 1];
+        }
+        
+        if (!wrapper) {
+            console.error('Wrapper not found');
+            return;
+        }
+        
+        console.group(`🔬 Analyzing image connection ${index}`);
+        
+        try {
+            const rect = wrapper.getBoundingClientRect();
+            const img = wrapper.querySelector('img');
+            const connectionPoint = JSON.parse(wrapper.dataset.nextConnectionPoint || '{}');
+            
+            console.log('Wrapper position:', {
+                left: wrapper.style.left,
+                top: wrapper.style.top
+            });
+            
+            console.log('Bounding rect:', rect);
+            console.log('Connection point (px):', connectionPoint);
+            
+            // Calculate the absolute position of the connection point
+            const absolutePoint = {
+                x: rect.left + connectionPoint.x,
+                y: rect.top + connectionPoint.y
+            };
+            
+            console.log('Absolute connection point:', absolutePoint);
+            
+            if (img) {
+                console.log('Image dimensions:', {
+                    natural: {
+                        width: img.naturalWidth,
+                        height: img.naturalHeight
+                    },
+                    rendered: {
+                        width: img.getBoundingClientRect().width,
+                        height: img.getBoundingClientRect().height
+                    },
+                    style: {
+                        objectFit: getComputedStyle(img).objectFit
+                    }
+                });
+                
+                // Calculate how object-fit might be affecting the connection point
+                const aspectRatio = img.naturalWidth / img.naturalHeight;
+                const containerWidth = rect.width;
+                const containerHeight = rect.height;
+                
+                // Calculate effective dimensions after object-fit
+                let effectiveWidth, effectiveHeight;
+                if (aspectRatio > containerWidth / containerHeight) {
+                    // Width constrained by container height
+                    effectiveHeight = containerHeight;
+                    effectiveWidth = containerHeight * aspectRatio;
+                } else {
+                    // Height constrained by container width
+                    effectiveWidth = containerWidth;
+                    effectiveHeight = containerWidth / aspectRatio;
+                }
+                
+                console.log('Object-fit effective dimensions:', {
+                    width: effectiveWidth,
+                    height: effectiveHeight,
+                    xScale: effectiveWidth / img.naturalWidth,
+                    yScale: effectiveHeight / img.naturalHeight
+                });
+            }
+            
+        } catch (e) {
+            console.error('Analysis error:', e);
+        }
+        
+        console.groupEnd();
+    };
+    
+    // Automatically store the scroller instance for easy debugging
+    const originalInit = ImageScroller.prototype.init;
+    ImageScroller.prototype.init = async function() {
+        const result = await originalInit.call(this);
+        this.container.__scroller = this;
+        console.log('Debug logging enabled. Use window.analyzeImageConnection() to analyze connections.');
+        return result;
+    };
+    
+    console.log('Debug logging for Ground Breaking project initialized');
+})();

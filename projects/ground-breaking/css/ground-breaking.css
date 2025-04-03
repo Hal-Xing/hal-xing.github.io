@@ -1,6 +1,5 @@
 /* Base styles */
 body {
-    background-color: black;
     overflow: hidden;
     height: 100vh;
     margin: 0;
@@ -8,15 +7,69 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* Allow zooming for accessibility, add these to your body style */
-    touch-action: pan-y; /* Allow vertical panning but prevent unwanted horizontal movement */
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif; /* Use site font */
+    touch-action: pan-y; /* Allow vertical panning */
     overscroll-behavior: none; /* Prevent overscroll effects */
 }
 
-/* Define CSS custom properties - responsive sizing for all devices */
+/* Define CSS custom properties for responsive sizing */
 :root {
-    /* Base size for desktop */
-    --image-size: 500px;
+    --image-size: 500px; /* Base size for desktop */
+}
+
+/* Info panel styling */
+.info-panel {
+    position: fixed;
+    top: 50%;                       /* Center vertically */
+    right: 20px;                    /* Align to the right with margin */
+    transform: translateY(-50%);    /* Perfect vertical centering */
+        border-radius: 4px;
+    padding: 8px 10px;
+    z-index: 1000;
+    font-family: "Roboto", sans-serif; /* Use site font */
+    font-size: 14px;
+    text-align: right;              /* Right-align text */
+        max-width: 280px;               /* Limit width for readability */
+    width: auto;                    /* Resize dynamically based on content */
+    pointer-events: none;           /* Prevent interaction */
+    overflow: visible;              /* Ensure text is fully visible */
+    white-space: normal;            /* Allow text to wrap */
+}
+
+/* Debug info content */
+.debug-info {
+    font-family: "Roboto", sans-serif; /* Use site font */
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);       /* High contrast for readability */
+    line-height: 1.4;                 /* Comfortable line spacing */
+    display: flex;
+    flex-direction: column;           /* Stack content vertically */
+    overflow: visible;                /* Ensure text is not cut off */
+    white-space: normal;              /* Allow text to wrap */
+}
+
+/* Two-line layout for debug info */
+.debug-info .timestamp-line {
+    margin-bottom: 4px;               /* Space between lines */
+    font-weight: normal;              /* Non-bold for consistency */
+}
+
+.debug-info .location-line {
+    font-weight: normal;              /* Non-bold */
+    color: rgba(0, 0, 0, 0.7);        /* Slightly lighter color for differentiation */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767px) {
+    .info-panel {
+        right: 10px;                  /* Closer to the edge on mobile */
+        padding: 6px 8px;
+        max-width: 60vw;              /* Allow more width on smaller screens */
+    }
+
+    .debug-info {
+        font-size: 12px;              /* Slightly smaller text on mobile */
+    }
 }
 
 /* Image container styling */
@@ -29,43 +82,20 @@ body {
     align-items: center;
 }
 
-/* Image wrapper - responsive sizing using CSS variables */
+/* Image wrapper styling */
 .image-wrapper {
     position: absolute;
     width: var(--image-size);
     height: var(--image-size);
-    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1), 
-                opacity 0.3s ease;
-    
-    /* Hardware acceleration for all devices */
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.3s ease;
     will-change: transform, opacity;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: translateZ(0);
+    transform: translateZ(0); /* Hardware acceleration */
 }
 
 .image-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-/* Metadata overlay styling */
-.metadata-overlay {
-    display: none;
-}
-
-.image-wrapper:hover .metadata-overlay {
-    opacity: 1;
-}
-
-.metadata-timestamp {
-    margin-bottom: 4px;
-    font-weight: bold;
-}
-
-.metadata-location {
-    font-style: italic;
+    object-fit: cover; /* Ensure images fill the container */
 }
 
 /* Scrolling container */
@@ -73,157 +103,26 @@ body {
     position: absolute;
     width: 100vw;
     height: 100%;
-    transition: transform 1.2s cubic-bezier(0.33, 0.1, 0.67, 0.9); /* More natural-feeling movement (my recommendation) */
+    transition: transform 1.2s cubic-bezier(0.33, 0.1, 0.67, 0.9); /* Smooth scrolling */
     will-change: transform;
     z-index: 10;
 }
 
-/* Debug info panel */
-#debug-info {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    color: white;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 8px 10px;
-    z-index: 1000;
-    font-family: monospace;
-    pointer-events: auto;  /* Allow interaction */
-    user-select: text;     /* Make text selectable */
-    cursor: text;          /* Show text cursor */
-    max-width: 80%;
-    overflow: auto;
-    border-radius: 4px;
-    font-size: 12px;
-    width: auto;
-    white-space: nowrap;
-    pointer-events: none; /* Don't interfere with touch events */
-}
-
-/* Responsive styles for various screen sizes */
-/* Tablet-sized devices */
+/* Responsive image sizes */
 @media (max-width: 900px) {
     :root {
         --image-size: 400px;
     }
 }
 
-/* Mobile phones */
 @media (max-width: 767px) {
     :root {
         --image-size: min(50vw, 300px);
     }
-    
-    /* Debug info styling */
-    #debug-info {
-        font-size: 10px;
-        max-width: 90vw;
-        padding: 5px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-    /* Clean up duplicated rules and improve mobile image connections */
-    .image-wrapper {
-        /* Disable position transitions by default for precise positioning */
-        transition: opacity 0.2s ease !important;
-        transform: translateZ(0) !important;
-        
-        /* Hardware acceleration */
-        will-change: top, left, opacity;
-        -webkit-perspective: 1000;
-        perspective: 1000;
-        -webkit-font-smoothing: antialiased;
-    }
-    
-    /* Only apply transitions during scrolling */
-    .image-wrapper.scrolling {
-        transition: top 0.3s ease-out, left 0.3s ease-out, opacity 0.2s ease !important;
-    }
-    
-    .image-wrapper img {
-        /* Slight expansion to hide gaps and improve transitions */
-        width: 101%;
-        height: 101%;
-        margin: -0.5%;
-        object-fit: cover;
-        transition: opacity 0.2s ease;
-    }
-    
-    /* Prevent flickering on image load */
-    .image-wrapper.loading img {
-        opacity: 0;
-    }
-    
-    .image-wrapper.loaded img {
-        opacity: 1;
-    }
-
-    .metadata-overlay {
-        padding: 5px;
-        font-size: 10px;
-    }
-    
-    /* Always show metadata on mobile */
-    .image-wrapper .metadata-overlay {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.8);
-    }
 }
 
-/* Small mobile phones */
 @media (max-width: 400px) {
     :root {
         --image-size: min(60vw, 250px);
     }
-}
-
-/* Portrait warning for mobile */
-#portrait-warning {
-    display: none;
-}
-
-/* Only show portrait warning in portrait mode on mobile */
-@media (max-width: 767px) and (orientation: portrait) {
-    #portrait-warning {
-        display: none; /* Hide this warning */
-    }
-}
-
-.info-panel {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    z-index: 1000;
-    max-width: 600px;
-    font-family: sans-serif;
-    font-size: 14px;
-    pointer-events: none;
-}
-
-.debug-info {
-    font-family: monospace;
-    font-size: 13px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-/* Hide the separate image-info panel since we're combining it with debug-info */
-.image-info {
-    display: none;
-}
-
-.metadata-timestamp {
-    font-weight: bold;
-    margin-bottom: 3px;
-}
-
-.metadata-location {
-    font-style: italic;
 }

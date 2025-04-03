@@ -3,42 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hal Photography</title>
-    <link rel="stylesheet" href="stylenew.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3658841895184012"
-     crossorigin="anonymous"></script>
+    <title>Hal Xing</title>
+    <!-- Add leading slashes to make paths absolute -->
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/mobile-menu.css">
 </head>
-
 <body>
-    <!-- Navigation Bar -->
-    <nav class="main-nav">
-        <p class="name">Hal Xing</p>
-        <ul class="collections">
-            <li class="current"><a>VANISHING FACTORY</a></li>
-            <li><a href="modeled_nightscape.html" class="visited">MODELED NIGHTSCAPES</a></li>
-            <li><a href="universe.html" class="visited">DROPPED UNIVERSE</a></li>
-            <li><a href="csfes_page/csf2020top.html" class="visited">csf2020toptest</a></li>
-        </ul>
-        <div class="contact">
-            <p><a class="large">Contact</a><br>
-            yuehaoxing@gmail.com<br>
-            Inst 
-            <a href="https://www.instagram.com/hal_xing/" class="inst">@hal_xing</a>
-            </p>
+    <div class="container">
+        <!-- Main content area -->
+        <div class="content">
+            <div class="preview-container" id="preview">
+                <div class="preview-loader" id="preview-loader">Loading...</div>
+                <div id="preview-content" class="preview-content"></div>
+            </div>
         </div>
-    </nav>
 
-    <!-- Image Gallery -->
-    <section class="image-gallery">
-    </section>
+        <!-- Desktop sidebar (hidden on mobile) -->
+        <div class="sidebar">
+            <header>
+                <h1>Hal Xing</h1>
+            </header>
+            
+            <div class="category">Photography</div>
+            <ul class="menu">
+                <li><a href="/photography/modeled-nightscapes/">Modeled Nightscapes</a></li>
+                <li><a href="/photography/surface-of-the-city/">Surface of the City</a></li>
+            </ul>
 
-    <!-- Landscape Mode Warning -->
-    <div id="warning-message">
-        <p>This website is only viewable in landscape mode.</p><br>
-        <p>回転ロックを解除し、携帯のスクリーンを横にしてご覧ください。</p><br>
-        <p>请用横屏打开本网站。</p><br>
+            <div class="category">Projects</div>
+            <ul class="menu">
+                <li><a href="/projects/ground-breaking/">Ground Breaking</a></li>
+                <li><a href="/projects/receipt-printer/">Receipt Printer</a></li>
+            </ul>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="mobile-menu">
+            <div class="mobile-header">
+                <div class="page-path-container">
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span class="menu-arrow">></span> MENU
+                    </button>
+                    <span class="page-path" id="page-path"></span>
+                </div>
+                <h1>Hal Xing</h1>
+            </div>
+            
+            <div class="mobile-content">
+                <div class="category">Photography</div>
+                <ul class="menu">
+                    <li><a href="/photography/modeled-nightscapes/">Modeled Nightscapes</a></li>
+                    <li><a href="/photography/surface-of-the-city/">Surface of the City</a></li>
+                </ul>
+
+                <div class="category">Projects</div>
+                <ul class="menu">
+                    <li><a href="/projects/ground-breaking/">Ground Breaking</a></li>
+                    <li><a href="/projects/receipt-printer/">Receipt Printer</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <script src="code.js"></script>
+    <!-- Scripts - only need the router -->
+    <script src="/assets/js/router.js"></script>
+    <script src="/assets/js/mobile-menu.js"></script>
+    <script src="/assets/js/menu-indicators.js"></script>
 </body>
 </html>

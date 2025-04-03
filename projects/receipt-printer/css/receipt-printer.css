@@ -1,0 +1,56 @@
+/* Define CSS custom properties (like ground-breaking) */
+:root {
+    --image-width: 150px;
+    --scroll-speed: 300px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align to top */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+.scroll-container img {
+    width: 150px; /* Fixed width */
+}
+
+/* Match debug info style from ground-breaking */
+.debug-info {
+    font-family: monospace;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    text-shadow: 
+        0 0 1px white,
+        0 1px 1px white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    pointer-events: none;
+}

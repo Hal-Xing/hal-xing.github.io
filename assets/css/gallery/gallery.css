@@ -1,0 +1,282 @@
+/* Import color variables from common.css */
+@import url('/assets/css/common.css');
+
+/* Base styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--almost-white);
+    color: #333;
+    line-height: 1.5;
+    overflow: hidden;
+    height: 100vh;
+    overscroll-behavior-x: none;
+}
+
+/* Full-width gallery container */
+.gallery-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Gallery container */
+.gallery-container {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding: 0 0 1rem 0;
+    width: 100vw;
+    gap: 1rem;
+    overscroll-behavior-x: none;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+}
+
+.gallery-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Title */
+.gallery-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    flex-shrink: 0;
+    padding: 1rem;
+    background: var(--almost-white);
+}
+
+/* Base item styles */
+.gallery-item, .text-item {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: auto;
+}
+
+/* Image styling */
+.gallery-item img {
+    max-height: 65vh;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+/* Text item */
+.text-item {
+    width: 30rem;
+    margin: 1rem;
+}
+
+.item-content {
+    text-align: left;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.item-caption {
+    color: var(--secondary-text);
+}
+
+.item-details {
+    font-size: 0.8rem;
+    color: var(--secondary-text);
+}
+
+/* Navigation controls */
+.gallery-nav {
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: fixed;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 0;
+}
+
+.nav-btn {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    transition: color 0.2s;
+    user-select: none;
+    pointer-events: auto;
+    margin: 0 1rem;
+}
+
+.nav-btn:hover {
+    color: var(--highlight-color);
+}
+
+.counter {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    min-width: 3rem;
+    text-align: center;
+    pointer-events: auto;
+}
+
+/* Mobile vertical gallery */
+.vertical-gallery {
+    display: none;
+    height: auto;
+    width: 100%;
+    overflow-y: auto !important; /* CRITICAL: Changed from 'visible' to 'auto' */
+    -webkit-overflow-scrolling: touch;
+    background: var(--almost-white);
+    padding-bottom: 80px; /* Space for controls */
+}
+
+/* Fix mobile gallery image sizing */
+.vertical-gallery figure {
+    margin: 0 0 2rem 0;
+}
+
+.vertical-gallery figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Mobile-specific adjustments */
+@media (orientation: portrait) {
+    /* Force scrolling on body but prevent horizontal scroll */
+    html, body {
+        height: auto !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important; /* Force hide horizontal overflow */
+        position: relative;
+        width: 100%; /* Use percentage instead of viewport units */
+        max-width: 100%; /* Ensure content doesn't exceed viewport */
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain; /* Changed from auto to contain */
+    }
+    
+    /* Fix gallery container positioning */
+    .gallery-wrapper {
+        position: static !important;
+        width: 100% !important; /* Use percentage instead of viewport width */
+        min-height: 100%;
+        overflow-x: hidden !important; /* Explicitly hide horizontal overflow */
+        margin: 0; /* Ensure no margins cause overflow */
+        padding: 0; /* Ensure no padding causes overflow */
+    }
+
+    .gallery-item, .text-item {
+        max-width: 100%;
+    }
+    
+    
+    .gallery-content {
+        width: 100%;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+        height: auto;
+        /* min-height: 100%; */
+        overflow-y: visible;
+        position: relative;
+    }
+    
+    /* Show vertical gallery instead of horizontal */
+    .horizontal-gallery {
+        display: none;
+    }
+    
+    .vertical-gallery {
+        display: block !important;
+        height: auto !important;
+        width: 100% !important;
+        max-width: 100%;
+        overflow-x: hidden !important;
+        padding-left: 0;
+        padding-right: 0;
+        overflow-y: auto !important;
+    }
+    
+    /* Fix figure elements */
+    .vertical-gallery figure {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        padding: 0 0.5rem; /* Add internal padding instead of margins */
+    }
+    
+    /* Fix text items in vertical gallery */
+    .vertical-gallery .text-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 2rem 0;
+        box-sizing: border-box;
+        padding: 0 0.5rem; /* Match figure padding */
+    }
+    
+    .vertical-gallery .item-content {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .vertical-gallery .item-description {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    
+    /* Fix navigation controls for mobile */
+    .gallery-nav {
+        display: none;
+        background: rgba(var(--almost-white), 0.9);
+        backdrop-filter: blur(5px);
+        border-top: 1px solid var(--border-color);
+        /* position: fixed;
+        bottom: 40px;
+        background: rgba(254, 254, 254, 0.9);
+        backdrop-filter: blur(5px);
+        border-top: 1px solid rgba(0,0,0,0.1);
+        padding: 10px 0;
+        z-index: 1000;
+        width: 100%;
+        left: 0; */
+    }
+    
+    /* Account for mobile menu height */
+    @media (max-width: 768px) {
+        .vertical-gallery {
+            padding-bottom: calc(60px + 30px); /* Navigation + mobile menu */
+        }
+        
+        /* iPhone notch support */
+        @supports (padding-bottom: env(safe-area-inset-bottom)) {
+            .vertical-gallery {
+                padding-bottom: calc(60px + 30px + env(safe-area-inset-bottom));
+            }
+        }
+    }
+}

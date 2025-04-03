@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Gallery Title} - Hal Xing</title>
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/gallery/gallery.css">
+</head>
+<body>
+    <div class="gallery-wrapper">
+        <main class="gallery-content">
+            <h1 class="gallery-title">Gallery Title</h1>
+            
+            <!-- Desktop horizontal gallery -->
+            <div class="horizontal-gallery">
+                <div class="gallery-container">
+                    <!-- Images will be inserted by the JavaScript -->
+                </div>
+                
+                <!-- Navigation controls -->
+                <div class="gallery-nav">
+                    <span id="prev-btn" class="nav-btn">←</span>
+                    <span id="counter" class="counter">1 / 1</span>
+                    <span id="next-btn" class="nav-btn">→</span>
+                </div>
+            </div>
+            
+            <!-- Mobile vertical gallery -->
+            <div class="vertical-gallery">
+                <!-- Images will be inserted by the JavaScript -->
+                
+                <!-- Project description can be added manually here -->
+                <div class="project-description">
+                    <!-- Add your project description here -->
+                </div>
+            </div>
+        </main>
+        
+        <!-- This div will store markdown info to be rendered -->
+        <div class="notion-markdown" data-gallery="GALLERY_NAME_HERE" style="display:none;"></div>
+    </div>
+
+    <script src="../assets/js/gallery/gallery.js"></script>
+    <script src="../assets/js/gallery/notion-markdown.js"></script>
+</body>
+</html>

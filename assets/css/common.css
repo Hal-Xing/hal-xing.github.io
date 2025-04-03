@@ -1,0 +1,350 @@
+/* ====== COLOR VARIABLES ====== */
+:root {
+    /* Light theme (default) */
+    --almost-white: #fefefe;
+    --text-color: #333;
+    --secondary-text: #888;
+    --border-color: #fff;
+    --highlight-color: #666;
+    --gallery-title-size: 1.2rem;
+    --gallery-text-color: #333;
+}
+
+/* Dark theme - applied automatically when system uses dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --almost-white: #525252;
+        --text-color: #e0e0e0; 
+        --secondary-text: #aaaaaa;
+        --border-color: #333;
+        --highlight-color: #bbbbbb;
+        --gallery-text-color: #e0e0e0;
+    }
+}
+
+/* Add smooth transitions for theme changes */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ====== FONT DECLARATIONS ====== */
+/* Replace the separate font weights with your variable font */
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-VariableFont_wdth,wght.ttf") format("truetype-variations");
+    font-weight: 100 900; /* Support all weights from thin to black */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ====== BASE STYLES ====== */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    background: var(--almost-white);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: visible !important;
+    overscroll-behavior-x: none;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden; /* Prevent scrolling */
+    background: var(--almost-white);
+    border-left: 1px solid var(--border-color);
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.content {
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+#preview {
+    height: 100%;
+    position: relative;
+}
+
+#preview-content {
+    height: 100%;
+    position: relative;
+}
+
+/* ====== SIDEBAR STYLES ====== */
+.sidebar {
+    position: fixed;
+    width: 20vw;
+    min-width: 200px;
+    max-width: 240px;
+    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.sidebar-content {
+    flex-grow: 1;
+}
+
+.sidebar header h1 {
+    font-size: large;
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    background-color: var(--almost-white);
+    padding: 5px 8px;
+}
+
+/* ====== MENU STYLES ====== */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    font-size: 14px;
+    line-height: 1.4;
+    padding-left: 1.5rem;
+    margin-bottom: 3px;
+    background-color: transparent;
+}
+
+/* Text-only highlight for menu links */
+.menu a {
+    font-size: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s;
+    position: relative;
+    background-color: var(--almost-white);
+    display: inline;
+    line-height: 1.6;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+/* Style for external links */
+.menu a[target="_blank"]:after {
+    content: " ↗";
+    display: inline;
+    margin-left: 1px;
+    font-size: 11px;
+    vertical-align: super;
+}
+
+/* Style for the manually added arrow */
+.arrow-indicator {
+    display: inline;
+    margin-left: 1px;
+    font-size: 11px;
+    vertical-align: super;
+}
+
+.menu a:hover {
+    color: #666;
+}
+
+/* ====== CATEGORY STYLES ====== */
+.category {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--secondary-text);
+    margin-left: 0.5rem;
+    font-weight: 300;
+    display: inline-block;
+    background-color: var(--almost-white);
+}
+
+/* ====== FOOTER STYLES ====== */
+/* footer {
+    position: relative;
+    margin-top: auto;
+    text-align: right;
+    font-size: 12px;
+    color: #777;
+    width: auto;
+    padding: 10px 10px 10px 0;
+    border-top: 1px solid #fff;
+}
+
+footer a {
+    display: inline-block;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 300;
+}
+
+footer a:hover {
+    color: #000;
+}
+
+.copyright {
+    margin-top: 8px;
+    font-size: 11px;
+} */
+
+/* ====== CONTENT STYLES ====== */
+
+/* ====== PREVIEW STYLES ====== */
+.preview-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: var(--almost-white);
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    pointer-events: auto; /* Change to auto to allow interaction */
+    overflow: hidden; /* Prevent scrolling in container */
+}
+
+.preview-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: var(--almost-white);
+    z-index: 1;
+    overscroll-behavior-x: none;
+    display: block; /* Ensure display block */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.preview-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #999;
+    display: none;
+}
+
+/* ====== MENU TOGGLE ====== */
+.menu-toggle {
+    display: none; /* Hidden on desktop */
+}
+
+/* ====== RESPONSIVE STYLES ====== */
+@media (max-width: 768px) {
+    .mobile-menu .menu-toggle {
+        display: inline-block;
+    }
+    
+    .content {
+        margin-left: 0;
+        width: 100%;
+        height: calc(100vh - 30px);
+        border-left: none;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 769px) {
+    .sidebar header h1 {
+        font-size: 14px;
+    }
+    
+    .category {
+        font-size: 9px;
+    }
+    
+    .menu a {
+        font-size: 13px;
+    }
+    
+    footer, .copyright {
+        font-size: xx-small;
+    }
+}
+
+@media (orientation: portrait) {
+    .horizontal-gallery {
+        display: none;
+    }
+    
+    .vertical-gallery {
+        display: block !important;
+        height: auto !important;
+        min-height: 50vh;
+        overflow-y: auto !important;
+        padding-bottom: 100px;
+    }
+}
+
+/* ====== COMMON COMPONENTS ====== */
+/* .separator {
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Active link styles */
+.menu a.active {
+    font-weight: 400 !important;
+    background-color: var(--almost-white);
+}
+
+/* Gallery styles */
+.gallery-title {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 1rem, 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    background: var(--almost-white);
+    border-bottom: 1px solid #fff;
+}
+
+.gallery-content {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.gallery-wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
