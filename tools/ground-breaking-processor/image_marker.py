@@ -24,6 +24,10 @@ image_folder = os.path.join(base_dir, "assets/img/projects/ground-breaking/origi
 processed_folder = os.path.join(base_dir, "assets/img/projects/ground-breaking")
 metadata_file = os.path.join(base_dir, "assets/img/projects/ground-breaking/metadata.json")
 
+# Add these lines
+output_file = os.path.join(processed_folder, "points.json")
+rotation_file = os.path.join(processed_folder, "rotation.json")
+
 finished_folder = os.path.join(image_folder, "finished")
 
 # Add near the start of your script

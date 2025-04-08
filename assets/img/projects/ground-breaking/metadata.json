@@ -2698,5 +2698,907 @@
       30.150263888888887,
       120.07294444444445
     ]
+  },
+  "GBW_0408_29_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_29_O_52.jpeg",
+    "points": [
+      [
+        0.34375,
+        0.0
+      ],
+      [
+        0.48375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 20:49:30",
+    "location": "Suginami, Japan",
+    "coordinates": [
+      35.70606111111111,
+      139.64909444444444
+    ]
+  },
+  "GBW_0408_35_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_35_O_52.jpeg",
+    "points": [
+      [
+        0.385,
+        0.0
+      ],
+      [
+        0.45375,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-04-02 22:39:47",
+    "location": "Shinjuku, Japan",
+    "coordinates": [
+      35.712375,
+      139.70336944444443
+    ]
+  },
+  "GBW_0408_46_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_46_O_52.jpeg",
+    "points": [
+      [
+        0.45875,
+        0.0
+      ],
+      [
+        0.45625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:45:00",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.8061,
+      139.91462777777778
+    ]
+  },
+  "GBW_0408_13_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_13_O_52.jpeg",
+    "points": [
+      [
+        0.555,
+        0.0
+      ],
+      [
+        0.53875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 16:52:42",
+    "location": "Musashino, Japan",
+    "coordinates": [
+      35.706855555555556,
+      139.5817111111111
+    ]
+  },
+  "GBW_0408_24_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_24_O_52.jpeg",
+    "points": [
+      [
+        0.48875,
+        0.0
+      ],
+      [
+        0.13,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-30 17:56:05",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.708533333333335,
+      139.66677777777778
+    ]
+  },
+  "GBW_0408_38_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_38_O_52.jpeg",
+    "points": [
+      [
+        0.0825,
+        0.0
+      ],
+      [
+        0.0925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-04 14:38:34",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80484444444444,
+      139.91371111111113
+    ]
+  },
+  "GBW_0408_43_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_43_O_52.jpeg",
+    "points": [
+      [
+        0.5675,
+        0.0
+      ],
+      [
+        0.47375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:44:51",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608333333333,
+      139.91461111111113
+    ]
+  },
+  "GBW_0408_8_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_8_O_52.jpeg",
+    "points": [
+      [
+        0.3475,
+        0.0
+      ],
+      [
+        0.35375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:59",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.44466388888888,
+      139.63317777777777
+    ]
+  },
+  "GBW_0408_21_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_21_O_52.jpeg",
+    "points": [
+      [
+        0.44125,
+        0.0
+      ],
+      [
+        0.11625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:56:01",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.708511111111115,
+      139.66676388888888
+    ]
+  },
+  "GBW_0408_16_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_16_O_52.jpeg",
+    "points": [
+      [
+        0.54875,
+        0.2775
+      ],
+      [
+        0.37625,
+        0.59375
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:50:57",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.71109722222222,
+      139.66722222222222
+    ]
+  },
+  "GBW_0408_5_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_5_O_52.jpeg",
+    "points": [
+      [
+        0.265,
+        0.0
+      ],
+      [
+        0.31625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:55",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.444649999999996,
+      139.63326944444447
+    ]
+  },
+  "GBW_0408_30_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_30_O_52.jpeg",
+    "points": [
+      [
+        0.23375,
+        0.0
+      ],
+      [
+        0.225,
+        0.7075
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-02 15:04:11",
+    "location": "Meguro, Japan",
+    "coordinates": [
+      35.641525,
+      139.7133472222222
+    ]
+  },
+  "GBW_0408_52_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_52_O_52.jpeg",
+    "points": [
+      [
+        0.08,
+        0.0
+      ],
+      [
+        0.89375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:45:23",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806174999999996,
+      139.91467222222224
+    ]
+  },
+  "GBW_0408_37_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_37_O_52.jpeg",
+    "points": [
+      [
+        0.88375,
+        0.0
+      ],
+      [
+        0.85625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-02 23:32:24",
+    "location": "Shinjuku, Japan",
+    "coordinates": [
+      35.71308055555556,
+      139.70349166666665
+    ]
+  },
+  "GBW_0408_2_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_2_O_52.jpeg",
+    "points": [
+      [
+        0.41,
+        0.0
+      ],
+      [
+        0.34125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:52",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.444725,
+      139.63333055555557
+    ]
+  },
+  "GBW_0408_44_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_44_O_52.jpeg",
+    "points": [
+      [
+        0.425,
+        0.0
+      ],
+      [
+        0.61625,
+        1.0
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2025-04-07 20:44:55",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608333333333,
+      139.91461111111113
+    ]
+  },
+  "GBW_0408_11_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_11_O_52.jpeg",
+    "points": [
+      [
+        0.6,
+        0.0
+      ],
+      [
+        0.5675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 13:19:44",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.44829444444444,
+      139.6329027777778
+    ]
+  },
+  "GBW_0408_41_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_41_O_52.jpeg",
+    "points": [
+      [
+        0.42,
+        0.0
+      ],
+      [
+        0.5525,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:44:43",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608055555555,
+      139.91461111111113
+    ]
+  },
+  "GBW_0408_14_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_14_O_52.jpeg",
+    "points": [
+      [
+        0.1725,
+        0.0
+      ],
+      [
+        0.875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 16:52:46",
+    "location": "Musashino, Japan",
+    "coordinates": [
+      35.706875000000004,
+      139.58174166666666
+    ]
+  },
+  "GBW_0408_50_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_50_O_52.jpeg",
+    "points": [
+      [
+        0.3825,
+        0.0
+      ],
+      [
+        0.5875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:45:14",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80613333333333,
+      139.91464166666668
+    ]
+  },
+  "GBW_0408_19_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_19_O_52.jpeg",
+    "points": [
+      [
+        0.435,
+        0.0
+      ],
+      [
+        0.46,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:56:00",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.708530555555555,
+      139.66676388888888
+    ]
+  },
+  "GBW_0408_7_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_7_O_52.jpeg",
+    "points": [
+      [
+        0.38375,
+        0.0
+      ],
+      [
+        0.45125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:58",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.44463611111111,
+      139.63320833333333
+    ]
+  },
+  "GBW_0408_42_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_42_O_52.jpeg",
+    "points": [
+      [
+        0.4125,
+        0.0
+      ],
+      [
+        0.4825,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:44:48",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608055555555,
+      139.91461111111113
+    ]
+  },
+  "GBW_0408_9_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_9_O_52.jpeg",
+    "points": [
+      [
+        0.505,
+        0.0
+      ],
+      [
+        0.89625,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-03-30 12:19:03",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.444624999999995,
+      139.63319444444446
+    ]
+  },
+  "GBW_0408_20_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_20_O_52.jpeg",
+    "points": [],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:56:00",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.708530555555555,
+      139.66676388888888
+    ]
+  },
+  "GBW_0408_17_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_17_O_52.jpeg",
+    "points": [
+      [
+        0.2275,
+        0.0
+      ],
+      [
+        0.40375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:55:57",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.70852777777778,
+      139.66676388888888
+    ]
+  },
+  "GBW_0408_4_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_4_O_52.jpeg",
+    "points": [
+      [
+        0.37,
+        0.0
+      ],
+      [
+        0.19375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:55",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.444694444444444,
+      139.63328611111112
+    ]
+  },
+  "GBW_0408_31_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_31_O_52.jpeg",
+    "points": [
+      [
+        0.48125,
+        0.0
+      ],
+      [
+        0.19375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-02 15:04:17",
+    "location": "Meguro, Japan",
+    "coordinates": [
+      35.64146111111111,
+      139.71331666666666
+    ]
+  },
+  "GBW_0408_28_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_28_O_52.jpeg",
+    "points": [
+      [
+        0.04,
+        0.0
+      ],
+      [
+        0.205,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 20:49:29",
+    "location": "Suginami, Japan",
+    "coordinates": [
+      35.70606111111111,
+      139.64909444444444
+    ]
+  },
+  "GBW_0408_1_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_1_O_52.jpeg",
+    "points": [
+      [
+        0.5775,
+        0.0
+      ],
+      [
+        0.38625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:51",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.444763888888886,
+      139.63334722222223
+    ]
+  },
+  "GBW_0408_34_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_34_O_52.jpeg",
+    "points": [
+      [
+        0.64875,
+        0.0975
+      ],
+      [
+        0.4425,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-04-02 22:39:46",
+    "location": "Shinjuku, Japan",
+    "coordinates": [
+      35.71229166666667,
+      139.70336944444443
+    ]
+  },
+  "GBW_0408_47_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_47_O_52.jpeg",
+    "points": [
+      [
+        0.54125,
+        0.0
+      ],
+      [
+        0.615,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:45:03",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.8061,
+      139.91462777777778
+    ]
+  },
+  "GBW_0408_12_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_12_O_52.jpeg",
+    "points": [
+      [
+        0.67,
+        0.0
+      ],
+      [
+        0.385,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 16:52:40",
+    "location": "Musashino, Japan",
+    "coordinates": [
+      35.70685277777778,
+      139.5817111111111
+    ]
+  },
+  "GBW_0408_39_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_39_O_52.jpeg",
+    "points": [
+      [
+        0.7525,
+        0.0
+      ],
+      [
+        0.53625,
+        0.94125
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-04-04 14:38:35",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80484444444444,
+      139.91371111111113
+    ]
+  },
+  "GBW_0408_40_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_40_O_52.jpeg",
+    "points": [
+      [
+        0.4825,
+        0.0
+      ],
+      [
+        0.60125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:44:40",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608611111111,
+      139.91461111111113
+    ]
+  },
+  "GBW_0408_15_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_15_O_52.jpeg",
+    "points": [],
+    "rotation": 0,
+    "timestamp": "2025-03-30 16:52:50",
+    "location": "Musashino, Japan",
+    "coordinates": [
+      35.70686388888889,
+      139.58174166666666
+    ]
+  },
+  "GBW_0408_22_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_22_O_52.jpeg",
+    "points": [
+      [
+        0.47375,
+        0.0
+      ],
+      [
+        0.55375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:56:02",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.70853888888889,
+      139.66676388888888
+    ]
+  },
+  "GBW_0408_51_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_51_O_52.jpeg",
+    "points": [
+      [
+        0.61125,
+        0.0
+      ],
+      [
+        0.4075,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:45:16",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806130555555555,
+      139.91464166666668
+    ]
+  },
+  "GBW_0408_18_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_18_O_52.jpeg",
+    "points": [
+      [
+        0.40875,
+        0.0
+      ],
+      [
+        0.7925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:55:58",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.708530555555555,
+      139.66676388888888
+    ]
+  },
+  "GBW_0408_6_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_6_O_52.jpeg",
+    "points": [
+      [
+        0.2825,
+        0.28875
+      ],
+      [
+        0.29625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:55",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.44462222222222,
+      139.63325555555556
+    ]
+  },
+  "GBW_0408_36_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_36_O_52.jpeg",
+    "points": [
+      [
+        0.4425,
+        0.1375
+      ],
+      [
+        0.62375,
+        1.0
+      ]
+    ],
+    "rotation": 270,
+    "timestamp": "2025-04-02 22:39:48",
+    "location": "Shinjuku, Japan",
+    "coordinates": [
+      35.712361111111115,
+      139.7034
+    ]
+  },
+  "GBW_0408_3_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_3_O_52.jpeg",
+    "points": [
+      [
+        0.3325,
+        0.0
+      ],
+      [
+        0.32875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 12:18:54",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.44470277777778,
+      139.63331666666667
+    ]
+  },
+  "GBW_0408_48_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_48_O_52.jpeg",
+    "points": [
+      [
+        0.57,
+        0.0
+      ],
+      [
+        0.4175,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:45:06",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806105555555554,
+      139.91462777777778
+    ]
+  },
+  "GBW_0408_45_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_45_O_52.jpeg",
+    "points": [
+      [
+        0.48875,
+        0.0
+      ],
+      [
+        0.5225,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-07 20:44:57",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80609166666667,
+      139.91462777777778
+    ]
+  },
+  "GBW_0408_27_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_27_O_52.jpeg",
+    "points": [
+      [
+        0.4475,
+        0.0
+      ],
+      [
+        0.74625,
+        0.80625
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 17:56:07",
+    "location": "Nakano, Japan",
+    "coordinates": [
+      35.70851944444445,
+      139.66679444444443
+    ]
+  },
+  "GBW_0408_10_O_52.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0408_10_O_52.jpeg",
+    "points": [
+      [
+        0.56375,
+        0.0
+      ],
+      [
+        0.6425,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-03-30 13:19:43",
+    "location": "Yokohama, Japan",
+    "coordinates": [
+      35.44815,
+      139.6328138888889
+    ]
   }
 }
