@@ -3600,5 +3600,325 @@
       35.44815,
       139.6328138888889
     ]
+  },
+  "GBW_0411_11_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_11_O_19.jpeg",
+    "points": [
+      [
+        0.74,
+        0.0
+      ],
+      [
+        0.235,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:44:25",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65528611111111,
+      139.3406361111111
+    ]
+  },
+  "GBW_0411_14_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_14_O_19.jpeg",
+    "points": [
+      [
+        0.51125,
+        0.0
+      ],
+      [
+        0.535,
+        0.84375
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:44:30",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65530833333333,
+      139.34062222222224
+    ]
+  },
+  "GBW_0411_5_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_5_O_19.jpeg",
+    "points": [
+      [
+        0.40375,
+        0.0
+      ],
+      [
+        0.4725,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:43:46",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65541111111111,
+      139.34025555555556
+    ]
+  },
+  "GBW_0411_8_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_8_O_19.jpeg",
+    "points": [
+      [
+        0.415,
+        0.0
+      ],
+      [
+        0.185,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:43:54",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65557777777778,
+      139.3405138888889
+    ]
+  },
+  "GBW_0411_19_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_19_O_19.jpeg",
+    "points": [
+      [
+        0.88375,
+        0.0
+      ],
+      [
+        0.74125,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-04-10 17:09:13",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.787552777777776,
+      139.90335000000002
+    ]
+  },
+  "GBW_0411_13_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_13_O_19.jpeg",
+    "points": [
+      [
+        0.5475,
+        0.0
+      ],
+      [
+        0.57375,
+        0.915
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:44:29",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65530833333333,
+      139.34062222222224
+    ]
+  },
+  "GBW_0411_2_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_2_O_19.jpeg",
+    "points": [
+      [
+        0.6475,
+        0.0
+      ],
+      [
+        0.4725,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 08:07:40",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80558333333333,
+      139.91453611111112
+    ]
+  },
+  "GBW_0411_16_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_16_O_19.jpeg",
+    "points": [
+      [
+        0.705,
+        0.0
+      ],
+      [
+        0.26,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:44:52",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65539166666667,
+      139.34053055555557
+    ]
+  },
+  "GBW_0411_7_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_7_O_19.jpeg",
+    "points": [
+      [
+        0.3325,
+        0.0
+      ],
+      [
+        0.43875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:43:50",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65560277777777,
+      139.34042222222223
+    ]
+  },
+  "GBW_0411_15_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_15_O_19.jpeg",
+    "points": [
+      [
+        0.46875,
+        0.0
+      ],
+      [
+        0.865,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:44:33",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.6553,
+      139.34060555555556
+    ]
+  },
+  "GBW_0411_4_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_4_O_19.jpeg",
+    "points": [
+      [
+        0.34875,
+        0.0
+      ],
+      [
+        0.57,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:43:30",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65560555555555,
+      139.34031666666667
+    ]
+  },
+  "GBW_0411_18_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_18_O_19.jpeg",
+    "points": [
+      [
+        0.50375,
+        0.0
+      ],
+      [
+        0.5075,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:45:18",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65524166666667,
+      139.3403027777778
+    ]
+  },
+  "GBW_0411_10_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_10_O_19.jpeg",
+    "points": [
+      [
+        0.54125,
+        0.0
+      ],
+      [
+        0.45875,
+        0.60875
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:44:12",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65525833333333,
+      139.34060555555556
+    ]
+  },
+  "GBW_0411_1_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_1_O_19.jpeg",
+    "points": [
+      [
+        0.4325,
+        0.0
+      ],
+      [
+        0.00625,
+        0.72375
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 08:07:25",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80550833333333,
+      139.91458055555557
+    ]
+  },
+  "GBW_0411_6_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_6_O_19.jpeg",
+    "points": [
+      [
+        0.32875,
+        0.0
+      ],
+      [
+        0.31875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-09 20:43:47",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.65541111111111,
+      139.34025555555556
+    ]
+  },
+  "GBW_0411_3_O_19.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_3_O_19.jpeg",
+    "points": [
+      [
+        0.3,
+        0.0
+      ],
+      [
+        0.455,
+        0.94
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-04-09 20:37:53",
+    "location": "Hachioji, Japan",
+    "coordinates": [
+      35.657269444444445,
+      139.33798333333334
+    ]
   }
 }
