@@ -89,6 +89,26 @@ if os.path.exists(metadata_file):
     except:
         print("Error reading metadata file, starting fresh")
 
+# Add these new global variables with your other initializations
+existing_metadata = {}
+is_editing_existing = False
+
+# Add this function to load existing metadata at startup
+def load_existing_metadata():
+    """Load existing metadata file if it exists."""
+    global existing_metadata
+    if os.path.exists(metadata_file):
+        try:
+            with open(metadata_file, "r") as f:
+                existing_metadata = json.load(f)
+                print(f"Loaded existing metadata with {len(existing_metadata)} entries")
+        except Exception as e:
+            print(f"Error loading metadata: {e}")
+            existing_metadata = {}
+
+# Call this function early in your script
+load_existing_metadata()
+
 def save_metadata():
     """Save the comprehensive metadata to a JSON file."""
     # Load existing metadata
@@ -170,10 +190,10 @@ def click_event(event, x, y, flags, param):
             
             # Draw all points on the copy
             for point in points:
-                # Draw a larger, more visible point
-                cv2.circle(display_image, point, 10, (0, 0, 255), -1)  # Red circle
-                # Add a black outline to make it visible on any background
-                cv2.circle(display_image, point, 10, (0, 0, 0), 2)    
+                # Draw a smaller, less intrusive point
+                cv2.circle(display_image, point, 5, (0, 0, 255), -1)  # Red circle (5px radius)
+                # Add a thinner black outline
+                cv2.circle(display_image, point, 5, (0, 0, 0), 1)    # 1px border
             
             # Show the updated image
             cv2.imshow("Image", display_image)
@@ -196,6 +216,7 @@ def resize_and_compress_image(image, output_path):
 def process_next_image():
     """Process the next image in the list."""
     global current_image_index, points, current_rotation, rotation_angle, current_image
+    global existing_metadata, is_editing_existing
     
     # If no images are loaded yet, just return
     if not image_list:
@@ -206,6 +227,7 @@ def process_next_image():
     current_rotation = 0
     rotation_angle = 0
     points = []
+    is_editing_existing = False
     
     # Check if there are more images to process
     if current_image_index >= len(image_list):
@@ -226,11 +248,54 @@ def process_next_image():
         # Resize the image for display
         current_image = resize_image(current_image, 800)  # Increased size for better visibility
         
-        # Update the UI with filename
+        # Get current filename and check if it already has metadata
         filename = os.path.basename(image_list[current_image_index])
+        clean_name = clean_filename(filename)
+        
+        # Check if this image has existing points in metadata
+        if clean_name in existing_metadata:
+            is_editing_existing = True
+            existing_points = existing_metadata[clean_name].get("points", [])
+            existing_rotation = existing_metadata[clean_name].get("rotation", 0)
+            
+            # Apply existing rotation first if any
+            if existing_rotation > 0:
+                for _ in range(existing_rotation // 90):
+                    current_image = cv2.rotate(current_image, cv2.ROTATE_90_CLOCKWISE)
+                rotation_angle = existing_rotation
+            
+            # Convert percentage points back to pixel coordinates
+            height, width = current_image.shape[:2]
+            if existing_points:
+                for point in existing_points:
+                    x = int(point[0] * width)
+                    y = int(point[1] * height)
+                    points.append((x, y))
+                
+                # Draw existing points
+                display_image = current_image.copy()
+                for point in points:
+                    # Use a smaller green point for existing points
+                    cv2.circle(display_image, point, 5, (0, 255, 0), -1)  # 5px radius
+                    cv2.circle(display_image, point, 5, (0, 0, 0), 1)     # 1px border
+                current_image = display_image
+                
+                # Update status
+                status_label.setText(f"Image {current_image_index} has existing points (shown in green)")
+        
+        # Update the UI with filename
         if folder_label:
             folder_label.setText(f"Source: {os.path.basename(source_folder)} | Current: {filename}")
-        
+            if is_editing_existing:
+                folder_label.setText(folder_label.text() + " (HAS EXISTING POINTS)")
+
+        # Replace with:
+        # Update redo button text based on whether image has existing points
+        if is_editing_existing:
+            redo_button.setText("Redo Image (Clear Existing Points)")
+        else:
+            redo_button.setText("Redo Image")
+            
         # Display the image in a window
         cv2.imshow("Image", current_image)
         cv2.setMouseCallback("Image", click_event)
@@ -272,8 +337,10 @@ def rotate_image():
 def skip_image():
     """Skip the current image without processing."""
     global current_image_index
-    if current_image_index < len(image_list):
-        os.remove(image_list[current_image_index - 1])  # Delete the original image
+    
+    # Don't delete the image when skipping after redo
+    # Remove this line: os.remove(image_list[current_image_index - 1])
+    
     if current_image_index >= len(image_list):
         print("All images processed. Press 'q' to quit.")
         QMessageBox.information(None, "Info", "All images processed. Press 'Quit' to exit.")
@@ -551,6 +618,52 @@ def select_source_folder():
     
     print(f"Found {len(image_list)} images in {folder}")
 
+# Add function to clear points for current image
+def clear_points():
+    """Clear any existing points for the current image."""
+    global points, current_image, is_editing_existing
+    
+    if current_image is None:
+        return
+    
+    # Reset points
+    points = []
+    is_editing_existing = False
+    
+    # Refresh the image display (no points)
+    display_image = current_image.copy()  # Get clean copy
+    cv2.imshow("Image", display_image)
+    
+    status_label.setText("Points cleared. Mark new points.")
+
+# Add function to redo the current image
+def redo_current_image():
+    """Reload the current image and clear existing points."""
+    global current_image_index, points, rotation_angle, is_editing_existing
+    
+    # Go back one image (since current_image_index is already incremented)
+    if current_image_index > 0:
+        current_image_index -= 1
+    else:
+        return
+    
+    # Clear points and rotation
+    points = []
+    rotation_angle = 0
+    is_editing_existing = False
+    
+    # Process the image again
+    process_next_image()
+    
+    # Make sure points are cleared after loading
+    points = []
+    
+    # Update the display
+    if current_image is not None:
+        display_image = current_image.copy()
+        cv2.imshow("Image", display_image)
+        status_label.setText("Image reloaded with points cleared.")
+
 # Create the PyQt5 application (only once!)
 app = QApplication([])
 
@@ -598,6 +711,21 @@ layout.addWidget(rotate_button)
 quit_button = QPushButton("Quit")
 quit_button.clicked.connect(quit_program)
 layout.addWidget(quit_button)
+
+# Add the new buttons to your UI setup section
+# (Add these right before window.setLayout(layout))
+
+# Add separator line
+separator = QLabel()
+separator.setFrameShape(1)  # 1 = HLine
+separator.setFrameShadow(1) # 1 = Plain
+separator.setStyleSheet("background-color: #ccc; min-height: 1px;")
+layout.addWidget(separator)
+
+# Replace both buttons with one combined button
+redo_button = QPushButton("Redo Image (Clear Points)")
+redo_button.clicked.connect(redo_current_image)
+layout.addWidget(redo_button)
 
 # Set the layout
 window.setLayout(layout)
