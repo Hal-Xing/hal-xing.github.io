@@ -13,7 +13,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-27 19:18:53",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.88234444444444,
       140.11523333333332
@@ -53,7 +53,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 14:01:30",
-    "location": null,
+    "location": "Liuxia, Xihu District, China",
     "coordinates": [
       30.268191666666667,
       120.09454444444444
@@ -93,7 +93,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:50",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088780555555555,
       120.05280277777777
@@ -113,7 +113,7 @@
     ],
     "rotation": 90,
     "timestamp": "2024-11-08 13:16:53",
-    "location": null,
+    "location": "Taito, Japan",
     "coordinates": [
       35.71094444444445,
       139.7744
@@ -133,7 +133,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:33",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71253333333333,
       139.77539166666668
@@ -153,7 +153,7 @@
     ],
     "rotation": 180,
     "timestamp": "2024-11-14 17:06:46",
-    "location": null,
+    "location": "Taito, Japan",
     "coordinates": [
       35.71778888888889,
       139.76777777777778
@@ -193,7 +193,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:35:03",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13206111111111,
       120.08252777777777
@@ -213,7 +213,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 14:01:23",
-    "location": "Xihu District, China",
+    "location": "Liuxia, Xihu District, China",
     "coordinates": [
       30.268305555555553,
       120.09452777777777
@@ -253,7 +253,7 @@
     ],
     "rotation": 90,
     "timestamp": "2024-11-16 19:50:50",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.80598055555555,
       139.9166111111111
@@ -293,7 +293,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:34:45",
-    "location": null,
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.132033333333332,
       120.08257222222223
@@ -313,7 +313,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-16 20:02:42",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.79915277777778,
       139.91436666666667
@@ -333,7 +333,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 10:09:11",
-    "location": null,
+    "location": "\u897f\u5174\u8857\u9053, Binjiang District, China",
     "coordinates": [
       30.184077777777777,
       120.20716111111112
@@ -353,7 +353,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-23 17:35:00",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13206111111111,
       120.08252777777777
@@ -373,7 +373,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:58:53",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71288333333334,
       139.7760777777778
@@ -393,7 +393,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 12:09:51",
-    "location": null,
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.39453611111111,
       132.45382777777778
@@ -413,7 +413,7 @@
     ],
     "rotation": 180,
     "timestamp": "2024-11-16 19:58:25",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.801452777777776,
       139.91369722222223
@@ -453,7 +453,7 @@
     ],
     "rotation": 180,
     "timestamp": "2024-11-16 19:58:03",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.801541666666665,
       139.91372777777778
@@ -493,7 +493,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:51",
-    "location": null,
+    "location": "Fuyang, China",
     "coordinates": [
       30.088644444444444,
       120.05269722222222
@@ -513,7 +513,7 @@
     ],
     "rotation": 90,
     "timestamp": "2024-11-16 19:50:41",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.80603055555555,
       139.91659444444446
@@ -533,7 +533,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 16:35:52",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.131855555555557,
       120.08255833333332
@@ -573,7 +573,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:35",
-    "location": null,
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71235555555556,
       139.77539166666668
@@ -593,7 +593,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:34:51",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13203888888889,
       120.08255833333332
@@ -633,7 +633,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:48",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088780555555555,
       120.05280277777777
@@ -673,7 +673,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 23:47:06",
-    "location": "Ganjingzi District, China",
+    "location": "Ganjingzi, Ganjingzi District, China",
     "coordinates": [
       38.955711111111114,
       121.54952222222222
@@ -713,7 +713,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 11:05:18",
-    "location": "Hiroshima, Japan",
+    "location": "Minami Ward, Hiroshima, Japan",
     "coordinates": [
       34.394669444444446,
       132.47610555555556
@@ -733,7 +733,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:35",
-    "location": null,
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71255555555556,
       139.77537500000003
@@ -773,7 +773,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-24 15:21:26",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.87991666666667,
       140.11680555555557
@@ -793,7 +793,7 @@
     ],
     "rotation": 180,
     "timestamp": "2025-02-13 10:40:18",
-    "location": null,
+    "location": "Toshima, Japan",
     "coordinates": [
       35.72168333333334,
       139.7056888888889
@@ -813,7 +813,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 18:02:49",
-    "location": null,
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.15123611111111,
       120.07536388888889
@@ -833,7 +833,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:53",
-    "location": null,
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088644444444444,
       120.05269722222222
@@ -893,7 +893,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-08 10:09:09",
-    "location": null,
+    "location": "\u897f\u5174\u8857\u9053, Binjiang District, China",
     "coordinates": [
       30.184077777777777,
       120.20716111111112
@@ -913,7 +913,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-16 19:58:26",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.801452777777776,
       139.91369722222223
@@ -953,7 +953,7 @@
     ],
     "rotation": 180,
     "timestamp": "2024-11-16 19:58:06",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.801525,
       139.91371111111113
@@ -1013,7 +1013,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 12:09:49",
-    "location": "Hiroshima, Japan",
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.394619444444444,
       132.4539333333333
@@ -1073,7 +1073,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 12:09:48",
-    "location": null,
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.39548611111111,
       132.45385833333333
@@ -1113,7 +1113,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:34:50",
-    "location": null,
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.132033333333332,
       120.08257222222223
@@ -1153,7 +1153,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:48",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088780555555555,
       120.05280277777777
@@ -1193,7 +1193,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:35:02",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13206111111111,
       120.08252777777777
@@ -1213,7 +1213,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:31",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71253333333333,
       139.77539166666668
@@ -1233,7 +1233,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-23 18:05:08",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.150216666666665,
       120.07375277777777
@@ -1273,7 +1273,7 @@
     ],
     "rotation": 270,
     "timestamp": "2024-11-08 13:16:53",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.710950000000004,
       139.7744
@@ -1293,7 +1293,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 16:35:51",
-    "location": null,
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13185,
       120.08255
@@ -1333,7 +1333,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:50",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088644444444444,
       120.05269722222222
@@ -1373,7 +1373,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-27 19:18:52",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.88233888888889,
       140.11523333333332
@@ -1393,7 +1393,7 @@
     ],
     "rotation": 180,
     "timestamp": "2025-02-11 11:26:21",
-    "location": null,
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.39581666666667,
       132.45376666666667
@@ -1413,7 +1413,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:41",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71230833333333,
       139.77526944444446
@@ -1453,7 +1453,7 @@
     ],
     "rotation": 180,
     "timestamp": "2024-11-08 13:16:36",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71106666666667,
       139.77443055555557
@@ -1493,7 +1493,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:48",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088780555555555,
       120.05280277777777
@@ -1513,7 +1513,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-16 19:58:20",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.80146111111111,
       139.91369722222223
@@ -1533,7 +1533,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-23 17:34:55",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13203888888889,
       120.08255833333332
@@ -1553,7 +1553,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-16 19:50:43",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.806013888888884,
       139.9166111111111
@@ -1573,7 +1573,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-16 20:02:59",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.799391666666665,
       139.91410833333333
@@ -1593,7 +1593,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-27 19:18:59",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.88231388888889,
       140.11525
@@ -1613,7 +1613,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-13 10:40:19",
-    "location": null,
+    "location": "Toshima, Japan",
     "coordinates": [
       35.721669444444444,
       139.70564166666665
@@ -1633,7 +1633,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 12:09:50",
-    "location": null,
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.39453611111111,
       132.45382777777778
@@ -1653,7 +1653,7 @@
     ],
     "rotation": 180,
     "timestamp": "2024-11-22 18:57:43",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71233333333333,
       139.77528333333333
@@ -1673,7 +1673,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:34:57",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13203888888889,
       120.08255833333332
@@ -1693,7 +1693,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:34:46",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.132033333333332,
       120.08257222222223
@@ -1713,7 +1713,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-23 17:35:05",
-    "location": null,
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.132069444444443,
       120.08250555555556
@@ -1733,7 +1733,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-13 10:40:16",
-    "location": null,
+    "location": "Toshima, Japan",
     "coordinates": [
       35.721672222222224,
       139.7056888888889
@@ -1753,7 +1753,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-24 15:21:25",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.87991666666667,
       140.11680555555557
@@ -1773,7 +1773,7 @@
     ],
     "rotation": 90,
     "timestamp": "2024-11-22 18:57:31",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71253333333333,
       139.77539166666668
@@ -1793,7 +1793,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 14:01:26",
-    "location": "Xihu District, China",
+    "location": "Liuxia, Xihu District, China",
     "coordinates": [
       30.268191666666667,
       120.09454444444444
@@ -1813,7 +1813,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-28 14:50:15",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.89235,
       140.0785527777778
@@ -1833,7 +1833,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:33",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71253333333333,
       139.77539166666668
@@ -1853,7 +1853,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-27 19:18:54",
-    "location": null,
+    "location": "Toride, Japan",
     "coordinates": [
       35.88233888888889,
       140.11523333333332
@@ -1873,7 +1873,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:49",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088780555555555,
       120.05280277777777
@@ -1913,7 +1913,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 14:01:28",
-    "location": "Xihu District, China",
+    "location": "Liuxia, Xihu District, China",
     "coordinates": [
       30.268191666666667,
       120.09454444444444
@@ -1933,7 +1933,7 @@
     ],
     "rotation": 270,
     "timestamp": "2024-11-16 19:50:30",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.80603333333333,
       139.916625
@@ -1953,7 +1953,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-08 19:56:51",
-    "location": "Fuyang, China",
+    "location": "\u4e1c\u6d32\u8857\u9053, Fuyang, China",
     "coordinates": [
       30.088644444444444,
       120.05269722222222
@@ -1993,7 +1993,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 16:35:52",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.131855555555557,
       120.08255833333332
@@ -2053,7 +2053,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 19:02:14",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.15023611111111,
       120.07296111111111
@@ -2073,7 +2073,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:32",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71253333333333,
       139.77539166666668
@@ -2113,7 +2113,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-08 13:16:52",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.710950000000004,
       139.7744
@@ -2153,7 +2153,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-13 10:40:13",
-    "location": null,
+    "location": "Toshima, Japan",
     "coordinates": [
       35.721722222222226,
       139.70551944444443
@@ -2213,7 +2213,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 12:09:47",
-    "location": null,
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.39548611111111,
       132.45385833333333
@@ -2253,7 +2253,7 @@
     ],
     "rotation": 90,
     "timestamp": "2024-11-16 19:50:25",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.806019444444445,
       139.9166111111111
@@ -2293,7 +2293,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-16 19:58:13",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.80146666666666,
       139.91371111111113
@@ -2333,7 +2333,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:43",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71233333333333,
       139.77528333333333
@@ -2353,7 +2353,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-11 12:09:49",
-    "location": "Hiroshima, Japan",
+    "location": "Naka Ward, Hiroshima, Japan",
     "coordinates": [
       34.39456111111111,
       132.45385833333333
@@ -2373,7 +2373,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 17:34:56",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.13203888888889,
       120.08255833333332
@@ -2433,7 +2433,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-08 10:09:10",
-    "location": null,
+    "location": "\u897f\u5174\u8857\u9053, Binjiang District, China",
     "coordinates": [
       30.184077777777777,
       120.20716111111112
@@ -2473,7 +2473,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-23 18:02:49",
-    "location": "Xihu District, China",
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.15123611111111,
       120.07536388888889
@@ -2493,7 +2493,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-02-13 10:40:17",
-    "location": null,
+    "location": "Toshima, Japan",
     "coordinates": [
       35.721672222222224,
       139.7056888888889
@@ -2593,7 +2593,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-08 13:16:36",
-    "location": null,
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.711063888888894,
       139.77444444444447
@@ -2633,7 +2633,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-22 18:57:34",
-    "location": "Taito, Japan",
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71253333333333,
       139.77539166666668
@@ -2653,7 +2653,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-02-11 11:05:13",
-    "location": null,
+    "location": "Hiroshima, Japan",
     "coordinates": [
       34.394725,
       132.47610555555556
@@ -2673,7 +2673,7 @@
     ],
     "rotation": 0,
     "timestamp": "2024-11-14 17:06:49",
-    "location": null,
+    "location": "Taito, Japan",
     "coordinates": [
       35.71778888888889,
       139.76777777777778
@@ -2693,7 +2693,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-23 19:02:18",
-    "location": null,
+    "location": "Zhuantang, Xihu District, China",
     "coordinates": [
       30.150263888888887,
       120.07294444444445
@@ -2713,7 +2713,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 20:49:30",
-    "location": "Suginami, Japan",
+    "location": "K\u014denji, Suginami, Japan",
     "coordinates": [
       35.70606111111111,
       139.64909444444444
@@ -2853,7 +2853,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:59",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.44466388888888,
       139.63317777777777
@@ -2993,7 +2993,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:52",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.444725,
       139.63333055555557
@@ -3033,7 +3033,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 13:19:44",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.44829444444444,
       139.6329027777778
@@ -3133,7 +3133,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:58",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.44463611111111,
       139.63320833333333
@@ -3173,7 +3173,7 @@
     ],
     "rotation": 90,
     "timestamp": "2025-03-30 12:19:03",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.444624999999995,
       139.63319444444446
@@ -3224,7 +3224,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:55",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.444694444444444,
       139.63328611111112
@@ -3264,7 +3264,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 20:49:29",
-    "location": "Suginami, Japan",
+    "location": "K\u014denji, Suginami, Japan",
     "coordinates": [
       35.70606111111111,
       139.64909444444444
@@ -3284,7 +3284,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:51",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.444763888888886,
       139.63334722222223
@@ -3475,7 +3475,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:55",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.44462222222222,
       139.63325555555556
@@ -3515,7 +3515,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-03-30 12:18:54",
-    "location": "Yokohama, Japan",
+    "location": "Naka Ward, Yokohama, Japan",
     "coordinates": [
       35.44470277777778,
       139.63331666666667
@@ -3775,7 +3775,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-04-09 20:43:50",
-    "location": null,
+    "location": "Hachioji, Japan",
     "coordinates": [
       35.65560277777777,
       139.34042222222223
@@ -3975,7 +3975,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-04-10 17:47:14",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.78709722222222,
       139.90275555555556
@@ -3995,7 +3995,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-04-11 13:02:31",
-    "location": null,
+    "location": "Taito, Japan",
     "coordinates": [
       35.71821666666667,
       139.7724138888889
@@ -4015,7 +4015,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-04-10 17:47:09",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.787127777777776,
       139.9028027777778
@@ -4055,7 +4055,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-04-11 12:44:48",
-    "location": null,
+    "location": "Ueno, Taito, Japan",
     "coordinates": [
       35.71245277777778,
       139.77673333333334
@@ -4075,10 +4075,810 @@
     ],
     "rotation": 90,
     "timestamp": "2025-04-10 17:47:05",
-    "location": null,
+    "location": "Matsudo, Japan",
     "coordinates": [
       35.787075,
       139.90277222222224
+    ]
+  },
+  "GBW_0411_7_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_7_O_32.jpeg",
+    "points": [
+      [
+        0.41875,
+        0.0
+      ],
+      [
+        0.76125,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-10-05 14:08:31",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.980266666666665,
+      116.49210277777777
+    ]
+  },
+  "GBW_0411_21_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_21_O_32.jpeg",
+    "points": [
+      [
+        0.605,
+        0.0
+      ],
+      [
+        0.61125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 17:12:51",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.982911111111115,
+      116.48916666666666
+    ]
+  },
+  "GBW_0411_16_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_16_O_32.jpeg",
+    "points": [
+      [
+        0.41375,
+        0.0
+      ],
+      [
+        0.64375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 16:57:21",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98249722222222,
+      116.48908333333334
+    ]
+  },
+  "GBW_0411_2_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_2_O_32.jpeg",
+    "points": [
+      [
+        0.44375,
+        0.0
+      ],
+      [
+        0.415,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 14:07:59",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98023333333334,
+      116.49218055555555
+    ]
+  },
+  "GBW_0411_13_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_13_O_32.jpeg",
+    "points": [
+      [
+        0.46875,
+        0.0
+      ],
+      [
+        0.7775,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 16:57:07",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98243611111111,
+      116.48915833333334
+    ]
+  },
+  "GBW_0411_24_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_24_O_32.jpeg",
+    "points": [
+      [
+        0.2325,
+        0.0
+      ],
+      [
+        0.11125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-06 16:08:08",
+    "location": "Wangjing, Chaoyang District, China",
+    "coordinates": [
+      39.97750833333333,
+      116.4604638888889
+    ]
+  },
+  "GBW_0411_5_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_5_O_32.jpeg",
+    "points": [
+      [
+        0.3675,
+        0.0
+      ],
+      [
+        0.4275,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 14:08:26",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98025555555556,
+      116.49210277777777
+    ]
+  },
+  "GBW_0411_14_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_14_O_32.jpeg",
+    "points": [
+      [
+        0.4175,
+        0.0
+      ],
+      [
+        0.61875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 16:57:09",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98243611111111,
+      116.48915833333334
+    ]
+  },
+  "GBW_0411_23_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_23_O_32.jpeg",
+    "points": [
+      [
+        0.4875,
+        0.0
+      ],
+      [
+        0.29625,
+        0.3625
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-06 16:08:07",
+    "location": "Wangjing, Chaoyang District, China",
+    "coordinates": [
+      39.977516666666666,
+      116.4604638888889
+    ]
+  },
+  "GBW_0411_19_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_19_O_32.jpeg",
+    "points": [
+      [
+        0.4775,
+        0.0
+      ],
+      [
+        0.50875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 16:57:43",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98251388888889,
+      116.48921111111112
+    ]
+  },
+  "GBW_0411_8_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_8_O_32.jpeg",
+    "points": [
+      [
+        0.02,
+        0.0
+      ],
+      [
+        0.705,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-10-05 14:08:32",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.980269444444446,
+      116.49210277777777
+    ]
+  },
+  "GBW_0411_11_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_11_O_32.jpeg",
+    "points": [
+      [
+        0.34125,
+        0.0
+      ],
+      [
+        0.995,
+        0.815
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2024-10-05 14:42:36",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98178888888889,
+      116.48873888888889
+    ]
+  },
+  "GBW_0411_3_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_3_O_32.jpeg",
+    "points": [
+      [
+        0.435,
+        0.0
+      ],
+      [
+        0.525,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 14:08:09",
+    "location": "Jiuxianqiao, Chaoyang District, China",
+    "coordinates": [
+      39.98023611111111,
+      116.49215
+    ]
+  },
+  "GBW_0411_12_O_32.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GBW_0411_12_O_32.jpeg",
+    "points": [
+      [
+        0.3575,
+        0.0
+      ],
+      [
+        0.06625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2024-10-05 16:57:02",
+    "location": "Chaoyang District, China",
+    "coordinates": [
+      39.98249166666667,
+      116.48915833333334
+    ]
+  },
+  "GB_0423_1_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_1_O_27.jpeg",
+    "points": [
+      [
+        0.38125,
+        0.17875
+      ],
+      [
+        0.66375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-16 19:05:13",
+    "location": null,
+    "coordinates": [
+      35.66075555555555,
+      139.6977388888889
+    ]
+  },
+  "GB_0423_20_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_20_O_27.jpeg",
+    "points": [
+      [
+        0.55125,
+        0.0
+      ],
+      [
+        0.53125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-23 14:47:26",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80392777777777,
+      139.91360555555556
+    ]
+  },
+  "GB_0423_17_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_17_O_27.jpeg",
+    "points": [
+      [
+        0.62,
+        0.0
+      ],
+      [
+        0.32375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:46:30",
+    "location": "Bunky\u014d, Japan",
+    "coordinates": [
+      35.72235833333333,
+      139.76255833333335
+    ]
+  },
+  "GB_0423_9_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_9_O_27.jpeg",
+    "points": [
+      [
+        0.33875,
+        0.0
+      ],
+      [
+        0.73125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:58:47",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89598888888889,
+      140.06272777777778
+    ]
+  },
+  "GB_0423_12_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_12_O_27.jpeg",
+    "points": [
+      [
+        0.30625,
+        0.0
+      ],
+      [
+        0.6625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:16:42",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72358333333334,
+      139.76863055555557
+    ]
+  },
+  "GB_0423_25_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_25_O_27.jpeg",
+    "points": [
+      [
+        0.30125,
+        0.0
+      ],
+      [
+        0.6025,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-23 23:58:54",
+    "location": "Adachi, Japan",
+    "coordinates": [
+      35.76226944444444,
+      139.82401944444445
+    ]
+  },
+  "GB_0423_4_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_4_O_27.jpeg",
+    "points": [
+      [
+        0.3625,
+        0.0
+      ],
+      [
+        0.36875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:14:47",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89112222222222,
+      140.06385833333334
+    ]
+  },
+  "GB_0423_3_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_3_O_27.jpeg",
+    "points": [
+      [
+        0.4875,
+        0.0
+      ],
+      [
+        0.29625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:14:47",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89112222222222,
+      140.06385833333334
+    ]
+  },
+  "GB_0423_18_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_18_O_27.jpeg",
+    "points": [
+      [
+        0.63875,
+        0.0
+      ],
+      [
+        0.495,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:46:32",
+    "location": "Bunky\u014d, Japan",
+    "coordinates": [
+      35.722344444444445,
+      139.76257222222222
+    ]
+  },
+  "GB_0423_15_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_15_O_27.jpeg",
+    "points": [
+      [
+        0.40875,
+        0.0
+      ],
+      [
+        0.39,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:22:07",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72398333333334,
+      139.76599166666668
+    ]
+  },
+  "GB_0423_22_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_22_O_27.jpeg",
+    "points": [
+      [
+        0.48625,
+        0.0
+      ],
+      [
+        0.3625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-23 22:46:34",
+    "location": "Shinagawa, Japan",
+    "coordinates": [
+      35.634858333333334,
+      139.71488888888888
+    ]
+  },
+  "GB_0423_27_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_27_O_27.jpeg",
+    "points": [
+      [
+        0.62,
+        0.0
+      ],
+      [
+        0.5425,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-27 14:07:05",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72258888888889,
+      139.77256666666668
+    ]
+  },
+  "GB_0423_10_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_10_O_27.jpeg",
+    "points": [
+      [
+        0.94125,
+        0.0
+      ],
+      [
+        0.83875,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-04-18 15:15:34",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.896388888888886,
+      140.06274444444446
+    ]
+  },
+  "GB_0423_6_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_6_O_27.jpeg",
+    "points": [
+      [
+        0.54375,
+        0.0
+      ],
+      [
+        0.20625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:17:43",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89056388888889,
+      140.06283611111112
+    ]
+  },
+  "GB_0423_13_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_13_O_27.jpeg",
+    "points": [
+      [
+        0.64125,
+        0.0
+      ],
+      [
+        0.14875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:16:45",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72358611111111,
+      139.76863055555557
+    ]
+  },
+  "GB_0423_24_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_24_O_27.jpeg",
+    "points": [
+      [
+        0.52125,
+        0.0
+      ],
+      [
+        0.36875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-23 22:46:36",
+    "location": "Shinagawa, Japan",
+    "coordinates": [
+      35.63485277777778,
+      139.71490555555553
+    ]
+  },
+  "GB_0423_8_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_8_O_27.jpeg",
+    "points": [
+      [
+        0.49125,
+        0.0
+      ],
+      [
+        0.4675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:53:57",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.89362222222222,
+      140.06117222222224
+    ]
+  },
+  "GB_0423_5_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_5_O_27.jpeg",
+    "points": [
+      [
+        0.50125,
+        0.0
+      ],
+      [
+        0.37625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:14:49",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.889738888888886,
+      140.061325
+    ]
+  },
+  "GB_0423_21_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_21_O_27.jpeg",
+    "points": [
+      [
+        0.395,
+        0.0
+      ],
+      [
+        0.56875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-23 22:46:32",
+    "location": "Shinagawa, Japan",
+    "coordinates": [
+      35.63484166666667,
+      139.71488888888888
+    ]
+  },
+  "GB_0423_16_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_16_O_27.jpeg",
+    "points": [
+      [
+        0.49,
+        0.0
+      ],
+      [
+        0.5675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:23:08",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72386111111111,
+      139.76655555555556
+    ]
+  },
+  "GB_0423_26_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_26_O_27.jpeg",
+    "points": [
+      [
+        0.68125,
+        0.0
+      ],
+      [
+        0.665,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-27 14:04:19",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.723080555555555,
+      139.77301111111112
+    ]
+  },
+  "GB_0423_11_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_11_O_27.jpeg",
+    "points": [
+      [
+        0.8425,
+        0.0
+      ],
+      [
+        0.6325,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:16:40",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72358333333334,
+      139.76863055555557
+    ]
+  },
+  "GB_0423_7_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_7_O_27.jpeg",
+    "points": [
+      [
+        0.365,
+        0.0
+      ],
+      [
+        0.31875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 12:17:44",
+    "location": "Toride, Japan",
+    "coordinates": [
+      35.8895,
+      140.06201111111113
+    ]
+  },
+  "GB_0423_2_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_2_O_27.jpeg",
+    "points": [
+      [
+        0.62125,
+        0.0
+      ],
+      [
+        0.33,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-18 11:53:23",
+    "location": null,
+    "coordinates": [
+      35.88955277777778,
+      140.06184444444446
+    ]
+  },
+  "GB_0423_14_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_14_O_27.jpeg",
+    "points": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.53125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-22 17:16:48",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.72360277777778,
+      139.76864722222223
+    ]
+  },
+  "GB_0423_23_O_27.jpeg": {
+    "path": "assets/img/projects/ground-breaking/GB_0423_23_O_27.jpeg",
+    "points": [
+      [
+        0.34125,
+        0.0
+      ],
+      [
+        0.47625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-23 22:46:35",
+    "location": "Shinagawa, Japan",
+    "coordinates": [
+      35.634858333333334,
+      139.71488888888888
     ]
   }
 }

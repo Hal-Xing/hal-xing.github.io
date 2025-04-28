@@ -6,6 +6,9 @@ from PIL import Image
 import exifread
 from datetime import datetime
 from geopy.geocoders import Nominatim
+import argparse
+import time
+from geopy.exc import GeocoderTimedOut
 
 # Initialize variables
 current_image_index = 0
@@ -663,6 +666,109 @@ def redo_current_image():
         display_image = current_image.copy()
         cv2.imshow("Image", display_image)
         status_label.setText("Image reloaded with points cleared.")
+
+def get_best_location_string(address):
+    # Most specific area
+    specific = None
+    for key in ['district', 'city_district', 'suburb', 'county']:
+        if key in address:
+            specific = address[key]
+            break
+
+    # City-level
+    city = None
+    for key in ['city', 'town', 'village']:
+        if key in address:
+            city = address[key]
+            break
+
+    country = address.get('country', '')
+
+    # Build location string, avoid duplicates
+    parts = []
+    if specific:
+        parts.append(specific)
+    if city and (not specific or city != specific):
+        parts.append(city)
+    if country:
+        parts.append(country)
+    return ', '.join(parts)
+
+def refresh_locations_in_metadata():
+    print("Refreshing locations in metadata.json...")
+    if not os.path.exists(metadata_file):
+        print("No metadata file found.")
+        return
+    with open(metadata_file, "r") as f:
+        data = json.load(f)
+    updated = False
+    for key, entry in data.items():
+        coords = entry.get("coordinates")
+        # Remove the check for (not location or location in [None, "", "null"])
+        if coords:
+            try:
+                loc = geolocator.reverse(f"{coords[0]}, {coords[1]}", language='en')
+                if loc and loc.raw and 'address' in loc.raw:
+                    address = loc.raw['address']
+                    best_location = get_best_location_string(address)
+                    data[key]["location"] = best_location
+                    print(f"Updated {key}: {best_location}")
+                    updated = True
+            except Exception as e:
+                print(f"Failed to update {key}: {e}")
+    if updated:
+        with open(metadata_file, "w") as f:
+            json.dump(data, f, indent=2)
+        print("Metadata file updated.")
+    else:
+        print("No updates made.")
+
+def mark_images_with_null_location(retries=3, delay=1.5):
+    print("Marking images with null location...")
+    if not os.path.exists(metadata_file):
+        print("No metadata file found.")
+        return
+    with open(metadata_file, "r") as f:
+        data = json.load(f)
+    updated = False
+    for key, entry in data.items():
+        coords = entry.get("coordinates")
+        location = entry.get("location")
+        if coords and (location is None or location == "" or location == "null"):
+            for attempt in range(retries):
+                try:
+                    loc = geolocator.reverse(f"{coords[0]}, {coords[1]}", language='en', timeout=10)
+                    if loc and loc.raw and 'address' in loc.raw:
+                        address = loc.raw['address']
+                        best_location = get_best_location_string(address)
+                        data[key]["location"] = best_location
+                        print(f"Updated {key}: {best_location}")
+                        updated = True
+                    break
+                except GeocoderTimedOut:
+                    print(f"Timeout for {key}, retrying ({attempt+1}/{retries})...")
+                    time.sleep(delay)
+                except Exception as e:
+                    print(f"Failed to update {key}: {e}")
+                    break
+    if updated:
+        with open(metadata_file, "w") as f:
+            json.dump(data, f, indent=2)
+        print("Metadata file updated.")
+    else:
+        print("No updates made.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--refresh-locations", action="store_true", help="Refresh missing locations in metadata.json")
+    parser.add_argument("--mark-null-locations", action="store_true", help="Mark only images with null location in metadata.json")
+    args = parser.parse_args()
+    if args.refresh_locations:
+        refresh_locations_in_metadata()
+        exit(0)
+    if args.mark_null_locations:
+        mark_images_with_null_location()
+        exit(0)
 
 # Create the PyQt5 application (only once!)
 app = QApplication([])
