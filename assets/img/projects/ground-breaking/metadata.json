@@ -4880,5 +4880,1216 @@
       35.634858333333334,
       139.71488888888888
     ]
+  },
+  "I_7089.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7089.jpeg",
+    "points": [
+      [
+        0.4225,
+        0.0
+      ],
+      [
+        0.46375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-04 11:43:05",
+    "location": "Kawasaki, Japan",
+    "coordinates": [
+      35.58716666666667,
+      139.50248611111112
+    ]
+  },
+  "I_7119.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7119.jpeg",
+    "points": [],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:09:05",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67827222222222,
+      138.55333055555556
+    ]
+  },
+  "I_7115.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7115.jpeg",
+    "points": [
+      [
+        0.35125,
+        0.0
+      ],
+      [
+        0.65375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:53",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67831388888889,
+      138.55320833333334
+    ]
+  },
+  "I_7046.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7046.jpeg",
+    "points": [
+      [
+        0.51875,
+        0.0
+      ],
+      [
+        0.59625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:49",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80611388888889,
+      139.91459722222223
+    ]
+  },
+  "I_7154.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7154.jpeg",
+    "points": [
+      [
+        0.64375,
+        0.0
+      ],
+      [
+        0.41875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 17:29:46",
+    "location": "Ichikawamisato, Japan",
+    "coordinates": [
+      35.56568055555555,
+      138.53413333333333
+    ]
+  },
+  "I_7155.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7155.jpeg",
+    "points": [
+      [
+        0.59625,
+        0.0
+      ],
+      [
+        0.5,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 17:29:57",
+    "location": "Ichikawamisato, Japan",
+    "coordinates": [
+      35.565625,
+      138.53407222222222
+    ]
+  },
+  "I_7047.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7047.jpeg",
+    "points": [
+      [
+        0.5425,
+        0.0
+      ],
+      [
+        0.325,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:50",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80609444444444,
+      139.91459722222223
+    ]
+  },
+  "I_7051.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7051.jpeg",
+    "points": [
+      [
+        0.625,
+        0.0
+      ],
+      [
+        0.45375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:52",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806075,
+      139.91459722222223
+    ]
+  },
+  "I_7114.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7114.jpeg",
+    "points": [
+      [
+        0.35875,
+        0.0
+      ],
+      [
+        0.0825,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:52",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67831388888889,
+      138.5531916666667
+    ]
+  },
+  "I_7092.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7092.jpeg",
+    "points": [
+      [
+        0.26,
+        0.0
+      ],
+      [
+        0.2875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-04 11:43:07",
+    "location": "Kawasaki, Japan",
+    "coordinates": [
+      35.587155555555555,
+      139.50248611111112
+    ]
+  },
+  "I_7159.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7159.jpeg",
+    "points": [
+      [
+        0.3825,
+        0.0
+      ],
+      [
+        0.49625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 18:18:27",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.66546111111111,
+      138.56701666666666
+    ]
+  },
+  "I_7118.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7118.jpeg",
+    "points": [
+      [
+        0.485,
+        0.0
+      ],
+      [
+        0.48,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:57",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67829444444444,
+      138.5532527777778
+    ]
+  },
+  "I_7071.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7071.jpeg",
+    "points": [
+      [
+        0.5125,
+        0.0
+      ],
+      [
+        0.53125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-01 09:20:11",
+    "location": "Bunky\u014d, Japan",
+    "coordinates": [
+      35.70584166666667,
+      139.77001944444447
+    ]
+  },
+  "I_7122.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7122.jpeg",
+    "points": [
+      [
+        0.41125,
+        0.0
+      ],
+      [
+        0.47,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-05-05 19:18:27",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67844722222222,
+      138.5523388888889
+    ]
+  },
+  "I_7088.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7088.jpeg",
+    "points": [
+      [
+        0.5225,
+        0.0
+      ],
+      [
+        0.35,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-04 11:42:22",
+    "location": "Kawasaki, Japan",
+    "coordinates": [
+      35.58755,
+      139.50218333333333
+    ]
+  },
+  "I_7001.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7001.jpeg",
+    "points": [
+      [
+        0.44625,
+        0.0
+      ],
+      [
+        0.37125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:52:15",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.663627777777776,
+      139.67033333333333
+    ]
+  },
+  "I_7056.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7056.jpeg",
+    "points": [
+      [
+        0.3475,
+        0.0
+      ],
+      [
+        0.5875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:55",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80605,
+      139.91458055555557
+    ]
+  },
+  "I_7113.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7113.jpeg",
+    "points": [
+      [
+        0.4625,
+        0.0
+      ],
+      [
+        0.5525,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:51",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67831666666667,
+      138.5531777777778
+    ]
+  },
+  "I_7017.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7017.jpeg",
+    "points": [
+      [
+        0.46125,
+        0.0
+      ],
+      [
+        0.445,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-29 12:42:12",
+    "location": "Koto, Japan",
+    "coordinates": [
+      35.682249999999996,
+      139.80198611111112
+    ]
+  },
+  "I_7152.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7152.jpeg",
+    "points": [
+      [
+        0.57,
+        0.0
+      ],
+      [
+        0.49,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 17:29:34",
+    "location": "Ichikawamisato, Japan",
+    "coordinates": [
+      35.56586111111111,
+      138.53413333333333
+    ]
+  },
+  "I_7060.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7060.jpeg",
+    "points": [
+      [
+        0.595,
+        0.0
+      ],
+      [
+        0.4875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:58",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806019444444445,
+      139.91455000000002
+    ]
+  },
+  "I_7109.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7109.jpeg",
+    "points": [
+      [
+        0.76375,
+        0.0
+      ],
+      [
+        0.3475,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:44",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.678355555555555,
+      138.55294722222223
+    ]
+  },
+  "I_7061.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7061.jpeg",
+    "points": [
+      [
+        0.2,
+        0.0
+      ],
+      [
+        0.47,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:59",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806019444444445,
+      139.91455000000002
+    ]
+  },
+  "I_7153.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7153.jpeg",
+    "points": [
+      [
+        0.52875,
+        0.0
+      ],
+      [
+        0.26,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 17:29:43",
+    "location": "Nishiyatsushiro County, Ichikawamisato, Japan",
+    "coordinates": [
+      35.56570555555555,
+      138.53415
+    ]
+  },
+  "I_7057.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7057.jpeg",
+    "points": [
+      [
+        0.5625,
+        0.0
+      ],
+      [
+        0.48875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:56",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80605,
+      139.91458055555557
+    ]
+  },
+  "I_7112.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7112.jpeg",
+    "points": [
+      [
+        0.5425,
+        0.0
+      ],
+      [
+        0.47625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:50",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67832222222222,
+      138.5531611111111
+    ]
+  },
+  "I_6996.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_6996.jpeg",
+    "points": [
+      [
+        0.45,
+        0.0
+      ],
+      [
+        0.37,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:28:25",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.66214444444444,
+      139.666825
+    ]
+  },
+  "I_7111.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7111.jpeg",
+    "points": [
+      [
+        0.47125,
+        0.0
+      ],
+      [
+        0.36125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:49",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67831388888889,
+      138.55314722222224
+    ]
+  },
+  "I_7054.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7054.jpeg",
+    "points": [
+      [
+        0.62625,
+        0.0
+      ],
+      [
+        0.2975,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:54",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80605833333333,
+      139.91459722222223
+    ]
+  },
+  "I_7003.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7003.jpeg",
+    "points": [
+      [
+        0.6275,
+        0.0
+      ],
+      [
+        0.5325,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:58:19",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.66296111111111,
+      139.66954166666665
+    ]
+  },
+  "I_6999.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_6999.jpeg",
+    "points": [
+      [
+        0.44,
+        0.0
+      ],
+      [
+        0.435,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:52:14",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.66363888888889,
+      139.6703638888889
+    ]
+  },
+  "I_7058.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7058.jpeg",
+    "points": [
+      [
+        0.515,
+        0.0
+      ],
+      [
+        0.45,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:56",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806038888888885,
+      139.91456666666667
+    ]
+  },
+  "I_7074.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7074.jpeg",
+    "points": [
+      [
+        0.40125,
+        0.0
+      ],
+      [
+        0.60625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-01 16:43:59",
+    "location": "Chiyoda, Japan",
+    "coordinates": [
+      35.70007777777778,
+      139.77082777777778
+    ]
+  },
+  "I_7062.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7062.jpeg",
+    "points": [
+      [
+        0.72625,
+        0.0
+      ],
+      [
+        0.15625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:02:35",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80482222222222,
+      139.91404722222222
+    ]
+  },
+  "I_7063.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7063.jpeg",
+    "points": [
+      [
+        0.6175,
+        0.0
+      ],
+      [
+        0.37625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:02:36",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80505833333333,
+      139.91404722222222
+    ]
+  },
+  "I_7075.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7075.jpeg",
+    "points": [
+      [
+        0.545,
+        0.0
+      ],
+      [
+        0.185,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-01 16:44:48",
+    "location": "Chiyoda, Japan",
+    "coordinates": [
+      35.700097222222226,
+      139.77070555555557
+    ]
+  },
+  "I_7059.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7059.jpeg",
+    "points": [
+      [
+        0.69125,
+        0.0
+      ],
+      [
+        0.465,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:57",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80602777777778,
+      139.91456666666667
+    ]
+  },
+  "I_6998.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_6998.jpeg",
+    "points": [
+      [
+        0.52,
+        0.0
+      ],
+      [
+        0.4325,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:52:13",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.663647222222224,
+      139.67038055555554
+    ]
+  },
+  "I_7018.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7018.jpeg",
+    "points": [
+      [
+        0.5675,
+        0.0
+      ],
+      [
+        0.6075,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-29 12:42:22",
+    "location": "Koto, Japan",
+    "coordinates": [
+      35.68176944444444,
+      139.8032388888889
+    ]
+  },
+  "I_7110.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7110.jpeg",
+    "points": [
+      [
+        0.4725,
+        0.0
+      ],
+      [
+        0.52625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:48",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67832222222222,
+      138.5531
+    ]
+  },
+  "I_7055.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7055.jpeg",
+    "points": [
+      [
+        0.5725,
+        0.0
+      ],
+      [
+        0.28625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:55",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80605833333333,
+      139.91459722222223
+    ]
+  },
+  "I_7043.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7043.jpeg",
+    "points": [
+      [
+        0.4675,
+        0.0
+      ],
+      [
+        0.6375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:47",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806130555555555,
+      139.91459722222223
+    ]
+  },
+  "I_7048.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7048.jpeg",
+    "points": [
+      [
+        0.49875,
+        0.0
+      ],
+      [
+        0.4025,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:50",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608611111111,
+      139.91459722222223
+    ]
+  },
+  "I_7072.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7072.jpeg",
+    "points": [
+      [
+        0.59375,
+        0.0
+      ],
+      [
+        0.575,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-01 09:20:14",
+    "location": "Bunky\u014d, Japan",
+    "coordinates": [
+      35.70584166666667,
+      139.77001944444447
+    ]
+  },
+  "I_7160.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7160.jpeg",
+    "points": [
+      [
+        0.235,
+        0.0
+      ],
+      [
+        0.61875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 18:18:29",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.66545,
+      138.56704722222221
+    ]
+  },
+  "I_7064.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7064.jpeg",
+    "points": [
+      [
+        0.55,
+        0.0
+      ],
+      [
+        0.68625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:02:37",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80513333333333,
+      139.91401666666667
+    ]
+  },
+  "I_7121.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7121.jpeg",
+    "points": [
+      [
+        0.53875,
+        0.0
+      ],
+      [
+        0.31875,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-05-05 19:18:24",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67844722222222,
+      138.5523388888889
+    ]
+  },
+  "I_7156.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7156.jpeg",
+    "points": [
+      [
+        0.31125,
+        0.0
+      ],
+      [
+        0.64,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 17:30:02",
+    "location": "Nishiyatsushiro County, Ichikawamisato, Japan",
+    "coordinates": [
+      35.56560833333333,
+      138.53407222222222
+    ]
+  },
+  "I_7044.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7044.jpeg",
+    "points": [
+      [
+        0.55625,
+        0.0
+      ],
+      [
+        0.53125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:47",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80613333333333,
+      139.91455000000002
+    ]
+  },
+  "I_7052.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7052.jpeg",
+    "points": [
+      [
+        0.67125,
+        0.0
+      ],
+      [
+        0.58,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:53",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806063888888886,
+      139.91459722222223
+    ]
+  },
+  "I_7005.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7005.jpeg",
+    "points": [
+      [
+        0.4625,
+        0.0
+      ],
+      [
+        0.51625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:58:21",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.66287222222222,
+      139.6696472222222
+    ]
+  },
+  "I_7091.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7091.jpeg",
+    "points": [
+      [
+        0.4625,
+        0.0
+      ],
+      [
+        0.16,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-04 11:43:07",
+    "location": "Kawasaki, Japan",
+    "coordinates": [
+      35.587161111111115,
+      139.50248611111112
+    ]
+  },
+  "I_7090.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7090.jpeg",
+    "points": [
+      [
+        0.25,
+        0.0
+      ],
+      [
+        0.30125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-04 11:43:06",
+    "location": "Kawasaki, Japan",
+    "coordinates": [
+      35.58716666666667,
+      139.50248611111112
+    ]
+  },
+  "I_7004.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7004.jpeg",
+    "points": [
+      [
+        0.47625,
+        0.0
+      ],
+      [
+        0.62,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-28 13:58:20",
+    "location": "Setagaya, Japan",
+    "coordinates": [
+      35.66287222222222,
+      139.6696472222222
+    ]
+  },
+  "I_7116.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7116.jpeg",
+    "points": [
+      [
+        0.52,
+        0.0
+      ],
+      [
+        0.4625,
+        0.565
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:54",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67831111111111,
+      138.55322222222225
+    ]
+  },
+  "I_7053.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7053.jpeg",
+    "points": [
+      [
+        0.3875,
+        0.0
+      ],
+      [
+        0.49625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:54",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.806063888888886,
+      139.91459722222223
+    ]
+  },
+  "I_7045.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7045.jpeg",
+    "points": [
+      [
+        0.55625,
+        0.0
+      ],
+      [
+        0.55625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:48",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80611388888889,
+      139.91459722222223
+    ]
+  },
+  "I_7157.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7157.jpeg",
+    "points": [
+      [
+        0.57875,
+        0.0
+      ],
+      [
+        0.445,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 17:30:04",
+    "location": "Ichikawamisato, Japan",
+    "coordinates": [
+      35.565597222222216,
+      138.53405833333332
+    ]
+  },
+  "I_7120.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7120.jpeg",
+    "points": [
+      [
+        0.34875,
+        0.0
+      ],
+      [
+        0.465,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:09:06",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.678261111111105,
+      138.5533138888889
+    ]
+  },
+  "I_7073.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7073.jpeg",
+    "points": [
+      [
+        0.5575,
+        0.0
+      ],
+      [
+        0.40125,
+        0.89875
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2025-05-01 09:25:51",
+    "location": "Bunky\u014d, Japan",
+    "coordinates": [
+      35.70584166666667,
+      139.77001944444447
+    ]
+  },
+  "I_7049.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7049.jpeg",
+    "points": [
+      [
+        0.56125,
+        0.0
+      ],
+      [
+        0.67625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-04-30 14:00:51",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.80608333333333,
+      139.91459722222223
+    ]
   }
 }
