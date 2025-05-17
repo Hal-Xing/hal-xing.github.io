@@ -4903,7 +4903,16 @@
   },
   "I_7119.jpeg": {
     "path": "assets/img/projects/ground-breaking/I_7119.jpeg",
-    "points": [],
+    "points": [
+      [
+        0.69875,
+        0.0
+      ],
+      [
+        0.1875,
+        1.0
+      ]
+    ],
     "rotation": 0,
     "timestamp": "2025-05-05 18:09:05",
     "location": "K\u014dfu, Japan",
@@ -4976,7 +4985,7 @@
     "path": "assets/img/projects/ground-breaking/I_7155.jpeg",
     "points": [
       [
-        0.59625,
+        0.595,
         0.0
       ],
       [
@@ -5060,7 +5069,7 @@
         0.0
       ],
       [
-        0.2875,
+        0.28625,
         1.0
       ]
     ],
@@ -5116,7 +5125,7 @@
     "path": "assets/img/projects/ground-breaking/I_7071.jpeg",
     "points": [
       [
-        0.5125,
+        0.51125,
         0.0
       ],
       [
@@ -5346,7 +5355,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-05-06 17:29:43",
-    "location": "Nishiyatsushiro County, Ichikawamisato, Japan",
+    "location": "Ichikawamisato, Japan",
     "coordinates": [
       35.56570555555555,
       138.53415
@@ -5520,7 +5529,7 @@
         0.0
       ],
       [
-        0.60625,
+        0.605,
         1.0
       ]
     ],
@@ -5740,7 +5749,7 @@
         0.0
       ],
       [
-        0.575,
+        0.57375,
         1.0
       ]
     ],
@@ -5796,11 +5805,11 @@
     "path": "assets/img/projects/ground-breaking/I_7121.jpeg",
     "points": [
       [
-        0.53875,
+        0.5375,
         0.0
       ],
       [
-        0.31875,
+        0.3175,
         1.0
       ]
     ],
@@ -5826,7 +5835,7 @@
     ],
     "rotation": 0,
     "timestamp": "2025-05-06 17:30:02",
-    "location": "Nishiyatsushiro County, Ichikawamisato, Japan",
+    "location": "Ichikawamisato, Japan",
     "coordinates": [
       35.56560833333333,
       138.53407222222222
@@ -5961,7 +5970,7 @@
       ],
       [
         0.4625,
-        0.565
+        0.56375
       ]
     ],
     "rotation": 0,
@@ -6090,6 +6099,1857 @@
     "coordinates": [
       35.80608333333333,
       139.91459722222223
+    ]
+  },
+  "I_7162.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7162.jpeg",
+    "points": [
+      [
+        0.1325,
+        0.0
+      ],
+      [
+        0.52625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 19:20:05",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.66132222222222,
+      138.5700388888889
+    ]
+  },
+  "I_7267.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7267.jpeg",
+    "points": [
+      [
+        0.49875,
+        0.0
+      ],
+      [
+        0.45375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:57:39",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.055305555555556,
+      140.8895111111111
+    ]
+  },
+  "I_7322.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7322.jpeg",
+    "points": [
+      [
+        0.46625,
+        0.0
+      ],
+      [
+        0.4175,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:18",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10683888888889,
+      140.79852222222223
+    ]
+  },
+  "I_7230.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7230.jpeg",
+    "points": [
+      [
+        0.54375,
+        0.0
+      ],
+      [
+        0.62375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:29",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535,
+      140.10728333333333
+    ]
+  },
+  "I_7334.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7334.jpeg",
+    "points": [
+      [
+        0.1425,
+        0.0
+      ],
+      [
+        0.705,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:26",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106861111111115,
+      140.7984
+    ]
+  },
+  "I_7302.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7302.jpeg",
+    "points": [
+      [
+        0.595,
+        0.0
+      ],
+      [
+        0.785,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:36",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.059549999999994,
+      140.86007777777778
+    ]
+  },
+  "I_7355.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7355.jpeg",
+    "points": [
+      [
+        0.64375,
+        0.0
+      ],
+      [
+        0.49875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:48",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10683888888889,
+      140.79844722222222
+    ]
+  },
+  "I_7380.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7380.jpeg",
+    "points": [
+      [
+        0.56875,
+        0.0
+      ],
+      [
+        0.4875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 16:05:32",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11172777777778,
+      140.7580722222222
+    ]
+  },
+  "I_7338.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7338.jpeg",
+    "points": [
+      [
+        0.6325,
+        0.0
+      ],
+      [
+        0.15375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:29",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10687222222222,
+      140.79841666666667
+    ]
+  },
+  "I_7339.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7339.jpeg",
+    "points": [
+      [
+        0.2225,
+        0.0
+      ],
+      [
+        0.5225,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:29",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106880555555556,
+      140.79841666666667
+    ]
+  },
+  "I_7293.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7293.jpeg",
+    "points": [
+      [
+        0.275,
+        0.0
+      ],
+      [
+        0.655,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:21:21",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05925,
+      140.86010833333333
+    ]
+  },
+  "I_7381.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7381.jpeg",
+    "points": [
+      [
+        0.42625,
+        0.0
+      ],
+      [
+        0.35125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 16:05:33",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11172777777778,
+      140.7580722222222
+    ]
+  },
+  "I_7354.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7354.jpeg",
+    "points": [
+      [
+        0.5425,
+        0.0
+      ],
+      [
+        0.51,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:48",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106833333333334,
+      140.79844722222222
+    ]
+  },
+  "I_7211.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7211.jpeg",
+    "points": [
+      [
+        0.5125,
+        0.0
+      ],
+      [
+        0.4675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:39:33",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535063888888885,
+      140.10884166666665
+    ]
+  },
+  "I_7303.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7303.jpeg",
+    "points": [
+      [
+        0.48125,
+        0.0
+      ],
+      [
+        0.64625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:38",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05953611111111,
+      140.86009166666665
+    ]
+  },
+  "I_7342.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7342.jpeg",
+    "points": [
+      [
+        0.62375,
+        0.0
+      ],
+      [
+        0.6125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:31",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10688888888889,
+      140.79843055555554
+    ]
+  },
+  "I_7270.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7270.jpeg",
+    "points": [
+      [
+        0.41875,
+        0.0
+      ],
+      [
+        0.50125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:57:49",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.055480555555555,
+      140.88902222222222
+    ]
+  },
+  "I_7335.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7335.jpeg",
+    "points": [
+      [
+        0.33125,
+        0.0
+      ],
+      [
+        0.5825,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:27",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106861111111115,
+      140.7984
+    ]
+  },
+  "I_7231.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7231.jpeg",
+    "points": [
+      [
+        0.68625,
+        0.0
+      ],
+      [
+        0.785,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:30",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535,
+      140.10728333333333
+    ]
+  },
+  "I_7266.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7266.jpeg",
+    "points": [
+      [
+        0.485,
+        0.0
+      ],
+      [
+        0.44875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:53:43",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05596111111111,
+      140.891525
+    ]
+  },
+  "I_7323.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7323.jpeg",
+    "points": [
+      [
+        0.255,
+        0.0
+      ],
+      [
+        0.09625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:19",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10683888888889,
+      140.79852222222223
+    ]
+  },
+  "I_7358.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7358.jpeg",
+    "points": [
+      [
+        0.38625,
+        0.0
+      ],
+      [
+        0.44375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:50",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106830555555554,
+      140.7984611111111
+    ]
+  },
+  "I_7163.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7163.jpeg",
+    "points": [
+      [
+        0.30125,
+        0.0
+      ],
+      [
+        0.48625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 19:20:10",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.66132222222222,
+      138.5700222222222
+    ]
+  },
+  "I_7345.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7345.jpeg",
+    "points": [
+      [
+        0.11875,
+        0.0
+      ],
+      [
+        0.2925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:37",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10685277777778,
+      140.7984
+    ]
+  },
+  "I_7200.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7200.jpeg",
+    "points": [
+      [
+        0.4775,
+        0.0
+      ],
+      [
+        0.46125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-09 15:34:07",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71944444444445,
+      139.7708888888889
+    ]
+  },
+  "I_7241.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7241.jpeg",
+    "points": [
+      [
+        0.53875,
+        0.0
+      ],
+      [
+        0.58125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 19:03:38",
+    "location": "Aizuwakamatsu, Japan",
+    "coordinates": [
+      37.51804722222222,
+      139.91725277777778
+    ]
+  },
+  "I_7216.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7216.jpeg",
+    "points": [
+      [
+        0.39125,
+        0.0
+      ],
+      [
+        0.6125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:18",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53506111111111,
+      140.10731388888888
+    ]
+  },
+  "I_7328.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7328.jpeg",
+    "points": [
+      [
+        0.35625,
+        0.0
+      ],
+      [
+        0.3025,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:22",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10684166666667,
+      140.79836944444443
+    ]
+  },
+  "I_7294.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7294.jpeg",
+    "points": [
+      [
+        0.365,
+        0.0
+      ],
+      [
+        0.70375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:21:22",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05939444444444,
+      140.86016944444444
+    ]
+  },
+  "I_7164.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7164.jpeg",
+    "points": [
+      [
+        0.67875,
+        0.0
+      ],
+      [
+        0.21125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 19:20:13",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.6614,
+      138.57006944444444
+    ]
+  },
+  "I_7324.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7324.jpeg",
+    "points": [
+      [
+        0.015,
+        0.0
+      ],
+      [
+        0.0325,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:20",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10683888888889,
+      140.79841666666667
+    ]
+  },
+  "I_7220.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7220.jpeg",
+    "points": [
+      [
+        0.56625,
+        0.0
+      ],
+      [
+        0.49125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:22",
+    "location": "Yama County, Inawashiro, Japan",
+    "coordinates": [
+      37.53501111111111,
+      140.10734444444444
+    ]
+  },
+  "I_7298.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7298.jpeg",
+    "points": [
+      [
+        0.33625,
+        0.0
+      ],
+      [
+        0.37875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:27",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05959444444444,
+      140.86003055555554
+    ]
+  },
+  "I_7332.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7332.jpeg",
+    "points": [
+      [
+        0.51125,
+        0.0
+      ],
+      [
+        0.47,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:25",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106858333333335,
+      140.7984
+    ]
+  },
+  "I_7299.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7299.jpeg",
+    "points": [
+      [
+        0.42875,
+        0.0
+      ],
+      [
+        0.38,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:28",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.059580555555556,
+      140.86001666666667
+    ]
+  },
+  "I_7333.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7333.jpeg",
+    "points": [
+      [
+        0.3675,
+        0.0
+      ],
+      [
+        0.47125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:26",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106858333333335,
+      140.7984
+    ]
+  },
+  "I_7221.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7221.jpeg",
+    "points": [
+      [
+        0.585,
+        0.0
+      ],
+      [
+        0.51125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:23",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53501111111111,
+      140.10734444444444
+    ]
+  },
+  "I_7260.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7260.jpeg",
+    "points": [
+      [
+        0.31375,
+        0.0
+      ],
+      [
+        0.63375,
+        1.0
+      ]
+    ],
+    "rotation": 90,
+    "timestamp": "2025-05-13 14:58:20",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.057716666666664,
+      140.89883333333333
+    ]
+  },
+  "I_7325.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7325.jpeg",
+    "points": [
+      [
+        0.1475,
+        0.0
+      ],
+      [
+        0.12875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:21",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106833333333334,
+      140.7983861111111
+    ]
+  },
+  "I_7165.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7165.jpeg",
+    "points": [
+      [
+        0.44875,
+        0.0
+      ],
+      [
+        0.61,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 19:20:50",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.661769444444445,
+      138.5702222222222
+    ]
+  },
+  "I_7348.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7348.jpeg",
+    "points": [
+      [
+        0.96625,
+        0.0
+      ],
+      [
+        0.7525,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:39",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10684722222222,
+      140.7984
+    ]
+  },
+  "I_7295.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7295.jpeg",
+    "points": [
+      [
+        0.45875,
+        0.0
+      ],
+      [
+        0.605,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:21:23",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05941388888888,
+      140.86013888888888
+    ]
+  },
+  "I_7352.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7352.jpeg",
+    "points": [
+      [
+        0.53375,
+        0.0
+      ],
+      [
+        0.4225,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:42",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106833333333334,
+      140.79841666666667
+    ]
+  },
+  "I_7217.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7217.jpeg",
+    "points": [
+      [
+        0.41125,
+        0.0
+      ],
+      [
+        0.00375,
+        0.33
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:20",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535019444444444,
+      140.10734444444444
+    ]
+  },
+  "I_7344.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7344.jpeg",
+    "points": [
+      [
+        0.20875,
+        0.0
+      ],
+      [
+        0.305,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:37",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106880555555556,
+      140.79843055555554
+    ]
+  },
+  "I_7201.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7201.jpeg",
+    "points": [
+      [
+        0.47125,
+        0.0
+      ],
+      [
+        0.49125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-09 15:34:08",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71944444444445,
+      139.7708888888889
+    ]
+  },
+  "I_7384.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7384.jpeg",
+    "points": [
+      [
+        0.4675,
+        0.0
+      ],
+      [
+        0.55125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 16:05:35",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.110925,
+      140.7585
+    ]
+  },
+  "I_7214.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7214.jpeg",
+    "points": [
+      [
+        0.29375,
+        0.0
+      ],
+      [
+        0.6125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:15",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53512222222222,
+      140.10655277777778
+    ]
+  },
+  "I_7351.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7351.jpeg",
+    "points": [
+      [
+        0.385,
+        0.0
+      ],
+      [
+        0.395,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:41",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106833333333334,
+      140.79841666666667
+    ]
+  },
+  "I_7202.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7202.jpeg",
+    "points": [
+      [
+        0.53875,
+        0.0
+      ],
+      [
+        0.4925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-09 15:34:09",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71944444444445,
+      139.7708888888889
+    ]
+  },
+  "I_7347.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7347.jpeg",
+    "points": [
+      [
+        0.57125,
+        0.0
+      ],
+      [
+        0.365,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:38",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10684722222222,
+      140.7984
+    ]
+  },
+  "I_7330.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7330.jpeg",
+    "points": [
+      [
+        0.30875,
+        0.0
+      ],
+      [
+        0.13125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:24",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10684722222222,
+      140.7983861111111
+    ]
+  },
+  "I_7222.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7222.jpeg",
+    "points": [
+      [
+        0.47875,
+        0.0
+      ],
+      [
+        0.5525,
+        0.80125
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:23",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53500833333333,
+      140.10734444444444
+    ]
+  },
+  "I_7234.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7234.jpeg",
+    "points": [
+      [
+        0.57875,
+        0.0
+      ],
+      [
+        0.515,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:32",
+    "location": "Yama County, Inawashiro, Japan",
+    "coordinates": [
+      37.53503055555555,
+      140.10726944444443
+    ]
+  },
+  "I_7326.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7326.jpeg",
+    "points": [
+      [
+        0.605,
+        0.0
+      ],
+      [
+        0.7125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:21",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106833333333334,
+      140.7983861111111
+    ]
+  },
+  "I_7218.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7218.jpeg",
+    "points": [
+      [
+        0.5225,
+        0.0
+      ],
+      [
+        0.045,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:21",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535019444444444,
+      140.10734444444444
+    ]
+  },
+  "I_7259.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7259.jpeg",
+    "points": [
+      [
+        0.55,
+        0.0
+      ],
+      [
+        0.635,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 14:58:15",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05763611111111,
+      140.89881944444443
+    ]
+  },
+  "I_7167.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7167.jpeg",
+    "points": [
+      [
+        0.7225,
+        0.0
+      ],
+      [
+        0.525,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-06 19:34:47",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.66510833333333,
+      138.57069444444443
+    ]
+  },
+  "I_7219.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7219.jpeg",
+    "points": [
+      [
+        0.47125,
+        0.0
+      ],
+      [
+        0.4675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:22",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535019444444444,
+      140.10734444444444
+    ]
+  },
+  "I_7327.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7327.jpeg",
+    "points": [
+      [
+        0.5425,
+        0.0
+      ],
+      [
+        0.2325,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:22",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106833333333334,
+      140.7983861111111
+    ]
+  },
+  "I_7235.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7235.jpeg",
+    "points": [
+      [
+        0.58125,
+        0.0
+      ],
+      [
+        0.4875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:45:16",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53494722222222,
+      140.10775833333332
+    ]
+  },
+  "I_7223.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7223.jpeg",
+    "points": [
+      [
+        0.5175,
+        0.0
+      ],
+      [
+        0.655,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:24",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53500833333333,
+      140.10734444444444
+    ]
+  },
+  "I_7203.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7203.jpeg",
+    "points": [
+      [
+        0.51875,
+        0.06125
+      ],
+      [
+        0.3525,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-09 15:34:12",
+    "location": "Taito, Japan",
+    "coordinates": [
+      35.71944444444445,
+      139.7708888888889
+    ]
+  },
+  "I_7346.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7346.jpeg",
+    "points": [
+      [
+        0.4,
+        0.0
+      ],
+      [
+        0.53375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:38",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10685277777778,
+      140.7984
+    ]
+  },
+  "I_7242.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7242.jpeg",
+    "points": [
+      [
+        0.70375,
+        0.0
+      ],
+      [
+        0.39,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 19:03:42",
+    "location": "Aizuwakamatsu, Japan",
+    "coordinates": [
+      37.51803888888889,
+      139.9171611111111
+    ]
+  },
+  "I_7215.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7215.jpeg",
+    "points": [
+      [
+        0.44875,
+        0.0
+      ],
+      [
+        0.5675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:16",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53512222222222,
+      140.10655277777778
+    ]
+  },
+  "I_7393.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7393.jpeg",
+    "points": [
+      [
+        0.4675,
+        0.0
+      ],
+      [
+        0.55125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 21:45:12",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.057227777777776,
+      140.89244166666666
+    ]
+  },
+  "I_7385.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7385.jpeg",
+    "points": [
+      [
+        0.505,
+        0.0
+      ],
+      [
+        0.45625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 16:05:36",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11089722222222,
+      140.75853055555555
+    ]
+  },
+  "I_7297.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7297.jpeg",
+    "points": [
+      [
+        0.45625,
+        0.0
+      ],
+      [
+        0.32125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:25",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.059599999999996,
+      140.86004722222222
+    ]
+  },
+  "I_7336.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7336.jpeg",
+    "points": [
+      [
+        0.31875,
+        0.0
+      ],
+      [
+        0.385,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:27",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10686944444445,
+      140.7984
+    ]
+  },
+  "I_7224.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7224.jpeg",
+    "points": [
+      [
+        0.475,
+        0.0
+      ],
+      [
+        0.5675,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:24",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535,
+      140.10733055555556
+    ]
+  },
+  "I_7232.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7232.jpeg",
+    "points": [
+      [
+        0.99,
+        0.0
+      ],
+      [
+        0.77375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:31",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53501111111111,
+      140.10728333333333
+    ]
+  },
+  "I_7265.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7265.jpeg",
+    "points": [
+      [
+        0.545,
+        0.0
+      ],
+      [
+        0.5025,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:53:40",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05582777777777,
+      140.89196666666666
+    ]
+  },
+  "I_7199.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7199.jpeg",
+    "points": [
+      [
+        0.40875,
+        0.0
+      ],
+      [
+        0.66625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-09 09:40:22",
+    "location": "Matsudo, Japan",
+    "coordinates": [
+      35.803802777777776,
+      139.91354444444445
+    ]
+  },
+  "I_7382.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7382.jpeg",
+    "points": [
+      [
+        0.5475,
+        0.0
+      ],
+      [
+        0.5825,
+        0.7625
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 16:05:34",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11181944444444,
+      140.7579638888889
+    ]
+  },
+  "I_7228.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7228.jpeg",
+    "points": [
+      [
+        0.72625,
+        0.0
+      ],
+      [
+        0.07125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:28",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53499166666666,
+      140.10731388888888
+    ]
+  },
+  "I_7117.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7117.jpeg",
+    "points": [
+      [
+        0.45875,
+        0.0
+      ],
+      [
+        0.46,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-05 18:08:55",
+    "location": "K\u014dfu, Japan",
+    "coordinates": [
+      35.67830277777777,
+      138.55322222222225
+    ]
+  },
+  "I_7269.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7269.jpeg",
+    "points": [
+      [
+        0.5275,
+        0.0
+      ],
+      [
+        0.57625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:57:48",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05548611111111,
+      140.88903888888888
+    ]
+  },
+  "I_7212.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7212.jpeg",
+    "points": [
+      [
+        0.75375,
+        0.13375
+      ],
+      [
+        0.50625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:39:35",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535063888888885,
+      140.10884166666665
+    ]
+  },
+  "I_7357.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7357.jpeg",
+    "points": [
+      [
+        0.66625,
+        0.0
+      ],
+      [
+        0.33125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:49",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10681944444445,
+      140.79847777777778
+    ]
+  },
+  "I_7300.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7300.jpeg",
+    "points": [
+      [
+        0.25625,
+        0.0575
+      ],
+      [
+        0.24375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:29",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.059580555555556,
+      140.8600611111111
+    ]
+  },
+  "I_7253.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7253.jpeg",
+    "points": [
+      [
+        0.35625,
+        0.0
+      ],
+      [
+        0.70125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-12 16:14:36",
+    "location": "Kitakata, Japan",
+    "coordinates": [
+      37.61920555555555,
+      139.8308722222222
+    ]
+  },
+  "I_7341.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7341.jpeg",
+    "points": [
+      [
+        0.59625,
+        0.0
+      ],
+      [
+        0.6425,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:31",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.106883333333336,
+      140.79841666666667
+    ]
+  },
+  "I_7301.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7301.jpeg",
+    "points": [
+      [
+        0.6325,
+        0.0
+      ],
+      [
+        0.57125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 06:38:35",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.059549999999994,
+      140.86007777777778
+    ]
+  },
+  "I_7213.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7213.jpeg",
+    "points": [
+      [
+        0.64375,
+        0.0
+      ],
+      [
+        0.3125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:14",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53512222222222,
+      140.10655277777778
+    ]
+  },
+  "I_7356.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7356.jpeg",
+    "points": [
+      [
+        0.46125,
+        0.0
+      ],
+      [
+        0.43875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:49",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10683888888889,
+      140.79844722222222
+    ]
+  },
+  "I_7268.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7268.jpeg",
+    "points": [
+      [
+        0.335,
+        0.0
+      ],
+      [
+        0.69375,
+        0.82875
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:57:48",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05548611111111,
+      140.88903888888888
+    ]
+  },
+  "I_7383.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7383.jpeg",
+    "points": [
+      [
+        0.53125,
+        0.0
+      ],
+      [
+        0.37,
+        0.85625
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 16:05:35",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11181944444444,
+      140.7579638888889
+    ]
+  },
+  "I_7229.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7229.jpeg",
+    "points": [
+      [
+        0.57,
+        0.0
+      ],
+      [
+        0.35625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:29",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53499166666666,
+      140.10729999999998
+    ]
+  },
+  "I_7264.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7264.jpeg",
+    "points": [
+      [
+        0.44625,
+        0.0
+      ],
+      [
+        0.375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-13 21:52:33",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.055813888888885,
+      140.89211944444443
+    ]
+  },
+  "I_7233.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7233.jpeg",
+    "points": [],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:31",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.535019444444444,
+      140.10726944444443
+    ]
+  },
+  "I_7225.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7225.jpeg",
+    "points": [
+      [
+        0.40375,
+        0.0
+      ],
+      [
+        0.51375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-11 14:41:25",
+    "location": "Inawashiro, Japan",
+    "coordinates": [
+      37.53499166666666,
+      140.10733055555556
+    ]
+  },
+  "I_7337.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7337.jpeg",
+    "points": [
+      [
+        0.36125,
+        0.0
+      ],
+      [
+        0.37,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-14 11:41:28",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.10687222222222,
+      140.79841666666667
     ]
   }
 }
