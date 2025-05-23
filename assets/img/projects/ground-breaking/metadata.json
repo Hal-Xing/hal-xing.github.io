@@ -7951,5 +7951,885 @@
       37.10687222222222,
       140.79841666666667
     ]
+  },
+  "I_7637.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7637.jpeg",
+    "points": [
+      [
+        0.495,
+        0.0
+      ],
+      [
+        0.59,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:49",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75219444444444,
+      140.46746944444445
+    ]
+  },
+  "I_7621.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7621.jpeg",
+    "points": [
+      [
+        0.47375,
+        0.0
+      ],
+      [
+        0.57625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:48",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.752361111111114,
+      140.4675
+    ]
+  },
+  "I_7617.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7617.jpeg",
+    "points": [
+      [
+        0.535,
+        0.0
+      ],
+      [
+        0.55875,
+        0.8025
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:34",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75234722222222,
+      140.46748333333335
+    ]
+  },
+  "I_7640.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7640.jpeg",
+    "points": [
+      [
+        0.4625,
+        0.0
+      ],
+      [
+        0.4,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:55",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75216666666667,
+      140.46745277777777
+    ]
+  },
+  "I_7545.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7545.jpeg",
+    "points": [
+      [
+        0.47,
+        0.0
+      ],
+      [
+        0.37125,
+        0.58375
+      ]
+    ],
+    "rotation": 180,
+    "timestamp": "2025-05-19 20:06:48",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75333333333333,
+      140.467925
+    ]
+  },
+  "I_7544.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7544.jpeg",
+    "points": [
+      [
+        0.56625,
+        0.0
+      ],
+      [
+        0.475,
+        0.74875
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-19 20:06:44",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.753322222222224,
+      140.467925
+    ]
+  },
+  "I_7641.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7641.jpeg",
+    "points": [
+      [
+        0.9175,
+        0.0
+      ],
+      [
+        0.52625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:56:23",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.753661111111114,
+      140.4665222222222
+    ]
+  },
+  "I_7616.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7616.jpeg",
+    "points": [
+      [
+        0.5125,
+        0.0
+      ],
+      [
+        0.61125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:33",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75236388888889,
+      140.46746944444445
+    ]
+  },
+  "I_7620.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7620.jpeg",
+    "points": [
+      [
+        0.49875,
+        0.0
+      ],
+      [
+        0.57875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:44",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75234722222222,
+      140.4675
+    ]
+  },
+  "I_7636.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7636.jpeg",
+    "points": [
+      [
+        0.4625,
+        0.0
+      ],
+      [
+        0.57625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:46",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75218888888889,
+      140.46745277777777
+    ]
+  },
+  "I_7447.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7447.jpeg",
+    "points": [
+      [
+        0.39,
+        0.0
+      ],
+      [
+        0.51125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 14:02:19",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.061949999999996,
+      140.8977361111111
+    ]
+  },
+  "I_7426.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7426.jpeg",
+    "points": [
+      [
+        0.53625,
+        0.0
+      ],
+      [
+        0.42625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-16 08:08:43",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11868333333334,
+      140.99966388888888
+    ]
+  },
+  "I_7631.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7631.jpeg",
+    "points": [
+      [
+        0.465,
+        0.0
+      ],
+      [
+        0.54125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:24",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75223888888889,
+      140.4675138888889
+    ]
+  },
+  "I_7627.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7627.jpeg",
+    "points": [
+      [
+        0.50875,
+        0.0
+      ],
+      [
+        0.5225,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:19",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75225833333333,
+      140.4675
+    ]
+  },
+  "I_7626.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7626.jpeg",
+    "points": [
+      [
+        0.46375,
+        0.0
+      ],
+      [
+        0.4375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:17",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75225833333333,
+      140.4675
+    ]
+  },
+  "I_7630.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7630.jpeg",
+    "points": [
+      [
+        0.39875,
+        0.0
+      ],
+      [
+        0.505,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:23",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75224722222222,
+      140.4675138888889
+    ]
+  },
+  "I_7446.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7446.jpeg",
+    "points": [
+      [
+        0.3,
+        0.0
+      ],
+      [
+        0.58875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 14:02:18",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.061949999999996,
+      140.8977361111111
+    ]
+  },
+  "I_7445.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7445.jpeg",
+    "points": [
+      [
+        0.225,
+        0.0
+      ],
+      [
+        0.60625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 14:02:17",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.061949999999996,
+      140.89775
+    ]
+  },
+  "I_7625.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7625.jpeg",
+    "points": [
+      [
+        0.50625,
+        0.0
+      ],
+      [
+        0.44625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:15",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.752269444444444,
+      140.46748333333335
+    ]
+  },
+  "I_7449.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7449.jpeg",
+    "points": [
+      [
+        0.295,
+        0.14
+      ],
+      [
+        0.335,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 14:02:20",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.06195555555555,
+      140.8977361111111
+    ]
+  },
+  "I_7633.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7633.jpeg",
+    "points": [
+      [
+        0.5225,
+        0.0
+      ],
+      [
+        0.63125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:26",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75223611111111,
+      140.4675138888889
+    ]
+  },
+  "I_7424.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7424.jpeg",
+    "points": [
+      [
+        0.5475,
+        0.0
+      ],
+      [
+        0.46,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-16 07:44:51",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.11866388888889,
+      140.99903888888886
+    ]
+  },
+  "I_7425.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7425.jpeg",
+    "points": [
+      [
+        0.59,
+        0.0
+      ],
+      [
+        0.3275,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-16 08:08:42",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.118775,
+      140.9997111111111
+    ]
+  },
+  "I_7632.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7632.jpeg",
+    "points": [
+      [
+        0.4525,
+        0.0
+      ],
+      [
+        0.5725,
+        0.79375
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:25",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75223888888889,
+      140.4675138888889
+    ]
+  },
+  "I_7448.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7448.jpeg",
+    "points": [
+      [
+        0.365,
+        0.0
+      ],
+      [
+        0.3,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 14:02:19",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.06195555555555,
+      140.8977361111111
+    ]
+  },
+  "I_7624.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7624.jpeg",
+    "points": [
+      [
+        0.41125,
+        0.0
+      ],
+      [
+        0.38625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:14",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75228055555556,
+      140.4675
+    ]
+  },
+  "I_7645.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7645.jpeg",
+    "points": [
+      [
+        0.51625,
+        0.0
+      ],
+      [
+        0.46375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:57:50",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75439444444444,
+      140.46491944444443
+    ]
+  },
+  "I_7628.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7628.jpeg",
+    "points": [
+      [
+        0.53625,
+        0.0
+      ],
+      [
+        0.60875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:20",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75225555555556,
+      140.4675138888889
+    ]
+  },
+  "I_7444.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7444.jpeg",
+    "points": [
+      [
+        0.66875,
+        0.0
+      ],
+      [
+        0.6625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 13:52:04",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05723888888889,
+      140.8964388888889
+    ]
+  },
+  "I_7623.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7623.jpeg",
+    "points": [
+      [
+        0.465,
+        0.0
+      ],
+      [
+        0.32625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:12",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75228611111111,
+      140.4675
+    ]
+  },
+  "I_7422.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7422.jpeg",
+    "points": [
+      [
+        0.6825,
+        0.0
+      ],
+      [
+        0.57875,
+        0.90625
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-16 07:44:41",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.12058611111111,
+      140.99679444444442
+    ]
+  },
+  "I_7619.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7619.jpeg",
+    "points": [
+      [
+        0.4275,
+        0.0
+      ],
+      [
+        0.49375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:41",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75233333333333,
+      140.4675
+    ]
+  },
+  "I_7443.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7443.jpeg",
+    "points": [
+      [
+        0.62875,
+        0.0
+      ],
+      [
+        0.32375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 13:52:02",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05728055555555,
+      140.89645277777777
+    ]
+  },
+  "I_7547.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7547.jpeg",
+    "points": [
+      [
+        0.28875,
+        0.0
+      ],
+      [
+        0.72875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-19 20:06:59",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75313055555556,
+      140.4675
+    ]
+  },
+  "I_7639.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7639.jpeg",
+    "points": [
+      [
+        0.46,
+        0.0
+      ],
+      [
+        0.575,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:53",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.752183333333335,
+      140.46746944444445
+    ]
+  },
+  "I_7642.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7642.jpeg",
+    "points": [
+      [
+        0.5175,
+        0.0
+      ],
+      [
+        0.5775,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:56:24",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.754155555555556,
+      140.4655
+    ]
+  },
+  "I_7615.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7615.jpeg",
+    "points": [
+      [
+        0.41,
+        0.0
+      ],
+      [
+        0.60375,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:31",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.752380555555554,
+      140.46745277777777
+    ]
+  },
+  "I_7638.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7638.jpeg",
+    "points": [
+      [
+        0.47625,
+        0.0
+      ],
+      [
+        0.5925,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:51",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75218888888889,
+      140.46745277777777
+    ]
+  },
+  "I_7546.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7546.jpeg",
+    "points": [
+      [
+        0.51625,
+        0.0
+      ],
+      [
+        0.135,
+        0.57
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-19 20:06:51",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75312777777778,
+      140.46788055555555
+    ]
+  },
+  "I_7442.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7442.jpeg",
+    "points": [
+      [
+        0.68,
+        0.0
+      ],
+      [
+        0.54625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-17 13:51:59",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.05746388888888,
+      140.89645277777777
+    ]
+  },
+  "I_7618.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7618.jpeg",
+    "points": [
+      [
+        0.44625,
+        0.0
+      ],
+      [
+        0.54625,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:35:37",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.752338888888886,
+      140.46748333333335
+    ]
+  },
+  "I_7423.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7423.jpeg",
+    "points": [
+      [
+        0.44875,
+        0.0
+      ],
+      [
+        0.435,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-16 07:44:49",
+    "location": "Iwaki, Japan",
+    "coordinates": [
+      37.118652777777775,
+      140.99905277777776
+    ]
+  },
+  "I_7634.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7634.jpeg",
+    "points": [
+      [
+        0.58625,
+        0.1275
+      ],
+      [
+        0.58125,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:28",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.752227777777776,
+      140.4675138888889
+    ]
+  },
+  "I_7622.jpeg": {
+    "path": "assets/img/projects/ground-breaking/I_7622.jpeg",
+    "points": [
+      [
+        0.37875,
+        0.0
+      ],
+      [
+        0.21875,
+        1.0
+      ]
+    ],
+    "rotation": 0,
+    "timestamp": "2025-05-20 21:36:10",
+    "location": "Fukushima, Japan",
+    "coordinates": [
+      37.75233333333333,
+      140.46746944444445
+    ]
   }
 }
