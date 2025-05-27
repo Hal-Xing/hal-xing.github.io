@@ -668,30 +668,12 @@ def redo_current_image():
         status_label.setText("Image reloaded with points cleared.")
 
 def get_best_location_string(address):
-    # Most specific area
-    specific = None
-    for key in ['district', 'city_district', 'suburb', 'county']:
-        if key in address:
-            specific = address[key]
-            break
-
-    # City-level
-    city = None
-    for key in ['city', 'town', 'village']:
-        if key in address:
-            city = address[key]
-            break
-
-    country = address.get('country', '')
-
-    # Build location string, avoid duplicates
+    # Combine suburb, city, state, country (in that order, skipping duplicates/empties)
     parts = []
-    if specific:
-        parts.append(specific)
-    if city and (not specific or city != specific):
-        parts.append(city)
-    if country:
-        parts.append(country)
+    for key in ['suburb', 'city', 'state', 'country']:
+        value = address.get(key)
+        if value and value not in parts:
+            parts.append(value)
     return ', '.join(parts)
 
 def refresh_locations_in_metadata():
@@ -704,7 +686,6 @@ def refresh_locations_in_metadata():
     updated = False
     for key, entry in data.items():
         coords = entry.get("coordinates")
-        # Remove the check for (not location or location in [None, "", "null"])
         if coords:
             try:
                 loc = geolocator.reverse(f"{coords[0]}, {coords[1]}", language='en')
@@ -712,13 +693,14 @@ def refresh_locations_in_metadata():
                     address = loc.raw['address']
                     best_location = get_best_location_string(address)
                     data[key]["location"] = best_location
+                    data[key]["address"] = address  # Store full address for flexibility
                     print(f"Updated {key}: {best_location}")
                     updated = True
             except Exception as e:
                 print(f"Failed to update {key}: {e}")
     if updated:
         with open(metadata_file, "w") as f:
-            json.dump(data, f, indent=2)
+            json.dump(data, f, indent=2, ensure_ascii=False)
         print("Metadata file updated.")
     else:
         print("No updates made.")
@@ -757,18 +739,6 @@ def mark_images_with_null_location(retries=3, delay=1.5):
         print("Metadata file updated.")
     else:
         print("No updates made.")
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--refresh-locations", action="store_true", help="Refresh missing locations in metadata.json")
-    parser.add_argument("--mark-null-locations", action="store_true", help="Mark only images with null location in metadata.json")
-    args = parser.parse_args()
-    if args.refresh_locations:
-        refresh_locations_in_metadata()
-        exit(0)
-    if args.mark_null_locations:
-        mark_images_with_null_location()
-        exit(0)
 
 # Create the PyQt5 application (only once!)
 app = QApplication([])
@@ -841,3 +811,17 @@ window.show()
 
 # Start the PyQt5 main loop
 app.exec_()
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--refresh-locations", action="store_true", help="Refresh all locations in metadata.json")
+    parser.add_argument("--mark-null-locations", action="store_true", help="Only mark images with null location")
+    args = parser.parse_args()
+    if args.refresh_locations:
+        refresh_locations_in_metadata()
+    elif args.mark_null_locations:
+        mark_images_with_null_location()
+    else:
+        # Start the GUI as usual
+        app.exec_()
