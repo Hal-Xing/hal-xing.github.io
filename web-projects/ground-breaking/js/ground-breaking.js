@@ -10,7 +10,7 @@ class ImageScroller {
         
         // Scrolling parameters
         this.scrollPosition = 0;
-        this.scrollSpeed = 200;
+        this.scrollSpeed = 128;
         
         // Image management
         this.imageWrappers = [];
