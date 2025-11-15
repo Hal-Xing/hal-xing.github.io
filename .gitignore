@@ -1,1 +1,7 @@
 .DS_Store
+
+# Ignore all files in tools except those you want to keep
+/tools/
+!tools/ground-breaking-processor/
+!tools/ground-breaking-processor/image_marker.py
+# Add more !tools/... lines for any files you want to keep tracked

@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QMe
 from PIL import Image
 import exifread
 from datetime import datetime
-from geopy.geocoders import Nominatim
+from geopy.geocoders import LocationIQ
 import argparse
 import time
 from geopy.exc import GeocoderTimedOut
@@ -19,13 +19,13 @@ rotation_data = {}
 current_image = None
 rotation_angle = 0
 metadata_cache = {}  # Cache for location lookups
-geolocator = Nominatim(user_agent="ground-breaking-app")
+geolocator = LocationIQ(api_key="pk.e9bb865b22a60c092b271b79a74692c6")
 
 # Use absolute paths to eliminate confusion
 base_dir = "/Users/admin/Documents/GitHub/hal-xing.github.io"
 image_folder = os.path.join(base_dir, "assets/img/projects/ground-breaking/originals")
 processed_folder = os.path.join(base_dir, "assets/img/projects/ground-breaking")
-metadata_file = os.path.join(base_dir, "assets/img/projects/ground-breaking/metadata.json")
+metadata_file = os.path.join(base_dir, "assets/img/projects/ground-breaking/metadata_test.json")
 
 # Add these lines
 output_file = os.path.join(processed_folder, "points.json")

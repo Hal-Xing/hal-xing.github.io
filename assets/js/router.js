@@ -11,9 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Handle menu clicks
     document.querySelectorAll('.menu a').forEach(link => {
         link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            // If external link, open in new tab
+            if (href.startsWith('http://') || href.startsWith('https://')) {
+                window.open(href, '_blank', 'noopener');
+                e.preventDefault();
+                return;
+            }
             e.preventDefault();
-            const path = this.getAttribute('href');
-            navigateTo(path);
+            navigateTo(href);
         });
     });
 
