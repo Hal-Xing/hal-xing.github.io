@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Limbo v3 · Interactive Prototype</title>
+<style>
+/* ─── RESET ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; min-height: 100vh; }
+
+/* ─── TOKENS ─────────────────────────────────────────────── */
+:root {
+  --ink:   #1a1a1a;
+  --ink2:  #3a3a3a;
+  --mute:  #6e6e6e;
+  --mute2: #9a9a9a;
+  --line:  #cfcfcf;
+  --fill:  #e6e6e6;
+  --fill2: #efefef;
+  --page:  #ffffff;
+  --r:     8px;
+  --font:  -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Mobile responsive container */
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── SCREEN CONTAINER ───────────────────────────────────── */
+.screen {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  background: var(--page);
+}
+.screen.active { display: flex; }
+
+/* ─── SCROLLABLE CONTENT AREA ────────────────────────────── */
+.scroll-area {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-area::-webkit-scrollbar { display: none; }
+
+/* ─── TOP BAR ────────────────────────────────────────────── */
+.top-bar {
+  height: 52px; display: flex; align-items: center; justify-content: space-between;
+  padding: 0 16px; flex-shrink: 0; background: var(--page);
+  border-bottom: 1px solid var(--line);
+}
+.top-bar .logo { font-size: 18px; font-weight: 800; letter-spacing: -.03em; color: var(--ink); }
+.top-bar .tb-icons { display: flex; gap: 4px; }
+.top-bar .tb-back { display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--ink); cursor: pointer; }
+.top-bar .tb-back .icon-box { width: 28px; height: 28px; }
+.tb-search-bar {
+  flex: 1; height: 36px; background: var(--fill2); border: 1px solid var(--line);
+  border-radius: 18px; display: flex; align-items: center; padding: 0 12px; gap: 8px; font-size: 13px; color: var(--mute);
+}
+
+/* ─── ICON BOX (dashed labeled placeholder) ──────────────── */
+.icon-box {
+  width: 32px; height: 32px; border: 1.5px dashed var(--mute2);
+  border-radius: 6px; display: flex; align-items: center; justify-content: center;
+  font-size: 9px; color: var(--mute); cursor: pointer; flex-shrink: 0;
+}
+.icon-box:hover { border-color: var(--mute); background: var(--fill2); }
+
+/* ─── IMAGE PLACEHOLDER (diagonal stripes) ───────────────── */
+.img-box {
+  background: repeating-linear-gradient(
+    45deg, var(--fill), var(--fill) 4px, var(--fill2) 4px, var(--fill2) 8px
+  );
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; color: var(--mute2); flex-shrink: 0;
+  position: relative;
+}
+.img-box .img-label { background: rgba(255,255,255,.7); padding: 2px 6px; border-radius: 3px; font-size: 10px; }
+
+/* ─── CHIP ───────────────────────────────────────────────── */
+.chip {
+  display: inline-flex; align-items: center; gap: 3px;
+  padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 500;
+  border: 1px solid var(--line); background: var(--page); color: var(--mute); cursor: pointer;
+  white-space: nowrap; flex-shrink: 0;
+}
+.chip.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.chip.tag { background: var(--fill2); border: none; color: var(--mute2); font-size: 10px; padding: 2px 8px; }
+
+/* ─── BOTTOM NAV ─────────────────────────────────────────── */
+.bottom-nav {
+  height: 72px; display: flex; align-items: flex-start; padding-top: 10px;
+  border-top: 1px solid var(--line); background: var(--page); flex-shrink: 0;
+  position: relative;
+}
+.nav-item {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
+  cursor: pointer; padding-top: 2px;
+}
+.nav-icon {
+  width: 24px; height: 24px; border: 1.5px dashed var(--mute2);
+  border-radius: 5px; display: flex; align-items: center; justify-content: center;
+  font-size: 8px; color: var(--mute2);
+}
+.nav-item.active .nav-icon { border-style: solid; border-color: var(--ink); background: var(--ink); color: #fff; }
+.nav-label { font-size: 10px; color: var(--mute2); font-weight: 500; }
+.nav-item.active .nav-label { color: var(--ink); font-weight: 700; }
+
+/* ─── FLOATING + FAB ─────────────────────────────────────── */
+.fab {
+  position: fixed; bottom: 80px; right: 20px;
+  width: 52px; height: 52px; border-radius: 50%; background: var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 24px; font-weight: 300; cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,.3); z-index: 10;
+}
+.fab:hover { background: var(--ink2); }
+
+/* ─── AVATAR CIRCLE ──────────────────────────────────────── */
+.avatar {
+  border-radius: 50%; background: var(--fill);
+  border: 1.5px solid var(--line); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; color: var(--mute2);
+}
+
+/* ─── SECTION LABEL ──────────────────────────────────────── */
+.section-label { font-size: 12px; font-weight: 700; color: var(--mute); text-transform: uppercase; letter-spacing: .08em; }
+
+/* ─── DIVIDER ────────────────────────────────────────────── */
+.divider { height: 1px; background: var(--line); margin: 0; }
+.section-divider { height: 8px; background: var(--fill2); }
+
+/* ─── PILL BUTTON ────────────────────────────────────────── */
+.pill-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px;
+  padding: 9px 20px; border-radius: 24px; font-size: 14px; font-weight: 600; cursor: pointer;
+  border: none;
+}
+.pill-btn.primary { background: var(--ink); color: #fff; }
+.pill-btn.outline { background: none; border: 1.5px solid var(--line); color: var(--ink); }
+.pill-btn.outline-ink { background: none; border: 1.5px solid var(--ink); color: var(--ink); }
+.pill-btn.sm { padding: 6px 14px; font-size: 12px; border-radius: 18px; }
+
+/* ─── FILTER CHIPS ROW ───────────────────────────────────── */
+.filter-row {
+  display: flex; gap: 6px; padding: 10px 16px; overflow-x: auto;
+  -webkit-overflow-scrolling: touch; flex-shrink: 0;
+}
+.filter-row::-webkit-scrollbar { display: none; }
+
+/* ─── FEED CARD ──────────────────────────────────────────── */
+.feed-card {
+  margin: 0 16px 12px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  background: var(--page); cursor: pointer;
+}
+.feed-card-media { width: 100%; height: 180px; }
+.feed-card-body { padding: 12px 14px; }
+.feed-title { font-size: 14px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+.feed-meta { font-size: 11px; color: var(--mute2); margin-bottom: 8px; }
+.feed-actions { display: flex; gap: 8px; align-items: center; }
+.feed-avatar { width: 28px; height: 28px; border-radius: 50%; background: var(--fill); }
+.feed-username { font-size: 12px; font-weight: 600; color: var(--ink); }
+
+/* ─── INFO GRID ──────────────────────────────────────────– */
+.info-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  padding: 0 16px 14px; margin: 8px 0;
+}
+.info-cell { padding: 10px; background: var(--fill2); border-radius: 8px; }
+.info-label { font-size: 9px; font-weight: 700; color: var(--mute); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+.info-val { font-size: 14px; font-weight: 600; color: var(--ink); }
+
+/* ─── COMMUNITY STRIP ────────────────────────────────────– */
+.community-strip {
+  border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; background: var(--page);
+}
+.strip-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 8px; }
+.strip-row { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 8px; }
+.strip-row:last-child { margin-bottom: 0; }
+.note-text { font-size: 11px; color: var(--ink2); background: var(--fill2); padding: 6px 8px; border-radius: 6px; }
+
+/* ─── TIMELINE ENTRIES ───────────────────────────────────– */
+.timeline-entry {
+  display: flex; gap: 12px; padding: 12px 16px; border-bottom: 1px solid var(--fill2);
+  cursor: pointer;
+}
+.timeline-entry:hover { background: var(--fill2); }
+.entry-info { flex: 1; }
+.entry-title { font-size: 14px; font-weight: 700; color: var(--ink); margin-bottom: 2px; }
+.entry-space { font-size: 12px; color: var(--mute); margin-bottom: 4px; }
+.entry-meta { display: flex; gap: 8px; font-size: 10px; color: var(--mute2); flex-wrap: wrap; }
+
+/* ─── TIMELINE DATE HEADER ───────────────────────────────– */
+.timeline-date {
+  padding: 12px 16px 4px; font-size: 12px; font-weight: 700; color: var(--mute);
+  text-transform: uppercase; letter-spacing: .08em; background: var(--page);
+  position: sticky; top: 0;
+}
+.today-anchor { padding: 12px 16px 4px; font-size: 13px; font-weight: 800; color: var(--ink);
+  background: var(--fill2); margin-top: 8px;
+}
+
+/* ─── UPCOMING LABEL ─────────────────────────────────────– */
+.upcoming-label {
+  background: var(--ink); color: #fff; padding: 2px 8px; border-radius: 4px; font-size: 9px; font-weight: 600;
+  margin-left: 6px;
+}
+
+/* ─── CALENDAR STRIP ─────────────────────────────────────– */
+.cal-strip {
+  display: flex; gap: 8px; padding: 12px 16px; overflow-x: auto;
+  -webkit-overflow-scrolling: touch; background: var(--page);
+}
+.cal-strip::-webkit-scrollbar { display: none; }
+.cal-day {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 8px 10px;
+  border-radius: 8px; min-width: 52px; cursor: pointer; position: relative;
+  background: var(--fill2); border: 1px solid transparent;
+}
+.cal-day.today {
+  background: var(--ink); color: #fff;
+}
+.cal-day.today .day-label { color: #fff; }
+.cal-day.today .day-num { color: #fff; }
+.cal-day.has-ring {
+  border: 2px solid var(--ink);
+}
+.day-label { font-size: 9px; color: var(--mute); font-weight: 600; }
+.day-num { font-size: 14px; font-weight: 700; color: var(--ink); }
+.day-dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--ink); margin-top: 2px;
+}
+
+/* ─── MAP BACKGROUND ─────────────────────────────────────– */
+.map-bg {
+  background: repeating-linear-gradient(0deg,
+    var(--fill2) 0px, var(--fill2) 2px,
+    var(--fill) 2px, var(--fill) 4px
+  );
+  position: relative;
+}
+
+.map-pin {
+  position: absolute;
+  width: 12px; height: 12px; background: var(--ink);
+  border-radius: 50%; cursor: pointer;
+}
+
+.map-poster {
+  position: absolute; padding: 8px; background: #fff; border-radius: 8px;
+  border: 1px solid var(--line); box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  display: flex; gap: 8px; cursor: pointer;
+}
+
+/* ─── BOTTOM SHEET (check-in modal) ──────────────────────– */
+.overlay {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0,0,0,.3); z-index: 100; cursor: pointer;
+}
+.bottom-sheet {
+  position: fixed; bottom: 0; left: 0; right: 0; max-height: 90vh;
+  background: var(--page); border-radius: 16px 16px 0 0; z-index: 101;
+  overflow-y: auto; -webkit-overflow-scrolling: touch;
+}
+.sheet-handle {
+  height: 4px; width: 40px; background: var(--line); border-radius: 2px;
+  margin: 10px auto; flex-shrink: 0;
+}
+
+/* ─── ANNOTATION (dev comment) ───────────────────────────– */
+.annot {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .screen { min-height: 100vh; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation script placeholder -->
+<script>
+function goto(screenId) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  const screen = document.getElementById(screenId);
+  if (screen) {
+    screen.classList.add('active');
+    window.scrollTo(0, 0);
+  }
+}
+
+window.addEventListener('load', () => {
+  if (!document.querySelector('.screen.active')) {
+    document.getElementById('home-feed')?.classList.add('active');
+  }
+});
+</script>
+
+<!-- Screens will be inserted here by including the content from limbo-v3.html -->
+<!-- For now, showing a placeholder structure -->
+
+<div class="screen active" id="home-feed" style="min-height: 100vh;">
+  <div class="top-bar">
+    <div class="logo">Limbo</div>
+    <div class="tb-icons">
+      <div class="icon-box">🔔</div>
+    </div>
+  </div>
+  <div class="filter-row">
+    <div class="chip active">For You</div>
+    <div class="chip">Following</div>
+    <div class="chip">Map</div>
+    <div class="chip">Near</div>
+  </div>
+  <div class="scroll-area">
+    <div class="feed-card">
+      <div class="img-box feed-card-media"><span class="img-label">event image</span></div>
+      <div class="feed-card-body">
+        <div class="feed-title">Floating Hours</div>
+        <div class="feed-meta">Hagu Gallery · Shimokitazawa · 2h away</div>
+        <div class="feed-actions">
+          <div class="feed-avatar"></div>
+          <span class="feed-username">yuki</span>
+          <span style="font-size:10px;color:var(--mute2);">checked in</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-nav">
+    <div class="nav-item active" onclick="goto('home-feed')">
+      <div class="nav-icon">⌂</div><span class="nav-label">Feed</span>
+    </div>
+    <div class="nav-item" onclick="goto('map')">
+      <div class="nav-icon">🗺</div><span class="nav-label">Map</span>
+    </div>
+    <div class="nav-item" onclick="goto('logs')">
+      <div class="nav-icon">📝</div><span class="nav-label">Logs</span>
+    </div>
+    <div class="nav-item" onclick="goto('explore')">
+      <div class="nav-icon">🔍</div><span class="nav-label">Explore</span>
+    </div>
+    <div class="nav-item" onclick="goto('profile-self')">
+      <div class="nav-icon">👤</div><span class="nav-label">Avatar</span>
+    </div>
+  </div>
+</div>
+
+<div class="screen" id="map" style="min-height: 100vh;">
+  <div class="top-bar">
+    <div style="font-size:16px;font-weight:700;color:var(--ink);">Map</div>
+  </div>
+  <div style="padding:8px 16px;background:var(--page);border-bottom:1px solid var(--line);">
+    <div class="tb-search-bar">
+      <span>Search area, event, space…</span>
+      <div class="icon-box" style="margin-left:auto;width:28px;height:28px;font-size:9px;border:none;background:var(--fill);">🤖</div>
+    </div>
+  </div>
+  <div class="scroll-area">
+    <div style="height:400px;margin:16px;border-radius:10px;border:1px solid var(--line);" class="map-bg"></div>
+  </div>
+  <div class="bottom-nav">
+    <div class="nav-item" onclick="goto('home-feed')">
+      <div class="nav-icon">⌂</div><span class="nav-label">Feed</span>
+    </div>
+    <div class="nav-item active" onclick="goto('map')">
+      <div class="nav-icon">🗺</div><span class="nav-label">Map</span>
+    </div>
+    <div class="nav-item" onclick="goto('logs')">
+      <div class="nav-icon">📝</div><span class="nav-label">Logs</span>
+    </div>
+    <div class="nav-item" onclick="goto('explore')">
+      <div class="nav-icon">🔍</div><span class="nav-label">Explore</span>
+    </div>
+    <div class="nav-item" onclick="goto('profile-self')">
+      <div class="nav-icon">👤</div><span class="nav-label">Avatar</span>
+    </div>
+  </div>
+</div>
+
+<div class="screen" id="logs" style="min-height: 100vh;">
+  <div class="top-bar">
+    <span></span>
+    <span style="font-size:16px;font-weight:700;color:var(--ink);">May 2026</span>
+    <div class="icon-box"><span>⚙</span></div>
+  </div>
+  <div class="cal-strip">
+    <div class="cal-day"><span class="day-label">Mon</span><span class="day-num">13</span><div class="day-dot"></div></div>
+    <div class="cal-day"><span class="day-label">Tue</span><span class="day-num">14</span></div>
+    <div class="cal-day"><span class="day-label">Wed</span><span class="day-num">15</span></div>
+    <div class="cal-day"><span class="day-label">Thu</span><span class="day-num">16</span><div class="day-dot"></div></div>
+    <div class="cal-day"><span class="day-label">Fri</span><span class="day-num">17</span><div class="day-dot"></div></div>
+    <div class="cal-day"><span class="day-label">Sat</span><span class="day-num">18</span><div class="day-dot"></div></div>
+    <div class="cal-day"><span class="day-label">Sun</span><span class="day-num">19</span></div>
+    <div class="cal-day today"><span class="day-label">Mon</span><span class="day-num">20</span></div>
+    <div class="cal-day has-ring"><span class="day-label">Tue</span><span class="day-num">21</span></div>
+    <div class="cal-day has-ring"><span class="day-label">Wed</span><span class="day-num">22</span></div>
+  </div>
+  <div class="divider"></div>
+  <div class="scroll-area">
+    <div class="timeline-date">Sun · May 18</div>
+    <div class="timeline-entry">
+      <div class="img-box" style="width:52px;height:52px;border-radius:6px;"><span class="img-label">img</span></div>
+      <div class="entry-info">
+        <div class="entry-title">Floating Hours</div>
+        <div class="entry-space">Hagu Gallery · Shimokitazawa</div>
+        <div class="entry-meta"><span>Checked in</span><span>🔒</span></div>
+      </div>
+    </div>
+    <div class="timeline-date">Sat · May 17</div>
+    <div class="timeline-entry">
+      <div class="img-box" style="width:52px;height:52px;border-radius:6px;"><span class="img-label">img</span></div>
+      <div class="entry-info">
+        <div class="entry-title">Signal Noise</div>
+        <div class="entry-space">SCAI The Bathhouse · Yanaka</div>
+        <div class="entry-meta"><span>👥 Followers</span></div>
+      </div>
+    </div>
+    <div class="today-anchor">Today · Mon May 20</div>
+    <div class="timeline-date" style="display:flex;align-items:center;">
+      Thu · May 22 <span class="upcoming-label">Ends in 3 days</span>
+    </div>
+    <div class="timeline-entry">
+      <div class="img-box" style="width:52px;height:52px;border-radius:6px;"><span class="img-label">img</span></div>
+      <div class="entry-info">
+        <div class="entry-title">Koenji Zine Fair 2026</div>
+        <div class="entry-space">Hi-Lite Records Space · Koenji</div>
+        <div class="entry-meta"><span class="chip tag" style="font-size:9px;padding:1px 6px;">12:00–20:00</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-nav">
+    <div class="nav-item" onclick="goto('home-feed')">
+      <div class="nav-icon">⌂</div><span class="nav-label">Feed</span>
+    </div>
+    <div class="nav-item" onclick="goto('map')">
+      <div class="nav-icon">🗺</div><span class="nav-label">Map</span>
+    </div>
+    <div class="nav-item active" onclick="goto('logs')">
+      <div class="nav-icon">📝</div><span class="nav-label">Logs</span>
+    </div>
+    <div class="nav-item" onclick="goto('explore')">
+      <div class="nav-icon">🔍</div><span class="nav-label">Explore</span>
+    </div>
+    <div class="nav-item" onclick="goto('profile-self')">
+      <div class="nav-icon">👤</div><span class="nav-label">Avatar</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
