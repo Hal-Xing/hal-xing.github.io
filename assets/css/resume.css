@@ -233,6 +233,29 @@ strong {
     -webkit-touch-callout: none;
 }
 
+/* Images with a small caption under each (function → screen) */
+.entry-imgs figure {
+    margin: 0;
+    display: table;
+}
+
+.entry-imgs.captioned {
+    align-items: flex-start;
+}
+
+.entry-imgs.captioned img {
+    height: 160px;
+}
+
+.entry-imgs figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 10px;
+    line-height: 1.3;
+    margin-top: 3px;
+    color: var(--secondary-text);
+}
+
 @media print {
     .section > * { display: revert !important; }
     .lang-switch { display: none; }
