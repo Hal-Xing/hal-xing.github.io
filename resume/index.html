@@ -34,7 +34,7 @@
                 <div class="entry">
                     <div class="year">2026–</div>
                     <div class="details">
-                        <p class="title">LIMBO, UI/UX lead for festival mode (and some programming)</p>
+                        <p class="title">LIMBO Japan, founding member; UI/UX, festival mode</p>
                         <p class="description">Art &amp; culture platform (Korea · Japan · China · Hong Kong members, formed at Tokyo University of the Arts GAP). Project pages: <a href="../web-projects/limbo-geisai-2026/">藝祭 2026 →</a> <a href="../web-projects/limbo-mukojima-expo-2026/">すみだ向島EXPO 2026 →</a></p>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                     <div class="year">2021</div>
                     <div class="details">
                         <p>Island Cruising (島巡り) (Sumida Mukojima EXPO, Tokyo)</p>
-                        <div class="entry-imgs"><img src="img/island-1.jpg" alt="" loading="lazy"><img src="img/island-2.jpg" alt="" loading="lazy"></div>
+                        <div class="entry-imgs captioned"><figure><img src="img/shima-engei-1.jpg" alt="Shima Engei #1" loading="lazy"><figcaption>Shima Engei #1（島園芸）, inkjet print, 1100 × 1700 mm</figcaption></figure></div>
                     </div>
                 </div>
                 <div class="entry">
@@ -313,7 +313,7 @@
                 <div class="entry">
                     <div class="year">2026–</div>
                     <div class="details">
-                        <p class="title">LIMBO フェスティバルモードのUI/UXリード（一部プログラミングも担当）</p>
+                        <p class="title">LIMBO Japan 創設メンバー／フェスティバルモード UI/UX</p>
                         <p class="description">アート・カルチャー・プラットフォーム（東京藝術大学GAPで出会った韓国・日本・中国・香港のメンバー）。プロジェクトページ：<a href="../web-projects/limbo-geisai-2026/">藝祭 2026 →</a> <a href="../web-projects/limbo-mukojima-expo-2026/">すみだ向島EXPO 2026 →</a></p>
                     </div>
                 </div>
@@ -411,7 +411,7 @@
                     <div class="year">2021</div>
                     <div class="details">
                         <p>「島巡り」（すみだ向島EXPO、東京）</p>
-                        <div class="entry-imgs"><img src="img/island-1.jpg" alt="" loading="lazy"><img src="img/island-2.jpg" alt="" loading="lazy"></div>
+                        <div class="entry-imgs captioned"><figure><img src="img/shima-engei-1.jpg" alt="島園芸 #1" loading="lazy"><figcaption>《島園芸 #1》インクジェットプリント、1100 × 1700 mm</figcaption></figure></div>
                     </div>
                 </div>
                 <div class="entry">
@@ -595,17 +595,26 @@
         });
         show(lang);
 
-        // Sections start folded; ?open=work,art-spaces (or ?open=all) opens those. Tap a heading to toggle.
+        // Sections start open; ?open=work,art-spaces opens only those. Tap a heading to toggle.
         var sections = document.querySelectorAll('.section[data-key]');
-        var open = (new URLSearchParams(location.search).get('open') || '').split(',');
+        var param = new URLSearchParams(location.search).get('open');
+        var open = param ? param.split(',') : ['all'];
+        var foldBtn = document.querySelector('[data-fold]');
+        function label() {
+            var anyClosed = Array.prototype.some.call(sections, function (s) { return !s.classList.contains('open'); });
+            foldBtn.textContent = anyClosed ? 'すべて開く / Open all' : 'すべて閉じる / Close all';
+            return anyClosed;
+        }
         sections.forEach(function (s) {
             if (open.indexOf('all') !== -1 || open.indexOf(s.dataset.key) !== -1) s.classList.add('open');
-            s.querySelector('h2').addEventListener('click', function () { s.classList.toggle('open'); });
+            s.querySelector('h2').addEventListener('click', function () { s.classList.toggle('open'); label(); });
         });
-        document.querySelector('[data-fold]').addEventListener('click', function () {
-            var anyClosed = Array.prototype.some.call(sections, function (s) { return !s.classList.contains('open'); });
+        foldBtn.addEventListener('click', function () {
+            var anyClosed = label();
             sections.forEach(function (s) { s.classList.toggle('open', anyClosed); });
+            label();
         });
+        label();
         document.body.classList.add('foldable');
     })();
     </script>
