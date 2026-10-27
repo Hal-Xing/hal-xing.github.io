@@ -149,3 +149,117 @@ body {
         padding: 15px 15px 100px;
     }
 }
+
+/* Tap-through tour: a phone frame showing one demo screen, steps beside it */
+.tour {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.phone {
+    flex: none;
+    width: 240px;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 32px;
+    background: #fff;
+}
+
+.phone-screen {
+    height: 480px;
+    overflow-y: auto;
+    border-radius: 22px;
+    border: 1px solid #e5e5e5;
+}
+
+.phone-screen img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.tour-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.tour-steps button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    border-left: 2px solid transparent;
+    padding: 8px 0 8px 14px;
+    cursor: pointer;
+}
+
+.tour-steps button.active {
+    border-left-color: var(--text-color);
+}
+
+.tour-steps .title {
+    display: block;
+    font-size: 14px;
+}
+
+.tour-steps .description {
+    display: none;
+    color: var(--secondary-text);
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.tour-steps button.active .description {
+    display: block;
+}
+
+.tour-steps button:not(.active) .title {
+    color: var(--secondary-text);
+}
+
+/* Poster with its QR */
+.poster {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.poster img {
+    display: block;
+    width: 260px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+}
+
+.poster .title {
+    font-size: 14px;
+    margin: 0;
+}
+
+.poster .description {
+    color: var(--secondary-text);
+    font-size: 13px;
+    margin: 6px 0 0 0;
+}
+
+@media (max-width: 600px) {
+    .tour,
+    .poster {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .poster img {
+        width: 100%;
+        max-width: 360px;
+    }
+}

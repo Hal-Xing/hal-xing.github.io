@@ -47,33 +47,36 @@
             <p class="en">Sumida Mukojima EXPO 2026 festival mode (LIMBO app, iOS / Android)</p>
             <p class="meta">2026年10月10日〜11月1日・墨田区 向島・京島エリアのまち全体が会場</p>
             <p>まちに点在する会場とプログラムを、LIMBOアプリの地図にまとめました。藝祭との大きな違いは、アーティストや会場が自分のアカウントで、会期前・会期中もリアルタイムに情報を更新できることです。アプリの審査を待たずに内容を変えられます。</p>
-            <div class="shots">
-                <div class="shot">
-                    <img src="img/m-map.jpg" alt="すみだ向島EXPOのフェスティバル・マップ" loading="lazy">
-                    <p class="title">フェスティバル・マップ</p>
-                    <p class="description">会場・プログラム・ガイドルートを一枚の地図に。「LIVE」で、いま開いている場所がわかります。</p>
+            <div class="tour" data-tour>
+                <div class="phone">
+                    <div class="phone-screen">
+                        <img src="img/m-map.jpg" alt="" data-tour-img>
+                    </div>
                 </div>
-                <div class="shot">
-                    <img src="img/m-edit.jpg" alt="プログラム編集画面（デモ）" loading="lazy">
-                    <p class="title">アーティスト・会場が自分で編集</p>
-                    <p class="description">写真・文章・日程・地図のピンを、出展者自身が更新。当日の「臨時の中止」もすぐに反映できます。</p>
-                </div>
-                <div class="shot">
-                    <img src="img/m-lang.jpg" alt="多言語入力画面（デモ）" loading="lazy">
-                    <p class="title">5言語の自動翻訳</p>
-                    <p class="description">日本語で書くだけで、英語・韓国語・中国語（簡体・繁體）に自動翻訳。必要なら手で直せます。</p>
-                </div>
-                <div class="shot">
-                    <img src="img/m-route.jpg" alt="ガイドルート編集画面（テスト用ルート）" loading="lazy">
-                    <p class="title">ガイドルートづくり</p>
-                    <p class="description">会場をタップしてまち歩きのルートを作成。歩く時間と距離を自動で計算し、アプリのガイドとして公開できます。</p>
-                </div>
-                <div class="shot">
-                    <img src="img/m-booking.jpg" alt="予約設定画面（デモ）" loading="lazy">
-                    <p class="title">予約の受付</p>
-                    <p class="description">プログラムごとに予約をオン。リクエスト承認制か即時確定かを選べ、申し込みはメールで届きます。</p>
-                </div>
+                <ol class="tour-steps">
+                    <li><button type="button" class="active" data-img="img/m-map.jpg" data-alt="すみだ向島EXPOのフェスティバル・マップ">
+                        <span class="title">フェスティバル・マップ</span>
+                        <span class="description">会場・プログラム・ガイドルートを一枚の地図に。「LIVE」で、いま開いている場所がわかります。</span>
+                    </button></li>
+                    <li><button type="button" data-img="img/m-edit.jpg" data-alt="プログラム編集画面（デモ）">
+                        <span class="title">アーティスト・会場が自分で編集</span>
+                        <span class="description">写真・文章・日程・地図のピンを、出展者自身が更新。当日の「臨時の中止」もすぐに反映できます。</span>
+                    </button></li>
+                    <li><button type="button" data-img="img/m-lang.jpg" data-alt="多言語入力画面（デモ）">
+                        <span class="title">5言語の自動翻訳</span>
+                        <span class="description">日本語で書くだけで、英語・韓国語・中国語（簡体・繁體）に自動翻訳。必要なら手で直せます。</span>
+                    </button></li>
+                    <li><button type="button" data-img="img/m-route.jpg" data-alt="ガイドルート編集画面（テスト用ルート）">
+                        <span class="title">ガイドルートづくり</span>
+                        <span class="description">会場をタップしてまち歩きのルートを作成。歩く時間と距離を自動で計算し、アプリのガイドとして公開できます。</span>
+                    </button></li>
+                    <li><button type="button" data-img="img/m-booking.jpg" data-alt="予約設定画面（デモ）">
+                        <span class="title">予約の受付</span>
+                        <span class="description">プログラムごとに予約をオン。リクエスト承認制か即時確定かを選べ、申し込みはメールで届きます。</span>
+                    </button></li>
+                </ol>
             </div>
+            <p class="note">画面をタップ、または左右キーで切り替え / Tap a step or the screen to switch.</p>
             <ul class="features">
                 <li>記録と共有 <span>— 会期中の様子を「記録」として投稿し、プログラムとあわせて画像つきでシェアできます。</span></li>
                 <li>出展者向けガイド <span>— 使い方をまとめたアーティストガイドをウェブで公開しています。</span></li>
@@ -84,8 +87,40 @@
                 <a href="https://mukojima-expo.limboart.com" target="_blank" rel="noopener">すみだ向島EXPO × LIMBO</a>
                 <a href="https://mukojima-expo.limboart.com/app/guide" target="_blank" rel="noopener">アーティストガイド</a>
             </div>
+            <div class="poster">
+                <a href="img/expo7-poster.jpg" target="_blank" rel="noopener"><img src="img/expo7-poster.jpg" alt="LIMBO Art × すみだ向島EXPO ポスター（A4）。中央のQRコードでアプリが開きます" loading="lazy"></a>
+                <div>
+                    <p class="title">会場ポスター（A4・A3）</p>
+                    <p class="description">まちの地図の上に、アプリを開くQRコードを置いたポスター（卓上スタンド版もあり）。中央のQRコードは、スマートフォンのカメラで読み取るとアプリが開きます。</p>
+                    <p class="en">Venue poster: the app QR set into the festival map. Scan it with a phone camera to open the app.</p>
+                </div>
+            </div>
             <p class="note">画面は出展者ガイド用のデモ・テスト画面です。 / Screens are demo and test screens from the artist guide.</p>
         </div>
     </div>
+    <script>
+    (function () {
+        var tour = document.querySelector('[data-tour]');
+        if (!tour) return;
+        var img = tour.querySelector('[data-tour-img]');
+        var buttons = Array.prototype.slice.call(tour.querySelectorAll('.tour-steps button'));
+        var current = 0;
+        function show(i) {
+            current = (i + buttons.length) % buttons.length;
+            buttons.forEach(function (b, j) { b.classList.toggle('active', j === current); });
+            img.src = buttons[current].dataset.img;
+            img.alt = buttons[current].dataset.alt;
+            img.parentNode.scrollTop = 0;
+        }
+        buttons.forEach(function (b, i) { b.addEventListener('click', function () { show(i); }); });
+        img.addEventListener('click', function () { show(current + 1); });
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowRight') show(current + 1);
+            if (e.key === 'ArrowLeft') show(current - 1);
+        });
+        buttons.forEach(function (b) { new Image().src = b.dataset.img; });
+        show(0);
+    })();
+    </script>
 </body>
 </html>
