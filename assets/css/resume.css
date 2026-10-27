@@ -190,3 +190,50 @@ strong {
 .resume[hidden] {
     display: none;
 }
+
+/* Folding: only when the script runs (without it everything stays open) */
+.foldable .section h2 {
+    cursor: pointer;
+    user-select: none;
+}
+
+.foldable .section h2::before {
+    content: "+ ";
+}
+
+.foldable .section.open h2::before {
+    content: "− ";
+}
+
+.foldable .section:not(.open) > :not(h2) {
+    display: none;
+}
+
+.foldable .section:not(.open) {
+    margin-bottom: 14px;
+}
+
+.fold-all {
+    margin-left: 16px;
+}
+
+/* Small images under key entries */
+.entry-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 6px 0 4px;
+}
+
+.entry-imgs img {
+    height: 110px;
+    width: auto;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+@media print {
+    .section > * { display: revert !important; }
+    .lang-switch { display: none; }
+}
