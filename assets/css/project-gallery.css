@@ -1,0 +1,80 @@
+/* Project pages (LIMBO, NAI(T/K)ENKAI): the Foggy, Sometimes Sunny gallery, plus a caption under each
+   screenshot. Load after gallery/gallery.css. */
+
+/* Caption as wide as its image: figure as a table, caption as its bottom table-caption */
+.gallery-item figure {
+    display: table;
+}
+
+.gallery-item figcaption,
+.vertical-gallery figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.gallery-item img,
+.vertical-gallery figure img {
+    max-height: 58vh;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+}
+
+.gallery-item.hero img {
+    max-height: 62vh;
+}
+
+figcaption .item-title {
+    display: block;
+    font-weight: 500;
+}
+
+figcaption .item-caption {
+    display: block;
+}
+
+figcaption a,
+.item-description a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary-text);
+}
+
+figcaption a:hover,
+.item-description a:hover {
+    border-bottom-color: var(--text-color);
+}
+
+.item-description p {
+    margin-bottom: 0.8rem;
+}
+
+figcaption .en,
+.item-description .en,
+.item-description .note {
+    color: var(--secondary-text);
+}
+
+.text-item {
+    color: var(--text-color);
+}
+
+@media (orientation: portrait) {
+    .vertical-gallery figcaption {
+        display: block;
+        margin-top: 0.4rem;
+        font-size: 0.85rem;
+    }
+
+    .vertical-gallery figure img {
+        max-height: none;
+        width: 100%;
+    }
+
+    .vertical-gallery figure.phone img {
+        width: auto;
+        max-width: 100%;
+        max-height: 80vh;
+    }
+}

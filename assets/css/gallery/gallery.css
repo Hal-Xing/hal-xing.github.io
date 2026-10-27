@@ -11,7 +11,7 @@
 body {
     font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
     background-color: var(--almost-white);
-    color: #333;
+    color: var(--text-color);
     line-height: 1.5;
     overflow: hidden;
     height: 100vh;
