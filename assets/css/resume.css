@@ -21,6 +21,15 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    position: static;
+    width: auto;
+}
+
+/* Keep clear of the home page's fixed sidebar (max 240px) when shown in its frame */
+@media (min-width: 769px) {
+    .container {
+        margin-left: max(250px, calc((100% - 800px) / 2));
+    }
 }
 
 /* Resume content */
@@ -130,6 +139,7 @@ strong {
     }
     
     .year {
+        flex: none;
         margin-bottom: 5px;
     }
     
@@ -141,4 +151,14 @@ strong {
     .resume {
         padding-bottom: 100px;
     }
+}
+/* Links inside entries (project pages, sites) */
+.details a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary-text);
+}
+
+.details a:hover {
+    border-bottom-color: var(--text-color);
 }
