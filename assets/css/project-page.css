@@ -263,3 +263,8 @@ body {
         max-width: 360px;
     }
 }
+
+.tags {
+    color: var(--secondary-text);
+    word-spacing: 0.5em;
+}
