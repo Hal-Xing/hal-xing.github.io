@@ -78,3 +78,59 @@ figcaption .en,
         max-height: 80vh;
     }
 }
+
+/* Same image height across the strip (desktop): tops line up, captions hang below */
+@media not (orientation: portrait) {
+    .gallery-container {
+        align-items: flex-start;
+    }
+
+    .gallery-item {
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .gallery-item img,
+    .gallery-item.hero img {
+        height: 58vh;
+        width: auto;
+        max-height: none;
+    }
+
+    .gallery-title,
+    .text-item {
+        align-self: flex-end;
+    }
+}
+
+/* Credits under the overview text */
+.credits-title {
+    margin-top: 1.2rem;
+    color: var(--secondary-text);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.credits {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.credits li {
+    margin-bottom: 0.3rem;
+}
+
+.credit-role {
+    display: block;
+    color: var(--secondary-text);
+}
+
+/* Screens are not meant to be lifted: no drag, no selection, no iOS long-press menu */
+.gallery-item img,
+.vertical-gallery figure img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}

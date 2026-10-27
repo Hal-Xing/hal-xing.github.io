@@ -30,6 +30,7 @@
                                 <p>参加は、気に入った場所のスペースIDを添えてInstagramから連絡するだけ。日本語・英語の切り替えと、会場の紹介・地図・アクセスもサイトにまとめています。</p>
                                 <p class="en">A Meiji-period heritage house opened to anyone: visitors chose a spot in the house and brought something (or sent data or instructions online) to make it feel their own, leaving no trace. Co-planned and facilitated with Juli Lee; Hal designed and coded the website. GAP M2 Award, Tokyo University of the Arts.</p>
                                 <p><a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank" rel="noopener">Instagram ↗</a></p>
+                                <p class="credits-title">クレジット / Credits</p><ul class="credits"><li><span class="credit-role">企画・ファシリテーション / Concept &amp; facilitation</span>Juli Lee、邢 越豪 Hal Xing</li><li><span class="credit-role">ウェブサイト / Website</span>邢 越豪 Hal Xing</li><li><span class="credit-role">会場 / Venue</span>市田邸（台東区上野桜木）</li><li><span class="credit-role">枠組み / Programme</span>GAP M2 Award 展覧会・東京藝術大学 グローバルアートプラクティス専攻</li></ul>
                             </div>
                         </div>
                     </div>
@@ -60,6 +61,7 @@
                             <p>参加は、気に入った場所のスペースIDを添えてInstagramから連絡するだけ。日本語・英語の切り替えと、会場の紹介・地図・アクセスもサイトにまとめています。</p>
                             <p class="en">A Meiji-period heritage house opened to anyone: visitors chose a spot in the house and brought something (or sent data or instructions online) to make it feel their own, leaving no trace. Co-planned and facilitated with Juli Lee; Hal designed and coded the website. GAP M2 Award, Tokyo University of the Arts.</p>
                             <p><a href="https://www.instagram.com/nai.ken.ten.kai/" target="_blank" rel="noopener">Instagram ↗</a></p>
+                            <p class="credits-title">クレジット / Credits</p><ul class="credits"><li><span class="credit-role">企画・ファシリテーション / Concept &amp; facilitation</span>Juli Lee、邢 越豪 Hal Xing</li><li><span class="credit-role">ウェブサイト / Website</span>邢 越豪 Hal Xing</li><li><span class="credit-role">会場 / Venue</span>市田邸（台東区上野桜木）</li><li><span class="credit-role">枠組み / Programme</span>GAP M2 Award 展覧会・東京藝術大学 グローバルアートプラクティス専攻</li></ul>
                         </div>
                     </div>
                 </div>
@@ -69,6 +71,13 @@
 
     <script src="/assets/js/gallery/gallery.js"></script>
     <script>
+        // Screens: no right-click save or drag
+        document.addEventListener('contextmenu', function (e) {
+            if (e.target.tagName === 'IMG') e.preventDefault();
+        });
+        document.addEventListener('dragstart', function (e) {
+            if (e.target.tagName === 'IMG') e.preventDefault();
+        });
         // Force mobile scrolling
         if (window.matchMedia("(orientation: portrait)").matches) {
             document.documentElement.style.overflow = 'auto';
