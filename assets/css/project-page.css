@@ -164,7 +164,7 @@ body {
     padding: 10px;
     border: 1px solid #d0d0d0;
     border-radius: 32px;
-    background: #fff;
+    background: var(--almost-white);
 }
 
 .phone-screen {

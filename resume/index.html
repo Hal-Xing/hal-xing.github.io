@@ -9,16 +9,22 @@
 </head>
 <body>
     <div class="container">
+        <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" data-lang="en">English</button>
+            <span>/</span>
+            <button type="button" data-lang="ja">日本語</button>
+        </div>
+
         <!-- English Resume -->
         <div class="resume" id="resume-en">
             <div class="resume-header">
                 <h1>Hal Xing (邢 越豪)</h1>
                 <p class="description">Artist · web/app developer · exhibition organiser, Tokyo</p>
                 <div class="contact">
-                    <span>📍 Tokyo, Japan</span>
-                    <span>🌐 <a href="https://hal-xing.github.io">hal-xing.github.io</a></span>
-                    <span>✉️ <a href="mailto:yuehaoxing@gmail.com">yuehaoxing@gmail.com</a></span>
-                    <span>📄 <a href="hal-xing-cv.pdf" target="_blank">PDF</a></span>
+                    <span>Tokyo, Japan</span>
+                    <span><a href="https://hal-xing.github.io">hal-xing.github.io</a></span>
+                    <span><a href="mailto:yuehaoxing@gmail.com">yuehaoxing@gmail.com</a></span>
+                    <span><a href="hal-xing-cv.pdf" target="_blank">PDF</a></span>
                 </div>
             </div>
 
@@ -285,18 +291,15 @@
             </div>
         </div>
 
-        <!-- Clear divider between versions -->
-        <div class="resume-divider"></div>
-
         <!-- Japanese Resume -->
         <div class="resume" id="resume-jp" lang="ja">
             <div class="resume-header">
                 <h1>邢 越豪（ハル・シン / Hal Xing）</h1>
                 <p class="description">アーティスト・ウェブ／アプリ開発者・展示企画（東京在住）</p>
                 <div class="contact">
-                    <span>📍 東京</span>
-                    <span>🌐 <a href="https://hal-xing.github.io">hal-xing.github.io</a></span>
-                    <span>✉️ <a href="mailto:yuehaoxing@gmail.com">yuehaoxing@gmail.com</a></span>
+                    <span>東京</span>
+                    <span><a href="https://hal-xing.github.io">hal-xing.github.io</a></span>
+                    <span><a href="mailto:yuehaoxing@gmail.com">yuehaoxing@gmail.com</a></span>
                 </div>
             </div>
 
@@ -563,5 +566,26 @@
             </div>
         </div>
     </div>
+    <script>
+    (function () {
+        var buttons = document.querySelectorAll('.lang-switch button');
+        function show(lang) {
+            document.getElementById('resume-en').hidden = lang !== 'en';
+            document.getElementById('resume-jp').hidden = lang !== 'ja';
+            document.documentElement.lang = lang;
+            buttons.forEach(function (b) { b.classList.toggle('active', b.dataset.lang === lang); });
+        }
+        var lang = new URLSearchParams(location.search).get('lang');
+        if (!lang) { try { lang = localStorage.getItem('resume-lang'); } catch (e) {} }
+        if (lang !== 'en' && lang !== 'ja') lang = /^ja/.test(navigator.language) ? 'ja' : 'en';
+        buttons.forEach(function (b) {
+            b.addEventListener('click', function () {
+                show(b.dataset.lang);
+                try { localStorage.setItem('resume-lang', b.dataset.lang); } catch (e) {}
+            });
+        });
+        show(lang);
+    })();
+    </script>
 </body>
 </html>

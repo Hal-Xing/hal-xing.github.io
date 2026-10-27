@@ -5,10 +5,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: var(--text-color);
     margin: 0;
     padding: 0;
-    background: #fff;
+    background: var(--almost-white);
     overflow-y: auto;
 }
 
@@ -46,21 +46,21 @@ body {
 }
 
 .resume-header h1 {
-    font-size: 24px;
+    font-size: large;
     font-weight: normal;
     margin: 0 0 15px 0;
 }
 
 .contact {
     font-size: 14px;
-    color: #555;
+    color: var(--secondary-text);
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
 }
 
 .contact a {
-    color: #555;
+    color: var(--secondary-text);
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
@@ -79,27 +79,30 @@ body {
 
 /* Sections */
 .section {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
+/* Section labels in the same style as the home page's menu categories, over a dashed rule */
 .section h2 {
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0 0 20px 0;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 5px;
-    color: var(--text-color);
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 14px 0;
+    border-bottom: 1px dashed var(--secondary-text);
+    padding-bottom: 4px;
+    color: var(--secondary-text);
 }
 
 .section p {
-    margin: 0 0 15px 0;
+    margin: 0 0 4px 0;
     font-size: 14px;
 }
 
 /* Entry styling */
 .entry {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .year {
@@ -161,4 +164,29 @@ strong {
 
 .details a:hover {
     border-bottom-color: var(--text-color);
+}
+
+/* English / 日本語 switch */
+.lang-switch {
+    font-size: 14px;
+    color: var(--secondary-text);
+    margin-bottom: 24px;
+}
+
+.lang-switch button {
+    font: inherit;
+    color: var(--secondary-text);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.lang-switch button.active {
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+}
+
+.resume[hidden] {
+    display: none;
 }
