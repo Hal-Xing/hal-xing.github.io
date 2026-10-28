@@ -645,7 +645,7 @@
     </div>
     <script>
     (function () {
-        var buttons = document.querySelectorAll('.lang-switch button');
+        var buttons = document.querySelectorAll('.lang-switch button[data-lang]');
         function show(lang) {
             document.getElementById('resume-en').hidden = lang !== 'en';
             document.getElementById('resume-jp').hidden = lang !== 'ja';
