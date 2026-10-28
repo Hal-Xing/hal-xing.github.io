@@ -668,18 +668,30 @@
         show(lang);
 
         // Desktop: the page runs sideways, so a vertical wheel moves it left-right,
-        // except while the pointer is over something that can still scroll up-down (a long section, app screens)
+        // except while the pointer is over something that can still scroll up-down (a long column).
+        // One gesture keeps one direction: when a column reaches its end, the rest of that swipe
+        // (trackpad momentum) stops there instead of rushing sideways. A new swipe moves on.
         var wide = window.matchMedia('(min-width: 900px)');
-        document.addEventListener('wheel', function (e) {
-            if (!wide.matches || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
-            for (var el = e.target; el && el !== document.body; el = el.parentElement) {
+        var mode = null, last = 0;
+        function scroller(el, dy) {
+            for (; el && el !== document.body; el = el.parentElement) {
                 if (el.scrollHeight > el.clientHeight + 1 && /auto|scroll/.test(getComputedStyle(el).overflowY)) {
-                    var done = e.deltaY < 0 ? el.scrollTop <= 0 : el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
-                    if (!done) return;
+                    var done = dy < 0 ? el.scrollTop <= 0 : el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
+                    if (!done) return el;
                 }
             }
-            var r = document.querySelector('.resume:not([hidden])');
-            r.scrollLeft += e.deltaY;
+            return null;
+        }
+        document.addEventListener('wheel', function (e) {
+            if (!wide.matches || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+            var now = Date.now();
+            if (now - last > 200) mode = scroller(e.target, e.deltaY) ? 'column' : 'page';
+            last = now;
+            if (mode === 'column') {
+                if (!scroller(e.target, e.deltaY)) e.preventDefault();
+                return;
+            }
+            document.querySelector('.resume:not([hidden])').scrollLeft += e.deltaY;
             e.preventDefault();
         }, { passive: false });
     })();
