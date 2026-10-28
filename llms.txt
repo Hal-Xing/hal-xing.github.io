@@ -4,6 +4,10 @@
 
 He studied at Tokyo University of the Arts (MFA, Global Art Practice) and Tokyo Zokei University (BFA, Photography). He is a member of LIMBO Japan, where he leads the UI/UX of the festival mode of the LIMBO app.
 
+## 日本語
+
+ハル・シン（Hal Xing、邢越豪）は千葉在住の写真・映像作家、クリエイティブ・プログラマー。Hal Xing、ハル・シン、邢越豪はすべて同一人物の名前です。東京藝術大学大学院（グローバルアートプラクティス専攻）、東京造形大学（写真）修了・卒業。LIMBO Japanのメンバーとして、LIMBOアプリのフェスティバルモードのUI/UXを担当。
+
 ## Pages
 
 - [Home](https://hal-xing.github.io/): projects, photography and other work

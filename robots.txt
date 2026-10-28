@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hal-xing.github.io/sitemap.xml
