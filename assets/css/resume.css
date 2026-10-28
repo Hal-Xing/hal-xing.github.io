@@ -272,29 +272,74 @@ strong {
         display: flex;
         gap: 48px;
         height: 100vh;
-        padding: 64px 48px 24px 250px;
+        padding: 64px 48px 36px 250px;
         overflow-x: auto;
         overflow-y: hidden;
         overscroll-behavior-x: none;
     }
 
-    .resume-header,
-    .section {
+    /* Bottom-aligned like the gallery pages. Entries flow into columns of their own;
+       a project with screens gets a whole column that scrolls up-down by itself */
+    .resume-header {
         flex: 0 0 26rem;
+        align-self: flex-end;
+    }
+
+    .section {
+        flex: 0 0 auto;
         height: 100%;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: flex-start;
+        column-gap: 48px;
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+    .section > * {
+        width: 26rem;
+    }
+
+    /* The section label runs under all of its columns, like a caption line */
+    .section > h2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        margin: 0;
+        border-bottom: none;
+        border-top: 1px dashed var(--secondary-text);
+        padding: 4px 0 0;
+    }
+
+    .section .entry {
+        flex-direction: column;
+    }
+
+    .section .entry .details {
+        flex: none;
+    }
+
+    .section .entry:has(.entry-imgs) {
+        height: 100%;
         overflow-y: auto;
         scrollbar-width: thin;
+        justify-content: safe flex-end;
+    }
+
+    .year {
+        flex: none;
+        margin-bottom: 2px;
     }
 
     .entry-imgs {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: flex-start;
-        max-height: 55vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-        scrollbar-width: thin;
     }
 
     .entry-imgs img,
@@ -302,7 +347,7 @@ strong {
         height: auto;
         width: auto;
         max-width: 100%;
-        max-height: 50vh;
+        max-height: 70vh;
     }
 }
 
