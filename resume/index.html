@@ -13,7 +13,6 @@
             <button type="button" data-lang="en">English</button>
             <span>/</span>
             <button type="button" data-lang="ja">日本語</button>
-            <span class="fold-all"><button type="button" data-fold="open">すべて開く / Open all</button></span>
         </div>
 
         <!-- English Resume -->
@@ -22,7 +21,7 @@
                 <h1>Hal Xing (邢 越豪)</h1>
                 <p class="description">Photo/videographer · creative programmer · fake-estate agent, Chiba</p>
                 <div class="contact">
-                    <span>Tokyo, Japan</span>
+                    <span>Chiba, Japan</span>
                     <span><a href="https://hal-xing.github.io">hal-xing.github.io</a></span>
                     <span><a href="mailto:yuehaoxing@gmail.com">yuehaoxing@gmail.com</a></span>
                     <span><a href="hal-xing-cv.pdf" target="_blank">PDF</a></span>
@@ -336,7 +335,7 @@
                 <h1>邢 越豪（ハル・シン / Hal Xing）</h1>
                 <p class="description">写真・映像作家／クリエイティブ・プログラマー／偽の不動産屋（千葉在住）</p>
                 <div class="contact">
-                    <span>東京</span>
+                    <span>千葉</span>
                     <span><a href="https://hal-xing.github.io">hal-xing.github.io</a></span>
                     <span><a href="mailto:yuehaoxing@gmail.com">yuehaoxing@gmail.com</a></span>
                 </div>
@@ -663,27 +662,21 @@
         });
         show(lang);
 
-        // Sections start open; ?open=work,art-spaces opens only those. Tap a heading to toggle.
-        var sections = document.querySelectorAll('.section[data-key]');
-        var param = new URLSearchParams(location.search).get('open');
-        var open = param ? param.split(',') : ['all'];
-        var foldBtn = document.querySelector('[data-fold]');
-        function label() {
-            var anyClosed = Array.prototype.some.call(sections, function (s) { return !s.classList.contains('open'); });
-            foldBtn.textContent = anyClosed ? 'すべて開く / Open all' : 'すべて閉じる / Close all';
-            return anyClosed;
-        }
-        sections.forEach(function (s) {
-            if (open.indexOf('all') !== -1 || open.indexOf(s.dataset.key) !== -1) s.classList.add('open');
-            s.querySelector('h2').addEventListener('click', function () { s.classList.toggle('open'); label(); });
-        });
-        foldBtn.addEventListener('click', function () {
-            var anyClosed = label();
-            sections.forEach(function (s) { s.classList.toggle('open', anyClosed); });
-            label();
-        });
-        label();
-        document.body.classList.add('foldable');
+        // Desktop: the page runs sideways, so a vertical wheel moves it left-right,
+        // except while the pointer is over something that can still scroll up-down (a long section, app screens)
+        var wide = window.matchMedia('(min-width: 900px)');
+        document.addEventListener('wheel', function (e) {
+            if (!wide.matches || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+            for (var el = e.target; el && el !== document.body; el = el.parentElement) {
+                if (el.scrollHeight > el.clientHeight + 1 && /auto|scroll/.test(getComputedStyle(el).overflowY)) {
+                    var done = e.deltaY < 0 ? el.scrollTop <= 0 : el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
+                    if (!done) return;
+                }
+            }
+            var r = document.querySelector('.resume:not([hidden])');
+            r.scrollLeft += e.deltaY;
+            e.preventDefault();
+        }, { passive: false });
     })();
     </script>
 </body>
