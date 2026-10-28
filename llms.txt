@@ -1,0 +1,20 @@
+# Hal Xing
+
+> Hal Xing (ハル・シン, 邢越豪, also written Xing Yuehao / Yuehao Xing) is a photographer, videographer and creative programmer based in Chiba, Japan. These are all names of the same person.
+
+He studied at Tokyo University of the Arts (MFA, Global Art Practice) and Tokyo Zokei University (BFA, Photography). He is a member of LIMBO Japan, where he leads the UI/UX of the festival mode of the LIMBO app.
+
+## Pages
+
+- [Home](https://hal-xing.github.io/): projects, photography and other work
+- [Resume / 経歴](https://hal-xing.github.io/resume/): full CV in English and Japanese
+- [CV PDF, English](https://hal-xing.github.io/resume/Hal_Xing_CV_EN.pdf)
+- [CV PDF, 日本語](https://hal-xing.github.io/resume/Hal_Xing_CV_JA.pdf)
+- [すみだ向島EXPO 2026 × LIMBO](https://hal-xing.github.io/web-projects/limbo-mukojima-expo-2026/)
+- [藝祭 2026 × LIMBO](https://hal-xing.github.io/web-projects/limbo-geisai-2026/)
+- [NAI(T/K)ENKAI 内(見/展)会](https://hal-xing.github.io/web-projects/nai-ken-ten-kai/)
+- [Foggy, Sometimes Sunny](https://hal-xing.github.io/other-projects/foggy-sometimes-sunny/)
+
+## Elsewhere
+
+- [GitHub](https://github.com/Hal-Xing)
