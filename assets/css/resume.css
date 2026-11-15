@@ -271,6 +271,7 @@ strong {
     .resume:not([hidden]) {
         display: flex;
         gap: 48px;
+        box-sizing: border-box; /* width is 100%: without this the side padding made it 298px wider than the window and the last column was cut off */
         height: 100vh;
         padding: 64px 48px 36px 250px;
         overflow-x: auto;
