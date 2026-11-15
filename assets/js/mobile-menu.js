@@ -1,124 +1,45 @@
+// Phone menu: built from the desktop sidebar (one menu to edit), opened by MENU in the bottom bar.
 document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.menu-toggle');
     const mobileMenu = document.querySelector('.mobile-menu');
     const mobileContent = document.querySelector('.mobile-content');
     const previewContent = document.getElementById('preview-content');
-    
-    // Toggle mobile menu
-    if (menuToggle && mobileMenu && mobileContent) {
-        menuToggle.addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            
-            // Toggle the expanded class
-            mobileMenu.classList.toggle('expanded');
-            
-            // Toggle content visibility
-            mobileContent.style.display = mobileMenu.classList.contains('expanded') ? 'block' : 'none';
-        });
-    }
+    if (!menuToggle || !mobileMenu || !mobileContent) return;
 
-    // Simple helper function to close the menu
-    function closeMenu() {
-        if (mobileMenu && mobileMenu.classList.contains('expanded')) {
-            mobileMenu.classList.remove('expanded');
-            mobileContent.style.display = 'none';
-        }
-    }
+    // Copy the sidebar's labels and lists into the phone menu
+    document.querySelectorAll('.sidebar .category, .sidebar .menu').forEach(el => {
+        mobileContent.appendChild(el.cloneNode(true));
+    });
 
-    // Use event delegation on the body element
-    document.body.addEventListener('click', function(e) {
-        // If menu is open and click is outside menu and toggle
-        if (mobileMenu && 
-            mobileMenu.classList.contains('expanded') && 
-            !e.target.closest('.mobile-menu') && 
-            !e.target.closest('.menu-toggle')) {
-            closeMenu();
-        }
-    });
-    
-    // Handle touch events for mobile - using touchend is more reliable
-    document.body.addEventListener('touchend', function(e) {
-        // Small delay to ensure it doesn't interfere with other interactions
-        setTimeout(function() {
-            if (mobileMenu && 
-                mobileMenu.classList.contains('expanded') && 
-                !e.target.closest('.mobile-menu') && 
-                !e.target.closest('.menu-toggle')) {
-                closeMenu();
-            }
-        }, 100);
-    }, { passive: true });
-    
-    // Auto-close on scroll
-    window.addEventListener('scroll', function() {
-        if (mobileMenu && mobileMenu.classList.contains('expanded')) {
-            closeMenu();
-        }
-    }, { passive: true });
-    
-    // ===== CRITICAL ADDITION: IFRAME COMMUNICATION =====
-    
-    // Setup communication with iframes
-    function setupIframeListeners() {
-        // Find all iframes
-        const iframes = document.querySelectorAll('iframe');
-        
-        iframes.forEach(iframe => {
-            // When iframe loads, inject our event listeners
-            iframe.addEventListener('load', function() {
-                try {
-                    // Get iframe document
-                    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-                    
-                    // Create a script element
-                    const script = document.createElement('script');
-                    script.textContent = `
-                        // Send events to parent
-                        document.addEventListener('scroll', function() {
-                            window.parent.postMessage('iframe-scroll', '*');
-                        }, {passive: true});
-                        
-                        document.addEventListener('touchstart', function() {
-                            window.parent.postMessage('iframe-touch', '*');
-                        }, {passive: true});
-                        
-                        document.addEventListener('click', function() {
-                            window.parent.postMessage('iframe-click', '*');
-                        }, {passive: true});
-                    `;
-                    
-                    // Add script to iframe
-                    iframeDoc.head.appendChild(script);
-                } catch(e) {
-                    // Access might be denied due to cross-origin policy
-                    console.log('Could not access iframe for events', e);
-                }
-            });
-        });
+    function setOpen(open) {
+        mobileMenu.classList.toggle('expanded', open);
+        mobileContent.style.display = open ? 'block' : 'none';
+        menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
-    
-    // Listen for messages from iframes
-    window.addEventListener('message', function(event) {
-        // Check if it's our custom event
-        if (['iframe-scroll', 'iframe-touch', 'iframe-click'].includes(event.data)) {
-            closeMenu();
-        }
+    const closeMenu = () => setOpen(false);
+
+    menuToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        setOpen(!mobileMenu.classList.contains('expanded'));
     });
-    
-    // Initial setup
-    setupIframeListeners();
-    
-    // Watch for new iframes that might be added later
+
+    // Close after choosing a page, and on any tap or scroll outside the menu
+    window.addEventListener('hashchange', closeMenu);
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.mobile-menu')) closeMenu();
+    });
+    window.addEventListener('scroll', closeMenu, { passive: true });
+
+    // Taps and scrolls inside the framed page close the menu too (same site, so the frame can be listened to)
     if (previewContent) {
-        const observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (mutation.addedNodes.length) {
-                    setupIframeListeners();
-                }
-            });
-        });
-        
-        observer.observe(previewContent, { childList: true, subtree: true });
+        previewContent.addEventListener('load', function (e) {
+            if (e.target.tagName !== 'IFRAME') return;
+            try {
+                const win = e.target.contentWindow;
+                ['touchstart', 'click', 'scroll'].forEach(type =>
+                    win.addEventListener(type, closeMenu, { passive: true, capture: true }));
+            } catch (err) { /* page from another site */ }
+        }, true);
     }
 });
