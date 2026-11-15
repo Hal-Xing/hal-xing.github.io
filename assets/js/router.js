@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (location.hash) {
         loadContent();
     } else {
-        const first = document.querySelector('.menu a');
-        if (first) navigateTo(first.getAttribute('href'));
+        // Hal, 2026-11-15: the homepage opens with Ground Breaking (replace, so Back does not bounce to the bare homepage)
+        location.replace('#/web-projects/ground-breaking/');
     }
 });
