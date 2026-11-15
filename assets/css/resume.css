@@ -232,6 +232,12 @@ strong {
 
 /* Mobile: the page scrolls up-down, app screens scroll left-right */
 @media screen and (max-width: 899px) {
+    /* common.css locks html at screen height with overflow hidden; the body grows to its full length, so let the page itself scroll */
+    html {
+        height: auto;
+        overflow-y: auto;
+    }
+
     .entry-imgs {
         flex-wrap: nowrap;
         overflow-x: auto;
