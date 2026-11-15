@@ -1,0 +1,5714 @@
+{
+    "GBW_0329_141_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_141_O_175.jpeg",
+        "points": [
+            [
+                0.49875,
+                0.0
+            ],
+            [
+                0.5575,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 14:01:30",
+        "location": "Liuxia, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.268191666666667,
+            120.09454444444444
+        ],
+        "address": {
+            "road": "古天巷",
+            "suburb": "Liuxia",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310013",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_131_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_131_O_175.jpeg",
+        "points": [
+            [
+                0.51,
+                0.0
+            ],
+            [
+                0.6475,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-08 19:56:50",
+        "location": "东洲街道, Zhejiang, China",
+        "coordinates": [
+            30.088780555555555,
+            120.05280277777777
+        ]
+    },
+    "GBW_0329_116_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_116_O_175.jpeg",
+        "points": [
+            [
+                0.43,
+                0.0
+            ],
+            [
+                0.35375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-13 10:40:15",
+        "location": "Toshima, Japan",
+        "coordinates": [
+            35.72166111111111,
+            139.7056888888889
+        ],
+        "address": {
+            "neighbourhood": "Mejiro 3",
+            "quarter": "Mejiro",
+            "city": "Toshima",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "171-0031",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_154_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_154_O_175.jpeg",
+        "points": [
+            [
+                0.89125,
+                0.0
+            ],
+            [
+                0.2775,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:45",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.132033333333332,
+            120.08257222222223
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_31_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_31_O_175.jpeg",
+        "points": [
+            [
+                0.62125,
+                0.0
+            ],
+            [
+                0.65375,
+                0.65625
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2024-11-16 19:58:03",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.801541666666665,
+            139.91372777777778
+        ],
+        "address": {
+            "neighbourhood": "北松戸一丁目",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0064",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_151_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_151_O_175.jpeg",
+        "points": [
+            [
+                0.57875,
+                0.0
+            ],
+            [
+                0.64875,
+                1.0
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2025-03-23 16:35:57",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.131880555555558,
+            120.08258055555555
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_144_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_144_O_175.jpeg",
+        "points": [
+            [
+                0.44625,
+                0.0
+            ],
+            [
+                0.5625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 16:35:52",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.131855555555557,
+            120.08255833333332
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_66_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_66_O_175.jpeg",
+        "points": [
+            [
+                0.43125,
+                0.0
+            ],
+            [
+                0.6925,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:35",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71235555555556,
+            139.77539166666668
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_158_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_158_O_175.jpeg",
+        "points": [
+            [
+                0.35,
+                0.0
+            ],
+            [
+                0.61875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:51",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.13203888888889,
+            120.08255833333332
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_175_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_175_O_175.jpeg",
+        "points": [
+            [
+                0.59875,
+                0.0
+            ],
+            [
+                0.62125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 23:47:06",
+        "location": "Jichang Subdistrict, Ganjingzi District, Liaoning, China",
+        "coordinates": [
+            38.955711111111114,
+            121.54952222222222
+        ],
+        "address": {
+            "road": "Yingke Road",
+            "suburb": "Jichang Subdistrict",
+            "village": "Nanshancun",
+            "city": "Ganjingzi District",
+            "district": "Ganjingzi",
+            "state": "Liaoning",
+            "ISO3166-2-lvl4": "CN-LN",
+            "postcode": "116033",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_105_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_105_O_175.jpeg",
+        "points": [
+            [
+                0.57875,
+                0.0
+            ],
+            [
+                0.59,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-11 11:05:18",
+        "location": "Minami Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.394669444444446,
+            132.47610555555556
+        ],
+        "address": {
+            "road": "Hiroshima Miyoshi Line",
+            "neighbourhood": "Nishikojin-machi",
+            "suburb": "Minami Ward",
+            "city": "Hiroshima",
+            "province": "Hiroshima Prefecture",
+            "ISO3166-2-lvl4": "JP-34",
+            "postcode": "732-0806",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_65_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_65_O_175.jpeg",
+        "points": [
+            [
+                0.52125,
+                0.0
+            ],
+            [
+                0.6175,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:35",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71255555555556,
+            139.77537500000003
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_79_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_79_O_175.jpeg",
+        "points": [
+            [
+                0.44875,
+                0.0
+            ],
+            [
+                0.515,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-24 15:21:26",
+        "location": "Toride, Japan",
+        "coordinates": [
+            35.87991666666667,
+            140.11680555555557
+        ],
+        "address": {
+            "amenity": "Tokyo University of the Arts Toride Campus",
+            "quarter": "Omonma",
+            "city": "Toride",
+            "province": "Ibaraki Prefecture",
+            "ISO3166-2-lvl4": "JP-08",
+            "postcode": "302-0001",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_119_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_119_O_175.jpeg",
+        "points": [
+            [
+                0.50125,
+                0.0
+            ],
+            [
+                0.5,
+                0.83125
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2025-02-13 10:40:18",
+        "location": "Toshima, Japan",
+        "coordinates": [
+            35.72168333333334,
+            139.7056888888889
+        ],
+        "address": {
+            "neighbourhood": "Mejiro 3",
+            "quarter": "Mejiro",
+            "city": "Toshima",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "171-0031",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_169_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_169_O_175.jpeg",
+        "points": [
+            [
+                0.315,
+                0.0
+            ],
+            [
+                0.335,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 18:02:49",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.15123611111111,
+            120.07536388888889
+        ],
+        "address": {
+            "road": "Zhusi Road",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_57_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_57_O_175.jpeg",
+        "points": [
+            [
+                0.5175,
+                0.0
+            ],
+            [
+                0.84,
+                0.88
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-16 20:04:21",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80000277777778,
+            139.91430555555556
+        ],
+        "address": {
+            "neighbourhood": "北松戸二丁目",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_160_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_160_O_175.jpeg",
+        "points": [
+            [
+                0.085,
+                0.0
+            ],
+            [
+                0.44125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:56",
+        "location": "Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.13203888888889,
+            120.08255833333332
+        ]
+    },
+    "GBW_0329_110_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_110_O_175.jpeg",
+        "points": [
+            [
+                0.65125,
+                0.0
+            ],
+            [
+                0.22625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-11 12:09:49",
+        "location": "Naka Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.394619444444444,
+            132.4539333333333
+        ]
+    },
+    "GBW_0329_69_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_69_O_175.jpeg",
+        "points": [
+            [
+                0.41875,
+                0.0
+            ],
+            [
+                0.06875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:42",
+        "location": "Taito, Tokyo, Japan",
+        "coordinates": [
+            35.71233333333333,
+            139.77528333333333
+        ]
+    },
+    "GBW_0329_109_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_109_O_175.jpeg",
+        "points": [
+            [
+                0.57875,
+                0.0
+            ],
+            [
+                0.70625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-11 12:09:48",
+        "location": "Naka Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.39548611111111,
+            132.45385833333333
+        ]
+    },
+    "GBW_0329_157_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_157_O_175.jpeg",
+        "points": [
+            [
+                0.4575,
+                0.0
+            ],
+            [
+                0.28625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:50",
+        "location": "Zhuantang, Zhejiang, China",
+        "coordinates": [
+            30.132033333333332,
+            120.08257222222223
+        ]
+    },
+    "GBW_0329_115_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_115_O_175.jpeg",
+        "points": [
+            [
+                0.61,
+                0.0
+            ],
+            [
+                0.3975,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-13 10:40:14",
+        "location": "Toshima, Tokyo, Japan",
+        "coordinates": [
+            35.72164444444444,
+            139.7056722222222
+        ]
+    },
+    "GBW_0329_165_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_165_O_175.jpeg",
+        "points": [
+            [
+                0.61,
+                0.0
+            ],
+            [
+                0.26125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:35:02",
+        "location": "Zhuantang, Zhejiang, China",
+        "coordinates": [
+            30.13206111111111,
+            120.08252777777777
+        ]
+    },
+    "GBW_0329_60_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_60_O_175.jpeg",
+        "points": [
+            [
+                0.7925,
+                0.0
+            ],
+            [
+                0.2425,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:31",
+        "location": "Ueno, Tokyo, Japan",
+        "coordinates": [
+            35.71253333333333,
+            139.77539166666668
+        ]
+    },
+    "GBW_0329_142_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_142_O_175.jpeg",
+        "points": [
+            [
+                0.49875,
+                0.0
+            ],
+            [
+                0.43,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 16:35:51",
+        "location": "Zhuantang, Zhejiang, China",
+        "coordinates": [
+            30.13185,
+            120.08255
+        ]
+    },
+    "GBW_0329_132_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_132_O_175.jpeg",
+        "points": [
+            [
+                0.475,
+                0.0
+            ],
+            [
+                0.5375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-08 19:56:50",
+        "location": "东洲街道, Zhejiang, China",
+        "coordinates": [
+            30.088644444444444,
+            120.05269722222222
+        ]
+    },
+    "GBW_0329_107_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_107_O_175.jpeg",
+        "points": [
+            [
+                0.775,
+                0.0
+            ],
+            [
+                0.77875,
+                0.5025
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2025-02-11 11:26:21",
+        "location": "Naka Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.39581666666667,
+            132.45376666666667
+        ]
+    },
+    "GBW_0329_67_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_67_O_175.jpeg",
+        "points": [
+            [
+                0.3175,
+                0.0
+            ],
+            [
+                0.89625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:41",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71230833333333,
+            139.77526944444446
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_120_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_120_O_175.jpeg",
+        "points": [
+            [
+                0.48,
+                0.0
+            ],
+            [
+                0.61375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-13 10:40:19",
+        "location": "Toshima, Japan",
+        "coordinates": [
+            35.721669444444444,
+            139.70564166666665
+        ],
+        "address": {
+            "neighbourhood": "Mejiro 3",
+            "quarter": "Mejiro",
+            "city": "Toshima",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "171-0031",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_162_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_162_O_175.jpeg",
+        "points": [
+            [
+                0.38875,
+                0.0
+            ],
+            [
+                0.54625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:57",
+        "location": "Zhuantang, Zhejiang, China",
+        "coordinates": [
+            30.13203888888889,
+            120.08255833333332
+        ]
+    },
+    "GBW_0329_155_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_155_O_175.jpeg",
+        "points": [
+            [
+                0.4175,
+                0.0
+            ],
+            [
+                0.2575,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:46",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.132033333333332,
+            120.08257222222223
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_117_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_117_O_175.jpeg",
+        "points": [
+            [
+                0.4475,
+                0.0
+            ],
+            [
+                0.33,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-13 10:40:16",
+        "location": "Toshima, Japan",
+        "coordinates": [
+            35.721672222222224,
+            139.7056888888889
+        ],
+        "address": {
+            "neighbourhood": "Mejiro 3",
+            "quarter": "Mejiro",
+            "city": "Toshima",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "171-0031",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_77_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_77_O_175.jpeg",
+        "points": [
+            [
+                0.51,
+                0.0
+            ],
+            [
+                0.5375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-24 15:21:25",
+        "location": "Toride, Japan",
+        "coordinates": [
+            35.87991666666667,
+            140.11680555555557
+        ],
+        "address": {
+            "amenity": "Tokyo University of the Arts Toride Campus",
+            "quarter": "Omonma",
+            "city": "Toride",
+            "province": "Ibaraki Prefecture",
+            "ISO3166-2-lvl4": "JP-08",
+            "postcode": "302-0001",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_59_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_59_O_175.jpeg",
+        "points": [
+            [
+                0.16375,
+                0.0
+            ],
+            [
+                0.785,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2024-11-22 18:57:31",
+        "location": "Ueno, Tokyo, Japan",
+        "coordinates": [
+            35.71253333333333,
+            139.77539166666668
+        ]
+    },
+    "GBW_0329_139_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_139_O_175.jpeg",
+        "points": [
+            [
+                0.46375,
+                0.0
+            ],
+            [
+                0.47875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 14:01:26",
+        "location": "Liuxia, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.268191666666667,
+            120.09454444444444
+        ],
+        "address": {
+            "road": "古天巷",
+            "suburb": "Liuxia",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310013",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_62_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_62_O_175.jpeg",
+        "points": [
+            [
+                0.51125,
+                0.0
+            ],
+            [
+                0.51375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:33",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71253333333333,
+            139.77539166666668
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_130_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_130_O_175.jpeg",
+        "points": [
+            [
+                0.43375,
+                0.0
+            ],
+            [
+                0.485,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-08 19:56:49",
+        "location": "东洲街道, Fuyang, Zhejiang, China",
+        "coordinates": [
+            30.088780555555555,
+            120.05280277777777
+        ],
+        "address": {
+            "industrial": "新迈电器",
+            "suburb": "东洲街道",
+            "city": "Fuyang",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_140_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_140_O_175.jpeg",
+        "points": [
+            [
+                0.625,
+                0.0
+            ],
+            [
+                0.5825,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 14:01:28",
+        "location": "Liuxia, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.268191666666667,
+            120.09454444444444
+        ],
+        "address": {
+            "road": "古天巷",
+            "suburb": "Liuxia",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310013",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_133_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_133_O_175.jpeg",
+        "points": [
+            [
+                0.45125,
+                0.0
+            ],
+            [
+                0.49375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-08 19:56:51",
+        "location": "东洲街道, Fuyang, Zhejiang, China",
+        "coordinates": [
+            30.088644444444444,
+            120.05269722222222
+        ],
+        "address": {
+            "industrial": "新迈电器",
+            "suburb": "东洲街道",
+            "city": "Fuyang",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_143_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_143_O_175.jpeg",
+        "points": [
+            [
+                0.6,
+                0.0
+            ],
+            [
+                0.56625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 16:35:52",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.131855555555557,
+            120.08255833333332
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_171_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_171_O_175.jpeg",
+        "points": [
+            [
+                0.4525,
+                0.0
+            ],
+            [
+                0.59,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 19:02:14",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.15023611111111,
+            120.07296111111111
+        ],
+        "address": {
+            "neighbourhood": "美院社区",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_61_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_61_O_175.jpeg",
+        "points": [
+            [
+                0.5625,
+                0.0
+            ],
+            [
+                0.3875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:32",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71253333333333,
+            139.77539166666668
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_89_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_89_O_175.jpeg",
+        "points": [
+            [
+                0.71,
+                0.0
+            ],
+            [
+                0.79625,
+                0.55375
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-28 14:49:49",
+        "location": "Toride, Japan",
+        "coordinates": [
+            35.89223055555556,
+            140.0784611111111
+        ],
+        "address": {
+            "road": "Mito-kaido Avenue",
+            "quarter": "台宿",
+            "city": "Toride",
+            "province": "Ibaraki Prefecture",
+            "ISO3166-2-lvl4": "JP-08",
+            "postcode": "302-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_108_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_108_O_175.jpeg",
+        "points": [
+            [
+                0.31,
+                0.0
+            ],
+            [
+                0.92125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-11 12:09:47",
+        "location": "Naka Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.39548611111111,
+            132.45385833333333
+        ],
+        "address": {
+            "historic": "Genbaku Dome",
+            "house_number": "10",
+            "neighbourhood": "Otemachi 1-chome",
+            "suburb": "Naka Ward",
+            "city": "Hiroshima",
+            "province": "Hiroshima Prefecture",
+            "ISO3166-2-lvl4": "JP-34",
+            "postcode": "730-0051",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_68_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_68_O_175.jpeg",
+        "points": [
+            [
+                0.0325,
+                0.0
+            ],
+            [
+                0.7375,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2024-11-22 18:57:41",
+        "location": "Taito, Tokyo, Japan",
+        "coordinates": [
+            35.71233333333333,
+            139.77528333333333
+        ]
+    },
+    "GBW_0329_126_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_126_O_175.jpeg",
+        "points": [
+            [
+                0.46125,
+                0.0
+            ],
+            [
+                0.5375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-08 19:56:47",
+        "location": "东洲街道, Fuyang, Zhejiang, China",
+        "coordinates": [
+            30.088780555555555,
+            120.05280277777777
+        ],
+        "address": {
+            "industrial": "新迈电器",
+            "suburb": "东洲街道",
+            "city": "Fuyang",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_156_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_156_O_175.jpeg",
+        "points": [
+            [
+                0.3125,
+                0.0
+            ],
+            [
+                0.34875,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-03-23 17:34:48",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.132033333333332,
+            120.08257222222223
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_71_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_71_O_175.jpeg",
+        "points": [
+            [
+                0.35375,
+                0.0
+            ],
+            [
+                0.4125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:43",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71233333333333,
+            139.77528333333333
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_111_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_111_O_175.jpeg",
+        "points": [
+            [
+                0.38875,
+                0.0
+            ],
+            [
+                0.57375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-11 12:09:49",
+        "location": "Naka Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.39456111111111,
+            132.45385833333333
+        ]
+    },
+    "GBW_0329_161_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_161_O_175.jpeg",
+        "points": [
+            [
+                0.52125,
+                0.0
+            ],
+            [
+                0.6225,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 17:34:56",
+        "location": "Zhuantang, Xihu District, Zhejiang, China",
+        "coordinates": [
+            30.13203888888889,
+            120.08255833333332
+        ],
+        "address": {
+            "road": "科海路",
+            "suburb": "Zhuantang",
+            "city": "Xihu District",
+            "state": "Zhejiang",
+            "ISO3166-2-lvl4": "CN-ZJ",
+            "postcode": "310024",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0329_43_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_43_O_175.jpeg",
+        "points": [
+            [
+                0.5025,
+                0.0
+            ],
+            [
+                0.5025,
+                0.51125
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2024-11-16 19:58:28",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.801452777777776,
+            139.91369722222223
+        ],
+        "address": {
+            "neighbourhood": "北松戸一丁目",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0064",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_90_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_90_O_175.jpeg",
+        "points": [
+            [
+                0.32,
+                0.0
+            ],
+            [
+                0.32375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-28 14:49:50",
+        "location": "Toride, Japan",
+        "coordinates": [
+            35.89223055555556,
+            140.07844444444444
+        ],
+        "address": {
+            "road": "Mito-kaido Avenue",
+            "quarter": "台宿",
+            "city": "Toride",
+            "province": "Ibaraki Prefecture",
+            "ISO3166-2-lvl4": "JP-08",
+            "postcode": "302-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_168_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_168_O_175.jpeg",
+        "points": [
+            [
+                0.33,
+                0.0
+            ],
+            [
+                0.47875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-23 18:02:49",
+        "location": "Zhuantang, Zhejiang, China",
+        "coordinates": [
+            30.15123611111111,
+            120.07536388888889
+        ]
+    },
+    "GBW_0329_118_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_118_O_175.jpeg",
+        "points": [
+            [
+                0.4275,
+                0.0
+            ],
+            [
+                0.4875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-02-13 10:40:17",
+        "location": "Toshima, Japan",
+        "coordinates": [
+            35.721672222222224,
+            139.7056888888889
+        ],
+        "address": {
+            "neighbourhood": "Mejiro 3",
+            "quarter": "Mejiro",
+            "city": "Toshima",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "171-0031",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_78_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_78_O_175.jpeg",
+        "points": [
+            [
+                0.465,
+                0.0
+            ],
+            [
+                0.52875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-24 15:21:26",
+        "location": "Toride, Japan",
+        "coordinates": [
+            35.87991666666667,
+            140.11680555555557
+        ],
+        "address": {
+            "amenity": "Tokyo University of the Arts Toride Campus",
+            "quarter": "Omonma",
+            "city": "Toride",
+            "province": "Ibaraki Prefecture",
+            "ISO3166-2-lvl4": "JP-08",
+            "postcode": "302-0001",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_64_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_64_O_175.jpeg",
+        "points": [
+            [
+                0.47875,
+                0.0
+            ],
+            [
+                0.41625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-11-22 18:57:34",
+        "location": "Ueno, Taito, Japan",
+        "coordinates": [
+            35.71253333333333,
+            139.77539166666668
+        ],
+        "address": {
+            "shop": "Atré",
+            "house_number": "1",
+            "neighbourhood": "Ueno 7-chome",
+            "suburb": "Ueno",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0005",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0329_104_O_175.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0329_104_O_175.jpeg",
+        "points": [
+            [
+                0.55875,
+                0.0
+            ],
+            [
+                0.65625,
+                0.93625
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-02-11 11:05:13",
+        "location": "Minami Ward, Hiroshima, Japan",
+        "coordinates": [
+            34.394725,
+            132.47610555555556
+        ],
+        "address": {
+            "road": "Hiroshima Miyoshi Line",
+            "neighbourhood": "Nishikojin-machi",
+            "suburb": "Minami Ward",
+            "city": "Hiroshima",
+            "province": "Hiroshima Prefecture",
+            "ISO3166-2-lvl4": "JP-34",
+            "postcode": "732-0806",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_29_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_29_O_52.jpeg",
+        "points": [
+            [
+                0.34375,
+                0.0
+            ],
+            [
+                0.48375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-30 20:49:30",
+        "location": "Kōenji, Suginami, Japan",
+        "coordinates": [
+            35.70606111111111,
+            139.64909444444444
+        ],
+        "address": {
+            "shop": "アキダイ",
+            "road": "中通り商店街",
+            "neighbourhood": "Koenji kita 3",
+            "quarter": "Kōenji-north",
+            "suburb": "Kōenji",
+            "city": "Suginami",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "166-0002",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_35_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_35_O_52.jpeg",
+        "points": [
+            [
+                0.385,
+                0.0
+            ],
+            [
+                0.45375,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-04-02 22:39:47",
+        "location": "Shinjuku, Japan",
+        "coordinates": [
+            35.712375,
+            139.70336944444443
+        ],
+        "address": {
+            "neighbourhood": "Takadanobaba　4",
+            "city": "Shinjuku",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "160-8484",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_46_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_46_O_52.jpeg",
+        "points": [
+            [
+                0.45875,
+                0.0
+            ],
+            [
+                0.45625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:45:00",
+        "location": "Matsudo, Chiba, Japan",
+        "coordinates": [
+            35.8061,
+            139.91462777777778
+        ]
+    },
+    "GBW_0408_13_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_13_O_52.jpeg",
+        "points": [
+            [
+                0.555,
+                0.0
+            ],
+            [
+                0.53875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-30 16:52:42",
+        "location": "Musashino, Japan",
+        "coordinates": [
+            35.706855555555556,
+            139.5817111111111
+        ],
+        "address": {
+            "road": "Itsukaichi kaido",
+            "neighbourhood": "Kichijoji-honcho 1-chome",
+            "city": "Musashino",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "180-0004",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_2_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_2_O_52.jpeg",
+        "points": [
+            [
+                0.41,
+                0.0
+            ],
+            [
+                0.34125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-30 12:18:52",
+        "location": "Naka Ward, Yokohama, Japan",
+        "coordinates": [
+            35.444725,
+            139.63333055555557
+        ],
+        "address": {
+            "neighbourhood": "Isezakicho 1-chome",
+            "suburb": "Naka Ward",
+            "city": "Yokohama",
+            "province": "Kanagawa Prefecture",
+            "ISO3166-2-lvl4": "JP-14",
+            "postcode": "231-0017",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_44_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_44_O_52.jpeg",
+        "points": [
+            [
+                0.425,
+                0.0
+            ],
+            [
+                0.61625,
+                1.0
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2025-04-07 20:44:55",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80608333333333,
+            139.91461111111113
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_41_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_41_O_52.jpeg",
+        "points": [
+            [
+                0.42,
+                0.0
+            ],
+            [
+                0.5525,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:44:43",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80608055555555,
+            139.91461111111113
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_50_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_50_O_52.jpeg",
+        "points": [
+            [
+                0.3825,
+                0.0
+            ],
+            [
+                0.5875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:45:14",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80613333333333,
+            139.91464166666668
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_42_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_42_O_52.jpeg",
+        "points": [
+            [
+                0.4125,
+                0.0
+            ],
+            [
+                0.4825,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:44:48",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80608055555555,
+            139.91461111111113
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_47_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_47_O_52.jpeg",
+        "points": [
+            [
+                0.54125,
+                0.0
+            ],
+            [
+                0.615,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:45:03",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.8061,
+            139.91462777777778
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_36_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_36_O_52.jpeg",
+        "points": [
+            [
+                0.4425,
+                0.1375
+            ],
+            [
+                0.62375,
+                1.0
+            ]
+        ],
+        "rotation": 270,
+        "timestamp": "2025-04-02 22:39:48",
+        "location": "Shinjuku, Tokyo, Japan",
+        "coordinates": [
+            35.712361111111115,
+            139.7034
+        ]
+    },
+    "GBW_0408_3_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_3_O_52.jpeg",
+        "points": [
+            [
+                0.3325,
+                0.0
+            ],
+            [
+                0.32875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-03-30 12:18:54",
+        "location": "Naka Ward, Yokohama, Japan",
+        "coordinates": [
+            35.44470277777778,
+            139.63331666666667
+        ],
+        "address": {
+            "neighbourhood": "Isezakicho 1-chome",
+            "suburb": "Naka Ward",
+            "city": "Yokohama",
+            "province": "Kanagawa Prefecture",
+            "ISO3166-2-lvl4": "JP-14",
+            "postcode": "231-0017",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_48_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_48_O_52.jpeg",
+        "points": [
+            [
+                0.57,
+                0.0
+            ],
+            [
+                0.4175,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:45:06",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.806105555555554,
+            139.91462777777778
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0408_45_O_52.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0408_45_O_52.jpeg",
+        "points": [
+            [
+                0.48875,
+                0.0
+            ],
+            [
+                0.5225,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-07 20:44:57",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80609166666667,
+            139.91462777777778
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0411_14_O_19.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_14_O_19.jpeg",
+        "points": [
+            [
+                0.51125,
+                0.0
+            ],
+            [
+                0.535,
+                0.84375
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-09 20:44:30",
+        "location": "Hachioji, Japan",
+        "coordinates": [
+            35.65530833333333,
+            139.34062222222224
+        ],
+        "address": {
+            "amenity": "JR貨物八王子北口駐車場",
+            "road": "Yaen kado",
+            "neighbourhood": "Asahicho",
+            "city": "Hachioji",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "192-0083",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0411_13_O_19.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_13_O_19.jpeg",
+        "points": [
+            [
+                0.5475,
+                0.0
+            ],
+            [
+                0.57375,
+                0.915
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-09 20:44:29",
+        "location": "Hachioji, Tokyo, Japan",
+        "coordinates": [
+            35.65530833333333,
+            139.34062222222224
+        ]
+    },
+    "GBW_0411_7_O_19.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_7_O_19.jpeg",
+        "points": [
+            [
+                0.3325,
+                0.0
+            ],
+            [
+                0.43875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-09 20:43:50",
+        "location": "Hachioji, Japan",
+        "coordinates": [
+            35.65560277777777,
+            139.34042222222223
+        ],
+        "address": {
+            "amenity": "JR貨物八王子北口駐車場",
+            "road": "Yaen kado",
+            "neighbourhood": "Asahicho",
+            "city": "Hachioji",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "192-0083",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GBW_0411_6_O_19.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_6_O_19.jpeg",
+        "points": [
+            [
+                0.32875,
+                0.0
+            ],
+            [
+                0.3175,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-09 20:43:47",
+        "location": "Hachioji, Tokyo, Japan",
+        "coordinates": [
+            35.65541111111111,
+            139.34025555555556
+        ]
+    },
+    "GBW_0411_5_O_8.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_5_O_8.jpeg",
+        "points": [
+            [
+                0.4675,
+                0.0
+            ],
+            [
+                0.7,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-10 17:47:14",
+        "location": "Matsudo, Chiba, Japan",
+        "coordinates": [
+            35.78709722222222,
+            139.90275555555556
+        ]
+    },
+    "GBW_0411_8_O_8.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_8_O_8.jpeg",
+        "points": [
+            [
+                0.585,
+                0.0
+            ],
+            [
+                0.4775,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-11 13:02:31",
+        "location": "Taito, Tokyo, Japan",
+        "coordinates": [
+            35.71821666666667,
+            139.7724138888889
+        ]
+    },
+    "GBW_0411_7_O_32.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_7_O_32.jpeg",
+        "points": [
+            [
+                0.41875,
+                0.0
+            ],
+            [
+                0.76125,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2024-10-05 14:08:31",
+        "location": "Beijing, China",
+        "coordinates": [
+            39.980266666666665,
+            116.49210277777777
+        ]
+    },
+    "GBW_0411_2_O_32.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_2_O_32.jpeg",
+        "points": [
+            [
+                0.44375,
+                0.0
+            ],
+            [
+                0.415,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-10-05 14:07:59",
+        "location": "Jiuxianqiao, Chaoyang District, Beijing, China",
+        "coordinates": [
+            39.98023333333334,
+            116.49218055555555
+        ],
+        "address": {
+            "tourism": "798 Art District",
+            "road": "798 Road",
+            "suburb": "Jiuxianqiao",
+            "village": "Tuofangying",
+            "city": "Chaoyang District",
+            "state": "Beijing",
+            "ISO3166-2-lvl4": "CN-BJ",
+            "postcode": "100015",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0411_13_O_32.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_13_O_32.jpeg",
+        "points": [
+            [
+                0.46875,
+                0.0
+            ],
+            [
+                0.7775,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-10-05 16:57:07",
+        "location": "Jiuxianqiao, Chaoyang District, Beijing, China",
+        "coordinates": [
+            39.98243611111111,
+            116.48915833333334
+        ],
+        "address": {
+            "tourism": "798 Art District",
+            "road": "798 Road",
+            "suburb": "Jiuxianqiao",
+            "village": "Tuofangying",
+            "city": "Chaoyang District",
+            "state": "Beijing",
+            "ISO3166-2-lvl4": "CN-BJ",
+            "postcode": "100015",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GBW_0411_5_O_32.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_5_O_32.jpeg",
+        "points": [
+            [
+                0.3675,
+                0.0
+            ],
+            [
+                0.4275,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-10-05 14:08:26",
+        "location": "Beijing, China",
+        "coordinates": [
+            39.98025555555556,
+            116.49210277777777
+        ]
+    },
+    "GBW_0411_8_O_32.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_8_O_32.jpeg",
+        "points": [
+            [
+                0.02,
+                0.0
+            ],
+            [
+                0.705,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2024-10-05 14:08:32",
+        "location": "Beijing, China",
+        "coordinates": [
+            39.980269444444446,
+            116.49210277777777
+        ]
+    },
+    "GBW_0411_3_O_32.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GBW_0411_3_O_32.jpeg",
+        "points": [
+            [
+                0.435,
+                0.0
+            ],
+            [
+                0.525,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2024-10-05 14:08:09",
+        "location": "Jiuxianqiao, Chaoyang District, Beijing, China",
+        "coordinates": [
+            39.98023611111111,
+            116.49215
+        ],
+        "address": {
+            "tourism": "798 Art District",
+            "road": "798 Road",
+            "suburb": "Jiuxianqiao",
+            "village": "Tuofangying",
+            "city": "Chaoyang District",
+            "state": "Beijing",
+            "ISO3166-2-lvl4": "CN-BJ",
+            "postcode": "100015",
+            "country": "China",
+            "country_code": "cn"
+        }
+    },
+    "GB_0423_20_O_27.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GB_0423_20_O_27.jpeg",
+        "points": [
+            [
+                0.55125,
+                0.0
+            ],
+            [
+                0.53125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-23 14:47:26",
+        "location": "Matsudo, Chiba, Japan",
+        "coordinates": [
+            35.80392777777777,
+            139.91360555555556
+        ]
+    },
+    "GB_0423_4_O_27.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GB_0423_4_O_27.jpeg",
+        "points": [
+            [
+                0.3625,
+                0.0
+            ],
+            [
+                0.36875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-18 12:14:47",
+        "location": "Toride, Ibaraki, Japan",
+        "coordinates": [
+            35.89112222222222,
+            140.06385833333334
+        ]
+    },
+    "GB_0423_15_O_27.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GB_0423_15_O_27.jpeg",
+        "points": [
+            [
+                0.40875,
+                0.0
+            ],
+            [
+                0.39,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-22 17:22:07",
+        "location": "Taito, Japan",
+        "coordinates": [
+            35.72398333333334,
+            139.76599166666668
+        ],
+        "address": {
+            "road": "Sansakisaka Street",
+            "neighbourhood": "Yanaka 5",
+            "quarter": "Yanaka",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0001",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GB_0423_27_O_27.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GB_0423_27_O_27.jpeg",
+        "points": [
+            [
+                0.62,
+                0.0
+            ],
+            [
+                0.5425,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-27 14:07:05",
+        "location": "Taito, Japan",
+        "coordinates": [
+            35.72258888888889,
+            139.77256666666668
+        ],
+        "address": {
+            "neighbourhood": "Ueno Sakuragi 2",
+            "quarter": "Ueno Sakuragi",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-0002",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "GB_0423_2_O_27.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GB_0423_2_O_27.jpeg",
+        "points": [
+            [
+                0.62125,
+                0.0
+            ],
+            [
+                0.33,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-18 11:53:23",
+        "location": "Toride, Ibaraki, Japan",
+        "coordinates": [
+            35.88955277777778,
+            140.06184444444446
+        ]
+    },
+    "GB_0423_14_O_27.jpeg": {
+        "path": "assets/img/projects/ground-breaking/GB_0423_14_O_27.jpeg",
+        "points": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.53125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-22 17:16:48",
+        "location": "Taito, Tokyo, Japan",
+        "coordinates": [
+            35.72360277777778,
+            139.76864722222223
+        ]
+    },
+    "I_7046.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7046.jpeg",
+        "points": [
+            [
+                0.51875,
+                0.0
+            ],
+            [
+                0.59625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-30 14:00:49",
+        "location": "Matsudo, Chiba, Japan",
+        "coordinates": [
+            35.80611388888889,
+            139.91459722222223
+        ]
+    },
+    "I_7155.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7155.jpeg",
+        "points": [
+            [
+                0.595,
+                0.0
+            ],
+            [
+                0.5,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-06 17:29:57",
+        "location": "Ichikawamisato, Yamanashi, Japan",
+        "coordinates": [
+            35.565625,
+            138.53407222222222
+        ]
+    },
+    "I_7047.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7047.jpeg",
+        "points": [
+            [
+                0.5425,
+                0.0
+            ],
+            [
+                0.325,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-30 14:00:50",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80609444444444,
+            139.91459722222223
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7092.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7092.jpeg",
+        "points": [
+            [
+                0.26,
+                0.0
+            ],
+            [
+                0.28625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-04 11:43:07",
+        "location": "Kawasaki, Kanagawa, Japan",
+        "coordinates": [
+            35.587155555555555,
+            139.50248611111112
+        ]
+    },
+    "I_7159.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7159.jpeg",
+        "points": [
+            [
+                0.3825,
+                0.0
+            ],
+            [
+                0.49625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-06 18:18:27",
+        "location": "Kōfu, Yamanashi, Japan",
+        "coordinates": [
+            35.66546111111111,
+            138.56701666666666
+        ]
+    },
+    "I_7122.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7122.jpeg",
+        "points": [
+            [
+                0.41125,
+                0.0
+            ],
+            [
+                0.47,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-05-05 19:18:27",
+        "location": "Kōfu, Yamanashi, Japan",
+        "coordinates": [
+            35.67844722222222,
+            138.5523388888889
+        ]
+    },
+    "I_7001.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7001.jpeg",
+        "points": [
+            [
+                0.44625,
+                0.0
+            ],
+            [
+                0.37125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-28 13:52:15",
+        "location": "Setagaya, Japan",
+        "coordinates": [
+            35.663627777777776,
+            139.67033333333333
+        ],
+        "address": {
+            "road": "区道（線路地下化上部跡地）",
+            "neighbourhood": "Kitazawa 3",
+            "quarter": "Kitazawa",
+            "city": "Setagaya",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "155-8666",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7003.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7003.jpeg",
+        "points": [
+            [
+                0.6275,
+                0.0
+            ],
+            [
+                0.5325,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-28 13:58:19",
+        "location": "Setagaya, Japan",
+        "coordinates": [
+            35.66296111111111,
+            139.66954166666665
+        ],
+        "address": {
+            "neighbourhood": "Kitazawa 2",
+            "quarter": "Kitazawa",
+            "city": "Setagaya",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "155-8666",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7062.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7062.jpeg",
+        "points": [
+            [
+                0.72625,
+                0.0
+            ],
+            [
+                0.15625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-30 14:02:35",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80482222222222,
+            139.91404722222222
+        ],
+        "address": {
+            "road": "Mito-kaido Avenue",
+            "neighbourhood": "新作",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7063.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7063.jpeg",
+        "points": [
+            [
+                0.6175,
+                0.0
+            ],
+            [
+                0.37625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-30 14:02:36",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80505833333333,
+            139.91404722222222
+        ],
+        "address": {
+            "neighbourhood": "新作",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_6998.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_6998.jpeg",
+        "points": [
+            [
+                0.52,
+                0.0
+            ],
+            [
+                0.4325,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-28 13:52:13",
+        "location": "Setagaya, Tokyo, Japan",
+        "coordinates": [
+            35.663647222222224,
+            139.67038055555554
+        ]
+    },
+    "I_7018.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7018.jpeg",
+        "points": [
+            [
+                0.5675,
+                0.0
+            ],
+            [
+                0.6075,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-29 12:42:22",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.68176944444444,
+            139.8032388888889
+        ],
+        "address": {
+            "neighbourhood": "Shirakawa 2",
+            "quarter": "Shirakawa",
+            "city": "Koto",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "135-0021",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7048.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7048.jpeg",
+        "points": [
+            [
+                0.49875,
+                0.0
+            ],
+            [
+                0.4025,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-30 14:00:50",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80608611111111,
+            139.91459722222223
+        ],
+        "address": {
+            "neighbourhood": "中根",
+            "city": "Matsudo",
+            "province": "Chiba Prefecture",
+            "ISO3166-2-lvl4": "JP-12",
+            "postcode": "271-0063",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7160.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7160.jpeg",
+        "points": [
+            [
+                0.235,
+                0.0
+            ],
+            [
+                0.61875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-06 18:18:29",
+        "location": "Kōfu, Japan",
+        "coordinates": [
+            35.66545,
+            138.56704722222221
+        ],
+        "address": {
+            "road": "Iida-dori",
+            "neighbourhood": "Marunouchi 2-chome",
+            "city": "Kōfu",
+            "province": "Yamanashi Prefecture",
+            "ISO3166-2-lvl4": "JP-19",
+            "postcode": "400-0031",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7005.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7005.jpeg",
+        "points": [
+            [
+                0.4625,
+                0.0
+            ],
+            [
+                0.51625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-28 13:58:21",
+        "location": "Setagaya, Tokyo, Japan",
+        "coordinates": [
+            35.66287222222222,
+            139.6696472222222
+        ]
+    },
+    "I_7004.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7004.jpeg",
+        "points": [
+            [
+                0.47625,
+                0.0
+            ],
+            [
+                0.62,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-28 13:58:20",
+        "location": "Setagaya, Japan",
+        "coordinates": [
+            35.66287222222222,
+            139.6696472222222
+        ],
+        "address": {
+            "road": "Chazawa-dori",
+            "neighbourhood": "Kitazawa 1",
+            "quarter": "Kitazawa",
+            "city": "Setagaya",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "155-8666",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7157.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7157.jpeg",
+        "points": [
+            [
+                0.57875,
+                0.0
+            ],
+            [
+                0.445,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-06 17:30:04",
+        "location": "Japan",
+        "coordinates": [
+            35.565597222222216,
+            138.53405833333332
+        ],
+        "address": {
+            "road": "金川曽根広域農道",
+            "quarter": "Otsuka",
+            "town": "Ichikawamisato",
+            "county": "Nishiyatsushiro County",
+            "province": "Yamanashi Prefecture",
+            "ISO3166-2-lvl4": "JP-19",
+            "postcode": "409-3843",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7120.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7120.jpeg",
+        "points": [
+            [
+                0.34875,
+                0.0
+            ],
+            [
+                0.465,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-05 18:09:06",
+        "location": "Kōfu, Yamanashi, Japan",
+        "coordinates": [
+            35.678261111111105,
+            138.5533138888889
+        ]
+    },
+    "I_7049.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7049.jpeg",
+        "points": [
+            [
+                0.56125,
+                0.0
+            ],
+            [
+                0.67625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-04-30 14:00:51",
+        "location": "Matsudo, Chiba, Japan",
+        "coordinates": [
+            35.80608333333333,
+            139.91459722222223
+        ]
+    },
+    "I_7230.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7230.jpeg",
+        "points": [
+            [
+                0.54375,
+                0.0
+            ],
+            [
+                0.62375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:29",
+        "location": "Japan",
+        "coordinates": [
+            37.535,
+            140.10728333333333
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7302.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7302.jpeg",
+        "points": [
+            [
+                0.595,
+                0.0
+            ],
+            [
+                0.785,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:38:36",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.059549999999994,
+            140.86007777777778
+        ],
+        "address": {
+            "road": "旧国道49号",
+            "quarter": "好間町下好間",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-1152",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7380.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7380.jpeg",
+        "points": [
+            [
+                0.56875,
+                0.0
+            ],
+            [
+                0.4875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 16:05:32",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.11172777777778,
+            140.7580722222222
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "三和町渡戸",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7293.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7293.jpeg",
+        "points": [
+            [
+                0.275,
+                0.0
+            ],
+            [
+                0.655,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:21:21",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.05925,
+            140.86010833333333
+        ],
+        "address": {
+            "road": "旧国道49号",
+            "quarter": "好間町下好間",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-1152",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7381.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7381.jpeg",
+        "points": [
+            [
+                0.42625,
+                0.0
+            ],
+            [
+                0.35125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 16:05:33",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.11172777777778,
+            140.7580722222222
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "三和町渡戸",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7211.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7211.jpeg",
+        "points": [
+            [
+                0.5125,
+                0.0
+            ],
+            [
+                0.4675,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:39:33",
+        "location": "Inawashiro, Fukushima, Japan",
+        "coordinates": [
+            37.535063888888885,
+            140.10884166666665
+        ]
+    },
+    "I_7303.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7303.jpeg",
+        "points": [
+            [
+                0.48125,
+                0.0
+            ],
+            [
+                0.64625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:38:38",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.05953611111111,
+            140.86009166666665
+        ],
+        "address": {
+            "road": "旧国道49号",
+            "quarter": "好間町下好間",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-1152",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7335.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7335.jpeg",
+        "points": [
+            [
+                0.33125,
+                0.0
+            ],
+            [
+                0.5825,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 11:41:27",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.106861111111115,
+            140.7984
+        ],
+        "address": {
+            "road": "いわき市道水​石​山線",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7294.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7294.jpeg",
+        "points": [
+            [
+                0.365,
+                0.0
+            ],
+            [
+                0.70375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:21:22",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.05939444444444,
+            140.86016944444444
+        ],
+        "address": {
+            "road": "旧国道49号",
+            "quarter": "好間町下好間",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-1152",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7299.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7299.jpeg",
+        "points": [
+            [
+                0.42875,
+                0.0
+            ],
+            [
+                0.38,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:38:28",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.059580555555556,
+            140.86001666666667
+        ],
+        "address": {
+            "road": "旧国道49号",
+            "quarter": "好間町下好間",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-1152",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7221.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7221.jpeg",
+        "points": [
+            [
+                0.585,
+                0.0
+            ],
+            [
+                0.51125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:23",
+        "location": "Japan",
+        "coordinates": [
+            37.53501111111111,
+            140.10734444444444
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7295.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7295.jpeg",
+        "points": [
+            [
+                0.45875,
+                0.0
+            ],
+            [
+                0.605,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:21:23",
+        "location": "Iwaki, Fukushima, Japan",
+        "coordinates": [
+            37.05941388888888,
+            140.86013888888888
+        ]
+    },
+    "I_7214.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7214.jpeg",
+        "points": [
+            [
+                0.29375,
+                0.0
+            ],
+            [
+                0.6125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:15",
+        "location": "Japan",
+        "coordinates": [
+            37.53512222222222,
+            140.10655277777778
+        ],
+        "address": {
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7330.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7330.jpeg",
+        "points": [
+            [
+                0.30875,
+                0.0
+            ],
+            [
+                0.13125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 11:41:24",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.10684722222222,
+            140.7983861111111
+        ],
+        "address": {
+            "road": "いわき市道水​石​山線",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7222.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7222.jpeg",
+        "points": [
+            [
+                0.47875,
+                0.0
+            ],
+            [
+                0.5525,
+                0.80125
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:23",
+        "location": "Japan",
+        "coordinates": [
+            37.53500833333333,
+            140.10734444444444
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7234.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7234.jpeg",
+        "points": [
+            [
+                0.57875,
+                0.0
+            ],
+            [
+                0.515,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:32",
+        "location": "Yama County, Fukushima, Japan",
+        "coordinates": [
+            37.53503055555555,
+            140.10726944444443
+        ]
+    },
+    "I_7223.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7223.jpeg",
+        "points": [
+            [
+                0.5175,
+                0.0
+            ],
+            [
+                0.655,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:24",
+        "location": "Japan",
+        "coordinates": [
+            37.53500833333333,
+            140.10734444444444
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7203.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7203.jpeg",
+        "points": [
+            [
+                0.51875,
+                0.06125
+            ],
+            [
+                0.3525,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-09 15:34:12",
+        "location": "Taito, Japan",
+        "coordinates": [
+            35.71944444444445,
+            139.7708888888889
+        ],
+        "address": {
+            "amenity": "Tokyo University of The Arts",
+            "road": "Kanda-Hakusan Line",
+            "neighbourhood": "Ueno Park",
+            "city": "Taito",
+            "ISO3166-2-lvl4": "JP-13",
+            "postcode": "110-8712",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7393.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7393.jpeg",
+        "points": [
+            [
+                0.4675,
+                0.0
+            ],
+            [
+                0.55125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 21:45:12",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.057227777777776,
+            140.89244166666666
+        ],
+        "address": {
+            "road": "国道399号線",
+            "quarter": "平",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-8026",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7336.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7336.jpeg",
+        "points": [
+            [
+                0.31875,
+                0.0
+            ],
+            [
+                0.385,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 11:41:27",
+        "location": "Iwaki, Fukushima, Japan",
+        "coordinates": [
+            37.10686944444445,
+            140.7984
+        ]
+    },
+    "I_7224.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7224.jpeg",
+        "points": [
+            [
+                0.475,
+                0.0
+            ],
+            [
+                0.5675,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:24",
+        "location": "Japan",
+        "coordinates": [
+            37.535,
+            140.10733055555556
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7300.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7300.jpeg",
+        "points": [
+            [
+                0.25625,
+                0.0575
+            ],
+            [
+                0.24375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:38:29",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.059580555555556,
+            140.8600611111111
+        ],
+        "address": {
+            "road": "旧国道49号",
+            "quarter": "好間町下好間",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-1152",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7253.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7253.jpeg",
+        "points": [
+            [
+                0.35625,
+                0.0
+            ],
+            [
+                0.70125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-12 16:14:36",
+        "location": "Kitakata, Japan",
+        "coordinates": [
+            37.61920555555555,
+            139.8308722222222
+        ],
+        "address": {
+            "quarter": "慶徳町新宮",
+            "city": "Kitakata",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "966-0862",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7301.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7301.jpeg",
+        "points": [
+            [
+                0.6325,
+                0.0
+            ],
+            [
+                0.57125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 06:38:35",
+        "location": "Iwaki, Fukushima, Japan",
+        "coordinates": [
+            37.059549999999994,
+            140.86007777777778
+        ]
+    },
+    "I_7213.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7213.jpeg",
+        "points": [
+            [
+                0.64375,
+                0.0
+            ],
+            [
+                0.3125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:14",
+        "location": "Japan",
+        "coordinates": [
+            37.53512222222222,
+            140.10655277777778
+        ],
+        "address": {
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7383.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7383.jpeg",
+        "points": [
+            [
+                0.53125,
+                0.0
+            ],
+            [
+                0.37,
+                0.85625
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-14 16:05:35",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.11181944444444,
+            140.7579638888889
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "三和町渡戸",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7229.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7229.jpeg",
+        "points": [
+            [
+                0.57,
+                0.0
+            ],
+            [
+                0.35625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-11 14:41:29",
+        "location": "Japan",
+        "coordinates": [
+            37.53499166666666,
+            140.10729999999998
+        ],
+        "address": {
+            "road": "National Highway Route 49",
+            "quarter": "大字堅田",
+            "town": "Inawashiro",
+            "county": "Yama County",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "969-3132",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7637.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7637.jpeg",
+        "points": [
+            [
+                0.495,
+                0.0
+            ],
+            [
+                0.59,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:49",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75219444444444,
+            140.46746944444445
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7617.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7617.jpeg",
+        "points": [
+            [
+                0.535,
+                0.0
+            ],
+            [
+                0.55875,
+                0.8025
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:35:34",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75234722222222,
+            140.46748333333335
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7640.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7640.jpeg",
+        "points": [
+            [
+                0.4625,
+                0.0
+            ],
+            [
+                0.4,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:55",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75216666666667,
+            140.46745277777777
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7616.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7616.jpeg",
+        "points": [
+            [
+                0.5125,
+                0.0
+            ],
+            [
+                0.61125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:35:33",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75236388888889,
+            140.46746944444445
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7620.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7620.jpeg",
+        "points": [
+            [
+                0.49875,
+                0.0
+            ],
+            [
+                0.57875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:35:44",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75234722222222,
+            140.4675
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7426.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7426.jpeg",
+        "points": [
+            [
+                0.53625,
+                0.0
+            ],
+            [
+                0.42625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-16 08:08:43",
+        "location": "Iwaki, Fukushima, Japan",
+        "coordinates": [
+            37.11868333333334,
+            140.99966388888888
+        ]
+    },
+    "I_7631.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7631.jpeg",
+        "points": [
+            [
+                0.465,
+                0.0
+            ],
+            [
+                0.54125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:24",
+        "location": "Fukushima, Japan, Japan",
+        "coordinates": [
+            37.75223888888889,
+            140.4675138888889
+        ]
+    },
+    "I_7627.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7627.jpeg",
+        "points": [
+            [
+                0.50875,
+                0.0
+            ],
+            [
+                0.5225,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:19",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75225833333333,
+            140.4675
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7630.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7630.jpeg",
+        "points": [
+            [
+                0.39875,
+                0.0
+            ],
+            [
+                0.505,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:23",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75224722222222,
+            140.4675138888889
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7446.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7446.jpeg",
+        "points": [
+            [
+                0.3,
+                0.0
+            ],
+            [
+                0.58875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-17 14:02:18",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.061949999999996,
+            140.8977361111111
+        ],
+        "address": {
+            "road": "いわき市道正内町・北目線",
+            "quarter": "平鯨岡",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "970-8799",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7633.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7633.jpeg",
+        "points": [
+            [
+                0.5225,
+                0.0
+            ],
+            [
+                0.63125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:26",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75223611111111,
+            140.4675138888889
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7425.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7425.jpeg",
+        "points": [
+            [
+                0.59,
+                0.0
+            ],
+            [
+                0.3275,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-16 08:08:42",
+        "location": "Iwaki, Japan",
+        "coordinates": [
+            37.118775,
+            140.9997111111111
+        ],
+        "address": {
+            "road": "波立トンネル",
+            "city": "Iwaki",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "979-0201",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7632.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7632.jpeg",
+        "points": [
+            [
+                0.4525,
+                0.0
+            ],
+            [
+                0.5725,
+                0.79375
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:25",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75223888888889,
+            140.4675138888889
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7628.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7628.jpeg",
+        "points": [
+            [
+                0.53625,
+                0.0
+            ],
+            [
+                0.60875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:20",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75225555555556,
+            140.4675138888889
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7422.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7422.jpeg",
+        "points": [
+            [
+                0.6825,
+                0.0
+            ],
+            [
+                0.57875,
+                0.90625
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-16 07:44:41",
+        "location": "Iwaki, Fukushima, Japan",
+        "coordinates": [
+            37.12058611111111,
+            140.99679444444442
+        ]
+    },
+    "I_7619.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7619.jpeg",
+        "points": [
+            [
+                0.4275,
+                0.0
+            ],
+            [
+                0.49375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:35:41",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75233333333333,
+            140.4675
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7639.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7639.jpeg",
+        "points": [
+            [
+                0.46,
+                0.0
+            ],
+            [
+                0.575,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:53",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.752183333333335,
+            140.46746944444445
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7615.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7615.jpeg",
+        "points": [
+            [
+                0.41,
+                0.0
+            ],
+            [
+                0.60375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:35:31",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.752380555555554,
+            140.46745277777777
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7638.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7638.jpeg",
+        "points": [
+            [
+                0.47625,
+                0.0
+            ],
+            [
+                0.5925,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:51",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.75218888888889,
+            140.46745277777777
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7618.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7618.jpeg",
+        "points": [
+            [
+                0.44625,
+                0.0
+            ],
+            [
+                0.54625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:35:37",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.752338888888886,
+            140.46748333333335
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_7634.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7634.jpeg",
+        "points": [
+            [
+                0.58625,
+                0.1275
+            ],
+            [
+                0.58125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-20 21:36:28",
+        "location": "Fukushima, Japan",
+        "coordinates": [
+            37.752227777777776,
+            140.4675138888889
+        ],
+        "address": {
+            "amenity": "大町まちなかパーキング",
+            "road": "水原福島線（県庁通り）",
+            "neighbourhood": "Omachi",
+            "city": "Fukushima",
+            "province": "Fukushima Prefecture",
+            "ISO3166-2-lvl4": "JP-07",
+            "postcode": "960-8041",
+            "country": "Japan",
+            "country_code": "jp"
+        }
+    },
+    "I_8055.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8055.jpeg",
+        "points": [
+            [
+                0.7625,
+                0.0
+            ],
+            [
+                0.305,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:05:52",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.6892,
+            139.79353333333333
+        ]
+    },
+    "I_7748.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7748.jpeg",
+        "points": [
+            [
+                0.61875,
+                0.0
+            ],
+            [
+                0.51625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-29 14:45:43",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            34.99181388888889,
+            135.76106388888888
+        ]
+    },
+    "I_8106.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8106.jpeg",
+        "points": [
+            [
+                0.52625,
+                0.0
+            ],
+            [
+                0.5025,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-10 10:34:44",
+        "location": "Tokorozawa, Japan",
+        "coordinates": [
+            35.801088888888884,
+            139.4406888888889
+        ]
+    },
+    "I_7705.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7705.jpeg",
+        "points": [
+            [
+                0.705,
+                0.0
+            ],
+            [
+                0.55875,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-05-27 12:19:23",
+        "location": "Taito, Japan",
+        "coordinates": [
+            35.71971388888889,
+            139.77091944444444
+        ]
+    },
+    "I_7841.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7841.jpeg",
+        "points": [
+            [
+                0.29625,
+                0.0
+            ],
+            [
+                0.29,
+                0.68875
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 15:36:49",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505025,
+            138.9629222222222
+        ]
+    },
+    "I_8063.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8063.jpeg",
+        "points": [
+            [
+                0.6025,
+                0.0
+            ],
+            [
+                0.7075,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:10:39",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.68920833333333,
+            139.79347222222222
+        ]
+    },
+    "I_7787.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7787.jpeg",
+        "points": [
+            [
+                0.6225,
+                0.0
+            ],
+            [
+                0.32,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-01 13:14:19",
+        "location": "Matsudo, Japan",
+        "coordinates": [
+            35.80453055555555,
+            139.9134527777778
+        ]
+    },
+    "I_7856.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7856.jpeg",
+        "points": [
+            [
+                0.4425,
+                0.0
+            ],
+            [
+                0.6025,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:34",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50515277777778,
+            138.96400555555553
+        ]
+    },
+    "I_7801.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7801.jpeg",
+        "points": [
+            [
+                0.4225,
+                0.0
+            ],
+            [
+                0.745,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 12:40:55",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50456944444444,
+            138.96301388888887
+        ]
+    },
+    "I_7694.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7694.jpeg",
+        "points": [
+            [
+                0.41375,
+                0.0
+            ],
+            [
+                0.41375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-25 11:04:41",
+        "location": "Toride, Japan",
+        "coordinates": [
+            35.894755555555555,
+            140.0666361111111
+        ]
+    },
+    "I_7817.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7817.jpeg",
+        "points": [
+            [
+                0.71,
+                0.0
+            ],
+            [
+                0.63375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:19:10",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50517222222222,
+            138.96264722222222
+        ]
+    },
+    "I_8062.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8062.jpeg",
+        "points": [
+            [
+                0.5175,
+                0.0
+            ],
+            [
+                0.46875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:10:38",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.68926666666666,
+            139.79351944444446
+        ]
+    },
+    "I_7840.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7840.jpeg",
+        "points": [
+            [
+                0.37,
+                0.0
+            ],
+            [
+                0.60125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 15:36:48",
+        "location": null,
+        "coordinates": null
+    },
+    "I_7704.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7704.jpeg",
+        "points": [
+            [
+                0.51125,
+                0.0
+            ],
+            [
+                0.7125,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-05-27 12:19:22",
+        "location": "Taito, Japan",
+        "coordinates": [
+            35.71972777777778,
+            139.77091944444444
+        ]
+    },
+    "I_7745.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7745.jpeg",
+        "points": [
+            [
+                0.495,
+                0.0
+            ],
+            [
+                0.4275,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-29 14:38:34",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            34.99342777777778,
+            135.7646777777778
+        ]
+    },
+    "I_7987.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7987.jpeg",
+        "points": [
+            [
+                0.45,
+                0.0
+            ],
+            [
+                0.225,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-05 18:05:54",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.32785833333334,
+            139.0045
+        ]
+    },
+    "I_8058.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8058.jpeg",
+        "points": [
+            [
+                0.58375,
+                0.0
+            ],
+            [
+                0.48625,
+                0.895
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:07:44",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.689049999999995,
+            139.79354722222223
+        ]
+    },
+    "I_7909.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7909.jpeg",
+        "points": [
+            [
+                0.49875,
+                0.0
+            ],
+            [
+                0.42875,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-06-04 09:43:51",
+        "location": "Fujioka, Japan",
+        "coordinates": [
+            36.26259722222222,
+            139.0411222222222
+        ]
+    },
+    "I_7860.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7860.jpeg",
+        "points": [
+            [
+                0.4975,
+                0.0
+            ],
+            [
+                0.45,
+                0.8825
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:37",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50513055555555,
+            138.96395833333332
+        ]
+    },
+    "I_7749.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7749.jpeg",
+        "points": [
+            [
+                0.4775,
+                0.0
+            ],
+            [
+                0.49125,
+                1.0
+            ]
+        ],
+        "rotation": 180,
+        "timestamp": "2025-05-29 14:45:44",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            34.99181388888889,
+            135.76106388888888
+        ]
+    },
+    "I_7933.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7933.jpeg",
+        "points": [
+            [
+                0.61,
+                0.0
+            ],
+            [
+                0.6575,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-04 17:30:51",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.39126666666667,
+            139.00756944444444
+        ]
+    },
+    "I_7964.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7964.jpeg",
+        "points": [
+            [
+                0.51875,
+                0.0
+            ],
+            [
+                0.4,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-05 15:21:42",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.328186111111116,
+            139.00480555555555
+        ]
+    },
+    "I_7797.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7797.jpeg",
+        "points": [
+            [
+                0.53625,
+                0.0
+            ],
+            [
+                0.54875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 06:06:43",
+        "location": "Nerima, Japan",
+        "coordinates": [
+            35.738236111111114,
+            139.65443333333334
+        ]
+    },
+    "I_7693.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7693.jpeg",
+        "points": [
+            [
+                0.62,
+                0.0
+            ],
+            [
+                0.55625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-25 00:00:20",
+        "location": "Abiko, Japan",
+        "coordinates": [
+            35.87273888888889,
+            140.00885
+        ]
+    },
+    "I_7806.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7806.jpeg",
+        "points": [
+            [
+                0.49125,
+                0.0
+            ],
+            [
+                0.31,
+                0.9225
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:06:51",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.49820833333334,
+            138.95501666666667
+        ]
+    },
+    "I_7851.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7851.jpeg",
+        "points": [
+            [
+                0.48625,
+                0.05125
+            ],
+            [
+                0.44625,
+                0.9375
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:20",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505230555555556,
+            138.96395833333332
+        ]
+    },
+    "I_7758.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7758.jpeg",
+        "points": [
+            [
+                0.65125,
+                0.0
+            ],
+            [
+                0.48,
+                0.81375
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 09:59:19",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.67102777777777,
+            139.68423333333334
+        ]
+    },
+    "I_8086.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8086.jpeg",
+        "points": [
+            [
+                0.51625,
+                0.0
+            ],
+            [
+                0.47375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-09 19:03:31",
+        "location": "Maebashi, Japan",
+        "coordinates": [
+            36.39084722222222,
+            139.0612638888889
+        ]
+    },
+    "I_7762.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7762.jpeg",
+        "points": [
+            [
+                0.615,
+                0.0
+            ],
+            [
+                0.755,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 09:59:22",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.671025,
+            139.68425
+        ]
+    },
+    "I_7763.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7763.jpeg",
+        "points": [
+            [
+                0.5975,
+                0.0
+            ],
+            [
+                0.53,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 09:59:24",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.67100277777777,
+            139.68429444444445
+        ]
+    },
+    "I_8091.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8091.jpeg",
+        "points": [
+            [
+                0.5,
+                0.0
+            ],
+            [
+                0.5575,
+                0.80625
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-09 19:03:57",
+        "location": "Maebashi, Japan",
+        "coordinates": [
+            36.39103333333333,
+            139.06103611111112
+        ]
+    },
+    "I_7759.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7759.jpeg",
+        "points": [
+            [
+                0.70875,
+                0.0
+            ],
+            [
+                0.71,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 09:59:20",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.67102777777777,
+            139.68423333333334
+        ]
+    },
+    "I_8117.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8117.jpeg",
+        "points": [
+            [
+                0.46,
+                0.0
+            ],
+            [
+                0.6675,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-10 11:46:37",
+        "location": null,
+        "coordinates": null
+    },
+    "I_7718.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7718.jpeg",
+        "points": [
+            [
+                0.48,
+                0.0
+            ],
+            [
+                0.53125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-28 11:52:44",
+        "location": "Osaka, Japan",
+        "coordinates": [
+            34.73208888888889,
+            135.49983333333333
+        ]
+    },
+    "I_7850.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7850.jpeg",
+        "points": [
+            [
+                0.495,
+                0.0
+            ],
+            [
+                0.39,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:19",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505225,
+            138.96392777777777
+        ]
+    },
+    "I_7780.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7780.jpeg",
+        "points": [
+            [
+                0.385,
+                0.0
+            ],
+            [
+                0.64125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-31 16:00:52",
+        "location": "Chūō, Japan",
+        "coordinates": [
+            35.66799444444444,
+            139.7616111111111
+        ]
+    },
+    "I_7942.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7942.jpeg",
+        "points": [
+            [
+                0.57625,
+                0.0
+            ],
+            [
+                0.37875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-05 07:41:30",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.328138888888894,
+            139.00488333333334
+        ]
+    },
+    "I_7807.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7807.jpeg",
+        "points": [
+            [
+                0.495,
+                0.0
+            ],
+            [
+                0.40125,
+                0.78875
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:06:52",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.49820833333334,
+            138.95501666666667
+        ]
+    },
+    "I_7846.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7846.jpeg",
+        "points": [
+            [
+                0.4225,
+                0.0
+            ],
+            [
+                0.49,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:48:41",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505047222222224,
+            138.96408055555554
+        ]
+    },
+    "I_7804.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7804.jpeg",
+        "points": [
+            [
+                0.43875,
+                0.0
+            ],
+            [
+                0.48375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 12:46:46",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50481666666666,
+            138.96331666666666
+        ]
+    },
+    "I_7740.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7740.jpeg",
+        "points": [
+            [
+                0.57875,
+                0.0
+            ],
+            [
+                0.2825,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-29 11:31:49",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            35.036944444444444,
+            135.79226666666668
+        ]
+    },
+    "I_7760.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7760.jpeg",
+        "points": [
+            [
+                0.6575,
+                0.0
+            ],
+            [
+                0.64375,
+                0.8475
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 09:59:20",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.67102777777777,
+            139.68423333333334
+        ]
+    },
+    "I_8092.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8092.jpeg",
+        "points": [
+            [
+                0.495,
+                0.0
+            ],
+            [
+                0.49375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-09 19:04:01",
+        "location": "Maebashi, Japan",
+        "coordinates": [
+            36.39103333333333,
+            139.06103611111112
+        ]
+    },
+    "I_7808.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7808.jpeg",
+        "points": [
+            [
+                0.5575,
+                0.0
+            ],
+            [
+                0.515,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:06:52",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50513333333333,
+            138.96283055555554
+        ]
+    },
+    "I_7849.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7849.jpeg",
+        "points": [
+            [
+                0.545,
+                0.0
+            ],
+            [
+                0.52625,
+                0.76
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:18",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50526111111111,
+            138.96392777777777
+        ]
+    },
+    "I_8102.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8102.jpeg",
+        "points": [
+            [
+                0.585,
+                0.0
+            ],
+            [
+                0.465,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-10 10:34:42",
+        "location": "Tokorozawa, Japan",
+        "coordinates": [
+            35.801088888888884,
+            139.4406888888889
+        ]
+    },
+    "I_7832.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7832.jpeg",
+        "points": [
+            [
+                0.24375,
+                0.0
+            ],
+            [
+                0.00625,
+                0.885
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 14:38:45",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50522222222222,
+            138.9627222222222
+        ]
+    },
+    "I_8103.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8103.jpeg",
+        "points": [
+            [
+                0.385,
+                0.0
+            ],
+            [
+                0.305,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-10 10:34:43",
+        "location": "Tokorozawa, Japan",
+        "coordinates": [
+            35.801088888888884,
+            139.4406888888889
+        ]
+    },
+    "I_7848.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7848.jpeg",
+        "points": [
+            [
+                0.5375,
+                0.0
+            ],
+            [
+                0.46375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:17",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505269444444444,
+            138.96394444444442
+        ]
+    },
+    "I_7798.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7798.jpeg",
+        "points": [
+            [
+                0.49125,
+                0.0
+            ],
+            [
+                0.3675,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 06:06:44",
+        "location": "Nerima, Japan",
+        "coordinates": [
+            35.73823888888889,
+            139.65443333333334
+        ]
+    },
+    "I_8085.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8085.jpeg",
+        "points": [
+            [
+                0.38625,
+                0.0
+            ],
+            [
+                0.415,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-09 19:03:29",
+        "location": "Maebashi, Japan",
+        "coordinates": [
+            36.39084722222222,
+            139.0612638888889
+        ]
+    },
+    "I_7761.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7761.jpeg",
+        "points": [
+            [
+                0.64125,
+                0.0
+            ],
+            [
+                0.6675,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 09:59:21",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.671025,
+            139.68425
+        ]
+    },
+    "I_7741.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7741.jpeg",
+        "points": [
+            [
+                0.55625,
+                0.0
+            ],
+            [
+                0.2225,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-05-29 11:31:53",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            35.036944444444444,
+            135.79226666666668
+        ]
+    },
+    "I_8089.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8089.jpeg",
+        "points": [
+            [
+                0.6,
+                0.0
+            ],
+            [
+                0.37625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-09 19:03:38",
+        "location": "Maebashi, Japan",
+        "coordinates": [
+            36.39093333333333,
+            139.06121944444445
+        ]
+    },
+    "I_7852.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7852.jpeg",
+        "points": [
+            [
+                0.49875,
+                0.0
+            ],
+            [
+                0.51875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:23",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505202777777775,
+            138.96398888888888
+        ]
+    },
+    "I_7818.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7818.jpeg",
+        "points": [
+            [
+                0.8075,
+                0.0
+            ],
+            [
+                0.72125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:19:11",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50513888888889,
+            138.9628
+        ]
+    },
+    "I_7971.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7971.jpeg",
+        "points": [
+            [
+                0.34625,
+                0.0
+            ],
+            [
+                0.22875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-05 15:49:26",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.32808333333334,
+            139.0047
+        ]
+    },
+    "I_8057.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8057.jpeg",
+        "points": [
+            [
+                0.71125,
+                0.0
+            ],
+            [
+                0.55375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:07:42",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.68908055555555,
+            139.79353333333333
+        ]
+    },
+    "I_7822.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7822.jpeg",
+        "points": [
+            [
+                0.35125,
+                0.0
+            ],
+            [
+                0.89,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:19:14",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50508611111111,
+            138.96278333333333
+        ]
+    },
+    "I_7855.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7855.jpeg",
+        "points": [
+            [
+                0.505,
+                0.0
+            ],
+            [
+                0.61625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:33",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50515277777778,
+            138.96400555555553
+        ]
+    },
+    "I_7814.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7814.jpeg",
+        "points": [
+            [
+                0.17,
+                0.0
+            ],
+            [
+                0.34125,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:07:05",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505047222222224,
+            138.96283055555554
+        ]
+    },
+    "I_8061.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8061.jpeg",
+        "points": [
+            [
+                0.70875,
+                0.0
+            ],
+            [
+                0.61,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:10:37",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.68926666666666,
+            139.79351944444446
+        ]
+    },
+    "I_7746.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7746.jpeg",
+        "points": [
+            [
+                0.7025,
+                0.0
+            ],
+            [
+                0.38875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-29 14:45:41",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            34.99181111111111,
+            135.76106388888888
+        ]
+    },
+    "I_7747.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7747.jpeg",
+        "points": [
+            [
+                0.45375,
+                0.0
+            ],
+            [
+                0.39375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-29 14:45:43",
+        "location": "Kyoto, Japan",
+        "coordinates": [
+            34.99181388888889,
+            135.76106388888888
+        ]
+    },
+    "I_8109.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8109.jpeg",
+        "points": [
+            [
+                0.53375,
+                0.0
+            ],
+            [
+                0.535,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-10 10:35:32",
+        "location": "Tokorozawa, Japan",
+        "coordinates": [
+            35.80120833333333,
+            139.4401388888889
+        ]
+    },
+    "I_7907.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7907.jpeg",
+        "points": [
+            [
+                0.6,
+                0.0
+            ],
+            [
+                0.2625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-04 09:21:25",
+        "location": "Fujioka, Japan",
+        "coordinates": [
+            36.262675,
+            139.04124444444443
+        ]
+    },
+    "I_7803.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7803.jpeg",
+        "points": [
+            [
+                0.445,
+                0.0
+            ],
+            [
+                0.675,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 12:41:01",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50491666666667,
+            138.96330277777776
+        ]
+    },
+    "I_7854.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7854.jpeg",
+        "points": [
+            [
+                0.56625,
+                0.0
+            ],
+            [
+                0.54375,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 17:55:32",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505161111111114,
+            138.96398888888888
+        ]
+    },
+    "I_7966.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7966.jpeg",
+        "points": [
+            [
+                0.47375,
+                0.0
+            ],
+            [
+                0.3775,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-05 15:47:04",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.32806111111111,
+            139.0047
+        ]
+    },
+    "I_7823.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7823.jpeg",
+        "points": [
+            [
+                0.6025,
+                0.0
+            ],
+            [
+                0.63,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-02 13:19:15",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.505072222222225,
+            138.96276944444443
+        ]
+    },
+    "I_8056.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8056.jpeg",
+        "points": [
+            [
+                0.62625,
+                0.0
+            ],
+            [
+                0.47625,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-07 18:07:39",
+        "location": "Koto, Japan",
+        "coordinates": [
+            35.689166666666665,
+            139.79348888888887
+        ]
+    },
+    "I_7862.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7862.jpeg",
+        "points": [
+            [
+                0.44875,
+                0.0
+            ],
+            [
+                0.34125,
+                1.0
+            ]
+        ],
+        "rotation": 90,
+        "timestamp": "2025-06-02 17:55:42",
+        "location": "Shibukawa, Japan",
+        "coordinates": [
+            36.50513055555555,
+            138.96392777777777
+        ]
+    },
+    "I_7970.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7970.jpeg",
+        "points": [
+            [
+                0.61,
+                0.0
+            ],
+            [
+                0.31875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-05 15:49:16",
+        "location": "Takasaki, Japan",
+        "coordinates": [
+            36.32811388888889,
+            139.0047138888889
+        ]
+    },
+    "I_8105.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_8105.jpeg",
+        "points": [
+            [
+                0.6075,
+                0.0
+            ],
+            [
+                0.545,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-06-10 10:34:44",
+        "location": "Tokorozawa, Japan",
+        "coordinates": [
+            35.801088888888884,
+            139.4406888888889
+        ]
+    },
+    "I_7767.jpeg": {
+        "path": "assets/img/projects/ground-breaking/I_7767.jpeg",
+        "points": [
+            [
+                0.50625,
+                0.0
+            ],
+            [
+                0.3875,
+                1.0
+            ]
+        ],
+        "rotation": 0,
+        "timestamp": "2025-05-30 11:41:48",
+        "location": "Shibuya, Japan",
+        "coordinates": [
+            35.667544444444445,
+            139.70709166666666
+        ]
+    }
+}

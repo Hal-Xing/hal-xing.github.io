@@ -14,7 +14,7 @@ body {
 
 /* Define CSS custom properties for responsive sizing */
 :root {
-    --image-size: 500px; /* Base size for desktop */
+    --image-size: 420px; /* Base size for desktop (was 500px) */
 }
 
 /* Info panel styling */

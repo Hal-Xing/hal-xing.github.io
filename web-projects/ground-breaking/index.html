@@ -17,11 +17,15 @@
     </div>
     <!-- Use absolute paths -->
     <script src="/web-projects/ground-breaking/js/ground-breaking.js"></script>
+    <script src="/web-projects/ground-breaking/js/ground-breaking-tilt.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const scroller = new ImageScroller(
                 '/assets/img/projects/ground-breaking/',
-                '/assets/img/projects/ground-breaking/metadata.json', 
+                // Default: only the photos Hal confirmed (231 of 649). Add ?all=1 to the address for the whole collection.
+                /[?&]all=1/.test(location.search)
+                    ? '/assets/img/projects/ground-breaking/metadata.json'
+                    : '/assets/img/projects/ground-breaking/metadata-confirmed.json',
                 'scroll-container'
             );
             scroller.init();

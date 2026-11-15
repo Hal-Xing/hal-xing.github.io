@@ -186,6 +186,7 @@ body {
     margin-left: 0.5rem;
     font-weight: 300;
     display: inline-block;
+    align-self: flex-start; /* the sidebar is a flex column, which would stretch this label's box to the full width */
     background-color: var(--almost-white);
 }
 
