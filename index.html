@@ -6,70 +6,36 @@
     <title>Hal Xing</title>
     <meta name="description" content="Hal Xing (ハル・シン / 邢越豪): photographer, videographer and creative programmer based in Chiba. 写真・映像作家、クリエイティブ・プログラマー。">
     <link rel="canonical" href="https://hal-xing.github.io/">
-    <!-- Add leading slashes to make paths absolute -->
+    <!-- The homepage shows Ground Breaking (Hal, 2026-11-15); the same page also lives at /web-projects/ground-breaking/ -->
     <link rel="stylesheet" href="/assets/css/common.css">
-    <link rel="stylesheet" href="/assets/css/mobile-menu.css">
+    <link rel="stylesheet" href="/web-projects/ground-breaking/css/ground-breaking.css">
+    <link rel="stylesheet" href="/assets/css/site-nav.css">
     <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Person", "@id": "https://hal-xing.github.io/#hal", "name": "Hal Xing", "alternateName": ["ハル・シン", "ハル シン", "邢越豪", "邢 越豪", "Xing Yuehao", "Yuehao Xing"], "url": "https://hal-xing.github.io/", "jobTitle": "Photographer, videographer and creative programmer", "address": {"@type": "PostalAddress", "addressRegion": "Chiba", "addressCountry": "JP"}, "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Tokyo University of the Arts"}, {"@type": "CollegeOrUniversity", "name": "Tokyo Zokei University"}], "sameAs": ["https://github.com/Hal-Xing"]}
     </script>
 </head>
 <body>
-    <div class="container">
-        <!-- Main content area -->
-        <div class="content">
-            <div class="preview-container" id="preview">
-                <div class="preview-loader" id="preview-loader">Loading...</div>
-                <div id="preview-content" class="preview-content"></div>
-            </div>
-        </div>
-
-        <!-- Desktop sidebar (hidden on mobile) -->
-        <div class="sidebar">
-            <header>
-                <h1>Hal Xing</h1>
-            </header>
-            
-            <!-- Web Projects now comes first -->
-            <div class="category">Web Projects</div>
-            <ul class="menu">
-                <li><a href="/web-projects/nai-ken-ten-kai/">NAI(T/K)ENKAI</a></li>
-                <li><a href="/web-projects/ground-breaking/">Ground Breaking</a></li>
-                <li><a href="/web-projects/receipt-printer/">Receipt Printer</a></li>
-            </ul>
-
-            <!-- Photography becomes Other Projects -->
-            <div class="category">Other Projects</div>
-            <ul class="menu">
-                <li><a href="/other-projects/high-lighting-and-ground-breaking/">Ground-breaking &amp; High-lighting</a></li>
-                <li><a href="/other-projects/modeled-nightscapes/">Modeled Nightscapes</a></li>
-                <li><a href="/other-projects/surface-of-the-city/">Surface of the City</a></li>
-                <li><a href="/other-projects/foggy-sometimes-sunny/">Foggy, Sometimes Sunny</a></li>
-            </ul>
-
-            <div class="category">About</div>
-            <ul class="menu">
-                <li><a href="/resume/">Resume / CV</a></li>
-            </ul>
-        </div>
-        
-        <!-- Mobile menu - updated to match desktop menu -->
-        <div class="mobile-menu">
-            <div class="mobile-header">
-                <div class="page-path-container">
-                    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-                        <span class="menu-arrow">></span> MENU
-                    </button>
-                    <span class="page-path" id="page-path"></span>
-                </div>
-                <h1>Hal Xing</h1>
-            </div>
-            
-            <div class="mobile-content"><!-- filled from the sidebar by mobile-menu.js --></div>
-        </div>
+    <div class="info-panel">
+        <div id="debug-info" class="debug-info"></div>
     </div>
-
-    <script src="/assets/js/router.js"></script>
-    <script src="/assets/js/mobile-menu.js"></script>
-    <script src="/assets/js/menu-indicators.js"></script>
+    <div id="scroll-container" class="scroll-container">
+        <div id="image-container" class="image-container"></div>
+    </div>
+    <script src="/web-projects/ground-breaking/js/ground-breaking.js"></script>
+    <script src="/web-projects/ground-breaking/js/ground-breaking-tilt.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const scroller = new ImageScroller(
+                '/assets/img/projects/ground-breaking/',
+                // Default: only the photos Hal confirmed (231 of 649). Add ?all=1 to the address for the whole collection.
+                /[?&]all=1/.test(location.search)
+                    ? '/assets/img/projects/ground-breaking/metadata.json'
+                    : '/assets/img/projects/ground-breaking/metadata-confirmed.json',
+                'scroll-container'
+            );
+            scroller.init();
+        });
+    </script>
+    <script src="/assets/js/site.js"></script>
 </body>
 </html>

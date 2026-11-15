@@ -63,26 +63,8 @@ body {
     overscroll-behavior-x: none;
 }
 
-.content {
-    width: 100vw;
-    height: 100vh !important;
-    position: relative;
-    overflow: hidden; /* Prevent scrolling */
-    background: var(--almost-white);
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack children vertically */
-    flex: 1;
-}
 
-#preview {
-    height: 100%;
-    position: relative;
-}
 
-#preview-content {
-    height: 100%;
-    position: relative;
-}
 
 /* ====== SIDEBAR STYLES ====== */
 .sidebar {
@@ -100,18 +82,6 @@ body {
     background-color: transparent;
 }
 
-.sidebar-content {
-    flex-grow: 1;
-}
-
-.sidebar header h1 {
-    font-size: large;
-    margin: 0;
-    font-weight: 400;
-    display: inline-block;
-    background-color: var(--almost-white);
-    padding: 5px 8px;
-}
 
 /* ====== MENU STYLES ====== */
 .menu {
@@ -208,66 +178,11 @@ footer a:hover {
 /* ====== CONTENT STYLES ====== */
 
 /* ====== PREVIEW STYLES ====== */
-.preview-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: var(--almost-white);
-    margin: 0;
-    padding: 0;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    pointer-events: auto; /* Change to auto to allow interaction */
-    overflow: hidden; /* Prevent scrolling in container */
-}
 
-.preview-frame {
-    width: 100%;
-    height: 100%;
-    border: none;
-    margin: 0;
-    padding: 0;
-    background: var(--almost-white);
-    z-index: 1;
-    overscroll-behavior-x: none;
-    display: block; /* Ensure display block */
-    overflow: hidden; /* Prevent scrollbars */
-}
 
-.preview-loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    color: #999;
-    display: none;
-}
 
-/* ====== MENU TOGGLE ====== */
-.menu-toggle {
-    display: none; /* Hidden on desktop */
-}
-
-/* ====== RESPONSIVE STYLES ====== */
 @media (max-width: 768px) {
-    .mobile-menu .menu-toggle {
-        display: inline-block;
-    }
-    
-    .content {
-        margin-left: 0;
-        width: 100%;
-        height: calc(100vh - 44px) !important;
-        height: calc(100dvh - 44px - env(safe-area-inset-bottom)) !important; /* dvh: the visible height on phones */
-        border-left: none !important; /* Remove left border on mobile */
-    }
-    
-    .sidebar {
-        display: none;
-    }
-    
-    /* Ensure no border on any gallery containers */
+    /* No border on gallery containers on phones */
     .gallery-wrapper,
     .gallery-content,
     .horizontal-gallery,
@@ -277,7 +192,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 850px) and (min-width: 769px) {
-    .sidebar header h1 {
+    .sidebar header > div {
         font-size: 14px;
     }
     
