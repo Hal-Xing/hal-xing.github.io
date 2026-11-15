@@ -3,7 +3,7 @@
     /* Light theme (default) */
     --almost-white: #fefefe;
     --text-color: #333;
-    --secondary-text: #888;
+    --secondary-text: #767676; /* 4.5:1 on the background (was #888, 3.5:1) */
     --border-color: #fff;
     --highlight-color: #666;
     --gallery-title-size: 1.2rem;
@@ -15,7 +15,7 @@
     :root {
         --almost-white: #525252;
         --text-color: #e0e0e0; 
-        --secondary-text: #aaaaaa;
+        --secondary-text: #c6c6c6; /* 4.5:1 on the dark background (was #aaa, 3.4:1) */
         --border-color: #333;
         --highlight-color: #bbbbbb;
         --gallery-text-color: #e0e0e0;
@@ -31,7 +31,8 @@
 /* Replace the separate font weights with your variable font */
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-VariableFont_wdth,wght.ttf") format("truetype-variations");
+    src: url("/fonts/Roboto-VariableFont_wdth,wght.woff2") format("woff2"),
+         url("/fonts/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
     font-weight: 100 900; /* Support all weights from thin to black */
     font-style: normal;
     font-display: swap;
@@ -44,11 +45,6 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
 }
 
 body {
@@ -67,11 +63,6 @@ body {
     overscroll-behavior-x: none;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
-}
-
 .content {
     width: 100vw;
     height: 100vh !important;
@@ -80,12 +71,7 @@ body {
     background: var(--almost-white);
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack children vertically */
-}
-
-.content {
     flex: 1;
-    height: 100%;
-    position: relative;
 }
 
 #preview {
@@ -272,7 +258,8 @@ footer a:hover {
     .content {
         margin-left: 0;
         width: 100%;
-        height: calc(100vh - 30px);
+        height: calc(100vh - 44px) !important;
+        height: calc(100dvh - 44px - env(safe-area-inset-bottom)) !important; /* dvh: the visible height on phones */
         border-left: none !important; /* Remove left border on mobile */
     }
     
@@ -338,7 +325,6 @@ footer a:hover {
 .gallery-title {
     font-size: 16px;
     font-weight: normal;
-    padding: 1rem, 0;
     margin: 0;
     position: relative;
     top: 0;
