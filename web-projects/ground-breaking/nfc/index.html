@@ -4,6 +4,7 @@
 <meta name="theme-color" content="#fefefe"><title>Ground-breaking</title>
 <meta name="author" content="Hal Xing">
 <meta name="robots" content="noindex">
+<link rel="stylesheet" href="/assets/css/common.css"><link rel="stylesheet" href="/assets/css/site-nav.css">
 <style>
 /* Look taken from hal-xing.github.io/web-projects/ground-breaking (white ground, small square photos, right-hand caption). */
 html,body{margin:0;height:100%;background:#fefefe;overflow:hidden;overscroll-behavior:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
@@ -28,6 +29,13 @@ html,body{margin:0;height:100%;background:#fefefe;overflow:hidden;overscroll-beh
 html.man,html.man body{overflow:visible;height:auto}
 html.man #root{perspective:none}html.man #info,html.man #out{position:fixed}
 #hint{position:fixed;left:10px;bottom:calc(46px + env(safe-area-inset-bottom));z-index:6;font:11px/1.3 "Roboto",-apple-system,sans-serif;color:rgba(0,0,0,.7);text-shadow:0 0 2px #fefefe,0 0 4px #fefefe;pointer-events:none}
+/* The site's own menu from /assets/js/site.js (Hal 2026-11-20): same bar and sidebar as the Ground Breaking page, invisible until a tap */
+body.has-site-nav{padding-bottom:0!important}
+.sidebar,.mobile-menu{opacity:0;pointer-events:none;transition:opacity .6s ease}
+body.menu-on .sidebar,body.menu-on .mobile-menu{opacity:1;pointer-events:auto;transition-duration:.25s}
+body.has-site-nav #out{display:none}
+.mobile-header>div{white-space:nowrap}   /* WebKit wrapped "Ground Breaking" onto a second line here */
+@media (max-width:768px){body.menu-on #info{bottom:calc(54px + env(safe-area-inset-bottom));transition:bottom .25s ease}}
 </style></head><body>
 <div id="root"><div id="tilt"><div id="strip"></div></div><div id="info"></div><div id="out"><a href="https://hal-xing.github.io/">Hal Xing</a><a href="https://hal-xing.github.io/web-projects/ground-breaking/">Ground-breaking</a></div></div><div id="dbg"></div>
 <script>
@@ -93,7 +101,12 @@ document.addEventListener("visibilitychange",wake);addEventListener("pointerdown
 addEventListener("resize",()=>{layout();if(POOL.length)draw()});
 addEventListener("dblclick",()=>{paused=!paused});
 // Way out to Hal's other pages: nothing on screen until a tap, then a small label for 5 s (Hal 2026-11-14: hidden page, but people can go on from it).
-const out=document.getElementById("out");let outT=0;addEventListener("click",e=>{if(e.target.closest("#out a"))return;out.classList.add("on");clearTimeout(outT);outT=setTimeout(()=>out.classList.remove("on"),5000)});
+// Hal 2026-11-20: on the live site this is the site's own menu (/assets/js/site.js: MENU bar + "Hal Xing" on phones, sidebar on desktop), hidden until a tap,
+// shown for 6 s, kept while it is open. Where site.js is not there (the tailnet copy) the small label above stays the way out.
+const out=document.getElementById("out");let outT=0;
+const menuOpen=()=>!!document.querySelector(".mobile-menu.expanded"),hideOut=()=>{if(menuOpen()){outT=setTimeout(hideOut,2000);return}document.body.classList.remove("menu-on");out.classList.remove("on")};
+addEventListener("click",e=>{if(e.target.closest("#out a,.sidebar,.mobile-menu"))return;
+  if(document.body.classList.contains("has-site-nav"))document.body.classList.add("menu-on");else out.classList.add("on");clearTimeout(outT);outT=setTimeout(hideOut,6000)});
 if(MAN){document.documentElement.classList.add("man");const sp=document.createElement("div");sp.style.height=SPACER+"px";document.body.append(sp);
   hint=document.createElement("div");hint.id="hint";hint.textContent="swipe up \u2191";document.body.append(hint);
   addEventListener("touchstart",()=>{touching=true},{passive:true});const up=()=>{touching=false;lastUser=performance.now()};addEventListener("touchend",up,{passive:true});addEventListener("touchcancel",up,{passive:true});
@@ -102,7 +115,7 @@ if(MAN){document.documentElement.classList.add("man");const sp=document.createEl
 if(Q.get("fs")==="1"){const el=document.documentElement,rq=el.requestFullscreen||el.webkitRequestFullscreen,fsEl=()=>document.fullscreenElement||document.webkitFullscreenElement;let asked=false;
   const x=document.createElement("button");x.id="fsx";x.textContent="\u00d7";x.setAttribute("aria-label","Leave full screen");root.append(x);
   x.addEventListener("click",e=>{e.stopPropagation();if(fsEl())(document.exitFullscreen||document.webkitExitFullscreen).call(document)});
-  addEventListener("click",e=>{if(asked||!rq||e.target.closest("#out a,#fsx"))return;asked=true;try{const p=rq.call(el,{navigationUI:"hide"});if(p&&p.catch)p.catch(()=>{})}catch(_){}});
+  addEventListener("click",e=>{if(asked||!rq||e.target.closest("#out a,#fsx,.sidebar,.mobile-menu"))return;asked=true;try{const p=rq.call(el,{navigationUI:"hide"});if(p&&p.catch)p.catch(()=>{})}catch(_){}});
   const ch=()=>{const on=!!fsEl();x.classList.toggle("on",on);if(!on&&asked){left=true;if(wl){wl.release().catch(()=>{});wl=null}}};document.addEventListener("fullscreenchange",ch);document.addEventListener("webkitfullscreenchange",ch)}
 // bar=black|white|hex: theme-color, the page background behind the stage, and a 3 px fixed line at the very top, so whichever of the three the browser reads for its top strip gives this colour.
 if(Q.get("bar")){const v=Q.get("bar"),c=v==="black"?"#000000":v==="white"?"#ffffff":"#"+v.replace("#","");document.querySelector('meta[name="theme-color"]').setAttribute("content",c);
@@ -112,4 +125,5 @@ const load=fetch("meta.json").then(r=>r.json()).then(j=>Object.keys(j).filter(n=
 load.then(P=>{POOL=P;if(!POOL.length){dbg.textContent="no approved photos yet";return}layout();
   if(DEBUG){const m=document.createElement("div");m.className="mk";m.style.cssText=`left:calc(50% + ${CX}px);top:0;width:1px;height:30px`;root.append(m)}
   add();y=y0=pts[0][1]*S;t0=performance.now();draw();wake();requestAnimationFrame(frame)}).catch(()=>{dbg.textContent="could not load"});
-</script></body></html>
+</script>
+<script src="/assets/js/site.js"></script></body></html>
