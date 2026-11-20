@@ -69,6 +69,13 @@ body {
     border-bottom: 1px solid var(--highlight-color);
 }
 
+/* One line on the visit counter, under the contact line */
+.site-note {
+    font-size: 11px;
+    color: var(--secondary-text);
+    margin: 10px 0 0;
+}
+
 /* Divider */
 .resume-divider {
     border-top: 1px solid var(--border-color);

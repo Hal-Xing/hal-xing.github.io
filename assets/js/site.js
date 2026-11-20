@@ -111,6 +111,16 @@
         if (!bar.contains(e.target)) setOpen(false);
     }, { passive: true });
 
+    // Visit counter: Cloudflare Web Analytics (Hal's account, 2026-11-20). No cookies. The token is public by design.
+    // Only on the real site, so previews and local copies are not counted.
+    if (location.hostname === 'hal-xing.github.io') {
+        var cf = document.createElement('script');
+        cf.type = 'module';
+        cf.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+        cf.setAttribute('data-cf-beacon', '{"token": "1d562acf9b04402e86e282e06ed90f44"}');
+        document.head.appendChild(cf);
+    }
+
     document.body.classList.add('has-site-nav');
     document.body.appendChild(sidebar);
     document.body.appendChild(bar);
