@@ -111,6 +111,32 @@
         if (!bar.contains(e.target)) setOpen(false);
     }, { passive: true });
 
+    // Pages with <body data-nav="tap"> (the homepage): on phones the bar stays hidden so the images
+    // have the whole screen. A tap shows it; it fades 6 s later unless the menu is open.
+    // A tap, not a drag (a finger drag tilts the photos), so it listens for a short press that barely moves.
+    if (document.body.getAttribute('data-nav') === 'tap') {
+        var hideT = 0, down = null;
+        var show = function () {
+            document.body.classList.add('nav-on');
+            clearTimeout(hideT);
+            hideT = setTimeout(function hide() {
+                if (bar.classList.contains('expanded') || bar.contains(document.activeElement)) {
+                    hideT = setTimeout(hide, 2000);
+                    return;
+                }
+                document.body.classList.remove('nav-on');
+            }, 6000);
+        };
+        document.addEventListener('pointerdown', function (e) {
+            down = bar.contains(e.target) ? null : { x: e.clientX, y: e.clientY, t: Date.now() };
+        });
+        document.addEventListener('pointerup', function (e) {
+            if (down && Math.abs(e.clientX - down.x) < 10 && Math.abs(e.clientY - down.y) < 10 && Date.now() - down.t < 500) show();
+            down = null;
+        });
+        bar.addEventListener('focusin', show);
+    }
+
     // Visit counter: Cloudflare Web Analytics (Hal's account, 2026-11-20). No cookies. The token is public by design.
     // Only on the real site, so previews and local copies are not counted.
     if (location.hostname === 'hal-xing.github.io') {
