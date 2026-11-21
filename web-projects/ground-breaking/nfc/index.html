@@ -31,11 +31,18 @@ html.man #root{perspective:none}html.man #info,html.man #out{position:fixed}
 #hint{position:fixed;left:10px;bottom:calc(46px + env(safe-area-inset-bottom));z-index:6;font:11px/1.3 "Roboto",-apple-system,sans-serif;color:rgba(0,0,0,.7);text-shadow:0 0 2px #fefefe,0 0 4px #fefefe;pointer-events:none}
 /* The site's own menu from /assets/js/site.js (Hal 2026-11-20): same bar and sidebar as the Ground Breaking page, invisible until a tap */
 body.has-site-nav{padding-bottom:0!important}
-.sidebar,.mobile-menu{opacity:0;pointer-events:none;transition:opacity .6s ease}
+/* Hal 2026-11-21: "Hal Xing" always stays where it is on every other page (desktop sidebar top-left, phone bar bottom-right); the rest of the menu shows on a tap */
+.sidebar,.mobile-menu{pointer-events:none}.site-home{pointer-events:auto}
+.sidebar>:not(header),.mobile-menu .page-path-container,.mobile-content{opacity:0;transition:opacity .6s ease}
+.mobile-menu{background-color:transparent;border-top-color:transparent;transition:background-color .6s ease,border-color .6s ease}
+.mobile-header>div:last-child{text-shadow:0 0 2px #fefefe,0 0 3px #fefefe,0 0 5px #fefefe}
+body.menu-on .sidebar,body.menu-on .mobile-menu{pointer-events:auto}
+body.menu-on .sidebar>*,body.menu-on .mobile-menu .page-path-container,body.menu-on .mobile-content{opacity:1;transition-duration:.25s}
+body.menu-on .mobile-menu{background-color:var(--almost-white);border-top-color:var(--border-color);transition-duration:.25s}
 body.menu-on .sidebar,body.menu-on .mobile-menu{opacity:1;pointer-events:auto;transition-duration:.25s}
 body.has-site-nav #out{display:none}
 .mobile-header>div{white-space:nowrap}   /* WebKit wrapped "Ground Breaking" onto a second line here */
-@media (max-width:768px){body.menu-on #info{bottom:calc(54px + env(safe-area-inset-bottom));transition:bottom .25s ease}}
+@media (max-width:768px){body.has-site-nav #info{bottom:calc(54px + env(safe-area-inset-bottom))}}   /* the caption sits above the bar, clear of "Hal Xing" */
 </style></head><body>
 <div id="root"><div id="tilt"><div id="strip"></div></div><div id="info"></div><div id="out"><a href="https://hal-xing.github.io/">Hal Xing</a><a href="https://hal-xing.github.io/web-projects/ground-breaking/">Ground-breaking</a></div></div><div id="dbg"></div>
 <script>
